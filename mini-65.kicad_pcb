@@ -60,7 +60,7 @@
     (pad_to_mask_clearance 0.051)
     (solder_mask_min_width 0.25)
     (aux_axis_origin 0 0)
-    (visible_elements FFFFFF7F)
+    (visible_elements 7FFFB7FF)
     (pcbplotparams
       (layerselection 0x010fc_ffffffff)
       (usegerberextensions false)
@@ -359,8 +359,44 @@
     (add_net VCC)
   )
 
+  (module MX_Only:MXOnly-ISO-ROTATED-ReversedStabilizers-NoLED (layer F.Cu) (tedit 5D4D7A6D) (tstamp 5F18AF4F)
+    (at 234.95 116.68125)
+    (path /61322262)
+    (fp_text reference MX_ISO_ENTER1 (at 0 3.175) (layer Dwgs.User)
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value MX-NoLED (at 0 -7.9375) (layer Dwgs.User)
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_line (start -16.66875 -19.05) (end -16.66875 0) (layer Dwgs.User) (width 0.15))
+    (fp_line (start -11.90625 19.05) (end 11.90625 19.05) (layer Dwgs.User) (width 0.15))
+    (fp_line (start 11.90625 -19.05) (end 11.90625 19.05) (layer Dwgs.User) (width 0.15))
+    (fp_line (start -16.66875 -19.05) (end 11.90625 -19.05) (layer Dwgs.User) (width 0.15))
+    (fp_line (start -7 -7) (end -7 -5) (layer Dwgs.User) (width 0.15))
+    (fp_line (start -5 -7) (end -7 -7) (layer Dwgs.User) (width 0.15))
+    (fp_line (start -7 7) (end -5 7) (layer Dwgs.User) (width 0.15))
+    (fp_line (start -7 5) (end -7 7) (layer Dwgs.User) (width 0.15))
+    (fp_line (start 7 7) (end 7 5) (layer Dwgs.User) (width 0.15))
+    (fp_line (start 5 7) (end 7 7) (layer Dwgs.User) (width 0.15))
+    (fp_line (start 7 -7) (end 7 -5) (layer Dwgs.User) (width 0.15))
+    (fp_line (start 5 -7) (end 7 -7) (layer Dwgs.User) (width 0.15))
+    (fp_line (start -11.90625 0) (end -16.66875 0) (layer Dwgs.User) (width 0.15))
+    (fp_line (start -11.90625 19.05) (end -11.90625 0) (layer Dwgs.User) (width 0.15))
+    (pad "" np_thru_hole circle (at -8.255 -11.938) (size 3.9878 3.9878) (drill 3.9878) (layers *.Cu *.Mask))
+    (pad "" np_thru_hole circle (at -8.255 11.938) (size 3.9878 3.9878) (drill 3.9878) (layers *.Cu *.Mask))
+    (pad "" np_thru_hole circle (at 6.985 -11.938) (size 3.048 3.048) (drill 3.048) (layers *.Cu *.Mask))
+    (pad "" np_thru_hole circle (at 6.985 11.938) (size 3.048 3.048) (drill 3.048) (layers *.Cu *.Mask))
+    (pad "" np_thru_hole circle (at 0 5.08 48.0996) (size 1.75 1.75) (drill 1.75) (layers *.Cu *.Mask))
+    (pad "" np_thru_hole circle (at 0 -5.08 48.0996) (size 1.75 1.75) (drill 1.75) (layers *.Cu *.Mask))
+    (pad 1 thru_hole circle (at 2.54 -3.81) (size 2.25 2.25) (drill 1.47) (layers *.Cu B.Mask)
+      (net 96 COL12))
+    (pad "" np_thru_hole circle (at 0 0) (size 3.9878 3.9878) (drill 3.9878) (layers *.Cu *.Mask))
+    (pad 2 thru_hole circle (at 5.08 2.54) (size 2.25 2.25) (drill 1.47) (layers *.Cu B.Mask)
+      (net 51 "Net-(D43-Pad2)"))
+  )
+
   (module Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm (layer F.Cu) (tedit 5A0FD1B2) (tstamp 5F18B250)
-    (at 34.54875 111.34625)
+    (at -356.0975 160.2575)
     (descr "SMD Crystal SERIES SMD3225/4 http://www.txccrystal.com/images/pdf/7m-accuracy.pdf, 3.2x2.5mm^2 package")
     (tags "SMD SMT crystal")
     (path /5F18D205)
@@ -401,7 +437,7 @@
   )
 
   (module random-keyboard-parts:Molex-0548190589 (layer F.Cu) (tedit 5C494815) (tstamp 5F18B23C)
-    (at -38.46125 182.07825)
+    (at -330.32125 162.4175)
     (path /5F1C918D)
     (attr smd)
     (fp_text reference USB1 (at 2.032 0 90) (layer F.SilkS)
@@ -452,7 +488,7 @@
   )
 
   (module Package_QFP:TQFP-44_10x10mm_P0.8mm (layer F.Cu) (tedit 5A02F146) (tstamp 5F18B21C)
-    (at -50.01125 184.15625)
+    (at -313.6525 117.17375)
     (descr "44-Lead Plastic Thin Quad Flatpack (PT) - 10x10x1.0 mm Body [TQFP] (see Microchip Packaging Specification 00000049BS.pdf)")
     (tags "QFP 0.8")
     (path /5F16167A)
@@ -580,7 +616,7 @@
   )
 
   (module random-keyboard-parts:SKQG-1155865 (layer F.Cu) (tedit 5E62B398) (tstamp 5F18B1D9)
-    (at 261.52875 16.58625)
+    (at -355.72125 102.0925)
     (path /5F19CADF)
     (attr smd)
     (fp_text reference SW1 (at 0 4.064) (layer F.SilkS)
@@ -625,7 +661,7 @@
   )
 
   (module Resistor_SMD:R_0805_2012Metric (layer F.Cu) (tedit 5B36C52B) (tstamp 5F18B1BB)
-    (at 29.36875 129.60625)
+    (at -334.29 130.8925)
     (descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
     (tags resistor)
     (path /5F16CB52)
@@ -661,7 +697,7 @@
   )
 
   (module Resistor_SMD:R_0805_2012Metric (layer F.Cu) (tedit 5B36C52B) (tstamp 5F18B1AA)
-    (at 29.36875 126.65625)
+    (at -334.29 127.9425)
     (descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
     (tags resistor)
     (path /5F17179E)
@@ -697,7 +733,7 @@
   )
 
   (module Resistor_SMD:R_0805_2012Metric (layer F.Cu) (tedit 5B36C52B) (tstamp 5F18B199)
-    (at 29.36875 123.70625)
+    (at -334.29 124.9925)
     (descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
     (tags resistor)
     (path /5F17070B)
@@ -733,7 +769,7 @@
   )
 
   (module Resistor_SMD:R_0805_2012Metric (layer F.Cu) (tedit 5B36C52B) (tstamp 5F18B188)
-    (at 29.36875 117.80625)
+    (at -334.29 119.0925)
     (descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
     (tags resistor)
     (path /5F1BFF27)
@@ -769,7 +805,7 @@
   )
 
   (module MX_Alps_Hybrid:MX-1U-NoLED (layer F.Cu) (tedit 5A9F5203) (tstamp 5F18B177)
-    (at 62.22375 125.79125)
+    (at 13.49375 145.25625)
     (path /5F1B0514)
     (fp_text reference MX_Z1 (at 0 3.175) (layer Dwgs.User)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -803,7 +839,7 @@
   )
 
   (module MX_Alps_Hybrid:MX-1U-NoLED (layer F.Cu) (tedit 5A9F5203) (tstamp 5F18B160)
-    (at 76.50375 105.59125)
+    (at 94.45625 107.15625)
     (path /5F4302D6)
     (fp_text reference MX_Y1 (at 0 3.175) (layer Dwgs.User)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -837,7 +873,7 @@
   )
 
   (module MX_Alps_Hybrid:MX-1U-NoLED (layer F.Cu) (tedit 5A9F5203) (tstamp 5F18B149)
-    (at 173.90375 144.71125)
+    (at 32.54375 145.25625)
     (path /5F3DCD45)
     (fp_text reference MX_X1 (at 0 3.175) (layer Dwgs.User)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -871,7 +907,7 @@
   )
 
   (module MX_Alps_Hybrid:MX-1U-NoLED (layer F.Cu) (tedit 5A9F5203) (tstamp 5F18B132)
-    (at 133.50375 165.55125)
+    (at 18.25625 107.15625)
     (path /5F3DCCD4)
     (fp_text reference MX_W1 (at 0 3.175) (layer Dwgs.User)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -905,7 +941,7 @@
   )
 
   (module MX_Alps_Hybrid:MX-1U-NoLED (layer F.Cu) (tedit 5A9F5203) (tstamp 5F18B11B)
-    (at 197.70375 104.31125)
+    (at 70.64375 145.25625)
     (path /5F41B4B7)
     (fp_text reference MX_V1 (at 0 3.175) (layer Dwgs.User)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -939,7 +975,7 @@
   )
 
   (module MX_Alps_Hybrid:MX-1U-NoLED (layer F.Cu) (tedit 5A9F5203) (tstamp 5F18B104)
-    (at 238.28375 63.91125)
+    (at 113.50625 107.15625)
     (path /5F4302CF)
     (fp_text reference MX_U1 (at 0 3.175) (layer Dwgs.User)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -973,7 +1009,7 @@
   )
 
   (module MX_Alps_Hybrid:MX-1U-NoLED (layer F.Cu) (tedit 5A9F5203) (tstamp 5F18B0ED)
-    (at 183.42375 124.51125)
+    (at 256.38125 164.30625)
     (path /6161E841)
     (fp_text reference MX_TEMP2 (at 0 3.175) (layer Dwgs.User)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -1007,7 +1043,7 @@
   )
 
   (module MX_Alps_Hybrid:MX-1U-NoLED (layer F.Cu) (tedit 5A9F5203) (tstamp 5F18B0D6)
-    (at 153.70375 164.91125)
+    (at 256.38125 145.25625)
     (path /5F48B651)
     (fp_text reference MX_TEMP1 (at 0 3.175) (layer Dwgs.User)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -1041,7 +1077,7 @@
   )
 
   (module MX_Alps_Hybrid:MX-1U-NoLED (layer F.Cu) (tedit 5A9F5203) (tstamp 5F18B0BF)
-    (at 153.70375 185.11125)
+    (at 75.40625 107.15625)
     (path /5F41B521)
     (fp_text reference MX_T1 (at 0 3.175) (layer Dwgs.User)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -1075,7 +1111,7 @@
   )
 
   (module MX_Alps_Hybrid:MX-1U-NoLED (layer F.Cu) (tedit 5A9F5203) (tstamp 5F18B0A8)
-    (at 217.90375 104.31125)
+    (at -29.36875 126.20625)
     (path /611DE4E1)
     (fp_text reference MX_STEP_CAPS1 (at 0 3.175) (layer Dwgs.User)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -1109,7 +1145,7 @@
   )
 
   (module MX_Alps_Hybrid:MX-1U-NoLED (layer F.Cu) (tedit 5A9F5203) (tstamp 5F18B091)
-    (at 203.62375 124.51125)
+    (at 23.01875 126.20625)
     (path /5F3DCD4B)
     (fp_text reference MX_S1 (at 0 3.175) (layer Dwgs.User)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -1143,7 +1179,7 @@
   )
 
   (module MX_Alps_Hybrid:MX-1U-NoLED (layer F.Cu) (tedit 5A9F5203) (tstamp 5F18B07A)
-    (at 238.28375 84.11125)
+    (at 208.75625 164.30625)
     (path /616CD0DC)
     (fp_text reference MX_R_WIN1 (at 0 3.175) (layer Dwgs.User)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -1177,7 +1213,7 @@
   )
 
   (module MX_Alps_Hybrid:MX-1U-NoLED (layer F.Cu) (tedit 5A9F5203) (tstamp 5F18B063)
-    (at 153.70375 144.71125)
+    (at 56.35625 107.15625)
     (path /5F41B528)
     (fp_text reference MX_R1 (at 0 3.175) (layer Dwgs.User)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -1211,7 +1247,7 @@
   )
 
   (module MX_Alps_Hybrid:MX-1U-NoLED (layer F.Cu) (tedit 5A9F5203) (tstamp 5F18B04C)
-    (at 218.08375 84.11125)
+    (at -0.79375 107.15625)
     (path /5F19F24F)
     (fp_text reference MX_Q1 (at 0 3.175) (layer Dwgs.User)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -1245,7 +1281,7 @@
   )
 
   (module MX_Alps_Hybrid:MX-1U-NoLED (layer F.Cu) (tedit 5A9F5203) (tstamp 5F18B035)
-    (at 96.70375 85.39125)
+    (at 256.38125 88.10625)
     (path /5F48B6A3)
     (fp_text reference MX_PrtSc1 (at 0 3.175) (layer Dwgs.User)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -1279,7 +1315,7 @@
   )
 
   (module MX_Alps_Hybrid:MX-1U-NoLED (layer F.Cu) (tedit 5A9F5203) (tstamp 5F18B01E)
-    (at 137.28375 63.91125)
+    (at 170.65625 107.15625)
     (path /5F45D503)
     (fp_text reference MX_P1 (at 0 3.175) (layer Dwgs.User)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -1313,7 +1349,7 @@
   )
 
   (module MX_Alps_Hybrid:MX-1U-NoLED (layer F.Cu) (tedit 5A9F5203) (tstamp 5F18B007)
-    (at 157.48375 63.91125)
+    (at 151.60625 107.15625)
     (path /5F4447BA)
     (fp_text reference MX_O1 (at 0 3.175) (layer Dwgs.User)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -1347,7 +1383,7 @@
   )
 
   (module MX_Alps_Hybrid:MX-1U-NoLED (layer F.Cu) (tedit 5A9F5203) (tstamp 5F18AFF0)
-    (at 116.90375 104.95125)
+    (at 108.74375 145.25625)
     (path /5F430265)
     (fp_text reference MX_N1 (at 0 3.175) (layer Dwgs.User)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -1381,7 +1417,7 @@
   )
 
   (module MX_Alps_Hybrid:MX-1U-NoLED (layer F.Cu) (tedit 5A9F5203) (tstamp 5F18AFD9)
-    (at 181.29375 43.71125)
+    (at 127.79375 145.25625)
     (path /5F430251)
     (fp_text reference MX_M1 (at 0 3.175) (layer Dwgs.User)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -1415,7 +1451,7 @@
   )
 
   (module MX_Alps_Hybrid:MX-1U-NoLED (layer F.Cu) (tedit 5A9F5203) (tstamp 5F18AFC2)
-    (at 102.62375 125.79125)
+    (at -0.79375 164.30625)
     (path /60134FFC)
     (fp_text reference MX_L_WIN1 (at 0 3.175) (layer Dwgs.User)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -1449,7 +1485,7 @@
   )
 
   (module MX_Alps_Hybrid:MX-1U-NoLED (layer F.Cu) (tedit 5A9F5203) (tstamp 5F18AFAB)
-    (at 206.25375 23.51125)
+    (at -5.55625 145.25625)
     (path /5FF7E764)
     (fp_text reference MX_L_BSLASH1 (at 0 3.175) (layer Dwgs.User)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -1483,7 +1519,7 @@
   )
 
   (module MX_Alps_Hybrid:MX-1U-NoLED (layer F.Cu) (tedit 5A9F5203) (tstamp 5F18AF94)
-    (at 137.10375 104.31125)
+    (at 156.36875 126.20625)
     (path /5F444742)
     (fp_text reference MX_L1 (at 0 3.175) (layer Dwgs.User)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -1517,7 +1553,7 @@
   )
 
   (module MX_Alps_Hybrid:MX-1U-NoLED (layer F.Cu) (tedit 5A9F5203) (tstamp 5F18AF7D)
-    (at 72.90375 166.19125)
+    (at 137.31875 126.20625)
     (path /5F44474A)
     (fp_text reference MX_K1 (at 0 3.175) (layer Dwgs.User)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -1551,7 +1587,7 @@
   )
 
   (module MX_Alps_Hybrid:MX-1U-NoLED (layer F.Cu) (tedit 5A9F5203) (tstamp 5F18AF66)
-    (at 165.85375 23.51125)
+    (at 118.26875 126.20625)
     (path /5F430257)
     (fp_text reference MX_J1 (at 0 3.175) (layer Dwgs.User)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -1584,54 +1620,8 @@
       (net 46 "Net-(D38-Pad2)"))
   )
 
-  (module MX_Alps_Hybrid:MX-ISO (layer F.Cu) (tedit 5A9F485F) (tstamp 5F18AF4F)
-    (at -39.9925 95.55625)
-    (path /61322262)
-    (fp_text reference MX_ISO_ENTER1 (at 0 3.175) (layer Dwgs.User)
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_text value MX-NoLED (at 0 -7.9375) (layer Dwgs.User)
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_line (start -16.66875 -19.05) (end -16.66875 0) (layer Dwgs.User) (width 0.15))
-    (fp_line (start -11.90625 19.05) (end 11.90625 19.05) (layer Dwgs.User) (width 0.15))
-    (fp_line (start 11.90625 -19.05) (end 11.90625 19.05) (layer Dwgs.User) (width 0.15))
-    (fp_line (start -16.66875 -19.05) (end 11.90625 -19.05) (layer Dwgs.User) (width 0.15))
-    (fp_line (start -7 -7) (end -7 -5) (layer Dwgs.User) (width 0.15))
-    (fp_line (start -5 -7) (end -7 -7) (layer Dwgs.User) (width 0.15))
-    (fp_line (start -7 7) (end -5 7) (layer Dwgs.User) (width 0.15))
-    (fp_line (start -7 5) (end -7 7) (layer Dwgs.User) (width 0.15))
-    (fp_line (start 7 7) (end 7 5) (layer Dwgs.User) (width 0.15))
-    (fp_line (start 5 7) (end 7 7) (layer Dwgs.User) (width 0.15))
-    (fp_line (start 7 -7) (end 7 -5) (layer Dwgs.User) (width 0.15))
-    (fp_line (start 5 -7) (end 7 -7) (layer Dwgs.User) (width 0.15))
-    (fp_line (start -11.90625 0) (end -16.66875 0) (layer Dwgs.User) (width 0.15))
-    (fp_line (start -11.90625 19.05) (end -11.90625 0) (layer Dwgs.User) (width 0.15))
-    (pad "" np_thru_hole circle (at 8.255 -11.938) (size 3.9878 3.9878) (drill 3.9878) (layers *.Cu *.Mask))
-    (pad "" np_thru_hole circle (at 8.255 11.938) (size 3.9878 3.9878) (drill 3.9878) (layers *.Cu *.Mask))
-    (pad "" np_thru_hole circle (at -6.985 -11.938) (size 3.048 3.048) (drill 3.048) (layers *.Cu *.Mask))
-    (pad "" np_thru_hole circle (at -6.985 11.938) (size 3.048 3.048) (drill 3.048) (layers *.Cu *.Mask))
-    (pad 2 thru_hole circle (at -2.5 4.5) (size 2.25 2.25) (drill 1.47) (layers *.Cu B.Mask)
-      (net 51 "Net-(D43-Pad2)"))
-    (pad 1 thru_hole circle (at 2.5 4) (size 2.25 2.25) (drill 1.47) (layers *.Cu B.Mask)
-      (net 96 COL12))
-    (pad "" np_thru_hole circle (at 0 5.08 48.0996) (size 1.7018 1.7018) (drill 1.7018) (layers *.Cu *.Mask))
-    (pad "" np_thru_hole circle (at 0 -5.08 48.0996) (size 1.7018 1.7018) (drill 1.7018) (layers *.Cu *.Mask))
-    (pad 3 thru_hole circle (at -5.08 -1.27) (size 1.905 1.905) (drill 1.04) (layers *.Cu B.Mask))
-    (pad 4 thru_hole rect (at -5.08 1.27) (size 1.905 1.905) (drill 1.04) (layers *.Cu B.Mask))
-    (pad 2 thru_hole circle (at 4 -2.5) (size 2.25 2.25) (drill 1.47) (layers *.Cu B.Mask)
-      (net 51 "Net-(D43-Pad2)"))
-    (pad "" np_thru_hole circle (at 0 0) (size 3.9878 3.9878) (drill 3.9878) (layers *.Cu *.Mask))
-    (pad 2 thru_hole oval (at 2.54 -3.81 318.1) (size 4.211556 2.25) (drill 1.47 (offset 0.980778 0)) (layers *.Cu B.Mask)
-      (net 51 "Net-(D43-Pad2)"))
-    (pad 1 thru_hole circle (at 5.08 2.54) (size 2.25 2.25) (drill 1.47) (layers *.Cu B.Mask)
-      (net 96 COL12))
-    (pad 1 thru_hole oval (at 4.5 2.5 356.055) (size 2.831378 2.25) (drill 1.47 (offset 0.290689 0)) (layers *.Cu B.Mask)
-      (net 96 COL12))
-  )
-
   (module MX_Alps_Hybrid:MX-1U-NoLED (layer F.Cu) (tedit 5A9F5203) (tstamp 5F18AF2E)
-    (at 52.70375 166.19125)
+    (at 213.51875 126.20625)
     (path /61369504)
     (fp_text reference MX_ISO_\1 (at 0 3.175) (layer Dwgs.User)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -1665,7 +1655,7 @@
   )
 
   (module MX_Alps_Hybrid:MX-1U-NoLED (layer F.Cu) (tedit 5A9F5203) (tstamp 5F18AF17)
-    (at 117.08375 44.35125)
+    (at 256.38125 126.20625)
     (path /5F48B64B)
     (fp_text reference MX_INS1 (at 0 3.175) (layer Dwgs.User)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -1699,7 +1689,7 @@
   )
 
   (module MX_Alps_Hybrid:MX-1U-NoLED (layer F.Cu) (tedit 5A9F5203) (tstamp 5F18AF00)
-    (at 12.30375 146.63125)
+    (at 132.55625 107.15625)
     (path /5F4447C1)
     (fp_text reference MX_I1 (at 0 3.175) (layer Dwgs.User)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -1733,7 +1723,7 @@
   )
 
   (module MX_Alps_Hybrid:MX-1U-NoLED (layer F.Cu) (tedit 5A9F5203) (tstamp 5F18AEE9)
-    (at 140.89375 43.71125)
+    (at 99.21875 126.20625)
     (path /5F43025F)
     (fp_text reference MX_H1 (at 0 3.175) (layer Dwgs.User)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -1767,7 +1757,7 @@
   )
 
   (module MX_Alps_Hybrid:MX-1U-NoLED (layer F.Cu) (tedit 5A9F5203) (tstamp 5F18AED2)
-    (at 32.50375 146.63125)
+    (at 80.16875 126.20625)
     (path /5F41B4A9)
     (fp_text reference MX_G1 (at 0 3.175) (layer Dwgs.User)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -1801,7 +1791,7 @@
   )
 
   (module MX_Alps_Hybrid:MX-1U-NoLED (layer F.Cu) (tedit 5A9F5203) (tstamp 5F18AEBB)
-    (at 2.78375 166.83125)
+    (at 237.33125 145.25625)
     (path /61449E05)
     (fp_text reference MX_FN_2 (at 0 3.175) (layer Dwgs.User)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -1835,7 +1825,7 @@
   )
 
   (module MX_Alps_Hybrid:MX-1U-NoLED (layer F.Cu) (tedit 5A9F5203) (tstamp 5F18AEA4)
-    (at 117.08375 64.55125)
+    (at 61.11875 126.20625)
     (path /5F41B4B1)
     (fp_text reference MX_F1 (at 0 3.175) (layer Dwgs.User)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -1869,7 +1859,7 @@
   )
 
   (module MX_Alps_Hybrid:MX-1U-NoLED (layer F.Cu) (tedit 5A9F5203) (tstamp 5F18AE8D)
-    (at 76.50375 85.39125)
+    (at -29.36875 88.10625)
     (path /5F1D4CF0)
     (fp_text reference MX_ESC1 (at 0 3.175) (layer Dwgs.User)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -1903,7 +1893,7 @@
   )
 
   (module MX_Alps_Hybrid:MX-1U-NoLED (layer F.Cu) (tedit 5A9F5203) (tstamp 5F18AE76)
-    (at 42.02375 125.79125)
+    (at 37.30625 107.15625)
     (path /5F3DCCDB)
     (fp_text reference MX_E1 (at 0 3.175) (layer Dwgs.User)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -1937,7 +1927,7 @@
   )
 
   (module MX_Alps_Hybrid:MX-1U-NoLED (layer F.Cu) (tedit 5A9F5203) (tstamp 5F18AE5F)
-    (at 177.68375 63.91125)
+    (at 256.38125 107.15625)
     (path /5F48B6C2)
     (fp_text reference MX_DEL1 (at 0 3.175) (layer Dwgs.User)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -1971,7 +1961,7 @@
   )
 
   (module MX_Alps_Hybrid:MX-1U-NoLED (layer F.Cu) (tedit 5A9F5203) (tstamp 5F18AE48)
-    (at 177.68375 84.11125)
+    (at 42.06875 126.20625)
     (path /5F3DCD53)
     (fp_text reference MX_D1 (at 0 3.175) (layer Dwgs.User)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -2005,7 +1995,7 @@
   )
 
   (module MX_Alps_Hybrid:MX-1U-NoLED (layer F.Cu) (tedit 5A9F5203) (tstamp 5F18AE31)
-    (at 197.88375 63.91125)
+    (at 51.59375 145.25625)
     (path /5F3DCD59)
     (fp_text reference MX_C1 (at 0 3.175) (layer Dwgs.User)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -2039,7 +2029,7 @@
   )
 
   (module MX_Alps_Hybrid:MX-1U-NoLED (layer F.Cu) (tedit 5A9F5203) (tstamp 5F18AE1A)
-    (at 157.48375 84.11125)
+    (at 218.28125 88.10625)
     (path /612DBC93)
     (fp_text reference MX_BACKSPACE_1u1 (at 0 3.175) (layer Dwgs.User)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -2073,7 +2063,7 @@
   )
 
   (module MX_Alps_Hybrid:MX-1U-NoLED (layer F.Cu) (tedit 5A9F5203) (tstamp 5F18AE03)
-    (at 143.02375 124.51125)
+    (at 237.33125 88.10625)
     (path /61221643)
     (fp_text reference MX_BACKSP_EXTRA1 (at 0 3.175) (layer Dwgs.User)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -2107,7 +2097,7 @@
   )
 
   (module MX_Alps_Hybrid:MX-1U-NoLED (layer F.Cu) (tedit 5A9F5203) (tstamp 5F18ADEC)
-    (at 246.65375 23.51125)
+    (at 89.69375 145.25625)
     (path /5F41B4A3)
     (fp_text reference MX_B1 (at 0 3.175) (layer Dwgs.User)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -2141,7 +2131,7 @@
   )
 
   (module MX_Alps_Hybrid:MX-1U-NoLED (layer F.Cu) (tedit 5A9F5203) (tstamp 5F18ADD5)
-    (at 113.30375 166.19125)
+    (at 232.56875 145.25625)
     (path /5F4748D7)
     (fp_text reference MX_ARR_U1 (at 0 3.175) (layer Dwgs.User)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -2175,7 +2165,7 @@
   )
 
   (module MX_Alps_Hybrid:MX-1U-NoLED (layer F.Cu) (tedit 5A9F5203) (tstamp 5F18ADBE)
-    (at 133.50375 145.35125)
+    (at 251.61875 164.30625)
     (path /5F48B682)
     (fp_text reference MX_ARR_R1 (at 0 3.175) (layer Dwgs.User)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -2209,7 +2199,7 @@
   )
 
   (module MX_Alps_Hybrid:MX-1U-NoLED (layer F.Cu) (tedit 5A9F5203) (tstamp 5F18ADA7)
-    (at 163.22375 124.51125)
+    (at 213.51875 164.30625)
     (path /5F45D4BC)
     (fp_text reference MX_ARR_L1 (at 0 3.175) (layer Dwgs.User)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -2243,7 +2233,7 @@
   )
 
   (module MX_Alps_Hybrid:MX-1U-NoLED (layer F.Cu) (tedit 5A9F5203) (tstamp 5F18AD90)
-    (at 241.89375 43.71125)
+    (at 232.56875 164.30625)
     (path /5F474908)
     (fp_text reference MX_ARR_D1 (at 0 3.175) (layer Dwgs.User)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -2277,7 +2267,7 @@
   )
 
   (module MX_Alps_Hybrid:MX-1U-NoLED (layer F.Cu) (tedit 5A9F5203) (tstamp 5F18AD79)
-    (at 218.08375 63.91125)
+    (at 3.96875 126.20625)
     (path /5F1A6063)
     (fp_text reference MX_A1 (at 0 3.175) (layer Dwgs.User)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -2311,7 +2301,7 @@
   )
 
   (module MX_Alps_Hybrid:MX-1U-NoLED (layer F.Cu) (tedit 5A9F5203) (tstamp 5F18AD62)
-    (at 72.90375 145.99125)
+    (at 208.75625 107.15625)
     (path /5F474948)
     (fp_text reference MX_]1 (at 0 3.175) (layer Dwgs.User)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -2345,7 +2335,7 @@
   )
 
   (module MX_Alps_Hybrid:MX-1U-NoLED (layer F.Cu) (tedit 5A9F5203) (tstamp 5F18AD4B)
-    (at 197.88375 84.11125)
+    (at 189.70625 107.15625)
     (path /5F45D4FC)
     (fp_text reference MX_[1 (at 0 3.175) (layer Dwgs.User)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -2379,7 +2369,7 @@
   )
 
   (module MX_Alps_Hybrid:MX-1U-NoLED (layer F.Cu) (tedit 5A9F5203) (tstamp 5F18AD34)
-    (at 177.50375 104.31125)
+    (at 175.41875 126.20625)
     (path /5F45D48C)
     (fp_text reference MX_;1 (at 0 3.175) (layer Dwgs.User)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -2413,7 +2403,7 @@
   )
 
   (module MX_Alps_Hybrid:MX-7U-NoLED (layer F.Cu) (tedit 5A9F52D9) (tstamp 5F18AD1D)
-    (at 10.01375 23.51125)
+    (at 103.98125 164.30625)
     (path /6116694C)
     (fp_text reference MX_7U_SPACE1 (at 0 3.175) (layer Dwgs.User)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -2451,7 +2441,7 @@
   )
 
   (module MX_Alps_Hybrid:MX-6.25U-NoLED (layer F.Cu) (tedit 5A9F52C0) (tstamp 5F18AD02)
-    (at 2.87 44.35125)
+    (at 92.075 164.30625)
     (path /5F41B4E1)
     (fp_text reference MX_6.25U_SPACE1 (at 0 3.175) (layer Dwgs.User)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -2489,7 +2479,7 @@
   )
 
   (module MX_Alps_Hybrid:MX-2U-NoLED (layer F.Cu) (tedit 5A9F522A) (tstamp 5F18ACE7)
-    (at 6.39875 65.19125)
+    (at 227.80625 88.10625)
     (path /5F474922)
     (fp_text reference MX_2U_BACKSP1 (at 0 3.175) (layer Dwgs.User)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -2527,7 +2517,7 @@
   )
 
   (module MX_Alps_Hybrid:MX-2.75U-NoLED (layer F.Cu) (tedit 5A9F5299) (tstamp 5F18ACCC)
-    (at 104.0325 23.51125)
+    (at 220.6625 145.25625)
     (path /5F45D47E)
     (fp_text reference MX_2.75U_RSHIFT1 (at 0 3.175) (layer Dwgs.User)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -2565,7 +2555,7 @@
   )
 
   (module MX_Alps_Hybrid:MX-2.25U-NoLED (layer F.Cu) (tedit 5A9F5245) (tstamp 5F18ACB1)
-    (at 84.98 44.35125)
+    (at -17.4625 145.25625)
     (path /5F1B051B)
     (fp_text reference MX_2.25U_LSHIFT1 (at 0 3.175) (layer Dwgs.User)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -2603,7 +2593,7 @@
   )
 
   (module MX_Alps_Hybrid:MX-2.25U-NoLED (layer F.Cu) (tedit 5A9F5245) (tstamp 5F18AC96)
-    (at -35.23 65.19125)
+    (at 225.425 126.20625)
     (path /5F4748D1)
     (fp_text reference MX_2.25U_ENTER1 (at 0 3.175) (layer Dwgs.User)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -2641,7 +2631,7 @@
   )
 
   (module MX_Alps_Hybrid:MX-1.75U-NoLED (layer F.Cu) (tedit 5A9F5220) (tstamp 5F18AC7B)
-    (at 24.2075 86.03125)
+    (at -22.225 126.20625)
     (path /5F1A606A)
     (fp_text reference MX_1.75U_CAPSLOCK1 (at 0 3.175) (layer Dwgs.User)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -2675,7 +2665,7 @@
   )
 
   (module MX_Alps_Hybrid:MX-1.75U-NoLED (layer F.Cu) (tedit 5A9F5220) (tstamp 5F18AC64)
-    (at -10.2725 86.03125)
+    (at 211.1375 145.25625)
     (path /613FDD77)
     (fp_text reference MX_1.75U__RSHIFT1 (at 0 3.175) (layer Dwgs.User)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -2709,7 +2699,7 @@
   )
 
   (module MX_Alps_Hybrid:MX-1.5U-NoLED (layer F.Cu) (tedit 5A9F5217) (tstamp 5F18AC4D)
-    (at -12.65375 146.63125)
+    (at -24.60625 107.15625)
     (path /5F19F256)
     (fp_text reference MX_1.5U_TAB1 (at 0 3.175) (layer Dwgs.User)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -2743,7 +2733,7 @@
   )
 
   (module MX_Alps_Hybrid:MX-1.5U-NoLED (layer F.Cu) (tedit 5A9F5217) (tstamp 5F18AC36)
-    (at 17.06625 106.23125)
+    (at 184.94375 164.30625)
     (path /614B1655)
     (fp_text reference MX_1.5U_R_CTRL1 (at 0 3.175) (layer Dwgs.User)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -2777,7 +2767,7 @@
   )
 
   (module MX_Alps_Hybrid:MX-1.5U-NoLED (layer F.Cu) (tedit 5A9F5217) (tstamp 5F18AC1F)
-    (at -12.65375 106.23125)
+    (at 232.56875 164.30625)
     (path /61767A5F)
     (fp_text reference MX_1.5U_R_ALT1 (at 0 3.175) (layer Dwgs.User)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -2811,7 +2801,7 @@
   )
 
   (module MX_Alps_Hybrid:MX-1.5U-NoLED (layer F.Cu) (tedit 5A9F5217) (tstamp 5F18AC08)
-    (at -42.37375 126.43125)
+    (at -24.60625 164.30625)
     (path /60007897)
     (fp_text reference MX_1.5U_L_CTRL1 (at 0 3.175) (layer Dwgs.User)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -2845,7 +2835,7 @@
   )
 
   (module MX_Alps_Hybrid:MX-1.5U-NoLED (layer F.Cu) (tedit 5A9F5217) (tstamp 5F18ABF1)
-    (at -12.65375 126.43125)
+    (at 23.01875 164.30625)
     (path /60E64557)
     (fp_text reference MX_1.5U_L_ALT1 (at 0 3.175) (layer Dwgs.User)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -2879,7 +2869,7 @@
   )
 
   (module MX_Alps_Hybrid:MX-1.5U-NoLED (layer F.Cu) (tedit 5A9F5217) (tstamp 5F18ABDA)
-    (at -42.37375 146.63125)
+    (at 232.56875 107.15625)
     (path /5F474941)
     (fp_text reference MX_1.5U_\1 (at 0 3.175) (layer Dwgs.User)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -2913,7 +2903,7 @@
   )
 
   (module MX_Alps_Hybrid:MX-1.25U-NoLED (layer F.Cu) (tedit 5A9F5210) (tstamp 5F18ABC3)
-    (at 143.275 23.51125)
+    (at 206.375 145.25625)
     (path /613B25C5)
     (fp_text reference MX_1.25U_RSHIFT1 (at 0 3.175) (layer Dwgs.User)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -2947,7 +2937,7 @@
   )
 
   (module MX_Alps_Hybrid:MX-1.25U-NoLED (layer F.Cu) (tedit 5A9F5210) (tstamp 5F18ABAC)
-    (at 63.465 65.19125)
+    (at 211.1375 164.30625)
     (path /615026DA)
     (fp_text reference MX_1.25U_R_FN1 (at 0 3.175) (layer Dwgs.User)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -2981,7 +2971,7 @@
   )
 
   (module MX_Alps_Hybrid:MX-1.25U-NoLED (layer F.Cu) (tedit 5A9F5210) (tstamp 5F18AB95)
-    (at 53.925 85.39125)
+    (at 234.95 164.30625)
     (path /61573C3C)
     (fp_text reference MX_1.25U_R_CTRL2 (at 0 3.175) (layer Dwgs.User)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -3015,7 +3005,7 @@
   )
 
   (module MX_Alps_Hybrid:MX-1.25U-NoLED (layer F.Cu) (tedit 5A9F5210) (tstamp 5F18AB7E)
-    (at 14.685 126.43125)
+    (at 163.5125 164.30625)
     (path /5F44477A)
     (fp_text reference MX_1.25U_R_CTRL1 (at 0 3.175) (layer Dwgs.User)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -3049,7 +3039,7 @@
   )
 
   (module MX_Alps_Hybrid:MX-1.25U-NoLED (layer F.Cu) (tedit 5A9F5210) (tstamp 5F18AB67)
-    (at -19.795 166.83125)
+    (at -3.175 164.30625)
     (path /5F36EC43)
     (fp_text reference MX_1.25U_L_WIN1 (at 0 3.175) (layer Dwgs.User)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -3083,7 +3073,7 @@
   )
 
   (module MX_Alps_Hybrid:MX-1.25U-NoLED (layer F.Cu) (tedit 5A9F5210) (tstamp 5F18AB50)
-    (at 53.925 105.59125)
+    (at -26.9875 145.25625)
     (path /611C4721)
     (fp_text reference MX_1.25U_L_SHIFT1 (at 0 3.175) (layer Dwgs.User)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -3117,7 +3107,7 @@
   )
 
   (module MX_Alps_Hybrid:MX-1.25U-NoLED (layer F.Cu) (tedit 5A9F5210) (tstamp 5F18AB39)
-    (at 88.425 65.19125)
+    (at -26.9875 164.30625)
     (path /5F36EC3C)
     (fp_text reference MX_1.25U_L_CTRL1 (at 0 3.175) (layer Dwgs.User)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -3151,7 +3141,7 @@
   )
 
   (module MX_Alps_Hybrid:MX-1.25U-NoLED (layer F.Cu) (tedit 5A9F5210) (tstamp 5F18AB22)
-    (at 38.505 65.19125)
+    (at 20.6375 164.30625)
     (path /5F3DCD14)
     (fp_text reference MX_1.25U_L_ALT1 (at 0 3.175) (layer Dwgs.User)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -3185,7 +3175,7 @@
   )
 
   (module MX_Alps_Hybrid:MX-1.25U-NoLED (layer F.Cu) (tedit 5A9F5210) (tstamp 5F18AB0B)
-    (at -44.755 166.83125)
+    (at 187.325 164.30625)
     (path /5F45D4C3)
     (fp_text reference MX_1.25U_FN1 (at 0 3.175) (layer Dwgs.User)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -3219,7 +3209,7 @@
   )
 
   (module MX_Alps_Hybrid:MX-1U-NoLED (layer F.Cu) (tedit 5A9F5203) (tstamp 5F18AAF4)
-    (at 201.49375 43.71125)
+    (at 184.94375 145.25625)
     (path /5F45D492)
     (fp_text reference MX_/1 (at 0 3.175) (layer Dwgs.User)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -3253,7 +3243,7 @@
   )
 
   (module MX_Alps_Hybrid:MX-1U-NoLED (layer F.Cu) (tedit 5A9F5203) (tstamp 5F18AADD)
-    (at 122.82375 125.15125)
+    (at 194.46875 126.20625)
     (path /5F45D484)
     (fp_text reference MX_'1 (at 0 3.175) (layer Dwgs.User)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -3287,9 +3277,9 @@
   )
 
   (module MX_Alps_Hybrid:MX-1U-NoLED (layer F.Cu) (tedit 5A9F5203) (tstamp 5F18AAC6)
-    (at 226.45375 23.51125)
+    (at 199.23125 88.10625)
     (path /5F474929)
-    (fp_text reference MX_12 (at 0 3.175) (layer Dwgs.User)
+    (fp_text reference MX_EQUALS1 (at 0 3.175) (layer Dwgs.User)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value MX-NoLED (at 0 -7.9375) (layer Dwgs.User)
@@ -3321,9 +3311,9 @@
   )
 
   (module MX_Alps_Hybrid:MX-1U-NoLED (layer F.Cu) (tedit 5A9F5203) (tstamp 5F18AAAF)
-    (at 113.30375 145.99125)
+    (at 180.18125 88.10625)
     (path /5F45D4DD)
-    (fp_text reference MX_11 (at 0 3.175) (layer Dwgs.User)
+    (fp_text reference MX_DASH1 (at 0 3.175) (layer Dwgs.User)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value MX-NoLED (at 0 -7.9375) (layer Dwgs.User)
@@ -3355,9 +3345,9 @@
   )
 
   (module MX_Alps_Hybrid:MX-1U-NoLED (layer F.Cu) (tedit 5A9F5203) (tstamp 5F18AA98)
-    (at 221.69375 43.71125)
+    (at 161.13125 88.10625)
     (path /5F45D4E4)
-    (fp_text reference MX_10 (at 0 3.175) (layer Dwgs.User)
+    (fp_text reference MX_0 (at 0 3.175) (layer Dwgs.User)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value MX-NoLED (at 0 -7.9375) (layer Dwgs.User)
@@ -3389,7 +3379,7 @@
   )
 
   (module MX_Alps_Hybrid:MX-1U-NoLED (layer F.Cu) (tedit 5A9F5203) (tstamp 5F18AA81)
-    (at 93.10375 166.19125)
+    (at 142.08125 88.10625)
     (path /5F44479B)
     (fp_text reference MX_9 (at 0 3.175) (layer Dwgs.User)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -3423,7 +3413,7 @@
   )
 
   (module MX_Alps_Hybrid:MX-1U-NoLED (layer F.Cu) (tedit 5A9F5203) (tstamp 5F18AA6A)
-    (at 157.30375 104.31125)
+    (at 123.03125 88.10625)
     (path /5F4447A2)
     (fp_text reference MX_8 (at 0 3.175) (layer Dwgs.User)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -3457,7 +3447,7 @@
   )
 
   (module MX_Alps_Hybrid:MX-1U-NoLED (layer F.Cu) (tedit 5A9F5203) (tstamp 5F18AA53)
-    (at 93.10375 145.99125)
+    (at 103.98125 88.10625)
     (path /5F4302B0)
     (fp_text reference MX_7 (at 0 3.175) (layer Dwgs.User)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -3491,7 +3481,7 @@
   )
 
   (module MX_Alps_Hybrid:MX-1U-NoLED (layer F.Cu) (tedit 5A9F5203) (tstamp 5F18AA3C)
-    (at 96.70375 105.59125)
+    (at 84.93125 88.10625)
     (path /5F4302B7)
     (fp_text reference MX_6 (at 0 3.175) (layer Dwgs.User)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -3525,7 +3515,7 @@
   )
 
   (module MX_Alps_Hybrid:MX-1U-NoLED (layer F.Cu) (tedit 5A9F5203) (tstamp 5F18AA25)
-    (at 116.90375 84.75125)
+    (at 65.88125 88.10625)
     (path /5F41B502)
     (fp_text reference MX_5 (at 0 3.175) (layer Dwgs.User)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -3559,7 +3549,7 @@
   )
 
   (module MX_Alps_Hybrid:MX-1U-NoLED (layer F.Cu) (tedit 5A9F5203) (tstamp 5F18AA0E)
-    (at 22.98375 166.83125)
+    (at 46.83125 88.10625)
     (path /5F41B509)
     (fp_text reference MX_4 (at 0 3.175) (layer Dwgs.User)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -3593,7 +3583,7 @@
   )
 
   (module MX_Alps_Hybrid:MX-1U-NoLED (layer F.Cu) (tedit 5A9F5203) (tstamp 5F18A9F7)
-    (at 52.70375 145.99125)
+    (at 27.78125 88.10625)
     (path /5F3DCCFA)
     (fp_text reference MX_3 (at 0 3.175) (layer Dwgs.User)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -3627,7 +3617,7 @@
   )
 
   (module MX_Alps_Hybrid:MX-1U-NoLED (layer F.Cu) (tedit 5A9F5203) (tstamp 5F18A9E0)
-    (at 161.09375 43.71125)
+    (at 8.73125 88.10625)
     (path /5F3DCCF3)
     (fp_text reference MX_2 (at 0 3.175) (layer Dwgs.User)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -3661,7 +3651,7 @@
   )
 
   (module MX_Alps_Hybrid:MX-1U-NoLED (layer F.Cu) (tedit 5A9F5203) (tstamp 5F18A9C9)
-    (at 82.42375 125.79125)
+    (at -10.31875 88.10625)
     (path /5F1E7BDC)
     (fp_text reference MX_1 (at 0 3.175) (layer Dwgs.User)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -3695,7 +3685,7 @@
   )
 
   (module MX_Alps_Hybrid:MX-1U-NoLED (layer F.Cu) (tedit 5A9F5203) (tstamp 5F18A9B2)
-    (at 186.05375 23.51125)
+    (at 165.89375 145.25625)
     (path /5F44473C)
     (fp_text reference MX_.1 (at 0 3.175) (layer Dwgs.User)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -3729,7 +3719,7 @@
   )
 
   (module MX_Alps_Hybrid:MX-1U-NoLED (layer F.Cu) (tedit 5A9F5203) (tstamp 5F18A99B)
-    (at 137.28375 84.11125)
+    (at 146.84375 145.25625)
     (path /5F444750)
     (fp_text reference MX_,1 (at 0 3.175) (layer Dwgs.User)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -3763,7 +3753,7 @@
   )
 
   (module Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical (layer F.Cu) (tedit 59FED5CC) (tstamp 5F18A984)
-    (at 34.24875 98.45625)
+    (at -316.8275 181.4675)
     (descr "Through hole straight pin header, 2x03, 2.54mm pitch, double rows")
     (tags "Through hole pin header THT 2x03 2.54mm double row")
     (path /5FE1BF7A)
@@ -3813,7 +3803,7 @@
   )
 
   (module Fuse:Fuse_1206_3216Metric (layer F.Cu) (tedit 5B301BBE) (tstamp 5F18A968)
-    (at 34.72875 107.47625)
+    (at -355.9175 156.3875)
     (descr "Fuse SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
     (path /5F1C7377)
@@ -3849,7 +3839,7 @@
   )
 
   (module canadian_footprints:D_SOD123_axial-dual (layer F.Cu) (tedit 588E66D6) (tstamp 5F18A957)
-    (at 4.283749 182.33125)
+    (at -346.553751 54.5375)
     (path /60BFDFAE)
     (attr smd)
     (fp_text reference D69 (at 0 1.925) (layer F.SilkS)
@@ -3899,7 +3889,7 @@
   )
 
   (module canadian_footprints:D_SOD123_axial-dual (layer F.Cu) (tedit 588E66D6) (tstamp 5F18A937)
-    (at -27.186251 189.53125)
+    (at -378.023751 61.7375)
     (path /60BF4570)
     (attr smd)
     (fp_text reference D68 (at 0 1.925) (layer F.SilkS)
@@ -3949,7 +3939,7 @@
   )
 
   (module canadian_footprints:D_SOD123_axial-dual (layer F.Cu) (tedit 588E66D6) (tstamp 5F18A917)
-    (at -37.586251 193.13125)
+    (at -388.423751 65.3375)
     (path /60BEAA33)
     (attr smd)
     (fp_text reference D67 (at 0 1.925) (layer F.SilkS)
@@ -3999,7 +3989,7 @@
   )
 
   (module canadian_footprints:D_SOD123_axial-dual (layer F.Cu) (tedit 588E66D6) (tstamp 5F18A8F7)
-    (at -26.916251 178.73125)
+    (at -377.753751 50.9375)
     (path /60BE0D66)
     (attr smd)
     (fp_text reference D66 (at 0 1.925) (layer F.SilkS)
@@ -4049,7 +4039,7 @@
   )
 
   (module canadian_footprints:D_SOD123_axial-dual (layer F.Cu) (tedit 588E66D6) (tstamp 5F18A8D7)
-    (at -27.186251 193.13125)
+    (at -378.023751 65.3375)
     (path /60BD70E6)
     (attr smd)
     (fp_text reference D65 (at 0 1.925) (layer F.SilkS)
@@ -4099,7 +4089,7 @@
   )
 
   (module canadian_footprints:D_SOD123_axial-dual (layer F.Cu) (tedit 588E66D6) (tstamp 5F18A8B7)
-    (at -52.036251 193.18125)
+    (at -402.873751 65.3875)
     (path /60BCD64A)
     (attr smd)
     (fp_text reference D64 (at 0 1.925) (layer F.SilkS)
@@ -4149,7 +4139,7 @@
   )
 
   (module canadian_footprints:D_SOD123_axial-dual (layer F.Cu) (tedit 588E66D6) (tstamp 5F18A897)
-    (at -16.786251 189.53125)
+    (at -367.623751 61.7375)
     (path /609F2922)
     (attr smd)
     (fp_text reference D63 (at 0 1.925) (layer F.SilkS)
@@ -4199,7 +4189,7 @@
   )
 
   (module canadian_footprints:D_SOD123_axial-dual (layer F.Cu) (tedit 588E66D6) (tstamp 5F18A877)
-    (at -16.516251 185.93125)
+    (at -367.353751 58.1375)
     (path /60A07B5C)
     (attr smd)
     (fp_text reference D62 (at 0 1.925) (layer F.SilkS)
@@ -4249,7 +4239,7 @@
   )
 
   (module canadian_footprints:D_SOD123_axial-dual (layer F.Cu) (tedit 588E66D6) (tstamp 5F18A857)
-    (at -6.116251 178.73125)
+    (at -356.953751 50.9375)
     (path /609FDC8A)
     (attr smd)
     (fp_text reference D61 (at 0 1.925) (layer F.SilkS)
@@ -4299,7 +4289,7 @@
   )
 
   (module canadian_footprints:D_SOD123_axial-dual (layer F.Cu) (tedit 588E66D6) (tstamp 5F18A837)
-    (at 4.283749 178.73125)
+    (at -346.553751 50.9375)
     (path /60BAA5EE)
     (attr smd)
     (fp_text reference D60 (at 0 1.925) (layer F.SilkS)
@@ -4349,7 +4339,7 @@
   )
 
   (module canadian_footprints:D_SOD123_axial-dual (layer F.Cu) (tedit 588E66D6) (tstamp 5F18A817)
-    (at -6.116251 182.33125)
+    (at -356.953751 54.5375)
     (path /60BAA5F4)
     (attr smd)
     (fp_text reference D59 (at 0 1.925) (layer F.SilkS)
@@ -4399,7 +4389,7 @@
   )
 
   (module canadian_footprints:D_SOD123_axial-dual (layer F.Cu) (tedit 588E66D6) (tstamp 5F18A7F7)
-    (at -37.586251 189.53125)
+    (at -388.423751 61.7375)
     (path /60BAA5FA)
     (attr smd)
     (fp_text reference D58 (at 0 1.925) (layer F.SilkS)
@@ -4449,7 +4439,7 @@
   )
 
   (module canadian_footprints:D_SOD123_axial-dual (layer F.Cu) (tedit 588E66D6) (tstamp 5F18A7D7)
-    (at -16.516251 178.73125)
+    (at -367.353751 50.9375)
     (path /60BAA600)
     (attr smd)
     (fp_text reference D57 (at 0 1.925) (layer F.SilkS)
@@ -4499,7 +4489,7 @@
   )
 
   (module canadian_footprints:D_SOD123_axial-dual (layer F.Cu) (tedit 588E66D6) (tstamp 5F18A7B7)
-    (at -16.786251 193.13125)
+    (at -367.623751 65.3375)
     (path /60BAA606)
     (attr smd)
     (fp_text reference D56 (at 0 1.925) (layer F.SilkS)
@@ -4549,7 +4539,7 @@
   )
 
   (module canadian_footprints:D_SOD123_axial-dual (layer F.Cu) (tedit 588E66D6) (tstamp 5F18A797)
-    (at -6.386251 193.13125)
+    (at -357.223751 65.3375)
     (path /60BAA60C)
     (attr smd)
     (fp_text reference D55 (at 0 1.925) (layer F.SilkS)
@@ -4599,7 +4589,7 @@
   )
 
   (module canadian_footprints:D_SOD123_axial-dual (layer F.Cu) (tedit 588E66D6) (tstamp 5F18A777)
-    (at 4.013749 189.53125)
+    (at -346.823751 61.7375)
     (path /60BAA612)
     (attr smd)
     (fp_text reference D54 (at 0 1.925) (layer F.SilkS)
@@ -4649,7 +4639,7 @@
   )
 
   (module canadian_footprints:D_SOD123_axial-dual (layer F.Cu) (tedit 588E66D6) (tstamp 5F18A757)
-    (at 4.283749 185.93125)
+    (at -346.553751 58.1375)
     (path /60BAA618)
     (attr smd)
     (fp_text reference D53 (at 0 1.925) (layer F.SilkS)
@@ -4699,7 +4689,7 @@
   )
 
   (module canadian_footprints:D_SOD123_axial-dual (layer F.Cu) (tedit 588E66D6) (tstamp 5F18A737)
-    (at 14.683749 178.73125)
+    (at -336.153751 50.9375)
     (path /60BAA61E)
     (attr smd)
     (fp_text reference D52 (at 0 1.925) (layer F.SilkS)
@@ -4749,7 +4739,7 @@
   )
 
   (module canadian_footprints:D_SOD123_axial-dual (layer F.Cu) (tedit 588E66D6) (tstamp 5F18A717)
-    (at 25.083749 178.73125)
+    (at -325.753751 50.9375)
     (path /60BAA624)
     (attr smd)
     (fp_text reference D51 (at 0 1.925) (layer F.SilkS)
@@ -4799,7 +4789,7 @@
   )
 
   (module canadian_footprints:D_SOD123_axial-dual (layer F.Cu) (tedit 588E66D6) (tstamp 5F18A6F7)
-    (at 14.683749 182.33125)
+    (at -336.153751 54.5375)
     (path /60BAA62A)
     (attr smd)
     (fp_text reference D50 (at 0 1.925) (layer F.SilkS)
@@ -4849,7 +4839,7 @@
   )
 
   (module canadian_footprints:D_SOD123_axial-dual (layer F.Cu) (tedit 588E66D6) (tstamp 5F18A6D7)
-    (at 25.083749 182.33125)
+    (at -325.753751 54.5375)
     (path /60BAA630)
     (attr smd)
     (fp_text reference D49 (at 0 1.925) (layer F.SilkS)
@@ -4899,7 +4889,7 @@
   )
 
   (module canadian_footprints:D_SOD123_axial-dual (layer F.Cu) (tedit 588E66D6) (tstamp 5F18A6B7)
-    (at 14.413749 189.53125)
+    (at -336.423751 61.7375)
     (path /60BAA636)
     (attr smd)
     (fp_text reference D48 (at 0 1.925) (layer F.SilkS)
@@ -4949,7 +4939,7 @@
   )
 
   (module canadian_footprints:D_SOD123_axial-dual (layer F.Cu) (tedit 588E66D6) (tstamp 5F18A697)
-    (at 14.683749 185.93125)
+    (at -336.153751 58.1375)
     (path /60BAA63C)
     (attr smd)
     (fp_text reference D47 (at 0 1.925) (layer F.SilkS)
@@ -4999,7 +4989,7 @@
   )
 
   (module canadian_footprints:D_SOD123_axial-dual (layer F.Cu) (tedit 588E66D6) (tstamp 5F18A677)
-    (at -6.386251 189.53125)
+    (at -357.223751 61.7375)
     (path /60A11924)
     (attr smd)
     (fp_text reference D46 (at 0 1.925) (layer F.SilkS)
@@ -5049,7 +5039,7 @@
   )
 
   (module canadian_footprints:D_SOD123_axial-dual (layer F.Cu) (tedit 588E66D6) (tstamp 5F18A657)
-    (at 4.013749 193.13125)
+    (at -346.823751 65.3375)
     (path /60AD7299)
     (attr smd)
     (fp_text reference D45 (at 0 1.925) (layer F.SilkS)
@@ -5099,7 +5089,7 @@
   )
 
   (module canadian_footprints:D_SOD123_axial-dual (layer F.Cu) (tedit 588E66D6) (tstamp 5F18A637)
-    (at 14.413749 193.13125)
+    (at -336.423751 65.3375)
     (path /61221649)
     (attr smd)
     (fp_text reference D44 (at 0 1.925) (layer F.SilkS)
@@ -5149,7 +5139,7 @@
   )
 
   (module canadian_footprints:D_SOD123_axial-dual (layer F.Cu) (tedit 588E66D6) (tstamp 5F18A617)
-    (at 25.083749 185.93125)
+    (at -325.753751 58.1375)
     (path /60AD728D)
     (attr smd)
     (fp_text reference D43 (at 0 1.925) (layer F.SilkS)
@@ -5199,7 +5189,7 @@
   )
 
   (module canadian_footprints:D_SOD123_axial-dual (layer F.Cu) (tedit 588E66D6) (tstamp 5F18A5F7)
-    (at 24.813749 189.53125)
+    (at -326.023751 61.7375)
     (path /60AD7287)
     (attr smd)
     (fp_text reference D42 (at 0 1.925) (layer F.SilkS)
@@ -5249,7 +5239,7 @@
   )
 
   (module canadian_footprints:D_SOD123_axial-dual (layer F.Cu) (tedit 588E66D6) (tstamp 5F18A5D7)
-    (at 35.483749 178.73125)
+    (at -315.353751 50.9375)
     (path /60AD7281)
     (attr smd)
     (fp_text reference D41 (at 0 1.925) (layer F.SilkS)
@@ -5299,7 +5289,7 @@
   )
 
   (module canadian_footprints:D_SOD123_axial-dual (layer F.Cu) (tedit 588E66D6) (tstamp 5F18A5B7)
-    (at 45.883749 178.09125)
+    (at -304.953751 50.2975)
     (path /60AD727B)
     (attr smd)
     (fp_text reference D40 (at 0 1.925) (layer F.SilkS)
@@ -5349,7 +5339,7 @@
   )
 
   (module canadian_footprints:D_SOD123_axial-dual (layer F.Cu) (tedit 588E66D6) (tstamp 5F18A597)
-    (at 35.483749 182.33125)
+    (at -315.353751 54.5375)
     (path /60AD7275)
     (attr smd)
     (fp_text reference D39 (at 0 1.925) (layer F.SilkS)
@@ -5399,7 +5389,7 @@
   )
 
   (module canadian_footprints:D_SOD123_axial-dual (layer F.Cu) (tedit 588E66D6) (tstamp 5F18A577)
-    (at 35.483749 185.93125)
+    (at -315.353751 58.1375)
     (path /60AD726F)
     (attr smd)
     (fp_text reference D38 (at 0 1.925) (layer F.SilkS)
@@ -5449,7 +5439,7 @@
   )
 
   (module canadian_footprints:D_SOD123_axial-dual (layer F.Cu) (tedit 588E66D6) (tstamp 5F18A557)
-    (at 97.883749 178.09125)
+    (at -252.953751 50.2975)
     (path /60AD7269)
     (attr smd)
     (fp_text reference D37 (at 0 1.925) (layer F.SilkS)
@@ -5499,7 +5489,7 @@
   )
 
   (module canadian_footprints:D_SOD123_axial-dual (layer F.Cu) (tedit 588E66D6) (tstamp 5F18A537)
-    (at 66.413749 192.49125)
+    (at -284.423751 64.6975)
     (path /60AD7263)
     (attr smd)
     (fp_text reference D36 (at 0 1.925) (layer F.SilkS)
@@ -5549,7 +5539,7 @@
   )
 
   (module canadian_footprints:D_SOD123_axial-dual (layer F.Cu) (tedit 588E66D6) (tstamp 5F18A517)
-    (at 97.613749 192.49125)
+    (at -253.223751 64.6975)
     (path /60AD725D)
     (attr smd)
     (fp_text reference D35 (at 0 1.925) (layer F.SilkS)
@@ -5599,7 +5589,7 @@
   )
 
   (module canadian_footprints:D_SOD123_axial-dual (layer F.Cu) (tedit 588E66D6) (tstamp 5F18A4F7)
-    (at 24.813749 193.13125)
+    (at -326.023751 65.3375)
     (path /60AD7257)
     (attr smd)
     (fp_text reference D34 (at 0 1.925) (layer F.SilkS)
@@ -5649,7 +5639,7 @@
   )
 
   (module canadian_footprints:D_SOD123_axial-dual (layer F.Cu) (tedit 588E66D6) (tstamp 5F18A4D7)
-    (at 35.213749 193.13125)
+    (at -315.623751 65.3375)
     (path /60AD7251)
     (attr smd)
     (fp_text reference D33 (at 0 1.925) (layer F.SilkS)
@@ -5699,7 +5689,7 @@
   )
 
   (module canadian_footprints:D_SOD123_axial-dual (layer F.Cu) (tedit 588E66D6) (tstamp 5F18A4B7)
-    (at 45.883749 181.69125)
+    (at -304.953751 53.8975)
     (path /60AD724B)
     (attr smd)
     (fp_text reference D32 (at 0 1.925) (layer F.SilkS)
@@ -5749,7 +5739,7 @@
   )
 
   (module canadian_footprints:D_SOD123_axial-dual (layer F.Cu) (tedit 588E66D6) (tstamp 5F18A497)
-    (at 45.883749 185.29125)
+    (at -304.953751 57.4975)
     (path /60A1B787)
     (attr smd)
     (fp_text reference D31 (at 0 1.925) (layer F.SilkS)
@@ -5799,7 +5789,7 @@
   )
 
   (module canadian_footprints:D_SOD123_axial-dual (layer F.Cu) (tedit 588E66D6) (tstamp 5F18A477)
-    (at 45.883749 188.89125)
+    (at -304.953751 61.0975)
     (path /60BC3762)
     (attr smd)
     (fp_text reference D30 (at 0 1.925) (layer F.SilkS)
@@ -5849,7 +5839,7 @@
   )
 
   (module canadian_footprints:D_SOD123_axial-dual (layer F.Cu) (tedit 588E66D6) (tstamp 5F18A457)
-    (at 56.283749 178.09125)
+    (at -294.553751 50.2975)
     (path /60BC3768)
     (attr smd)
     (fp_text reference D29 (at 0 1.925) (layer F.SilkS)
@@ -5899,7 +5889,7 @@
   )
 
   (module canadian_footprints:D_SOD123_axial-dual (layer F.Cu) (tedit 588E66D6) (tstamp 5F18A437)
-    (at 66.683749 178.09125)
+    (at -284.153751 50.2975)
     (path /60BC376E)
     (attr smd)
     (fp_text reference D28 (at 0 1.925) (layer F.SilkS)
@@ -5949,7 +5939,7 @@
   )
 
   (module canadian_footprints:D_SOD123_axial-dual (layer F.Cu) (tedit 588E66D6) (tstamp 5F18A417)
-    (at 56.283749 181.69125)
+    (at -294.553751 53.8975)
     (path /60BC3774)
     (attr smd)
     (fp_text reference D27 (at 0 1.925) (layer F.SilkS)
@@ -5999,7 +5989,7 @@
   )
 
   (module canadian_footprints:D_SOD123_axial-dual (layer F.Cu) (tedit 588E66D6) (tstamp 5F18A3F7)
-    (at 77.083749 188.89125)
+    (at -273.753751 61.0975)
     (path /60BC377A)
     (attr smd)
     (fp_text reference D26 (at 0 1.925) (layer F.SilkS)
@@ -6049,7 +6039,7 @@
   )
 
   (module canadian_footprints:D_SOD123_axial-dual (layer F.Cu) (tedit 588E66D6) (tstamp 5F18A3D7)
-    (at 56.283749 185.29125)
+    (at -294.553751 57.4975)
     (path /60BC3780)
     (attr smd)
     (fp_text reference D25 (at 0 1.925) (layer F.SilkS)
@@ -6099,7 +6089,7 @@
   )
 
   (module canadian_footprints:D_SOD123_axial-dual (layer F.Cu) (tedit 588E66D6) (tstamp 5F18A3B7)
-    (at 35.213749 189.53125)
+    (at -315.623751 61.7375)
     (path /60BC3786)
     (attr smd)
     (fp_text reference D24 (at 0 1.925) (layer F.SilkS)
@@ -6149,7 +6139,7 @@
   )
 
   (module canadian_footprints:D_SOD123_axial-dual (layer F.Cu) (tedit 588E66D6) (tstamp 5F18A397)
-    (at 45.613749 192.49125)
+    (at -305.223751 64.6975)
     (path /60BC378C)
     (attr smd)
     (fp_text reference D23 (at 0 1.925) (layer F.SilkS)
@@ -6199,7 +6189,7 @@
   )
 
   (module canadian_footprints:D_SOD123_axial-dual (layer F.Cu) (tedit 588E66D6) (tstamp 5F18A377)
-    (at 56.013749 192.49125)
+    (at -294.823751 64.6975)
     (path /60BC3792)
     (attr smd)
     (fp_text reference D22 (at 0 1.925) (layer F.SilkS)
@@ -6249,7 +6239,7 @@
   )
 
   (module canadian_footprints:D_SOD123_axial-dual (layer F.Cu) (tedit 588E66D6) (tstamp 5F18A357)
-    (at 66.683749 185.29125)
+    (at -284.153751 57.4975)
     (path /60BC3798)
     (attr smd)
     (fp_text reference D21 (at 0 1.925) (layer F.SilkS)
@@ -6299,7 +6289,7 @@
   )
 
   (module canadian_footprints:D_SOD123_axial-dual (layer F.Cu) (tedit 588E66D6) (tstamp 5F18A337)
-    (at 66.683749 188.89125)
+    (at -284.153751 61.0975)
     (path /60BC379E)
     (attr smd)
     (fp_text reference D20 (at 0 1.925) (layer F.SilkS)
@@ -6349,7 +6339,7 @@
   )
 
   (module canadian_footprints:D_SOD123_axial-dual (layer F.Cu) (tedit 588E66D6) (tstamp 5F18A317)
-    (at 77.083749 178.09125)
+    (at -273.753751 50.2975)
     (path /60BC37A4)
     (attr smd)
     (fp_text reference D19 (at 0 1.925) (layer F.SilkS)
@@ -6399,7 +6389,7 @@
   )
 
   (module canadian_footprints:D_SOD123_axial-dual (layer F.Cu) (tedit 588E66D6) (tstamp 5F18A2F7)
-    (at 87.483749 178.09125)
+    (at -263.353751 50.2975)
     (path /60BC37AA)
     (attr smd)
     (fp_text reference D18 (at 0 1.925) (layer F.SilkS)
@@ -6449,7 +6439,7 @@
   )
 
   (module canadian_footprints:D_SOD123_axial-dual (layer F.Cu) (tedit 588E66D6) (tstamp 5F18A2D7)
-    (at 77.083749 181.69125)
+    (at -273.753751 53.8975)
     (path /60BC37B0)
     (attr smd)
     (fp_text reference D17 (at 0 1.925) (layer F.SilkS)
@@ -6499,7 +6489,7 @@
   )
 
   (module canadian_footprints:D_SOD123_axial-dual (layer F.Cu) (tedit 588E66D6) (tstamp 5F18A2B7)
-    (at 77.083749 185.29125)
+    (at -273.753751 57.4975)
     (path /60A2556B)
     (attr smd)
     (fp_text reference D16 (at 0 1.925) (layer F.SilkS)
@@ -6549,7 +6539,7 @@
   )
 
   (module canadian_footprints:D_SOD123_axial-dual (layer F.Cu) (tedit 588E66D6) (tstamp 5F18A297)
-    (at 66.683749 181.69125)
+    (at -284.153751 53.8975)
     (path /60AB73FF)
     (attr smd)
     (fp_text reference D15 (at 0 1.925) (layer F.SilkS)
@@ -6599,7 +6589,7 @@
   )
 
   (module canadian_footprints:D_SOD123_axial-dual (layer F.Cu) (tedit 588E66D6) (tstamp 5F18A277)
-    (at -26.916251 185.93125)
+    (at -377.753751 58.1375)
     (path /60AAD9BF)
     (attr smd)
     (fp_text reference D14 (at 0 1.925) (layer F.SilkS)
@@ -6649,7 +6639,7 @@
   )
 
   (module canadian_footprints:D_SOD123_axial-dual (layer F.Cu) (tedit 588E66D6) (tstamp 5F18A257)
-    (at -16.516251 182.33125)
+    (at -367.353751 54.5375)
     (path /60AA3F32)
     (attr smd)
     (fp_text reference D13 (at 0 1.925) (layer F.SilkS)
@@ -6699,7 +6689,7 @@
   )
 
   (module canadian_footprints:D_SOD123_axial-dual (layer F.Cu) (tedit 588E66D6) (tstamp 5F18A237)
-    (at -26.916251 182.33125)
+    (at -377.753751 54.5375)
     (path /60A9A295)
     (attr smd)
     (fp_text reference D12 (at 0 1.925) (layer F.SilkS)
@@ -6749,7 +6739,7 @@
   )
 
   (module canadian_footprints:D_SOD123_axial-dual (layer F.Cu) (tedit 588E66D6) (tstamp 5F18A217)
-    (at -6.116251 185.93125)
+    (at -356.953751 58.1375)
     (path /60A90422)
     (attr smd)
     (fp_text reference D11 (at 0 1.925) (layer F.SilkS)
@@ -6799,7 +6789,7 @@
   )
 
   (module canadian_footprints:D_SOD123_axial-dual (layer F.Cu) (tedit 588E66D6) (tstamp 5F18A1F7)
-    (at 76.813749 192.49125)
+    (at -274.023751 64.6975)
     (path /60A86A5D)
     (attr smd)
     (fp_text reference D10 (at 0 1.925) (layer F.SilkS)
@@ -6849,7 +6839,7 @@
   )
 
   (module canadian_footprints:D_SOD123_axial-dual (layer F.Cu) (tedit 588E66D6) (tstamp 5F18A1D7)
-    (at 56.283749 188.89125)
+    (at -294.553751 61.0975)
     (path /60A7D26D)
     (attr smd)
     (fp_text reference D9 (at 0 1.925) (layer F.SilkS)
@@ -6899,7 +6889,7 @@
   )
 
   (module canadian_footprints:D_SOD123_axial-dual (layer F.Cu) (tedit 588E66D6) (tstamp 5F18A1B7)
-    (at 87.483749 181.69125)
+    (at -263.353751 53.8975)
     (path /60A73976)
     (attr smd)
     (fp_text reference D8 (at 0 1.925) (layer F.SilkS)
@@ -6949,7 +6939,7 @@
   )
 
   (module canadian_footprints:D_SOD123_axial-dual (layer F.Cu) (tedit 588E66D6) (tstamp 5F18A197)
-    (at 87.483749 185.29125)
+    (at -263.353751 57.4975)
     (path /60A69C92)
     (attr smd)
     (fp_text reference D7 (at 0 1.925) (layer F.SilkS)
@@ -6999,7 +6989,7 @@
   )
 
   (module canadian_footprints:D_SOD123_axial-dual (layer F.Cu) (tedit 588E66D6) (tstamp 5F18A177)
-    (at 87.483749 188.89125)
+    (at -263.353751 61.0975)
     (path /60A600EA)
     (attr smd)
     (fp_text reference D6 (at 0 1.925) (layer F.SilkS)
@@ -7049,7 +7039,7 @@
   )
 
   (module canadian_footprints:D_SOD123_axial-dual (layer F.Cu) (tedit 588E66D6) (tstamp 5F18A157)
-    (at 97.883749 188.89125)
+    (at -252.953751 61.0975)
     (path /60A566E7)
     (attr smd)
     (fp_text reference D5 (at 0 1.925) (layer F.SilkS)
@@ -7099,7 +7089,7 @@
   )
 
   (module canadian_footprints:D_SOD123_axial-dual (layer F.Cu) (tedit 588E66D6) (tstamp 5F18A137)
-    (at 108.283749 178.09125)
+    (at -242.553751 50.2975)
     (path /60A4CB49)
     (attr smd)
     (fp_text reference D4 (at 0 1.925) (layer F.SilkS)
@@ -7149,7 +7139,7 @@
   )
 
   (module canadian_footprints:D_SOD123_axial-dual (layer F.Cu) (tedit 588E66D6) (tstamp 5F18A117)
-    (at 97.883749 181.69125)
+    (at -252.953751 53.8975)
     (path /60A42E9C)
     (attr smd)
     (fp_text reference D3 (at 0 1.925) (layer F.SilkS)
@@ -7199,7 +7189,7 @@
   )
 
   (module canadian_footprints:D_SOD123_axial-dual (layer F.Cu) (tedit 588E66D6) (tstamp 5F18A0F7)
-    (at 97.883749 185.29125)
+    (at -252.953751 57.4975)
     (path /60A392AE)
     (attr smd)
     (fp_text reference D2 (at 0 1.925) (layer F.SilkS)
@@ -7249,7 +7239,7 @@
   )
 
   (module canadian_footprints:D_SOD123_axial-dual (layer F.Cu) (tedit 588E66D6) (tstamp 5F18A0D7)
-    (at 87.213749 192.49125)
+    (at -263.623751 64.6975)
     (path /60A2F34F)
     (attr smd)
     (fp_text reference D1 (at 0 1.925) (layer F.SilkS)
@@ -7299,7 +7289,7 @@
   )
 
   (module Capacitor_SMD:C_0805_2012Metric (layer F.Cu) (tedit 5B36C52B) (tstamp 5F18A0B7)
-    (at 29.36875 120.75625)
+    (at -334.29 122.0425)
     (descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
     (tags capacitor)
     (path /5F17EE84)
@@ -7335,7 +7325,7 @@
   )
 
   (module Capacitor_SMD:C_0805_2012Metric (layer F.Cu) (tedit 5B36C52B) (tstamp 5F18A0A6)
-    (at 103.10875 68.36625)
+    (at -347.06875 187.1275)
     (descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
     (tags capacitor)
     (path /5F17D39B)
@@ -7371,7 +7361,7 @@
   )
 
   (module Capacitor_SMD:C_0805_2012Metric (layer F.Cu) (tedit 5B36C52B) (tstamp 5F18A095)
-    (at 103.10875 65.41625)
+    (at -347.06875 184.1775)
     (descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
     (tags capacitor)
     (path /5F17B5EB)
@@ -7407,7 +7397,7 @@
   )
 
   (module Capacitor_SMD:C_0805_2012Metric (layer F.Cu) (tedit 5B36C52B) (tstamp 5F18A084)
-    (at 103.10875 62.46625)
+    (at -347.06875 181.2275)
     (descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
     (tags capacitor)
     (path /5F17E05A)
@@ -7443,7 +7433,7 @@
   )
 
   (module Capacitor_SMD:C_0805_2012Metric (layer F.Cu) (tedit 5B36C52B) (tstamp 5F18A073)
-    (at 103.10875 59.51625)
+    (at -347.06875 178.2775)
     (descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
     (tags capacitor)
     (path /5F17498F)
@@ -7479,7 +7469,7 @@
   )
 
   (module Capacitor_SMD:C_0805_2012Metric (layer F.Cu) (tedit 5B36C52B) (tstamp 5F18A062)
-    (at 103.10875 56.56625)
+    (at -347.06875 175.3275)
     (descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
     (tags capacitor)
     (path /5F194FE3)
@@ -7515,7 +7505,7 @@
   )
 
   (module Capacitor_SMD:C_0805_2012Metric (layer F.Cu) (tedit 5B36C52B) (tstamp 5F18A051)
-    (at 29.36875 132.55625)
+    (at -334.29 133.8425)
     (descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
     (tags capacitor)
     (path /5F1942FA)
