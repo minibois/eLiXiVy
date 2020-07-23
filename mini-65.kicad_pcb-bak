@@ -4239,7 +4239,7 @@
   )
 
   (module canadian_footprints:D_SOD123_axial-dual (layer F.Cu) (tedit 588E66D6) (tstamp 5F18A857)
-    (at -14.2875 165.89375 90)
+    (at -35.71875 165.89375 90)
     (path /609FDC8A)
     (attr smd)
     (fp_text reference D61 (at 0 1.925 90) (layer F.SilkS)
@@ -4289,7 +4289,7 @@
   )
 
   (module canadian_footprints:D_SOD123_axial-dual (layer F.Cu) (tedit 588E66D6) (tstamp 5F18A837)
-    (at 266.7 146.84375 90)
+    (at 250.03125 146.84375 90)
     (path /60BAA5EE)
     (attr smd)
     (fp_text reference D60 (at 0 1.925 90) (layer F.SilkS)
@@ -4339,7 +4339,7 @@
   )
 
   (module canadian_footprints:D_SOD123_axial-dual (layer F.Cu) (tedit 588E66D6) (tstamp 5F18A817)
-    (at 247.65 146.84375 90)
+    (at 246.85625 146.84375 90)
     (path /60BAA5F4)
     (attr smd)
     (fp_text reference D59 (at 0 1.925 90) (layer F.SilkS)
@@ -4689,7 +4689,7 @@
   )
 
   (module canadian_footprints:D_SOD123_axial-dual (layer F.Cu) (tedit 588E66D6) (tstamp 5F18A737)
-    (at 100.0125 146.84375 90)
+    (at 100.80625 146.84375 90)
     (path /60BAA61E)
     (attr smd)
     (fp_text reference D52 (at 0 1.925 90) (layer F.SilkS)
@@ -4839,7 +4839,7 @@
   )
 
   (module canadian_footprints:D_SOD123_axial-dual (layer F.Cu) (tedit 588E66D6) (tstamp 5F18A6D7)
-    (at 42.8625 146.84375 90)
+    (at 43.65625 146.84375 90)
     (path /60BAA630)
     (attr smd)
     (fp_text reference D49 (at 0 1.925 90) (layer F.SilkS)
@@ -4939,7 +4939,7 @@
   )
 
   (module canadian_footprints:D_SOD123_axial-dual (layer F.Cu) (tedit 588E66D6) (tstamp 5F18A697)
-    (at 4.7625 146.84375 90)
+    (at 3.96875 146.84375 90)
     (path /60BAA63C)
     (attr smd)
     (fp_text reference D47 (at 0 1.925 90) (layer F.SilkS)
@@ -4989,7 +4989,7 @@
   )
 
   (module canadian_footprints:D_SOD123_axial-dual (layer F.Cu) (tedit 588E66D6) (tstamp 5F18A677)
-    (at -34.13125 146.84375 90)
+    (at -35.71875 146.84375 90)
     (path /60A11924)
     (attr smd)
     (fp_text reference D46 (at 0 1.925 90) (layer F.SilkS)
@@ -5039,7 +5039,7 @@
   )
 
   (module canadian_footprints:D_SOD123_axial-dual (layer F.Cu) (tedit 588E66D6) (tstamp 5F18A657)
-    (at 266.7 127.79375 90)
+    (at 249.2375 127.79375 90)
     (path /60AD7299)
     (attr smd)
     (fp_text reference D45 (at 0 1.925 90) (layer F.SilkS)
@@ -5139,7 +5139,7 @@
   )
 
   (module canadian_footprints:D_SOD123_axial-dual (layer F.Cu) (tedit 588E66D6) (tstamp 5F18A617)
-    (at 207.16875 127.79375 90)
+    (at 235.74375 131.7625 90)
     (path /60AD728D)
     (attr smd)
     (fp_text reference D43 (at 0 1.925 90) (layer F.SilkS)
@@ -5739,7 +5739,7 @@
   )
 
   (module canadian_footprints:D_SOD123_axial-dual (layer F.Cu) (tedit 588E66D6) (tstamp 5F18A497)
-    (at -11.90625 127.79375 90)
+    (at -36.5125 127.79375 90)
     (path /60A1B787)
     (attr smd)
     (fp_text reference D31 (at 0 1.925 90) (layer F.SilkS)
@@ -5789,7 +5789,7 @@
   )
 
   (module canadian_footprints:D_SOD123_axial-dual (layer F.Cu) (tedit 588E66D6) (tstamp 5F18A477)
-    (at 266.7 109.5375 90)
+    (at 249.2375 108.74375 90)
     (path /60BC3762)
     (attr smd)
     (fp_text reference D30 (at 0 1.925 90) (layer F.SilkS)
@@ -5839,7 +5839,7 @@
   )
 
   (module canadian_footprints:D_SOD123_axial-dual (layer F.Cu) (tedit 588E66D6) (tstamp 5F18A457)
-    (at 247.65 109.5375 90)
+    (at 246.0625 117.475 90)
     (path /60BC3768)
     (attr smd)
     (fp_text reference D29 (at 0 1.925 90) (layer F.SilkS)
@@ -5889,7 +5889,7 @@
   )
 
   (module canadian_footprints:D_SOD123_axial-dual (layer F.Cu) (tedit 588E66D6) (tstamp 5F18A437)
-    (at 201.6125 108.74375 90)
+    (at 219.075 108.74375 90)
     (path /60BC376E)
     (attr smd)
     (fp_text reference D28 (at 0 1.925 90) (layer F.SilkS)
@@ -5939,7 +5939,7 @@
   )
 
   (module canadian_footprints:D_SOD123_axial-dual (layer F.Cu) (tedit 588E66D6) (tstamp 5F18A417)
-    (at 182.5625 108.74375 90)
+    (at 200.025 108.74375 90)
     (path /60BC3774)
     (attr smd)
     (fp_text reference D27 (at 0 1.925 90) (layer F.SilkS)
@@ -5989,7 +5989,7 @@
   )
 
   (module canadian_footprints:D_SOD123_axial-dual (layer F.Cu) (tedit 588E66D6) (tstamp 5F18A3F7)
-    (at 163.5125 108.74375 90)
+    (at 180.975 108.74375 90)
     (path /60BC377A)
     (attr smd)
     (fp_text reference D26 (at 0 1.925 90) (layer F.SilkS)
@@ -6039,7 +6039,7 @@
   )
 
   (module canadian_footprints:D_SOD123_axial-dual (layer F.Cu) (tedit 588E66D6) (tstamp 5F18A3D7)
-    (at 144.4625 108.74375 90)
+    (at 161.925 108.74375 90)
     (path /60BC3780)
     (attr smd)
     (fp_text reference D25 (at 0 1.925 90) (layer F.SilkS)
@@ -6089,7 +6089,7 @@
   )
 
   (module canadian_footprints:D_SOD123_axial-dual (layer F.Cu) (tedit 588E66D6) (tstamp 5F18A3B7)
-    (at 125.4125 108.74375 90)
+    (at 142.875 108.74375 90)
     (path /60BC3786)
     (attr smd)
     (fp_text reference D24 (at 0 1.925 90) (layer F.SilkS)
@@ -6139,7 +6139,7 @@
   )
 
   (module canadian_footprints:D_SOD123_axial-dual (layer F.Cu) (tedit 588E66D6) (tstamp 5F18A397)
-    (at 106.3625 108.74375 90)
+    (at 123.825 108.74375 90)
     (path /60BC378C)
     (attr smd)
     (fp_text reference D23 (at 0 1.925 90) (layer F.SilkS)
@@ -6189,7 +6189,7 @@
   )
 
   (module canadian_footprints:D_SOD123_axial-dual (layer F.Cu) (tedit 588E66D6) (tstamp 5F18A377)
-    (at 87.3125 108.74375 90)
+    (at 104.775 108.74375 90)
     (path /60BC3792)
     (attr smd)
     (fp_text reference D22 (at 0 1.925 90) (layer F.SilkS)
@@ -6239,7 +6239,7 @@
   )
 
   (module canadian_footprints:D_SOD123_axial-dual (layer F.Cu) (tedit 588E66D6) (tstamp 5F18A357)
-    (at 68.2625 108.74375 90)
+    (at 85.725 108.74375 90)
     (path /60BC3798)
     (attr smd)
     (fp_text reference D21 (at 0 1.925 90) (layer F.SilkS)
@@ -6289,7 +6289,7 @@
   )
 
   (module canadian_footprints:D_SOD123_axial-dual (layer F.Cu) (tedit 588E66D6) (tstamp 5F18A337)
-    (at 49.2125 108.74375 90)
+    (at 66.675 108.74375 90)
     (path /60BC379E)
     (attr smd)
     (fp_text reference D20 (at 0 1.925 90) (layer F.SilkS)
@@ -6339,7 +6339,7 @@
   )
 
   (module canadian_footprints:D_SOD123_axial-dual (layer F.Cu) (tedit 588E66D6) (tstamp 5F18A317)
-    (at 30.1625 108.74375 90)
+    (at 47.625 108.74375 90)
     (path /60BC37A4)
     (attr smd)
     (fp_text reference D19 (at 0 1.925 90) (layer F.SilkS)
@@ -6389,7 +6389,7 @@
   )
 
   (module canadian_footprints:D_SOD123_axial-dual (layer F.Cu) (tedit 588E66D6) (tstamp 5F18A2F7)
-    (at 11.1125 108.74375 90)
+    (at 28.575 108.74375 90)
     (path /60BC37AA)
     (attr smd)
     (fp_text reference D18 (at 0 1.925 90) (layer F.SilkS)
@@ -6439,7 +6439,7 @@
   )
 
   (module canadian_footprints:D_SOD123_axial-dual (layer F.Cu) (tedit 588E66D6) (tstamp 5F18A2D7)
-    (at -7.9375 108.74375 90)
+    (at 9.525 108.74375 90)
     (path /60BC37B0)
     (attr smd)
     (fp_text reference D17 (at 0 1.925 90) (layer F.SilkS)
@@ -6489,7 +6489,7 @@
   )
 
   (module canadian_footprints:D_SOD123_axial-dual (layer F.Cu) (tedit 588E66D6) (tstamp 5F18A2B7)
-    (at -31.75 108.74375 90)
+    (at -36.5125 108.74375 90)
     (path /60A2556B)
     (attr smd)
     (fp_text reference D16 (at 0 1.925 90) (layer F.SilkS)
@@ -6639,7 +6639,7 @@
   )
 
   (module canadian_footprints:D_SOD123_axial-dual (layer F.Cu) (tedit 588E66D6) (tstamp 5F18A257)
-    (at 191.29375 89.69375 90)
+    (at 208.75625 89.69375 90)
     (path /60AA3F32)
     (attr smd)
     (fp_text reference D13 (at 0 1.925 90) (layer F.SilkS)
@@ -6689,7 +6689,7 @@
   )
 
   (module canadian_footprints:D_SOD123_axial-dual (layer F.Cu) (tedit 588E66D6) (tstamp 5F18A237)
-    (at 172.24375 89.69375 90)
+    (at 189.70625 89.69375 90)
     (path /60A9A295)
     (attr smd)
     (fp_text reference D12 (at 0 1.925 90) (layer F.SilkS)
@@ -6739,7 +6739,7 @@
   )
 
   (module canadian_footprints:D_SOD123_axial-dual (layer F.Cu) (tedit 588E66D6) (tstamp 5F18A217)
-    (at 153.19375 89.69375 90)
+    (at 170.65625 89.69375 90)
     (path /60A90422)
     (attr smd)
     (fp_text reference D11 (at 0 1.925 90) (layer F.SilkS)
@@ -6789,7 +6789,7 @@
   )
 
   (module canadian_footprints:D_SOD123_axial-dual (layer F.Cu) (tedit 588E66D6) (tstamp 5F18A1F7)
-    (at 134.14375 89.69375 90)
+    (at 151.60625 89.69375 90)
     (path /60A86A5D)
     (attr smd)
     (fp_text reference D10 (at 0 1.925 90) (layer F.SilkS)
@@ -6839,7 +6839,7 @@
   )
 
   (module canadian_footprints:D_SOD123_axial-dual (layer F.Cu) (tedit 588E66D6) (tstamp 5F18A1D7)
-    (at 115.09375 89.69375 90)
+    (at 132.55625 89.69375 90)
     (path /60A7D26D)
     (attr smd)
     (fp_text reference D9 (at 0 1.925 90) (layer F.SilkS)
@@ -6889,7 +6889,7 @@
   )
 
   (module canadian_footprints:D_SOD123_axial-dual (layer F.Cu) (tedit 588E66D6) (tstamp 5F18A1B7)
-    (at 96.04375 89.69375 90)
+    (at 113.50625 89.69375 90)
     (path /60A73976)
     (attr smd)
     (fp_text reference D8 (at 0 1.925 90) (layer F.SilkS)
@@ -6939,7 +6939,7 @@
   )
 
   (module canadian_footprints:D_SOD123_axial-dual (layer F.Cu) (tedit 588E66D6) (tstamp 5F18A197)
-    (at 76.99375 89.69375 90)
+    (at 94.45625 89.69375 90)
     (path /60A69C92)
     (attr smd)
     (fp_text reference D7 (at 0 1.925 90) (layer F.SilkS)
@@ -6989,7 +6989,7 @@
   )
 
   (module canadian_footprints:D_SOD123_axial-dual (layer F.Cu) (tedit 588E66D6) (tstamp 5F18A177)
-    (at 57.94375 89.69375 90)
+    (at 75.40625 89.69375 90)
     (path /60A600EA)
     (attr smd)
     (fp_text reference D6 (at 0 1.925 90) (layer F.SilkS)
@@ -7039,7 +7039,7 @@
   )
 
   (module canadian_footprints:D_SOD123_axial-dual (layer F.Cu) (tedit 588E66D6) (tstamp 5F18A157)
-    (at 38.89375 89.69375 90)
+    (at 56.35625 89.69375 90)
     (path /60A566E7)
     (attr smd)
     (fp_text reference D5 (at 0 1.925 90) (layer F.SilkS)
@@ -7089,7 +7089,7 @@
   )
 
   (module canadian_footprints:D_SOD123_axial-dual (layer F.Cu) (tedit 588E66D6) (tstamp 5F18A137)
-    (at 19.84375 89.69375 90)
+    (at 37.30625 89.69375 90)
     (path /60A4CB49)
     (attr smd)
     (fp_text reference D4 (at 0 1.925 90) (layer F.SilkS)
@@ -7139,7 +7139,7 @@
   )
 
   (module canadian_footprints:D_SOD123_axial-dual (layer F.Cu) (tedit 588E66D6) (tstamp 5F18A117)
-    (at 0.79375 89.69375 90)
+    (at 18.25625 89.69375 90)
     (path /60A42E9C)
     (attr smd)
     (fp_text reference D3 (at 0 1.925 90) (layer F.SilkS)
@@ -7189,7 +7189,7 @@
   )
 
   (module canadian_footprints:D_SOD123_axial-dual (layer F.Cu) (tedit 588E66D6) (tstamp 5F18A0F7)
-    (at -18.25625 89.69375 90)
+    (at 0.79375 89.69375 90)
     (path /60A392AE)
     (attr smd)
     (fp_text reference D2 (at 0 1.925 90) (layer F.SilkS)
@@ -7239,7 +7239,7 @@
   )
 
   (module canadian_footprints:D_SOD123_axial-dual (layer F.Cu) (tedit 588E66D6) (tstamp 5F18A0D7)
-    (at -37.30625 89.69375 90)
+    (at -36.5125 89.69375 90)
     (path /60A2F34F)
     (attr smd)
     (fp_text reference D1 (at 0 1.925 90) (layer F.SilkS)
