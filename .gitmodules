@@ -10,3 +10,6 @@
 [submodule "kicad-footprints"]
 	path = kicad-footprints
 	url = https://gitlab.com/kicad/libraries/kicad-footprints
+[submodule "kicad-symbols"]
+	path = kicad-symbols
+	url = https://gitlab.com/kicad/libraries/kicad-symbols
