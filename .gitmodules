@@ -7,3 +7,6 @@
 [submodule "KiCad_Libs"]
 	path = KiCad_Libs
 	url = https://github.com/That-Canadian/KiCad_Libs
+[submodule "kicad-footprints"]
+	path = kicad-footprints
+	url = https://gitlab.com/kicad/libraries/kicad-footprints
