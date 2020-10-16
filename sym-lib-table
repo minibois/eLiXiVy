@@ -3,4 +3,5 @@
   (lib (name random-keyboard-parts)(type Legacy)(uri "${KIPRJMOD}/random-keyboard-parts.pretty/Schematic Library/random-keyboard-parts.lib")(options "")(descr ""))
   (lib (name canadian_parts)(type Legacy)(uri ${KIPRJMOD}/KiCad_Libs/canadian_schematics/canadian_parts.lib)(options "")(descr ""))
   (lib (name keyboard_parts)(type Legacy)(uri ${KIPRJMOD}/KiCad_Libs/canadian_schematics/keyboard_parts.lib)(options "")(descr ""))
+  (lib (name Valve)(type Legacy)(uri ${KIPRJMOD}/kicad-symbols/Valve.lib)(options "")(descr ""))
 )

@@ -144,17 +144,6 @@ $EndComp
 Wire Wire Line
 	1750 1200 1800 1200
 $Comp
-L power:GND #PWR0106
-U 1 1 5F19B973
-P 1200 1100
-F 0 "#PWR0106" H 1200 850 50  0001 C CNN
-F 1 "GND" H 1205 927 50  0000 C CNN
-F 2 "" H 1200 1100 50  0001 C CNN
-F 3 "" H 1200 1100 50  0001 C CNN
-	1    1200 1100
-	1    0    0    -1  
-$EndComp
-$Comp
 L Switch:SW_Push SW1
 U 1 1 5F19CADF
 P 1550 1200
@@ -450,81 +439,6 @@ Wire Wire Line
 Connection ~ 1850 1350
 Wire Wire Line
 	1850 1350 1750 1350
-Wire Wire Line
-	1150 1850 1150 1650
-Connection ~ 600  1950
-Wire Wire Line
-	600  1950 950  1950
-Wire Wire Line
-	600  1800 600  1950
-Connection ~ 600  1800
-Wire Wire Line
-	600  1450 600  1800
-Connection ~ 1050 1550
-Wire Wire Line
-	800  1550 1050 1550
-Wire Wire Line
-	800  1450 800  1550
-Connection ~ 1050 1750
-Wire Wire Line
-	800  1750 1050 1750
-Wire Wire Line
-	800  1800 800  1750
-$Comp
-L power:GND #PWR0113
-U 1 1 5F19652E
-P 600 1950
-F 0 "#PWR0113" H 600 1700 50  0001 C CNN
-F 1 "GND" H 605 1777 50  0000 C CNN
-F 2 "" H 600 1950 50  0001 C CNN
-F 3 "" H 600 1950 50  0001 C CNN
-	1    600  1950
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C_Small C2
-U 1 1 5F194FE3
-P 700 1800
-F 0 "C2" V 471 1800 50  0000 C CNN
-F 1 "22pF" V 562 1800 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 700 1800 50  0001 C CNN
-F 3 "~" H 700 1800 50  0001 C CNN
-	1    700  1800
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:C_Small C1
-U 1 1 5F1942FA
-P 700 1450
-F 0 "C1" V 471 1450 50  0000 C CNN
-F 1 "22pF" V 562 1450 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 700 1450 50  0001 C CNN
-F 3 "~" H 700 1450 50  0001 C CNN
-	1    700  1450
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:Crystal_GND24_Small Y1
-U 1 1 5F18D205
-P 1050 1650
-F 0 "Y1" V 1000 1800 50  0000 L CNN
-F 1 "Crystal_GND24_Small" V 1194 1605 50  0001 L CNN
-F 2 "Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm" H 1050 1650 50  0001 C CNN
-F 3 "~" H 1050 1650 50  0001 C CNN
-	1    1050 1650
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	950  1650 950  1850
-Wire Wire Line
-	1150 1850 950  1850
-Connection ~ 950  1850
-Wire Wire Line
-	950  1850 950  1950
-Wire Wire Line
-	1050 1750 1950 1750
-Wire Wire Line
-	1050 1550 1950 1550
 Text GLabel 3150 1450 2    50   Input ~ 0
 SCK
 Text GLabel 3150 1550 2    50   Input ~ 0
@@ -2907,4 +2821,114 @@ Wire Wire Line
 	13250 1800 13250 3200
 Wire Wire Line
 	12050 3000 13700 3000
+Wire Wire Line
+	1050 1550 1950 1550
+Wire Wire Line
+	1050 1750 1950 1750
+Wire Wire Line
+	950  1850 950  1950
+Connection ~ 950  1850
+Wire Wire Line
+	1150 1850 950  1850
+Wire Wire Line
+	950  1650 950  1850
+$Comp
+L Device:Crystal_GND24_Small Y1
+U 1 1 5F18D205
+P 1050 1650
+F 0 "Y1" V 1000 1800 50  0000 L CNN
+F 1 "Crystal_GND24_Small" V 1194 1605 50  0001 L CNN
+F 2 "Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm" H 1050 1650 50  0001 C CNN
+F 3 "~" H 1050 1650 50  0001 C CNN
+	1    1050 1650
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C_Small C1
+U 1 1 5F1942FA
+P 700 1450
+F 0 "C1" V 471 1450 50  0000 C CNN
+F 1 "22pF" V 562 1450 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 700 1450 50  0001 C CNN
+F 3 "~" H 700 1450 50  0001 C CNN
+	1    700  1450
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C_Small C2
+U 1 1 5F194FE3
+P 700 1800
+F 0 "C2" V 471 1800 50  0000 C CNN
+F 1 "22pF" V 562 1800 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 700 1800 50  0001 C CNN
+F 3 "~" H 700 1800 50  0001 C CNN
+	1    700  1800
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0113
+U 1 1 5F19652E
+P 600 1950
+F 0 "#PWR0113" H 600 1700 50  0001 C CNN
+F 1 "GND" H 605 1777 50  0000 C CNN
+F 2 "" H 600 1950 50  0001 C CNN
+F 3 "" H 600 1950 50  0001 C CNN
+	1    600  1950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	800  1800 800  1750
+Wire Wire Line
+	800  1750 1050 1750
+Connection ~ 1050 1750
+Wire Wire Line
+	800  1450 800  1550
+Wire Wire Line
+	800  1550 1050 1550
+Connection ~ 1050 1550
+Wire Wire Line
+	600  1450 600  1800
+Connection ~ 600  1800
+Wire Wire Line
+	600  1800 600  1950
+Wire Wire Line
+	600  1950 950  1950
+Connection ~ 600  1950
+Wire Wire Line
+	1150 1850 1150 1650
+$Comp
+L power:GND #PWR0106
+U 1 1 5F19B973
+P 1200 1100
+F 0 "#PWR0106" H 1200 850 50  0001 C CNN
+F 1 "GND" H 1205 927 50  0000 C CNN
+F 2 "" H 1200 1100 50  0001 C CNN
+F 3 "" H 1200 1100 50  0001 C CNN
+	1    1200 1100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x04 J?
+U 1 1 5F8BE1D6
+P 2300 7400
+F 0 "J?" H 2218 6975 50  0000 C CNN
+F 1 "Conn_01x04" H 2218 7066 50  0000 C CNN
+F 2 "" H 2300 7400 50  0001 C CNN
+F 3 "~" H 2300 7400 50  0001 C CNN
+	1    2300 7400
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5F8C838A
+P 2650 7500
+F 0 "#PWR?" H 2650 7250 50  0001 C CNN
+F 1 "GND" H 2655 7327 50  0000 C CNN
+F 2 "" H 2650 7500 50  0001 C CNN
+F 3 "" H 2650 7500 50  0001 C CNN
+	1    2650 7500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2500 7500 2650 7500
 $EndSCHEMATC
