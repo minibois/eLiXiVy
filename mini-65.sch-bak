@@ -27,9 +27,9 @@ F 3 "" H 2900 6700 50  0001 C CNN
 	1    2900 6700
 	1    0    0    -1  
 $EndComp
-Text GLabel 2900 6500 2    50   Input ~ 0
+Text GLabel 2800 6500 2    50   Input ~ 0
 D+
-Text GLabel 2900 6400 2    50   Input ~ 0
+Text GLabel 2800 6400 2    50   Input ~ 0
 D-
 $Comp
 L power:+5V #PWR0102
