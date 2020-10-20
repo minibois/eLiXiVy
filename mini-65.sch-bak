@@ -14,74 +14,6 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Wire Wire Line
-	2800 6700 2900 6700
-$Comp
-L power:GND #PWR0101
-U 1 1 5F1D323B
-P 2900 6700
-F 0 "#PWR0101" H 2900 6450 50  0001 C CNN
-F 1 "GND" H 2905 6527 50  0000 C CNN
-F 2 "" H 2900 6700 50  0001 C CNN
-F 3 "" H 2900 6700 50  0001 C CNN
-	1    2900 6700
-	1    0    0    -1  
-$EndComp
-Text GLabel 2800 6500 2    50   Input ~ 0
-D+
-Text GLabel 2800 6400 2    50   Input ~ 0
-D-
-$Comp
-L power:+5V #PWR0102
-U 1 1 5F1CEBD1
-P 3500 6300
-F 0 "#PWR0102" H 3500 6150 50  0001 C CNN
-F 1 "+5V" H 3515 6473 50  0000 C CNN
-F 2 "" H 3500 6300 50  0001 C CNN
-F 3 "" H 3500 6300 50  0001 C CNN
-	1    3500 6300
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3050 6300 3200 6300
-Connection ~ 3050 6300
-$Comp
-L power:VCC #PWR0103
-U 1 1 5F1CE53D
-P 3050 6300
-F 0 "#PWR0103" H 3050 6150 50  0001 C CNN
-F 1 "VCC" H 3067 6473 50  0000 C CNN
-F 2 "" H 3050 6300 50  0001 C CNN
-F 3 "" H 3050 6300 50  0001 C CNN
-	1    3050 6300
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3400 6300 3500 6300
-Wire Wire Line
-	2800 6300 3050 6300
-$Comp
-L random-keyboard-parts:Molex-0548190589 USB1
-U 1 1 5F1C918D
-P 2500 6500
-F 0 "USB1" V 3037 6467 60  0000 C CNN
-F 1 "Molex-0548190589" V 2931 6467 60  0000 C CNN
-F 2 "random-keyboard-parts:Molex-0548190589" H 2500 6500 60  0001 C CNN
-F 3 "" H 2500 6500 60  0001 C CNN
-	1    2500 6500
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:Polyfuse_Small F1
-U 1 1 5F1C7377
-P 3300 6300
-F 0 "F1" V 3095 6300 50  0000 C CNN
-F 1 "500mA" V 3186 6300 50  0000 C CNN
-F 2 "Fuse:Fuse_1206_3216Metric" H 3350 6100 50  0001 L CNN
-F 3 "~" H 3300 6300 50  0001 C CNN
-	1    3300 6300
-	0    1    1    0   
-$EndComp
 $Comp
 L power:GND #PWR0104
 U 1 1 5F16F0E0
@@ -2975,4 +2907,12 @@ Wire Wire Line
 Wire Wire Line
 	2500 7200 2700 7200
 Connection ~ 2700 7200
+Text GLabel 3150 2350 2    50   Input ~ 0
+ROW0
+Text GLabel 3150 4250 2    50   Input ~ 0
+ROW1
+Text GLabel 3150 4150 2    50   Input ~ 0
+ROW2
+Text GLabel 3150 4050 2    50   Input ~ 0
+ROW3
 $EndSCHEMATC
