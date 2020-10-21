@@ -7487,6 +7487,7 @@
   (segment (start 31.811759 154.719491) (end 32.50915 154.0221) (width 0.254) (layer B.Cu) (net 4))
   (via (at 37.30625 130.175) (size 0.8) (drill 0.4) (layers F.Cu B.Cu) (net 5))
 <<<<<<< HEAD
+<<<<<<< HEAD
   (via (at 38.89375 150.8125) (size 0.8) (drill 0.4) (layers F.Cu B.Cu) (net 5))
   (segment (start 38.89375 150.8125) (end 40.48125 149.225) (width 0.381) (layer F.Cu) (net 5))
   (segment (start 40.48125 133.35) (end 37.30625 130.175) (width 0.381) (layer F.Cu) (net 5))
@@ -7574,6 +7575,8 @@
   (segment (start -54.129251 161.579941) (end -43.931191 171.778001) (width 0.381) (layer F.Cu) (net 5))
   (segment (start -43.931191 171.778001) (end -4.7625 171.778001) (width 0.381) (layer F.Cu) (net 5))
 >>>>>>> parent of a82d45d... Removed mini USB connector
+=======
+>>>>>>> parent of 30c103e... Finished the PCB matrix setup
 =======
 >>>>>>> parent of 30c103e... Finished the PCB matrix setup
   (segment (start -77.7875 86.5875) (end -75.02 83.82) (width 0.254) (layer B.Cu) (net 6) (tstamp 5F88FA3E))
@@ -7765,6 +7768,7 @@
   (segment (start 64.29375 120.65) (end 62.70625 119.0625) (width 0.381) (layer B.Cu) (net 79))
   (segment (start 69.14375 118.975) (end 67.46875 120.65) (width 0.381) (layer B.Cu) (net 79))
 <<<<<<< HEAD
+<<<<<<< HEAD
   (segment (start 62.70625 119.0625) (end 60.74375 119.0625) (width 0.381) (layer B.Cu) (net 79))
   (segment (start 34.996585 161.118807) (end 38.392402 157.72299) (width 0.254) (layer B.Cu) (net 80))
   (segment (start 34.67554 161.118807) (end 34.996585 161.118807) (width 0.254) (layer B.Cu) (net 80))
@@ -7808,6 +7812,8 @@
   (segment (start -57.93125 93.8625) (end -57.93125 83.875) (width 0.254) (layer F.Cu) (net 79))
   (segment (start -55.5625 96.23125) (end -57.93125 93.8625) (width 0.254) (layer F.Cu) (net 79))
 >>>>>>> parent of a82d45d... Removed mini USB connector
+=======
+>>>>>>> parent of 30c103e... Finished the PCB matrix setup
 =======
 >>>>>>> parent of 30c103e... Finished the PCB matrix setup
   (segment (start 112.0775 120.015) (end 112.0775 124.46) (width 0.254) (layer F.Cu) (net 84))
