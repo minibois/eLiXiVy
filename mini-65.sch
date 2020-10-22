@@ -2931,28 +2931,4 @@ F 3 "" H 2650 7500 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	2500 7500 2650 7500
-Text GLabel 3150 4250 2    50   Input ~ 0
-ROW0
-Text GLabel 3150 4150 2    50   Input ~ 0
-ROW1
-Text GLabel 3150 4050 2    50   Input ~ 0
-ROW2
-Text GLabel 3150 3950 2    50   Input ~ 0
-ROW3
-Text GLabel 3150 1850 2    50   Input ~ 0
-ROW4
-Text GLabel 3150 1950 2    50   Input ~ 0
-COL2
-Text GLabel 3150 2250 2    50   Input ~ 0
-COL1
-Text GLabel 3150 2350 2    50   Input ~ 0
-COL0
-Text GLabel 3150 2550 2    50   Input ~ 0
-COL6
-Text GLabel 3150 1750 2    50   Input ~ 0
-COL10
-Text GLabel 3150 3850 2    50   Input ~ 0
-COL2
-Text GLabel 3150 3750 2    50   Input ~ 0
-COL3
 $EndSCHEMATC
