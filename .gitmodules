@@ -13,3 +13,6 @@
 [submodule "kicad-symbols"]
 	path = kicad-symbols
 	url = https://gitlab.com/kicad/libraries/kicad-symbols
+[submodule "Type-C.pretty"]
+	path = Type-C.pretty
+	url = https://github.com/ai03-2725/Type-C.pretty
