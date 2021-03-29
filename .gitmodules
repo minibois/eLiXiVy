@@ -16,6 +16,3 @@
 [submodule "Type-C.pretty"]
 	path = Type-C.pretty
 	url = https://github.com/ai03-2725/Type-C.pretty
-[submodule "AcheronLibrary"]
-	path = AcheronLibrary
-	url = https://github.com/AcheronProject/AcheronLibrary
