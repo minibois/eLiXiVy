@@ -2025,11 +2025,11 @@ F 3 "" H 1200 1100 50  0001 C CNN
 	1    1200 1100
 	1    0    0    -1  
 $EndComp
-Text GLabel 8800 6350 2    50   Input ~ 0
+Text GLabel 7300 6350 2    50   Input ~ 0
 ROW0
-Text GLabel 8800 6250 2    50   Input ~ 0
+Text GLabel 7300 6250 2    50   Input ~ 0
 ROW1
-Text GLabel 8800 6150 2    50   Input ~ 0
+Text GLabel 7300 6150 2    50   Input ~ 0
 ROW2
 Wire Wire Line
 	2450 4650 2100 4650
@@ -2057,39 +2057,39 @@ F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-7766-8-bit-AVR-ATmega
 	1    2550 2850
 	1    0    0    -1  
 $EndComp
-Text GLabel 8800 6050 2    50   Input ~ 0
+Text GLabel 7300 6050 2    50   Input ~ 0
 ROW3
-Text GLabel 8800 5950 2    50   Input ~ 0
+Text GLabel 7300 5950 2    50   Input ~ 0
 ROW4
-Text GLabel 9100 6350 2    50   Input ~ 0
+Text GLabel 7600 6350 2    50   Input ~ 0
 COL0
-Text GLabel 9100 6250 2    50   Input ~ 0
+Text GLabel 7600 6250 2    50   Input ~ 0
 COL1
-Text GLabel 9100 6150 2    50   Input ~ 0
+Text GLabel 7600 6150 2    50   Input ~ 0
 COL2
-Text GLabel 9100 6050 2    50   Input ~ 0
+Text GLabel 7600 6050 2    50   Input ~ 0
 COL3
-Text GLabel 9100 5950 2    50   Input ~ 0
+Text GLabel 7600 5950 2    50   Input ~ 0
 COL4
-Text GLabel 9100 5850 2    50   Input ~ 0
+Text GLabel 7600 5850 2    50   Input ~ 0
 COL5
-Text GLabel 9100 5750 2    50   Input ~ 0
+Text GLabel 7600 5750 2    50   Input ~ 0
 COL6
-Text GLabel 9100 5650 2    50   Input ~ 0
+Text GLabel 7600 5650 2    50   Input ~ 0
 COL7
-Text GLabel 9100 5550 2    50   Input ~ 0
+Text GLabel 7600 5550 2    50   Input ~ 0
 COL8
-Text GLabel 9100 5450 2    50   Input ~ 0
+Text GLabel 7600 5450 2    50   Input ~ 0
 COL9
-Text GLabel 9100 5350 2    50   Input ~ 0
+Text GLabel 7600 5350 2    50   Input ~ 0
 COL10
-Text GLabel 9100 5250 2    50   Input ~ 0
+Text GLabel 7600 5250 2    50   Input ~ 0
 COL11
-Text GLabel 9100 5150 2    50   Input ~ 0
+Text GLabel 7600 5150 2    50   Input ~ 0
 COL12
-Text GLabel 9100 4950 2    50   Input ~ 0
+Text GLabel 7600 4950 2    50   Input ~ 0
 COL14
-Text GLabel 9100 5050 2    50   Input ~ 0
+Text GLabel 7600 5050 2    50   Input ~ 0
 COL13
 $Comp
 L Power_Protection:USBLC6-2SC6 U2
@@ -2919,4 +2919,110 @@ Text GLabel 1650 2450 3    50   Input ~ 0
 DN
 Text GLabel 1650 2350 1    50   Input ~ 0
 DP
+$Comp
+L Mechanical:MountingHole_Pad H0
+U 1 1 6086D118
+P 8700 5000
+F 0 "H0" H 8800 5049 50  0000 L CNN
+F 1 "MountingHole_Pad" H 8800 4958 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2_Pad" H 8700 5000 50  0001 C CNN
+F 3 "~" H 8700 5000 50  0001 C CNN
+	1    8700 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H1
+U 1 1 6087565E
+P 8700 5250
+F 0 "H1" H 8800 5299 50  0000 L CNN
+F 1 "MountingHole_Pad" H 8800 5208 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2_Pad" H 8700 5250 50  0001 C CNN
+F 3 "~" H 8700 5250 50  0001 C CNN
+	1    8700 5250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H2
+U 1 1 6089094F
+P 8700 5500
+F 0 "H2" H 8800 5549 50  0000 L CNN
+F 1 "MountingHole_Pad" H 8800 5458 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2_Pad" H 8700 5500 50  0001 C CNN
+F 3 "~" H 8700 5500 50  0001 C CNN
+	1    8700 5500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H3
+U 1 1 608ABAB5
+P 8700 5750
+F 0 "H3" H 8800 5799 50  0000 L CNN
+F 1 "MountingHole_Pad" H 8800 5708 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2_Pad" H 8700 5750 50  0001 C CNN
+F 3 "~" H 8700 5750 50  0001 C CNN
+	1    8700 5750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H5
+U 1 1 608E1DAA
+P 8700 6250
+F 0 "H5" H 8800 6299 50  0000 L CNN
+F 1 "MountingHole_Pad" H 8800 6208 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2_Pad" H 8700 6250 50  0001 C CNN
+F 3 "~" H 8700 6250 50  0001 C CNN
+	1    8700 6250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H4
+U 1 1 608C6C75
+P 8700 6000
+F 0 "H4" H 8800 6049 50  0000 L CNN
+F 1 "MountingHole_Pad" H 8800 5958 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2_Pad" H 8700 6000 50  0001 C CNN
+F 3 "~" H 8700 6000 50  0001 C CNN
+	1    8700 6000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0120
+U 1 1 60985804
+P 8550 6400
+F 0 "#PWR0120" H 8550 6150 50  0001 C CNN
+F 1 "GND" H 8555 6227 50  0000 C CNN
+F 2 "" H 8550 6400 50  0001 C CNN
+F 3 "" H 8550 6400 50  0001 C CNN
+	1    8550 6400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8700 5100 8550 5100
+Wire Wire Line
+	8550 5100 8550 5350
+Wire Wire Line
+	8700 5350 8550 5350
+Connection ~ 8550 5350
+Wire Wire Line
+	8550 5350 8550 5600
+Wire Wire Line
+	8700 5600 8550 5600
+Connection ~ 8550 5600
+Wire Wire Line
+	8550 5600 8550 5850
+Wire Wire Line
+	8700 5850 8550 5850
+Connection ~ 8550 5850
+Wire Wire Line
+	8550 5850 8550 6100
+Wire Wire Line
+	8700 6100 8550 6100
+Connection ~ 8550 6100
+Wire Wire Line
+	8550 6100 8550 6350
+Wire Wire Line
+	8700 6350 8550 6350
+Connection ~ 8550 6350
+Wire Wire Line
+	8550 6350 8550 6400
 $EndSCHEMATC
