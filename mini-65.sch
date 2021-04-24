@@ -2025,12 +2025,6 @@ F 3 "" H 1200 1100 50  0001 C CNN
 	1    1200 1100
 	1    0    0    -1  
 $EndComp
-Text GLabel 3150 2950 2    50   Input ~ 0
-ROW0
-Text GLabel 3150 2850 2    50   Input ~ 0
-ROW1
-Text GLabel 3150 2750 2    50   Input ~ 0
-ROW2
 Wire Wire Line
 	2450 4650 2100 4650
 Wire Wire Line
@@ -2057,40 +2051,6 @@ F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-7766-8-bit-AVR-ATmega
 	1    2550 2850
 	1    0    0    -1  
 $EndComp
-Text GLabel 3150 3950 2    50   Input ~ 0
-ROW3
-Text GLabel 3150 2350 2    50   Input ~ 0
-ROW4
-Text GLabel 3150 4050 2    50   Input ~ 0
-COL0
-Text GLabel 3150 4150 2    50   Input ~ 0
-COL1
-Text GLabel 3150 4250 2    50   Input ~ 0
-COL2
-Text GLabel 3150 3850 2    50   Input ~ 0
-COL3
-Text GLabel 3150 3750 2    50   Input ~ 0
-COL4
-Text GLabel 3150 3550 2    50   Input ~ 0
-COL5
-Text GLabel 3150 2050 2    50   Input ~ 0
-COL6
-Text GLabel 3150 2550 2    50   Input ~ 0
-COL7
-Text GLabel 3150 2650 2    50   Input ~ 0
-COL8
-Text GLabel 3150 2250 2    50   Input ~ 0
-COL9
-Text GLabel 3150 1950 2    50   Input ~ 0
-COL10
-Text GLabel 3150 1850 2    50   Input ~ 0
-COL11
-Text GLabel 3150 1750 2    50   Input ~ 0
-COL12
-Text GLabel 3150 3150 2    50   Input ~ 0
-COL14
-Text GLabel 3150 3250 2    50   Input ~ 0
-COL13
 $Comp
 L Power_Protection:USBLC6-2SC6 U2
 U 1 1 6063E3B9
@@ -3025,4 +2985,44 @@ Wire Wire Line
 Connection ~ 8550 6350
 Wire Wire Line
 	8550 6350 8550 6400
+Text GLabel 3150 2950 2    50   Input ~ 0
+ROW0
+Text GLabel 3150 2050 2    50   Input ~ 0
+ROW1
+Text GLabel 3150 2850 2    50   Input ~ 0
+ROW2
+Text GLabel 3150 2750 2    50   Input ~ 0
+COL14
+Text GLabel 3150 3150 2    50   Input ~ 0
+COL13
+Text GLabel 3150 3250 2    50   Input ~ 0
+COL12
+Text GLabel 3150 1750 2    50   Input ~ 0
+COL11
+Text GLabel 3150 1850 2    50   Input ~ 0
+COL10
+Text GLabel 3150 1950 2    50   Input ~ 0
+COL9
+Text GLabel 3150 2650 2    50   Input ~ 0
+COL8
+Text GLabel 3150 2550 2    50   Input ~ 0
+COL7
+Text GLabel 3150 2250 2    50   Input ~ 0
+COL6
+Text GLabel 3150 3550 2    50   Input ~ 0
+COL5
+Text GLabel 3150 3750 2    50   Input ~ 0
+COL4
+Text GLabel 3150 3850 2    50   Input ~ 0
+COL3
+Text GLabel 3150 3950 2    50   Input ~ 0
+ROW3
+Text GLabel 3150 4050 2    50   Input ~ 0
+COL0
+Text GLabel 3150 4150 2    50   Input ~ 0
+COL1
+Text GLabel 3150 4250 2    50   Input ~ 0
+COL2
+Text GLabel 3150 2350 2    50   Input ~ 0
+ROW4
 $EndSCHEMATC
