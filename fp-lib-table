@@ -5,4 +5,6 @@
   (lib (name MX_Only)(type KiCad)(uri ${KIPRJMOD}/MX_Alps_Hybrid/MX_Only.pretty)(options "")(descr ""))
   (lib (name Connector_JST)(type KiCad)(uri ${KIPRJMOD}/kicad-footprints/Connector_JST.pretty)(options "")(descr ""))
   (lib (name Type-C)(type KiCad)(uri ${KIPRJMOD}/Type-C.pretty)(options "")(descr ""))
+  (lib (name mini-MX-Tweaks)(type KiCad)(uri ${KIPRJMOD}/mini-MX-Tweaks.pretty)(options "")(descr ""))
+  (lib (name mini-general-tweaks)(type KiCad)(uri ${KIPRJMOD}/mini-general-tweaks.pretty)(options "")(descr ""))
 )
