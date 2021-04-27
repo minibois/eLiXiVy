@@ -2600,8 +2600,6 @@ Wire Wire Line
 	12800 1050 12800 1750
 Connection ~ 12800 1050
 Wire Wire Line
-	12850 550  13350 550 
-Wire Wire Line
 	11300 4350 11900 4350
 Connection ~ 11300 4350
 Connection ~ 11900 4350
