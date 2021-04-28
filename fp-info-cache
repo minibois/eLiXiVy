@@ -1,4 +1,4 @@
-17367580151791436
+17388688344900661
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -77356,6 +77356,97 @@ maple-inv
 0
 0
 0
+mini-MX-Tweaks
+MXOnly-1.5U-NoLED_tweak
+
+
+0
+2
+2
+mini-MX-Tweaks
+MXOnly-1.25U-NoLED_tweak
+
+
+0
+2
+2
+mini-MX-Tweaks
+MXOnly-1.75U-NoLED_tweak
+
+
+0
+2
+2
+mini-MX-Tweaks
+MXOnly-1U-NoLED_tweak
+
+
+0
+2
+2
+mini-MX-Tweaks
+MXOnly-2.25U-NoLED_tweak
+
+
+0
+2
+2
+mini-MX-Tweaks
+MXOnly-2U-NoLED_tweak
+
+
+0
+2
+2
+mini-MX-Tweaks
+MXOnly-6.25U-ReversedStabilizers-NoLED_tweak
+
+
+0
+2
+2
+mini-MX-Tweaks
+MXOnly-ISO-ROTATED-ReversedStabilizers-NoLED_tweak
+
+
+0
+2
+2
+mini-general-tweaks
+D_SOD123_axial-dual
+
+
+0
+10
+2
+mini-general-tweaks
+MountingHole_2.2mm_M2_Pad_tweaked
+Mounting Hole 2.2mm, M2
+mounting hole 2.2mm m2
+0
+1
+1
+mini-general-tweaks
+PinHeader_2x03_P2.54mm_Vertical_ICSP
+Through hole straight pin header, 2x03, 2.54mm pitch, double rows
+Through hole pin header THT 2x03 2.54mm double row
+0
+6
+6
+mini-general-tweaks
+SOT-23-6_tweaked
+6-pin SOT-23 package
+SOT-23-6
+0
+6
+6
+mini-general-tweaks
+TQFP-44_10x10mm_P0.8mm_ATmega32U4
+44-Lead Plastic Thin Quad Flatpack (PT) - 10x10x1.0 mm Body [TQFP] (see Microchip Packaging Specification 00000049BS.pdf)
+QFP 0.8
+0
+44
+44
 random-keyboard-parts
 D_SOD-123-Pretty
 SOD-123

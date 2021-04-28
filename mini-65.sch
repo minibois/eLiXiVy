@@ -320,7 +320,7 @@ U 1 1 5FE1BF7A
 P 1200 6500
 F 0 "J2" H 921 6596 50  0000 R CNN
 F 1 "AVR-ISP-6" H 921 6505 50  0000 R CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical" V 950 6550 50  0001 C CNN
+F 2 "mini-general-tweaks:PinHeader_2x03_P2.54mm_Vertical_ICSP" V 950 6550 50  0001 C CNN
 F 3 " ~" H -75 5950 50  0001 C CNN
 	1    1200 6500
 	1    0    0    -1  
@@ -1098,7 +1098,7 @@ U 1 1 60A1B787
 P 4400 2800
 F 0 "D31" H 4349 2928 50  0000 R CNN
 F 1 "1N4148W" H 4459 2877 28  0000 R CNN
-F 2 "canadian_footprints:D_SOD123_axial-dual" H 4400 2625 50  0001 C CNN
+F 2 "mini-general-tweaks:D_SOD123_axial-dual" H 4400 2625 50  0001 C CNN
 F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 4400 2800 50  0001 C CNN
 	1    4400 2800
 	0    -1   -1   0   
@@ -1109,7 +1109,7 @@ U 1 1 60A2556B
 P 4400 2100
 F 0 "D16" H 4349 2228 50  0000 R CNN
 F 1 "1N4148W" H 4459 2177 28  0000 R CNN
-F 2 "canadian_footprints:D_SOD123_axial-dual" H 4400 1925 50  0001 C CNN
+F 2 "mini-general-tweaks:D_SOD123_axial-dual" H 4400 1925 50  0001 C CNN
 F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 4400 2100 50  0001 C CNN
 	1    4400 2100
 	0    -1   -1   0   
@@ -1120,7 +1120,7 @@ U 1 1 60A2F34F
 P 4400 1400
 F 0 "D1" H 4349 1528 50  0000 R CNN
 F 1 "1N4148W" H 4459 1477 28  0000 R CNN
-F 2 "canadian_footprints:D_SOD123_axial-dual" H 4400 1225 50  0001 C CNN
+F 2 "mini-general-tweaks:D_SOD123_axial-dual" H 4400 1225 50  0001 C CNN
 F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 4400 1400 50  0001 C CNN
 	1    4400 1400
 	0    -1   -1   0   
@@ -1131,7 +1131,7 @@ U 1 1 60A392AE
 P 5150 1400
 F 0 "D2" H 5099 1528 50  0000 R CNN
 F 1 "1N4148W" H 5209 1477 28  0000 R CNN
-F 2 "canadian_footprints:D_SOD123_axial-dual" H 5150 1225 50  0001 C CNN
+F 2 "mini-general-tweaks:D_SOD123_axial-dual" H 5150 1225 50  0001 C CNN
 F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 5150 1400 50  0001 C CNN
 	1    5150 1400
 	0    -1   -1   0   
@@ -1142,7 +1142,7 @@ U 1 1 60A42E9C
 P 5900 1400
 F 0 "D3" H 5849 1528 50  0000 R CNN
 F 1 "1N4148W" H 5959 1477 28  0000 R CNN
-F 2 "canadian_footprints:D_SOD123_axial-dual" H 5900 1225 50  0001 C CNN
+F 2 "mini-general-tweaks:D_SOD123_axial-dual" H 5900 1225 50  0001 C CNN
 F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 5900 1400 50  0001 C CNN
 	1    5900 1400
 	0    -1   -1   0   
@@ -1153,7 +1153,7 @@ U 1 1 60A4CB49
 P 6500 1400
 F 0 "D4" H 6449 1528 50  0000 R CNN
 F 1 "1N4148W" H 6559 1477 28  0000 R CNN
-F 2 "canadian_footprints:D_SOD123_axial-dual" H 6500 1225 50  0001 C CNN
+F 2 "mini-general-tweaks:D_SOD123_axial-dual" H 6500 1225 50  0001 C CNN
 F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 6500 1400 50  0001 C CNN
 	1    6500 1400
 	0    -1   -1   0   
@@ -1164,7 +1164,7 @@ U 1 1 60A566E7
 P 7100 1400
 F 0 "D5" H 7049 1528 50  0000 R CNN
 F 1 "1N4148W" H 7159 1477 28  0000 R CNN
-F 2 "canadian_footprints:D_SOD123_axial-dual" H 7100 1225 50  0001 C CNN
+F 2 "mini-general-tweaks:D_SOD123_axial-dual" H 7100 1225 50  0001 C CNN
 F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 7100 1400 50  0001 C CNN
 	1    7100 1400
 	0    -1   -1   0   
@@ -1175,7 +1175,7 @@ U 1 1 60A600EA
 P 7700 1400
 F 0 "D6" H 7649 1528 50  0000 R CNN
 F 1 "1N4148W" H 7759 1477 28  0000 R CNN
-F 2 "canadian_footprints:D_SOD123_axial-dual" H 7700 1225 50  0001 C CNN
+F 2 "mini-general-tweaks:D_SOD123_axial-dual" H 7700 1225 50  0001 C CNN
 F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 7700 1400 50  0001 C CNN
 	1    7700 1400
 	0    -1   -1   0   
@@ -1186,7 +1186,7 @@ U 1 1 60A69C92
 P 8300 1400
 F 0 "D7" H 8249 1528 50  0000 R CNN
 F 1 "1N4148W" H 8359 1477 28  0000 R CNN
-F 2 "canadian_footprints:D_SOD123_axial-dual" H 8300 1225 50  0001 C CNN
+F 2 "mini-general-tweaks:D_SOD123_axial-dual" H 8300 1225 50  0001 C CNN
 F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 8300 1400 50  0001 C CNN
 	1    8300 1400
 	0    -1   -1   0   
@@ -1197,7 +1197,7 @@ U 1 1 60A73976
 P 8900 1400
 F 0 "D8" H 8849 1528 50  0000 R CNN
 F 1 "1N4148W" H 8959 1477 28  0000 R CNN
-F 2 "canadian_footprints:D_SOD123_axial-dual" H 8900 1225 50  0001 C CNN
+F 2 "mini-general-tweaks:D_SOD123_axial-dual" H 8900 1225 50  0001 C CNN
 F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 8900 1400 50  0001 C CNN
 	1    8900 1400
 	0    -1   -1   0   
@@ -1208,7 +1208,7 @@ U 1 1 60AD7287
 P 11300 2800
 F 0 "D42" H 11249 2928 50  0000 R CNN
 F 1 "1N4148W" H 11359 2877 28  0000 R CNN
-F 2 "canadian_footprints:D_SOD123_axial-dual" H 11300 2625 50  0001 C CNN
+F 2 "mini-general-tweaks:D_SOD123_axial-dual" H 11300 2625 50  0001 C CNN
 F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 11300 2800 50  0001 C CNN
 	1    11300 2800
 	0    -1   -1   0   
@@ -1219,7 +1219,7 @@ U 1 1 60AD7281
 P 10700 2800
 F 0 "D41" H 10649 2928 50  0000 R CNN
 F 1 "1N4148W" H 10759 2877 28  0000 R CNN
-F 2 "canadian_footprints:D_SOD123_axial-dual" H 10700 2625 50  0001 C CNN
+F 2 "mini-general-tweaks:D_SOD123_axial-dual" H 10700 2625 50  0001 C CNN
 F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 10700 2800 50  0001 C CNN
 	1    10700 2800
 	0    -1   -1   0   
@@ -1230,7 +1230,7 @@ U 1 1 60AD727B
 P 10100 2800
 F 0 "D40" H 10049 2928 50  0000 R CNN
 F 1 "1N4148W" H 10159 2877 28  0000 R CNN
-F 2 "canadian_footprints:D_SOD123_axial-dual" H 10100 2625 50  0001 C CNN
+F 2 "mini-general-tweaks:D_SOD123_axial-dual" H 10100 2625 50  0001 C CNN
 F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 10100 2800 50  0001 C CNN
 	1    10100 2800
 	0    -1   -1   0   
@@ -1241,7 +1241,7 @@ U 1 1 60AD7275
 P 9500 2800
 F 0 "D39" H 9449 2928 50  0000 R CNN
 F 1 "1N4148W" H 9559 2877 28  0000 R CNN
-F 2 "canadian_footprints:D_SOD123_axial-dual" H 9500 2625 50  0001 C CNN
+F 2 "mini-general-tweaks:D_SOD123_axial-dual" H 9500 2625 50  0001 C CNN
 F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 9500 2800 50  0001 C CNN
 	1    9500 2800
 	0    -1   -1   0   
@@ -1252,7 +1252,7 @@ U 1 1 60AD726F
 P 8900 2800
 F 0 "D38" H 8849 2928 50  0000 R CNN
 F 1 "1N4148W" H 8959 2877 28  0000 R CNN
-F 2 "canadian_footprints:D_SOD123_axial-dual" H 8900 2625 50  0001 C CNN
+F 2 "mini-general-tweaks:D_SOD123_axial-dual" H 8900 2625 50  0001 C CNN
 F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 8900 2800 50  0001 C CNN
 	1    8900 2800
 	0    -1   -1   0   
@@ -1263,7 +1263,7 @@ U 1 1 60AD7269
 P 8300 2800
 F 0 "D37" H 8249 2928 50  0000 R CNN
 F 1 "1N4148W" H 8359 2877 28  0000 R CNN
-F 2 "canadian_footprints:D_SOD123_axial-dual" H 8300 2625 50  0001 C CNN
+F 2 "mini-general-tweaks:D_SOD123_axial-dual" H 8300 2625 50  0001 C CNN
 F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 8300 2800 50  0001 C CNN
 	1    8300 2800
 	0    -1   -1   0   
@@ -1274,7 +1274,7 @@ U 1 1 60AD7263
 P 7700 2800
 F 0 "D36" H 7649 2928 50  0000 R CNN
 F 1 "1N4148W" H 7759 2877 28  0000 R CNN
-F 2 "canadian_footprints:D_SOD123_axial-dual" H 7700 2625 50  0001 C CNN
+F 2 "mini-general-tweaks:D_SOD123_axial-dual" H 7700 2625 50  0001 C CNN
 F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 7700 2800 50  0001 C CNN
 	1    7700 2800
 	0    -1   -1   0   
@@ -1285,7 +1285,7 @@ U 1 1 60AD725D
 P 7100 2800
 F 0 "D35" H 7049 2928 50  0000 R CNN
 F 1 "1N4148W" H 7159 2877 28  0000 R CNN
-F 2 "canadian_footprints:D_SOD123_axial-dual" H 7100 2625 50  0001 C CNN
+F 2 "mini-general-tweaks:D_SOD123_axial-dual" H 7100 2625 50  0001 C CNN
 F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 7100 2800 50  0001 C CNN
 	1    7100 2800
 	0    -1   -1   0   
@@ -1296,7 +1296,7 @@ U 1 1 60AD7257
 P 6500 2800
 F 0 "D34" H 6449 2928 50  0000 R CNN
 F 1 "1N4148W" H 6559 2877 28  0000 R CNN
-F 2 "canadian_footprints:D_SOD123_axial-dual" H 6500 2625 50  0001 C CNN
+F 2 "mini-general-tweaks:D_SOD123_axial-dual" H 6500 2625 50  0001 C CNN
 F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 6500 2800 50  0001 C CNN
 	1    6500 2800
 	0    -1   -1   0   
@@ -1307,7 +1307,7 @@ U 1 1 60AD7251
 P 5900 2800
 F 0 "D33" H 5849 2928 50  0000 R CNN
 F 1 "1N4148W" H 5959 2877 28  0000 R CNN
-F 2 "canadian_footprints:D_SOD123_axial-dual" H 5900 2625 50  0001 C CNN
+F 2 "mini-general-tweaks:D_SOD123_axial-dual" H 5900 2625 50  0001 C CNN
 F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 5900 2800 50  0001 C CNN
 	1    5900 2800
 	0    -1   -1   0   
@@ -1318,7 +1318,7 @@ U 1 1 60AD724B
 P 5150 2800
 F 0 "D32" H 5099 2928 50  0000 R CNN
 F 1 "1N4148W" H 5209 2877 28  0000 R CNN
-F 2 "canadian_footprints:D_SOD123_axial-dual" H 5150 2625 50  0001 C CNN
+F 2 "mini-general-tweaks:D_SOD123_axial-dual" H 5150 2625 50  0001 C CNN
 F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 5150 2800 50  0001 C CNN
 	1    5150 2800
 	0    -1   -1   0   
@@ -1329,7 +1329,7 @@ U 1 1 60BC3774
 P 11300 2100
 F 0 "D27" H 11249 2228 50  0000 R CNN
 F 1 "1N4148W" H 11359 2177 28  0000 R CNN
-F 2 "canadian_footprints:D_SOD123_axial-dual" H 11300 1925 50  0001 C CNN
+F 2 "mini-general-tweaks:D_SOD123_axial-dual" H 11300 1925 50  0001 C CNN
 F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 11300 2100 50  0001 C CNN
 	1    11300 2100
 	0    -1   -1   0   
@@ -1340,7 +1340,7 @@ U 1 1 60BC377A
 P 10700 2100
 F 0 "D26" H 10649 2228 50  0000 R CNN
 F 1 "1N4148W" H 10759 2177 28  0000 R CNN
-F 2 "canadian_footprints:D_SOD123_axial-dual" H 10700 1925 50  0001 C CNN
+F 2 "mini-general-tweaks:D_SOD123_axial-dual" H 10700 1925 50  0001 C CNN
 F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 10700 2100 50  0001 C CNN
 	1    10700 2100
 	0    -1   -1   0   
@@ -1351,7 +1351,7 @@ U 1 1 60BC3780
 P 10100 2100
 F 0 "D25" H 10049 2228 50  0000 R CNN
 F 1 "1N4148W" H 10159 2177 28  0000 R CNN
-F 2 "canadian_footprints:D_SOD123_axial-dual" H 10100 1925 50  0001 C CNN
+F 2 "mini-general-tweaks:D_SOD123_axial-dual" H 10100 1925 50  0001 C CNN
 F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 10100 2100 50  0001 C CNN
 	1    10100 2100
 	0    -1   -1   0   
@@ -1362,7 +1362,7 @@ U 1 1 60BC3786
 P 9500 2100
 F 0 "D24" H 9449 2228 50  0000 R CNN
 F 1 "1N4148W" H 9559 2177 28  0000 R CNN
-F 2 "canadian_footprints:D_SOD123_axial-dual" H 9500 1925 50  0001 C CNN
+F 2 "mini-general-tweaks:D_SOD123_axial-dual" H 9500 1925 50  0001 C CNN
 F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 9500 2100 50  0001 C CNN
 	1    9500 2100
 	0    -1   -1   0   
@@ -1373,7 +1373,7 @@ U 1 1 60BC378C
 P 8900 2100
 F 0 "D23" H 8849 2228 50  0000 R CNN
 F 1 "1N4148W" H 8959 2177 28  0000 R CNN
-F 2 "canadian_footprints:D_SOD123_axial-dual" H 8900 1925 50  0001 C CNN
+F 2 "mini-general-tweaks:D_SOD123_axial-dual" H 8900 1925 50  0001 C CNN
 F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 8900 2100 50  0001 C CNN
 	1    8900 2100
 	0    -1   -1   0   
@@ -1384,7 +1384,7 @@ U 1 1 60BC3792
 P 8300 2100
 F 0 "D22" H 8249 2228 50  0000 R CNN
 F 1 "1N4148W" H 8359 2177 28  0000 R CNN
-F 2 "canadian_footprints:D_SOD123_axial-dual" H 8300 1925 50  0001 C CNN
+F 2 "mini-general-tweaks:D_SOD123_axial-dual" H 8300 1925 50  0001 C CNN
 F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 8300 2100 50  0001 C CNN
 	1    8300 2100
 	0    -1   -1   0   
@@ -1395,7 +1395,7 @@ U 1 1 60BC3798
 P 7700 2100
 F 0 "D21" H 7649 2228 50  0000 R CNN
 F 1 "1N4148W" H 7759 2177 28  0000 R CNN
-F 2 "canadian_footprints:D_SOD123_axial-dual" H 7700 1925 50  0001 C CNN
+F 2 "mini-general-tweaks:D_SOD123_axial-dual" H 7700 1925 50  0001 C CNN
 F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 7700 2100 50  0001 C CNN
 	1    7700 2100
 	0    -1   -1   0   
@@ -1406,7 +1406,7 @@ U 1 1 60BC379E
 P 7100 2100
 F 0 "D20" H 7049 2228 50  0000 R CNN
 F 1 "1N4148W" H 7159 2177 28  0000 R CNN
-F 2 "canadian_footprints:D_SOD123_axial-dual" H 7100 1925 50  0001 C CNN
+F 2 "mini-general-tweaks:D_SOD123_axial-dual" H 7100 1925 50  0001 C CNN
 F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 7100 2100 50  0001 C CNN
 	1    7100 2100
 	0    -1   -1   0   
@@ -1417,7 +1417,7 @@ U 1 1 60BC37A4
 P 6500 2100
 F 0 "D19" H 6449 2228 50  0000 R CNN
 F 1 "1N4148W" H 6559 2177 28  0000 R CNN
-F 2 "canadian_footprints:D_SOD123_axial-dual" H 6500 1925 50  0001 C CNN
+F 2 "mini-general-tweaks:D_SOD123_axial-dual" H 6500 1925 50  0001 C CNN
 F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 6500 2100 50  0001 C CNN
 	1    6500 2100
 	0    -1   -1   0   
@@ -1428,7 +1428,7 @@ U 1 1 60BC37B0
 P 5150 2100
 F 0 "D17" H 5099 2228 50  0000 R CNN
 F 1 "1N4148W" H 5209 2177 28  0000 R CNN
-F 2 "canadian_footprints:D_SOD123_axial-dual" H 5150 1925 50  0001 C CNN
+F 2 "mini-general-tweaks:D_SOD123_axial-dual" H 5150 1925 50  0001 C CNN
 F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 5150 2100 50  0001 C CNN
 	1    5150 2100
 	0    -1   -1   0   
@@ -1439,7 +1439,7 @@ U 1 1 60BCD64A
 P 8300 4200
 F 0 "D63" H 8249 4328 50  0000 R CNN
 F 1 "1N4148W" H 8359 4277 28  0000 R CNN
-F 2 "canadian_footprints:D_SOD123_axial-dual" H 8300 4025 50  0001 C CNN
+F 2 "mini-general-tweaks:D_SOD123_axial-dual" H 8300 4025 50  0001 C CNN
 F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 8300 4200 50  0001 C CNN
 	1    8300 4200
 	0    -1   -1   0   
@@ -1450,7 +1450,7 @@ U 1 1 60BD70E6
 P 10100 4200
 F 0 "D64" H 10049 4328 50  0000 R CNN
 F 1 "1N4148W" H 10159 4277 28  0000 R CNN
-F 2 "canadian_footprints:D_SOD123_axial-dual" H 10100 4025 50  0001 C CNN
+F 2 "mini-general-tweaks:D_SOD123_axial-dual" H 10100 4025 50  0001 C CNN
 F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 10100 4200 50  0001 C CNN
 	1    10100 4200
 	0    -1   -1   0   
@@ -1461,7 +1461,7 @@ U 1 1 60BE0D66
 P 10700 4200
 F 0 "D65" H 10649 4328 50  0000 R CNN
 F 1 "1N4148W" H 10759 4277 28  0000 R CNN
-F 2 "canadian_footprints:D_SOD123_axial-dual" H 10700 4025 50  0001 C CNN
+F 2 "mini-general-tweaks:D_SOD123_axial-dual" H 10700 4025 50  0001 C CNN
 F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 10700 4200 50  0001 C CNN
 	1    10700 4200
 	0    -1   -1   0   
@@ -1552,7 +1552,7 @@ U 1 1 60BC37AA
 P 5900 2100
 F 0 "D18" H 5849 2228 50  0000 R CNN
 F 1 "1N4148W" H 5959 2177 28  0000 R CNN
-F 2 "canadian_footprints:D_SOD123_axial-dual" H 5900 1925 50  0001 C CNN
+F 2 "mini-general-tweaks:D_SOD123_axial-dual" H 5900 1925 50  0001 C CNN
 F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 5900 2100 50  0001 C CNN
 	1    5900 2100
 	0    -1   -1   0   
@@ -1713,7 +1713,7 @@ U 1 1 60AA3F32
 P 11900 1400
 F 0 "D13" H 11849 1528 50  0000 R CNN
 F 1 "1N4148W" H 11959 1477 28  0000 R CNN
-F 2 "canadian_footprints:D_SOD123_axial-dual" H 11900 1225 50  0001 C CNN
+F 2 "mini-general-tweaks:D_SOD123_axial-dual" H 11900 1225 50  0001 C CNN
 F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 11900 1400 50  0001 C CNN
 	1    11900 1400
 	0    -1   -1   0   
@@ -1724,7 +1724,7 @@ U 1 1 60AD728D
 P 11900 2800
 F 0 "D43" H 11849 2928 50  0000 R CNN
 F 1 "1N4148W" H 11959 2877 28  0000 R CNN
-F 2 "canadian_footprints:D_SOD123_axial-dual" H 11900 2625 50  0001 C CNN
+F 2 "mini-general-tweaks:D_SOD123_axial-dual" H 11900 2625 50  0001 C CNN
 F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 11900 2800 50  0001 C CNN
 	1    11900 2800
 	0    -1   -1   0   
@@ -1735,7 +1735,7 @@ U 1 1 60BC376E
 P 11900 2100
 F 0 "D28" H 11849 2228 50  0000 R CNN
 F 1 "1N4148W" H 11959 2177 28  0000 R CNN
-F 2 "canadian_footprints:D_SOD123_axial-dual" H 11900 1925 50  0001 C CNN
+F 2 "mini-general-tweaks:D_SOD123_axial-dual" H 11900 1925 50  0001 C CNN
 F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 11900 2100 50  0001 C CNN
 	1    11900 2100
 	0    -1   -1   0   
@@ -1746,7 +1746,7 @@ U 1 1 60BEAA33
 P 11300 4200
 F 0 "D66" H 11249 4328 50  0000 R CNN
 F 1 "1N4148W" H 11359 4277 28  0000 R CNN
-F 2 "canadian_footprints:D_SOD123_axial-dual" H 11300 4025 50  0001 C CNN
+F 2 "mini-general-tweaks:D_SOD123_axial-dual" H 11300 4025 50  0001 C CNN
 F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 11300 4200 50  0001 C CNN
 	1    11300 4200
 	0    -1   -1   0   
@@ -1757,7 +1757,7 @@ U 1 1 60BF4570
 P 11900 4200
 F 0 "D67" H 11849 4328 50  0000 R CNN
 F 1 "1N4148W" H 11959 4277 28  0000 R CNN
-F 2 "canadian_footprints:D_SOD123_axial-dual" H 11900 4025 50  0001 C CNN
+F 2 "mini-general-tweaks:D_SOD123_axial-dual" H 11900 4025 50  0001 C CNN
 F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 11900 4200 50  0001 C CNN
 	1    11900 4200
 	0    -1   -1   0   
@@ -1892,7 +1892,7 @@ U 1 1 6063E3B9
 P 6150 5800
 F 0 "U2" V 5550 5800 50  0000 C CNN
 F 1 "USBLC6-2SC6" V 5450 5800 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:SOT-23-6" H 5400 6200 50  0001 C CNN
+F 2 "mini-general-tweaks:SOT-23-6_tweaked" H 5400 6200 50  0001 C CNN
 F 3 "http://www2.st.com/resource/en/datasheet/CD00050750.pdf" H 6350 6150 50  0001 C CNN
 	1    6150 5800
 	0    1    1    0   
@@ -2090,7 +2090,7 @@ U 1 1 60A7D26D
 P 9500 1400
 F 0 "D9" H 9449 1528 50  0000 R CNN
 F 1 "1N4148W" H 9559 1477 28  0000 R CNN
-F 2 "canadian_footprints:D_SOD123_axial-dual" H 9500 1225 50  0001 C CNN
+F 2 "mini-general-tweaks:D_SOD123_axial-dual" H 9500 1225 50  0001 C CNN
 F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 9500 1400 50  0001 C CNN
 	1    9500 1400
 	0    -1   -1   0   
@@ -2109,7 +2109,7 @@ U 1 1 60A90422
 P 10700 1400
 F 0 "D11" H 10695 1528 50  0000 R CNN
 F 1 "1N4148W" H 10759 1477 28  0000 R CNN
-F 2 "canadian_footprints:D_SOD123_axial-dual" H 10700 1225 50  0001 C CNN
+F 2 "mini-general-tweaks:D_SOD123_axial-dual" H 10700 1225 50  0001 C CNN
 F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 10700 1400 50  0001 C CNN
 	1    10700 1400
 	0    -1   -1   0   
@@ -2168,7 +2168,7 @@ U 1 1 60A86A5D
 P 10100 1400
 F 0 "D10" H 10095 1528 50  0000 R CNN
 F 1 "1N4148W" H 10159 1477 28  0000 R CNN
-F 2 "canadian_footprints:D_SOD123_axial-dual" H 10100 1225 50  0001 C CNN
+F 2 "mini-general-tweaks:D_SOD123_axial-dual" H 10100 1225 50  0001 C CNN
 F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 10100 1400 50  0001 C CNN
 	1    10100 1400
 	0    -1   -1   0   
@@ -2179,7 +2179,7 @@ U 1 1 60A9A295
 P 11300 1400
 F 0 "D12" H 11249 1528 50  0000 R CNN
 F 1 "1N4148W" H 11359 1477 28  0000 R CNN
-F 2 "canadian_footprints:D_SOD123_axial-dual" H 11300 1225 50  0001 C CNN
+F 2 "mini-general-tweaks:D_SOD123_axial-dual" H 11300 1225 50  0001 C CNN
 F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 11300 1400 50  0001 C CNN
 	1    11300 1400
 	0    -1   -1   0   
@@ -2196,7 +2196,7 @@ U 1 1 60C7A699
 P 13100 4200
 F 0 "D69" H 13049 4328 50  0000 R CNN
 F 1 "1N4148W" H 13159 4277 28  0000 R CNN
-F 2 "canadian_footprints:D_SOD123_axial-dual" H 13100 4025 50  0001 C CNN
+F 2 "mini-general-tweaks:D_SOD123_axial-dual" H 13100 4025 50  0001 C CNN
 F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 13100 4200 50  0001 C CNN
 	1    13100 4200
 	0    -1   -1   0   
@@ -2258,7 +2258,7 @@ U 1 1 60BFDFAE
 P 12500 4200
 F 0 "D68" H 12449 4328 50  0000 R CNN
 F 1 "1N4148W" H 12559 4277 28  0000 R CNN
-F 2 "canadian_footprints:D_SOD123_axial-dual" H 12500 4025 50  0001 C CNN
+F 2 "mini-general-tweaks:D_SOD123_axial-dual" H 12500 4025 50  0001 C CNN
 F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 12500 4200 50  0001 C CNN
 	1    12500 4200
 	0    -1   -1   0   
@@ -2269,7 +2269,7 @@ U 1 1 60BC3768
 P 12500 2100
 F 0 "D29" H 12449 2228 50  0000 R CNN
 F 1 "1N4148W" H 12559 2177 28  0000 R CNN
-F 2 "canadian_footprints:D_SOD123_axial-dual" H 12500 1925 50  0001 C CNN
+F 2 "mini-general-tweaks:D_SOD123_axial-dual" H 12500 1925 50  0001 C CNN
 F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 12500 2100 50  0001 C CNN
 	1    12500 2100
 	0    -1   -1   0   
@@ -2280,7 +2280,7 @@ U 1 1 60BC3762
 P 13100 2100
 F 0 "D30" H 13049 2228 50  0000 R CNN
 F 1 "1N4148W" H 13159 2177 28  0000 R CNN
-F 2 "canadian_footprints:D_SOD123_axial-dual" H 13100 1925 50  0001 C CNN
+F 2 "mini-general-tweaks:D_SOD123_axial-dual" H 13100 1925 50  0001 C CNN
 F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 13100 2100 50  0001 C CNN
 	1    13100 2100
 	0    -1   -1   0   
@@ -2291,7 +2291,7 @@ U 1 1 60AD7299
 P 13100 2800
 F 0 "D44" H 13049 2928 50  0000 R CNN
 F 1 "1N4148W" H 13159 2877 28  0000 R CNN
-F 2 "canadian_footprints:D_SOD123_axial-dual" H 13100 2625 50  0001 C CNN
+F 2 "mini-general-tweaks:D_SOD123_axial-dual" H 13100 2625 50  0001 C CNN
 F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 13100 2800 50  0001 C CNN
 	1    13100 2800
 	0    -1   -1   0   
@@ -2302,7 +2302,7 @@ U 1 1 60AB73FF
 P 13100 1400
 F 0 "D15" H 13049 1528 50  0000 R CNN
 F 1 "1N4148W" H 13159 1477 28  0000 R CNN
-F 2 "canadian_footprints:D_SOD123_axial-dual" H 13100 1225 50  0001 C CNN
+F 2 "mini-general-tweaks:D_SOD123_axial-dual" H 13100 1225 50  0001 C CNN
 F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 13100 1400 50  0001 C CNN
 	1    13100 1400
 	0    -1   -1   0   
@@ -2313,7 +2313,7 @@ U 1 1 60AAD9BF
 P 12500 1400
 F 0 "D14" H 12449 1528 50  0000 R CNN
 F 1 "1N4148W" H 12559 1477 28  0000 R CNN
-F 2 "canadian_footprints:D_SOD123_axial-dual" H 12500 1225 50  0001 C CNN
+F 2 "mini-general-tweaks:D_SOD123_axial-dual" H 12500 1225 50  0001 C CNN
 F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 12500 1400 50  0001 C CNN
 	1    12500 1400
 	0    -1   -1   0   
@@ -2516,7 +2516,7 @@ U 1 1 60BAA5EE
 P 13100 3500
 F 0 "D59" H 13049 3628 50  0000 R CNN
 F 1 "1N4148W" H 13159 3577 28  0000 R CNN
-F 2 "canadian_footprints:D_SOD123_axial-dual" H 13100 3325 50  0001 C CNN
+F 2 "mini-general-tweaks:D_SOD123_axial-dual" H 13100 3325 50  0001 C CNN
 F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 13100 3500 50  0001 C CNN
 	1    13100 3500
 	0    -1   -1   0   
@@ -2527,7 +2527,7 @@ U 1 1 60BAA5F4
 P 12500 3500
 F 0 "D58" H 12449 3628 50  0000 R CNN
 F 1 "1N4148W" H 12559 3577 28  0000 R CNN
-F 2 "canadian_footprints:D_SOD123_axial-dual" H 12500 3325 50  0001 C CNN
+F 2 "mini-general-tweaks:D_SOD123_axial-dual" H 12500 3325 50  0001 C CNN
 F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 12500 3500 50  0001 C CNN
 	1    12500 3500
 	0    -1   -1   0   
@@ -2542,7 +2542,7 @@ U 1 1 60BAA5FA
 P 11900 3500
 F 0 "D57" H 11849 3628 50  0000 R CNN
 F 1 "1N4148W" H 11959 3577 28  0000 R CNN
-F 2 "canadian_footprints:D_SOD123_axial-dual" H 11900 3325 50  0001 C CNN
+F 2 "mini-general-tweaks:D_SOD123_axial-dual" H 11900 3325 50  0001 C CNN
 F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 11900 3500 50  0001 C CNN
 	1    11900 3500
 	0    -1   -1   0   
@@ -2559,7 +2559,7 @@ U 1 1 60BAA630
 P 6500 3500
 F 0 "D48" H 6449 3628 50  0000 R CNN
 F 1 "1N4148W" H 6559 3577 28  0000 R CNN
-F 2 "canadian_footprints:D_SOD123_axial-dual" H 6500 3325 50  0001 C CNN
+F 2 "mini-general-tweaks:D_SOD123_axial-dual" H 6500 3325 50  0001 C CNN
 F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 6500 3500 50  0001 C CNN
 	1    6500 3500
 	0    -1   -1   0   
@@ -2570,7 +2570,7 @@ U 1 1 60BAA62A
 P 7100 3500
 F 0 "D49" H 7049 3628 50  0000 R CNN
 F 1 "1N4148W" H 7159 3577 28  0000 R CNN
-F 2 "canadian_footprints:D_SOD123_axial-dual" H 7100 3325 50  0001 C CNN
+F 2 "mini-general-tweaks:D_SOD123_axial-dual" H 7100 3325 50  0001 C CNN
 F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 7100 3500 50  0001 C CNN
 	1    7100 3500
 	0    -1   -1   0   
@@ -2581,7 +2581,7 @@ U 1 1 60BAA624
 P 7700 3500
 F 0 "D50" H 7649 3628 50  0000 R CNN
 F 1 "1N4148W" H 7759 3577 28  0000 R CNN
-F 2 "canadian_footprints:D_SOD123_axial-dual" H 7700 3325 50  0001 C CNN
+F 2 "mini-general-tweaks:D_SOD123_axial-dual" H 7700 3325 50  0001 C CNN
 F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 7700 3500 50  0001 C CNN
 	1    7700 3500
 	0    -1   -1   0   
@@ -2592,7 +2592,7 @@ U 1 1 60BAA61E
 P 8300 3500
 F 0 "D51" H 8249 3628 50  0000 R CNN
 F 1 "1N4148W" H 8359 3577 28  0000 R CNN
-F 2 "canadian_footprints:D_SOD123_axial-dual" H 8300 3325 50  0001 C CNN
+F 2 "mini-general-tweaks:D_SOD123_axial-dual" H 8300 3325 50  0001 C CNN
 F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 8300 3500 50  0001 C CNN
 	1    8300 3500
 	0    -1   -1   0   
@@ -2603,7 +2603,7 @@ U 1 1 60BAA618
 P 8900 3500
 F 0 "D52" H 8849 3628 50  0000 R CNN
 F 1 "1N4148W" H 8959 3577 28  0000 R CNN
-F 2 "canadian_footprints:D_SOD123_axial-dual" H 8900 3325 50  0001 C CNN
+F 2 "mini-general-tweaks:D_SOD123_axial-dual" H 8900 3325 50  0001 C CNN
 F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 8900 3500 50  0001 C CNN
 	1    8900 3500
 	0    -1   -1   0   
@@ -2614,7 +2614,7 @@ U 1 1 60BAA612
 P 9500 3500
 F 0 "D53" H 9449 3628 50  0000 R CNN
 F 1 "1N4148W" H 9559 3577 28  0000 R CNN
-F 2 "canadian_footprints:D_SOD123_axial-dual" H 9500 3325 50  0001 C CNN
+F 2 "mini-general-tweaks:D_SOD123_axial-dual" H 9500 3325 50  0001 C CNN
 F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 9500 3500 50  0001 C CNN
 	1    9500 3500
 	0    -1   -1   0   
@@ -2625,7 +2625,7 @@ U 1 1 60BAA60C
 P 10100 3500
 F 0 "D54" H 10049 3628 50  0000 R CNN
 F 1 "1N4148W" H 10159 3577 28  0000 R CNN
-F 2 "canadian_footprints:D_SOD123_axial-dual" H 10100 3325 50  0001 C CNN
+F 2 "mini-general-tweaks:D_SOD123_axial-dual" H 10100 3325 50  0001 C CNN
 F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 10100 3500 50  0001 C CNN
 	1    10100 3500
 	0    -1   -1   0   
@@ -2636,7 +2636,7 @@ U 1 1 60BAA606
 P 10700 3500
 F 0 "D55" H 10649 3628 50  0000 R CNN
 F 1 "1N4148W" H 10759 3577 28  0000 R CNN
-F 2 "canadian_footprints:D_SOD123_axial-dual" H 10700 3325 50  0001 C CNN
+F 2 "mini-general-tweaks:D_SOD123_axial-dual" H 10700 3325 50  0001 C CNN
 F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 10700 3500 50  0001 C CNN
 	1    10700 3500
 	0    -1   -1   0   
@@ -2647,7 +2647,7 @@ U 1 1 60BAA600
 P 11300 3500
 F 0 "D56" H 11249 3628 50  0000 R CNN
 F 1 "1N4148W" H 11359 3577 28  0000 R CNN
-F 2 "canadian_footprints:D_SOD123_axial-dual" H 11300 3325 50  0001 C CNN
+F 2 "mini-general-tweaks:D_SOD123_axial-dual" H 11300 3325 50  0001 C CNN
 F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 11300 3500 50  0001 C CNN
 	1    11300 3500
 	0    -1   -1   0   
@@ -2672,7 +2672,7 @@ U 1 1 6086D118
 P 8700 5000
 F 0 "H0" H 8800 5049 50  0000 L CNN
 F 1 "MountingHole_Pad" H 8800 4958 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.2mm_M2_Pad" H 8700 5000 50  0001 C CNN
+F 2 "mini-general-tweaks:MountingHole_2.2mm_M2_Pad_tweaked" H 8700 5000 50  0001 C CNN
 F 3 "~" H 8700 5000 50  0001 C CNN
 	1    8700 5000
 	1    0    0    -1  
@@ -2683,7 +2683,7 @@ U 1 1 6087565E
 P 8700 5250
 F 0 "H1" H 8800 5299 50  0000 L CNN
 F 1 "MountingHole_Pad" H 8800 5208 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.2mm_M2_Pad" H 8700 5250 50  0001 C CNN
+F 2 "mini-general-tweaks:MountingHole_2.2mm_M2_Pad_tweaked" H 8700 5250 50  0001 C CNN
 F 3 "~" H 8700 5250 50  0001 C CNN
 	1    8700 5250
 	1    0    0    -1  
@@ -2694,7 +2694,7 @@ U 1 1 6089094F
 P 8700 5500
 F 0 "H2" H 8800 5549 50  0000 L CNN
 F 1 "MountingHole_Pad" H 8800 5458 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.2mm_M2_Pad" H 8700 5500 50  0001 C CNN
+F 2 "mini-general-tweaks:MountingHole_2.2mm_M2_Pad_tweaked" H 8700 5500 50  0001 C CNN
 F 3 "~" H 8700 5500 50  0001 C CNN
 	1    8700 5500
 	1    0    0    -1  
@@ -2705,7 +2705,7 @@ U 1 1 608ABAB5
 P 8700 5750
 F 0 "H3" H 8800 5799 50  0000 L CNN
 F 1 "MountingHole_Pad" H 8800 5708 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.2mm_M2_Pad" H 8700 5750 50  0001 C CNN
+F 2 "mini-general-tweaks:MountingHole_2.2mm_M2_Pad_tweaked" H 8700 5750 50  0001 C CNN
 F 3 "~" H 8700 5750 50  0001 C CNN
 	1    8700 5750
 	1    0    0    -1  
@@ -2716,7 +2716,7 @@ U 1 1 608E1DAA
 P 8700 6250
 F 0 "H5" H 8800 6299 50  0000 L CNN
 F 1 "MountingHole_Pad" H 8800 6208 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.2mm_M2_Pad" H 8700 6250 50  0001 C CNN
+F 2 "mini-general-tweaks:MountingHole_2.2mm_M2_Pad_tweaked" H 8700 6250 50  0001 C CNN
 F 3 "~" H 8700 6250 50  0001 C CNN
 	1    8700 6250
 	1    0    0    -1  
@@ -2727,7 +2727,7 @@ U 1 1 608C6C75
 P 8700 6000
 F 0 "H4" H 8800 6049 50  0000 L CNN
 F 1 "MountingHole_Pad" H 8800 5958 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.2mm_M2_Pad" H 8700 6000 50  0001 C CNN
+F 2 "mini-general-tweaks:MountingHole_2.2mm_M2_Pad_tweaked" H 8700 6000 50  0001 C CNN
 F 3 "~" H 8700 6000 50  0001 C CNN
 	1    8700 6000
 	1    0    0    -1  
@@ -2830,7 +2830,7 @@ U 1 1 60A11924
 P 4400 3500
 F 0 "D45" H 4349 3628 50  0000 R CNN
 F 1 "1N4148W" H 4459 3577 28  0000 R CNN
-F 2 "canadian_footprints:D_SOD123_axial-dual" H 4400 3325 50  0001 C CNN
+F 2 "mini-general-tweaks:D_SOD123_axial-dual" H 4400 3325 50  0001 C CNN
 F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 4400 3500 50  0001 C CNN
 	1    4400 3500
 	0    -1   -1   0   
@@ -2841,7 +2841,7 @@ U 1 1 60BAA636
 P 5900 3500
 F 0 "D47" H 5849 3628 50  0000 R CNN
 F 1 "1N4148W" H 5959 3577 28  0000 R CNN
-F 2 "canadian_footprints:D_SOD123_axial-dual" H 5900 3325 50  0001 C CNN
+F 2 "mini-general-tweaks:D_SOD123_axial-dual" H 5900 3325 50  0001 C CNN
 F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 5900 3500 50  0001 C CNN
 	1    5900 3500
 	0    -1   -1   0   
@@ -2852,7 +2852,7 @@ U 1 1 60BAA63C
 P 5150 3500
 F 0 "D46" H 5099 3628 50  0000 R CNN
 F 1 "1N4148W" H 5209 3577 28  0000 R CNN
-F 2 "canadian_footprints:D_SOD123_axial-dual" H 5150 3325 50  0001 C CNN
+F 2 "mini-general-tweaks:D_SOD123_axial-dual" H 5150 3325 50  0001 C CNN
 F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 5150 3500 50  0001 C CNN
 	1    5150 3500
 	0    -1   -1   0   
@@ -2870,7 +2870,7 @@ U 1 1 5F16167A
 P 2550 2850
 F 0 "U1" H 2550 961 50  0000 C CNN
 F 1 "ATmega32U4-AU" H 2550 870 50  0000 C CNN
-F 2 "Package_QFP:TQFP-44_10x10mm_P0.8mm" H 2550 2850 50  0001 C CIN
+F 2 "mini-general-tweaks:TQFP-44_10x10mm_P0.8mm_ATmega32U4" H 2550 2850 50  0001 C CIN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-7766-8-bit-AVR-ATmega16U4-32U4_Datasheet.pdf" H 2550 2850 50  0001 C CNN
 	1    2550 2850
 	1    0    0    -1  
@@ -2918,7 +2918,7 @@ U 1 1 60A07B5C
 P 5150 4200
 F 0 "D61" H 5099 4328 50  0000 R CNN
 F 1 "1N4148W" H 5209 4277 28  0000 R CNN
-F 2 "canadian_footprints:D_SOD123_axial-dual" H 5150 4025 50  0001 C CNN
+F 2 "mini-general-tweaks:D_SOD123_axial-dual" H 5150 4025 50  0001 C CNN
 F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 5150 4200 50  0001 C CNN
 	1    5150 4200
 	0    -1   -1   0   
@@ -2929,7 +2929,7 @@ U 1 1 609FDC8A
 P 4400 4200
 F 0 "D60" H 4349 4328 50  0000 R CNN
 F 1 "1N4148W" H 4459 4277 28  0000 R CNN
-F 2 "canadian_footprints:D_SOD123_axial-dual" H 4400 4025 50  0001 C CNN
+F 2 "mini-general-tweaks:D_SOD123_axial-dual" H 4400 4025 50  0001 C CNN
 F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 4400 4200 50  0001 C CNN
 	1    4400 4200
 	0    -1   -1   0   
@@ -2940,7 +2940,7 @@ U 1 1 609F2922
 P 5900 4200
 F 0 "D62" H 5849 4328 50  0000 R CNN
 F 1 "1N4148W" H 5959 4277 28  0000 R CNN
-F 2 "canadian_footprints:D_SOD123_axial-dual" H 5900 4025 50  0001 C CNN
+F 2 "mini-general-tweaks:D_SOD123_axial-dual" H 5900 4025 50  0001 C CNN
 F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 5900 4200 50  0001 C CNN
 	1    5900 4200
 	0    -1   -1   0   
