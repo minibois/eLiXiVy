@@ -320,7 +320,7 @@ U 1 1 5FE1BF7A
 P 1200 6500
 F 0 "J2" H 921 6596 50  0000 R CNN
 F 1 "AVR-ISP-6" H 921 6505 50  0000 R CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical" V 950 6550 50  0001 C CNN
+F 2 "mini-general-tweaks:PinHeader_2x03_P2.54mm_Vertical_ICSP" V 950 6550 50  0001 C CNN
 F 3 " ~" H -75 5950 50  0001 C CNN
 	1    1200 6500
 	1    0    0    -1  
@@ -1892,7 +1892,7 @@ U 1 1 6063E3B9
 P 6150 5800
 F 0 "U2" V 5550 5800 50  0000 C CNN
 F 1 "USBLC6-2SC6" V 5450 5800 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:SOT-23-6" H 5400 6200 50  0001 C CNN
+F 2 "mini-general-tweaks:SOT-23-6_tweaked" H 5400 6200 50  0001 C CNN
 F 3 "http://www2.st.com/resource/en/datasheet/CD00050750.pdf" H 6350 6150 50  0001 C CNN
 	1    6150 5800
 	0    1    1    0   
@@ -2672,7 +2672,7 @@ U 1 1 6086D118
 P 8700 5000
 F 0 "H0" H 8800 5049 50  0000 L CNN
 F 1 "MountingHole_Pad" H 8800 4958 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.2mm_M2_Pad" H 8700 5000 50  0001 C CNN
+F 2 "mini-general-tweaks:MountingHole_2.2mm_M2_Pad_tweaked" H 8700 5000 50  0001 C CNN
 F 3 "~" H 8700 5000 50  0001 C CNN
 	1    8700 5000
 	1    0    0    -1  
@@ -2683,7 +2683,7 @@ U 1 1 6087565E
 P 8700 5250
 F 0 "H1" H 8800 5299 50  0000 L CNN
 F 1 "MountingHole_Pad" H 8800 5208 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.2mm_M2_Pad" H 8700 5250 50  0001 C CNN
+F 2 "mini-general-tweaks:MountingHole_2.2mm_M2_Pad_tweaked" H 8700 5250 50  0001 C CNN
 F 3 "~" H 8700 5250 50  0001 C CNN
 	1    8700 5250
 	1    0    0    -1  
@@ -2694,7 +2694,7 @@ U 1 1 6089094F
 P 8700 5500
 F 0 "H2" H 8800 5549 50  0000 L CNN
 F 1 "MountingHole_Pad" H 8800 5458 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.2mm_M2_Pad" H 8700 5500 50  0001 C CNN
+F 2 "mini-general-tweaks:MountingHole_2.2mm_M2_Pad_tweaked" H 8700 5500 50  0001 C CNN
 F 3 "~" H 8700 5500 50  0001 C CNN
 	1    8700 5500
 	1    0    0    -1  
@@ -2705,7 +2705,7 @@ U 1 1 608ABAB5
 P 8700 5750
 F 0 "H3" H 8800 5799 50  0000 L CNN
 F 1 "MountingHole_Pad" H 8800 5708 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.2mm_M2_Pad" H 8700 5750 50  0001 C CNN
+F 2 "mini-general-tweaks:MountingHole_2.2mm_M2_Pad_tweaked" H 8700 5750 50  0001 C CNN
 F 3 "~" H 8700 5750 50  0001 C CNN
 	1    8700 5750
 	1    0    0    -1  
@@ -2716,7 +2716,7 @@ U 1 1 608E1DAA
 P 8700 6250
 F 0 "H5" H 8800 6299 50  0000 L CNN
 F 1 "MountingHole_Pad" H 8800 6208 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.2mm_M2_Pad" H 8700 6250 50  0001 C CNN
+F 2 "mini-general-tweaks:MountingHole_2.2mm_M2_Pad_tweaked" H 8700 6250 50  0001 C CNN
 F 3 "~" H 8700 6250 50  0001 C CNN
 	1    8700 6250
 	1    0    0    -1  
@@ -2727,7 +2727,7 @@ U 1 1 608C6C75
 P 8700 6000
 F 0 "H4" H 8800 6049 50  0000 L CNN
 F 1 "MountingHole_Pad" H 8800 5958 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.2mm_M2_Pad" H 8700 6000 50  0001 C CNN
+F 2 "mini-general-tweaks:MountingHole_2.2mm_M2_Pad_tweaked" H 8700 6000 50  0001 C CNN
 F 3 "~" H 8700 6000 50  0001 C CNN
 	1    8700 6000
 	1    0    0    -1  
@@ -2870,7 +2870,7 @@ U 1 1 5F16167A
 P 2550 2850
 F 0 "U1" H 2550 961 50  0000 C CNN
 F 1 "ATmega32U4-AU" H 2550 870 50  0000 C CNN
-F 2 "Package_QFP:TQFP-44_10x10mm_P0.8mm" H 2550 2850 50  0001 C CIN
+F 2 "mini-general-tweaks:TQFP-44_10x10mm_P0.8mm_ATmega32U4" H 2550 2850 50  0001 C CIN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-7766-8-bit-AVR-ATmega16U4-32U4_Datasheet.pdf" H 2550 2850 50  0001 C CNN
 	1    2550 2850
 	1    0    0    -1  

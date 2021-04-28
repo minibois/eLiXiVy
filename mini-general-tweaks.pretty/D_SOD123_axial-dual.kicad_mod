@@ -1,6 +1,6 @@
-(module D_SOD123_axial-dual (layer F.Cu) (tedit 608850D6)
+(module D_SOD123_axial-dual (layer F.Cu) (tedit 6089B40F)
   (attr smd)
-  (fp_text reference D** (at 0 1.925) (layer F.SilkS)
+  (fp_text reference D** (at 5.3848 0 270) (layer F.SilkS)
     (effects (font (size 0.8 0.8) (thickness 0.15)))
   )
   (fp_text value D (at 0 -1.925) (layer F.SilkS) hide
