@@ -320,7 +320,7 @@ U 1 1 5FE1BF7A
 P 1200 6500
 F 0 "J2" H 921 6596 50  0000 R CNN
 F 1 "AVR-ISP-6" H 921 6505 50  0000 R CNN
-F 2 "mini-general-tweaks:PinHeader_2x03_P2.54mm_Vertical_ICSP" V 950 6550 50  0001 C CNN
+F 2 "mini-general-tweaks:ICSP_2.54mm_LAYOUT" V 950 6550 50  0001 C CNN
 F 3 " ~" H -75 5950 50  0001 C CNN
 	1    1200 6500
 	1    0    0    -1  
@@ -2967,11 +2967,11 @@ Text GLabel 3150 3750 2    50   Input ~ 0
 COL4
 Text GLabel 3150 3850 2    50   Input ~ 0
 COL3
-Text GLabel 3150 1850 2    50   Input ~ 0
+Text GLabel 3150 4150 2    50   Input ~ 0
 ROW3
 Text GLabel 3150 4050 2    50   Input ~ 0
 COL1
-Text GLabel 3150 4150 2    50   Input ~ 0
+Text GLabel 3150 4250 2    50   Input ~ 0
 COL0
 Text GLabel 3150 3950 2    50   Input ~ 0
 COL2
@@ -2986,7 +2986,7 @@ Wire Wire Line
 	2650 1050 2550 1050
 Connection ~ 2550 1050
 Connection ~ 2450 1050
-Text GLabel 3150 4250 2    50   Input ~ 0
+Text GLabel 3450 4250 2    50   Input ~ 0
 ROW0
 Text GLabel 3150 2050 2    50   Input ~ 0
 ROW1
