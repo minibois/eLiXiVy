@@ -2014,8 +2014,6 @@ F 3 "" H 6750 7150 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	6850 7150 6750 7150
-Wire Wire Line
-	8100 7150 7950 7150
 Text GLabel 7550 6650 2    50   Input ~ 0
 MCU_D-
 Text GLabel 7550 7650 2    50   Input ~ 0
@@ -3023,17 +3021,6 @@ $EndComp
 Wire Wire Line
 	7300 5850 7150 5850
 $Comp
-L power:VCC #PWR0121
-U 1 1 60E03B3F
-P 8100 7150
-F 0 "#PWR0121" H 8100 7000 50  0001 C CNN
-F 1 "VCC" H 8117 7323 50  0000 C CNN
-F 2 "" H 8100 7150 50  0001 C CNN
-F 3 "" H 8100 7150 50  0001 C CNN
-	1    8100 7150
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:C_Small C8
 U 1 1 60E08719
 P 7950 7250
@@ -3044,7 +3031,6 @@ F 3 "~" H 7950 7250 50  0001 C CNN
 	1    7950 7250
 	1    0    0    -1  
 $EndComp
-Connection ~ 7950 7150
 Wire Wire Line
 	7950 7150 7850 7150
 $Comp
@@ -3058,4 +3044,18 @@ F 3 "" H 7950 7350 50  0001 C CNN
 	1    7950 7350
 	1    0    0    -1  
 $EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 60D5F5D4
+P 8200 7150
+F 0 "#PWR?" H 8200 7000 50  0001 C CNN
+F 1 "+5V" H 8215 7323 50  0000 C CNN
+F 2 "" H 8200 7150 50  0001 C CNN
+F 3 "" H 8200 7150 50  0001 C CNN
+	1    8200 7150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8200 7150 7950 7150
+Connection ~ 7950 7150
 $EndSCHEMATC
