@@ -1093,10 +1093,10 @@ Wire Wire Line
 Wire Wire Line
 	4750 3150 4750 3200
 $Comp
-L Diode:1N4148W D31
+L Diode:1N4148W D30
 U 1 1 60A1B787
 P 4400 2800
-F 0 "D31" H 4349 2928 50  0000 R CNN
+F 0 "D30" H 4349 2928 50  0000 R CNN
 F 1 "1N4148W" H 4459 2877 28  0000 R CNN
 F 2 "mini-general-tweaks:D_SOD123_axial-dual" H 4400 2625 50  0001 C CNN
 F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 4400 2800 50  0001 C CNN
@@ -1104,10 +1104,10 @@ F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 4400 2800 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Diode:1N4148W D16
+L Diode:1N4148W D15
 U 1 1 60A2556B
 P 4400 2100
-F 0 "D16" H 4349 2228 50  0000 R CNN
+F 0 "D15" H 4349 2228 50  0000 R CNN
 F 1 "1N4148W" H 4459 2177 28  0000 R CNN
 F 2 "mini-general-tweaks:D_SOD123_axial-dual" H 4400 1925 50  0001 C CNN
 F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 4400 2100 50  0001 C CNN
@@ -1115,32 +1115,10 @@ F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 4400 2100 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Diode:1N4148W D1
-U 1 1 60A2F34F
-P 4400 1400
-F 0 "D1" H 4349 1528 50  0000 R CNN
-F 1 "1N4148W" H 4459 1477 28  0000 R CNN
-F 2 "mini-general-tweaks:D_SOD123_axial-dual" H 4400 1225 50  0001 C CNN
-F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 4400 1400 50  0001 C CNN
-	1    4400 1400
-	0    -1   -1   0   
-$EndComp
-$Comp
 L Diode:1N4148W D2
-U 1 1 60A392AE
-P 5150 1400
-F 0 "D2" H 5099 1528 50  0000 R CNN
-F 1 "1N4148W" H 5209 1477 28  0000 R CNN
-F 2 "mini-general-tweaks:D_SOD123_axial-dual" H 5150 1225 50  0001 C CNN
-F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 5150 1400 50  0001 C CNN
-	1    5150 1400
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Diode:1N4148W D3
 U 1 1 60A42E9C
 P 5900 1400
-F 0 "D3" H 5849 1528 50  0000 R CNN
+F 0 "D2" H 5849 1528 50  0000 R CNN
 F 1 "1N4148W" H 5959 1477 28  0000 R CNN
 F 2 "mini-general-tweaks:D_SOD123_axial-dual" H 5900 1225 50  0001 C CNN
 F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 5900 1400 50  0001 C CNN
@@ -1148,10 +1126,10 @@ F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 5900 1400 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Diode:1N4148W D4
+L Diode:1N4148W D3
 U 1 1 60A4CB49
 P 6500 1400
-F 0 "D4" H 6449 1528 50  0000 R CNN
+F 0 "D3" H 6449 1528 50  0000 R CNN
 F 1 "1N4148W" H 6559 1477 28  0000 R CNN
 F 2 "mini-general-tweaks:D_SOD123_axial-dual" H 6500 1225 50  0001 C CNN
 F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 6500 1400 50  0001 C CNN
@@ -1159,10 +1137,10 @@ F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 6500 1400 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Diode:1N4148W D5
+L Diode:1N4148W D4
 U 1 1 60A566E7
 P 7100 1400
-F 0 "D5" H 7049 1528 50  0000 R CNN
+F 0 "D4" H 7049 1528 50  0000 R CNN
 F 1 "1N4148W" H 7159 1477 28  0000 R CNN
 F 2 "mini-general-tweaks:D_SOD123_axial-dual" H 7100 1225 50  0001 C CNN
 F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 7100 1400 50  0001 C CNN
@@ -1170,10 +1148,10 @@ F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 7100 1400 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Diode:1N4148W D6
+L Diode:1N4148W D5
 U 1 1 60A600EA
 P 7700 1400
-F 0 "D6" H 7649 1528 50  0000 R CNN
+F 0 "D5" H 7649 1528 50  0000 R CNN
 F 1 "1N4148W" H 7759 1477 28  0000 R CNN
 F 2 "mini-general-tweaks:D_SOD123_axial-dual" H 7700 1225 50  0001 C CNN
 F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 7700 1400 50  0001 C CNN
@@ -1181,10 +1159,10 @@ F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 7700 1400 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Diode:1N4148W D7
+L Diode:1N4148W D6
 U 1 1 60A69C92
 P 8300 1400
-F 0 "D7" H 8249 1528 50  0000 R CNN
+F 0 "D6" H 8249 1528 50  0000 R CNN
 F 1 "1N4148W" H 8359 1477 28  0000 R CNN
 F 2 "mini-general-tweaks:D_SOD123_axial-dual" H 8300 1225 50  0001 C CNN
 F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 8300 1400 50  0001 C CNN
@@ -1192,10 +1170,10 @@ F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 8300 1400 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Diode:1N4148W D8
+L Diode:1N4148W D7
 U 1 1 60A73976
 P 8900 1400
-F 0 "D8" H 8849 1528 50  0000 R CNN
+F 0 "D7" H 8849 1528 50  0000 R CNN
 F 1 "1N4148W" H 8959 1477 28  0000 R CNN
 F 2 "mini-general-tweaks:D_SOD123_axial-dual" H 8900 1225 50  0001 C CNN
 F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 8900 1400 50  0001 C CNN
@@ -1203,10 +1181,10 @@ F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 8900 1400 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Diode:1N4148W D42
+L Diode:1N4148W D41
 U 1 1 60AD7287
 P 11300 2800
-F 0 "D42" H 11249 2928 50  0000 R CNN
+F 0 "D41" H 11249 2928 50  0000 R CNN
 F 1 "1N4148W" H 11359 2877 28  0000 R CNN
 F 2 "mini-general-tweaks:D_SOD123_axial-dual" H 11300 2625 50  0001 C CNN
 F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 11300 2800 50  0001 C CNN
@@ -1214,10 +1192,10 @@ F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 11300 2800 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Diode:1N4148W D41
+L Diode:1N4148W D40
 U 1 1 60AD7281
 P 10700 2800
-F 0 "D41" H 10649 2928 50  0000 R CNN
+F 0 "D40" H 10649 2928 50  0000 R CNN
 F 1 "1N4148W" H 10759 2877 28  0000 R CNN
 F 2 "mini-general-tweaks:D_SOD123_axial-dual" H 10700 2625 50  0001 C CNN
 F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 10700 2800 50  0001 C CNN
@@ -1225,10 +1203,10 @@ F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 10700 2800 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Diode:1N4148W D40
+L Diode:1N4148W D39
 U 1 1 60AD727B
 P 10100 2800
-F 0 "D40" H 10049 2928 50  0000 R CNN
+F 0 "D39" H 10049 2928 50  0000 R CNN
 F 1 "1N4148W" H 10159 2877 28  0000 R CNN
 F 2 "mini-general-tweaks:D_SOD123_axial-dual" H 10100 2625 50  0001 C CNN
 F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 10100 2800 50  0001 C CNN
@@ -1236,10 +1214,10 @@ F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 10100 2800 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Diode:1N4148W D39
+L Diode:1N4148W D38
 U 1 1 60AD7275
 P 9500 2800
-F 0 "D39" H 9449 2928 50  0000 R CNN
+F 0 "D38" H 9449 2928 50  0000 R CNN
 F 1 "1N4148W" H 9559 2877 28  0000 R CNN
 F 2 "mini-general-tweaks:D_SOD123_axial-dual" H 9500 2625 50  0001 C CNN
 F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 9500 2800 50  0001 C CNN
@@ -1247,10 +1225,10 @@ F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 9500 2800 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Diode:1N4148W D38
+L Diode:1N4148W D37
 U 1 1 60AD726F
 P 8900 2800
-F 0 "D38" H 8849 2928 50  0000 R CNN
+F 0 "D37" H 8849 2928 50  0000 R CNN
 F 1 "1N4148W" H 8959 2877 28  0000 R CNN
 F 2 "mini-general-tweaks:D_SOD123_axial-dual" H 8900 2625 50  0001 C CNN
 F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 8900 2800 50  0001 C CNN
@@ -1258,10 +1236,10 @@ F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 8900 2800 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Diode:1N4148W D37
+L Diode:1N4148W D36
 U 1 1 60AD7269
 P 8300 2800
-F 0 "D37" H 8249 2928 50  0000 R CNN
+F 0 "D36" H 8249 2928 50  0000 R CNN
 F 1 "1N4148W" H 8359 2877 28  0000 R CNN
 F 2 "mini-general-tweaks:D_SOD123_axial-dual" H 8300 2625 50  0001 C CNN
 F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 8300 2800 50  0001 C CNN
@@ -1269,10 +1247,10 @@ F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 8300 2800 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Diode:1N4148W D36
+L Diode:1N4148W D35
 U 1 1 60AD7263
 P 7700 2800
-F 0 "D36" H 7649 2928 50  0000 R CNN
+F 0 "D35" H 7649 2928 50  0000 R CNN
 F 1 "1N4148W" H 7759 2877 28  0000 R CNN
 F 2 "mini-general-tweaks:D_SOD123_axial-dual" H 7700 2625 50  0001 C CNN
 F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 7700 2800 50  0001 C CNN
@@ -1280,10 +1258,10 @@ F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 7700 2800 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Diode:1N4148W D35
+L Diode:1N4148W D34
 U 1 1 60AD725D
 P 7100 2800
-F 0 "D35" H 7049 2928 50  0000 R CNN
+F 0 "D34" H 7049 2928 50  0000 R CNN
 F 1 "1N4148W" H 7159 2877 28  0000 R CNN
 F 2 "mini-general-tweaks:D_SOD123_axial-dual" H 7100 2625 50  0001 C CNN
 F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 7100 2800 50  0001 C CNN
@@ -1291,10 +1269,10 @@ F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 7100 2800 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Diode:1N4148W D34
+L Diode:1N4148W D33
 U 1 1 60AD7257
 P 6500 2800
-F 0 "D34" H 6449 2928 50  0000 R CNN
+F 0 "D33" H 6449 2928 50  0000 R CNN
 F 1 "1N4148W" H 6559 2877 28  0000 R CNN
 F 2 "mini-general-tweaks:D_SOD123_axial-dual" H 6500 2625 50  0001 C CNN
 F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 6500 2800 50  0001 C CNN
@@ -1302,10 +1280,10 @@ F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 6500 2800 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Diode:1N4148W D33
+L Diode:1N4148W D32
 U 1 1 60AD7251
 P 5900 2800
-F 0 "D33" H 5849 2928 50  0000 R CNN
+F 0 "D32" H 5849 2928 50  0000 R CNN
 F 1 "1N4148W" H 5959 2877 28  0000 R CNN
 F 2 "mini-general-tweaks:D_SOD123_axial-dual" H 5900 2625 50  0001 C CNN
 F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 5900 2800 50  0001 C CNN
@@ -1313,10 +1291,10 @@ F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 5900 2800 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Diode:1N4148W D32
+L Diode:1N4148W D31
 U 1 1 60AD724B
 P 5150 2800
-F 0 "D32" H 5099 2928 50  0000 R CNN
+F 0 "D31" H 5099 2928 50  0000 R CNN
 F 1 "1N4148W" H 5209 2877 28  0000 R CNN
 F 2 "mini-general-tweaks:D_SOD123_axial-dual" H 5150 2625 50  0001 C CNN
 F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 5150 2800 50  0001 C CNN
@@ -1324,10 +1302,10 @@ F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 5150 2800 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Diode:1N4148W D27
+L Diode:1N4148W D26
 U 1 1 60BC3774
 P 11300 2100
-F 0 "D27" H 11249 2228 50  0000 R CNN
+F 0 "D26" H 11249 2228 50  0000 R CNN
 F 1 "1N4148W" H 11359 2177 28  0000 R CNN
 F 2 "mini-general-tweaks:D_SOD123_axial-dual" H 11300 1925 50  0001 C CNN
 F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 11300 2100 50  0001 C CNN
@@ -1335,10 +1313,10 @@ F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 11300 2100 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Diode:1N4148W D26
+L Diode:1N4148W D25
 U 1 1 60BC377A
 P 10700 2100
-F 0 "D26" H 10649 2228 50  0000 R CNN
+F 0 "D25" H 10649 2228 50  0000 R CNN
 F 1 "1N4148W" H 10759 2177 28  0000 R CNN
 F 2 "mini-general-tweaks:D_SOD123_axial-dual" H 10700 1925 50  0001 C CNN
 F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 10700 2100 50  0001 C CNN
@@ -1346,10 +1324,10 @@ F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 10700 2100 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Diode:1N4148W D25
+L Diode:1N4148W D23
 U 1 1 60BC3780
 P 10100 2100
-F 0 "D25" H 10049 2228 50  0000 R CNN
+F 0 "D23" H 10049 2228 50  0000 R CNN
 F 1 "1N4148W" H 10159 2177 28  0000 R CNN
 F 2 "mini-general-tweaks:D_SOD123_axial-dual" H 10100 1925 50  0001 C CNN
 F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 10100 2100 50  0001 C CNN
@@ -1368,10 +1346,10 @@ F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 9500 2100 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Diode:1N4148W D23
+L Diode:1N4148W D22
 U 1 1 60BC378C
 P 8900 2100
-F 0 "D23" H 8849 2228 50  0000 R CNN
+F 0 "D22" H 8849 2228 50  0000 R CNN
 F 1 "1N4148W" H 8959 2177 28  0000 R CNN
 F 2 "mini-general-tweaks:D_SOD123_axial-dual" H 8900 1925 50  0001 C CNN
 F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 8900 2100 50  0001 C CNN
@@ -1379,10 +1357,10 @@ F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 8900 2100 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Diode:1N4148W D22
+L Diode:1N4148W D21
 U 1 1 60BC3792
 P 8300 2100
-F 0 "D22" H 8249 2228 50  0000 R CNN
+F 0 "D21" H 8249 2228 50  0000 R CNN
 F 1 "1N4148W" H 8359 2177 28  0000 R CNN
 F 2 "mini-general-tweaks:D_SOD123_axial-dual" H 8300 1925 50  0001 C CNN
 F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 8300 2100 50  0001 C CNN
@@ -1390,10 +1368,10 @@ F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 8300 2100 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Diode:1N4148W D21
+L Diode:1N4148W D20
 U 1 1 60BC3798
 P 7700 2100
-F 0 "D21" H 7649 2228 50  0000 R CNN
+F 0 "D20" H 7649 2228 50  0000 R CNN
 F 1 "1N4148W" H 7759 2177 28  0000 R CNN
 F 2 "mini-general-tweaks:D_SOD123_axial-dual" H 7700 1925 50  0001 C CNN
 F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 7700 2100 50  0001 C CNN
@@ -1401,10 +1379,10 @@ F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 7700 2100 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Diode:1N4148W D20
+L Diode:1N4148W D19
 U 1 1 60BC379E
 P 7100 2100
-F 0 "D20" H 7049 2228 50  0000 R CNN
+F 0 "D19" H 7049 2228 50  0000 R CNN
 F 1 "1N4148W" H 7159 2177 28  0000 R CNN
 F 2 "mini-general-tweaks:D_SOD123_axial-dual" H 7100 1925 50  0001 C CNN
 F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 7100 2100 50  0001 C CNN
@@ -1412,10 +1390,10 @@ F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 7100 2100 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Diode:1N4148W D19
+L Diode:1N4148W D18
 U 1 1 60BC37A4
 P 6500 2100
-F 0 "D19" H 6449 2228 50  0000 R CNN
+F 0 "D18" H 6449 2228 50  0000 R CNN
 F 1 "1N4148W" H 6559 2177 28  0000 R CNN
 F 2 "mini-general-tweaks:D_SOD123_axial-dual" H 6500 1925 50  0001 C CNN
 F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 6500 2100 50  0001 C CNN
@@ -1423,10 +1401,10 @@ F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 6500 2100 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Diode:1N4148W D17
+L Diode:1N4148W D16
 U 1 1 60BC37B0
 P 5150 2100
-F 0 "D17" H 5099 2228 50  0000 R CNN
+F 0 "D16" H 5099 2228 50  0000 R CNN
 F 1 "1N4148W" H 5209 2177 28  0000 R CNN
 F 2 "mini-general-tweaks:D_SOD123_axial-dual" H 5150 1925 50  0001 C CNN
 F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 5150 2100 50  0001 C CNN
@@ -1434,10 +1412,10 @@ F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 5150 2100 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Diode:1N4148W D63
+L Diode:1N4148W D62
 U 1 1 60BCD64A
 P 8300 4200
-F 0 "D63" H 8249 4328 50  0000 R CNN
+F 0 "D62" H 8249 4328 50  0000 R CNN
 F 1 "1N4148W" H 8359 4277 28  0000 R CNN
 F 2 "mini-general-tweaks:D_SOD123_axial-dual" H 8300 4025 50  0001 C CNN
 F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 8300 4200 50  0001 C CNN
@@ -1445,10 +1423,10 @@ F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 8300 4200 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Diode:1N4148W D64
+L Diode:1N4148W D63
 U 1 1 60BD70E6
 P 10100 4200
-F 0 "D64" H 10049 4328 50  0000 R CNN
+F 0 "D63" H 10049 4328 50  0000 R CNN
 F 1 "1N4148W" H 10159 4277 28  0000 R CNN
 F 2 "mini-general-tweaks:D_SOD123_axial-dual" H 10100 4025 50  0001 C CNN
 F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 10100 4200 50  0001 C CNN
@@ -1456,10 +1434,10 @@ F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 10100 4200 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Diode:1N4148W D65
+L Diode:1N4148W D64
 U 1 1 60BE0D66
 P 10700 4200
-F 0 "D65" H 10649 4328 50  0000 R CNN
+F 0 "D64" H 10649 4328 50  0000 R CNN
 F 1 "1N4148W" H 10759 4277 28  0000 R CNN
 F 2 "mini-general-tweaks:D_SOD123_axial-dual" H 10700 4025 50  0001 C CNN
 F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 10700 4200 50  0001 C CNN
@@ -1547,10 +1525,10 @@ Wire Wire Line
 	5900 2250 6500 2250
 Connection ~ 5900 2250
 $Comp
-L Diode:1N4148W D18
+L Diode:1N4148W D17
 U 1 1 60BC37AA
 P 5900 2100
-F 0 "D18" H 5849 2228 50  0000 R CNN
+F 0 "D17" H 5849 2228 50  0000 R CNN
 F 1 "1N4148W" H 5959 2177 28  0000 R CNN
 F 2 "mini-general-tweaks:D_SOD123_axial-dual" H 5900 1925 50  0001 C CNN
 F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 5900 2100 50  0001 C CNN
@@ -1708,10 +1686,10 @@ Wire Wire Line
 	12200 1750 12200 2450
 Connection ~ 12200 2450
 $Comp
-L Diode:1N4148W D13
+L Diode:1N4148W D12
 U 1 1 60AA3F32
 P 11900 1400
-F 0 "D13" H 11849 1528 50  0000 R CNN
+F 0 "D12" H 11849 1528 50  0000 R CNN
 F 1 "1N4148W" H 11959 1477 28  0000 R CNN
 F 2 "mini-general-tweaks:D_SOD123_axial-dual" H 11900 1225 50  0001 C CNN
 F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 11900 1400 50  0001 C CNN
@@ -1719,10 +1697,10 @@ F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 11900 1400 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Diode:1N4148W D43
+L Diode:1N4148W D42
 U 1 1 60AD728D
 P 11900 2800
-F 0 "D43" H 11849 2928 50  0000 R CNN
+F 0 "D42" H 11849 2928 50  0000 R CNN
 F 1 "1N4148W" H 11959 2877 28  0000 R CNN
 F 2 "mini-general-tweaks:D_SOD123_axial-dual" H 11900 2625 50  0001 C CNN
 F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 11900 2800 50  0001 C CNN
@@ -1730,10 +1708,10 @@ F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 11900 2800 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Diode:1N4148W D28
+L Diode:1N4148W D27
 U 1 1 60BC376E
 P 11900 2100
-F 0 "D28" H 11849 2228 50  0000 R CNN
+F 0 "D27" H 11849 2228 50  0000 R CNN
 F 1 "1N4148W" H 11959 2177 28  0000 R CNN
 F 2 "mini-general-tweaks:D_SOD123_axial-dual" H 11900 1925 50  0001 C CNN
 F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 11900 2100 50  0001 C CNN
@@ -1741,10 +1719,10 @@ F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 11900 2100 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Diode:1N4148W D66
+L Diode:1N4148W D65
 U 1 1 60BEAA33
 P 11300 4200
-F 0 "D66" H 11249 4328 50  0000 R CNN
+F 0 "D65" H 11249 4328 50  0000 R CNN
 F 1 "1N4148W" H 11359 4277 28  0000 R CNN
 F 2 "mini-general-tweaks:D_SOD123_axial-dual" H 11300 4025 50  0001 C CNN
 F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 11300 4200 50  0001 C CNN
@@ -1752,10 +1730,10 @@ F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 11300 4200 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Diode:1N4148W D67
+L Diode:1N4148W D66
 U 1 1 60BF4570
 P 11900 4200
-F 0 "D67" H 11849 4328 50  0000 R CNN
+F 0 "D66" H 11849 4328 50  0000 R CNN
 F 1 "1N4148W" H 11959 4277 28  0000 R CNN
 F 2 "mini-general-tweaks:D_SOD123_axial-dual" H 11900 4025 50  0001 C CNN
 F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 11900 4200 50  0001 C CNN
@@ -2068,10 +2046,10 @@ Wire Wire Line
 Connection ~ 10700 1550
 Connection ~ 8900 1550
 $Comp
-L Diode:1N4148W D9
+L Diode:1N4148W D8
 U 1 1 60A7D26D
 P 9500 1400
-F 0 "D9" H 9449 1528 50  0000 R CNN
+F 0 "D8" H 9449 1528 50  0000 R CNN
 F 1 "1N4148W" H 9559 1477 28  0000 R CNN
 F 2 "mini-general-tweaks:D_SOD123_axial-dual" H 9500 1225 50  0001 C CNN
 F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 9500 1400 50  0001 C CNN
@@ -2087,10 +2065,10 @@ Connection ~ 9500 1550
 Wire Wire Line
 	9500 1550 10100 1550
 $Comp
-L Diode:1N4148W D11
+L Diode:1N4148W D10
 U 1 1 60A90422
 P 10700 1400
-F 0 "D11" H 10695 1528 50  0000 R CNN
+F 0 "D10" H 10695 1528 50  0000 R CNN
 F 1 "1N4148W" H 10759 1477 28  0000 R CNN
 F 2 "mini-general-tweaks:D_SOD123_axial-dual" H 10700 1225 50  0001 C CNN
 F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 10700 1400 50  0001 C CNN
@@ -2146,21 +2124,10 @@ $EndComp
 Wire Wire Line
 	11400 4050 11300 4050
 $Comp
-L Diode:1N4148W D10
-U 1 1 60A86A5D
-P 10100 1400
-F 0 "D10" H 10095 1528 50  0000 R CNN
-F 1 "1N4148W" H 10159 1477 28  0000 R CNN
-F 2 "mini-general-tweaks:D_SOD123_axial-dual" H 10100 1225 50  0001 C CNN
-F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 10100 1400 50  0001 C CNN
-	1    10100 1400
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Diode:1N4148W D12
+L Diode:1N4148W D11
 U 1 1 60A9A295
 P 11300 1400
-F 0 "D12" H 11249 1528 50  0000 R CNN
+F 0 "D11" H 11249 1528 50  0000 R CNN
 F 1 "1N4148W" H 11359 1477 28  0000 R CNN
 F 2 "mini-general-tweaks:D_SOD123_axial-dual" H 11300 1225 50  0001 C CNN
 F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 11300 1400 50  0001 C CNN
@@ -2174,10 +2141,10 @@ Connection ~ 10100 4350
 Wire Wire Line
 	10100 4350 10700 4350
 $Comp
-L Diode:1N4148W D69
+L Diode:1N4148W D68
 U 1 1 60C7A699
 P 13100 4200
-F 0 "D69" H 13049 4328 50  0000 R CNN
+F 0 "D68" H 13049 4328 50  0000 R CNN
 F 1 "1N4148W" H 13159 4277 28  0000 R CNN
 F 2 "mini-general-tweaks:D_SOD123_axial-dual" H 13100 4025 50  0001 C CNN
 F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 13100 4200 50  0001 C CNN
@@ -2236,10 +2203,10 @@ F 3 "" H 11775 1825 60  0001 C CNN
 $EndComp
 Connection ~ 12800 1750
 $Comp
-L Diode:1N4148W D68
+L Diode:1N4148W D67
 U 1 1 60BFDFAE
 P 12500 4200
-F 0 "D68" H 12449 4328 50  0000 R CNN
+F 0 "D67" H 12449 4328 50  0000 R CNN
 F 1 "1N4148W" H 12559 4277 28  0000 R CNN
 F 2 "mini-general-tweaks:D_SOD123_axial-dual" H 12500 4025 50  0001 C CNN
 F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 12500 4200 50  0001 C CNN
@@ -2247,10 +2214,10 @@ F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 12500 4200 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Diode:1N4148W D29
+L Diode:1N4148W D28
 U 1 1 60BC3768
 P 12500 2100
-F 0 "D29" H 12449 2228 50  0000 R CNN
+F 0 "D28" H 12449 2228 50  0000 R CNN
 F 1 "1N4148W" H 12559 2177 28  0000 R CNN
 F 2 "mini-general-tweaks:D_SOD123_axial-dual" H 12500 1925 50  0001 C CNN
 F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 12500 2100 50  0001 C CNN
@@ -2258,10 +2225,10 @@ F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 12500 2100 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Diode:1N4148W D30
+L Diode:1N4148W D29
 U 1 1 60BC3762
 P 13100 2100
-F 0 "D30" H 13049 2228 50  0000 R CNN
+F 0 "D29" H 13049 2228 50  0000 R CNN
 F 1 "1N4148W" H 13159 2177 28  0000 R CNN
 F 2 "mini-general-tweaks:D_SOD123_axial-dual" H 13100 1925 50  0001 C CNN
 F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 13100 2100 50  0001 C CNN
@@ -2269,10 +2236,10 @@ F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 13100 2100 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Diode:1N4148W D44
+L Diode:1N4148W D43
 U 1 1 60AD7299
 P 13100 2800
-F 0 "D44" H 13049 2928 50  0000 R CNN
+F 0 "D43" H 13049 2928 50  0000 R CNN
 F 1 "1N4148W" H 13159 2877 28  0000 R CNN
 F 2 "mini-general-tweaks:D_SOD123_axial-dual" H 13100 2625 50  0001 C CNN
 F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 13100 2800 50  0001 C CNN
@@ -2280,10 +2247,10 @@ F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 13100 2800 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Diode:1N4148W D15
+L Diode:1N4148W D14
 U 1 1 60AB73FF
 P 13100 1400
-F 0 "D15" H 13049 1528 50  0000 R CNN
+F 0 "D14" H 13049 1528 50  0000 R CNN
 F 1 "1N4148W" H 13159 1477 28  0000 R CNN
 F 2 "mini-general-tweaks:D_SOD123_axial-dual" H 13100 1225 50  0001 C CNN
 F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 13100 1400 50  0001 C CNN
@@ -2291,10 +2258,10 @@ F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 13100 1400 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Diode:1N4148W D14
+L Diode:1N4148W D13
 U 1 1 60AAD9BF
 P 12500 1400
-F 0 "D14" H 12449 1528 50  0000 R CNN
+F 0 "D13" H 12449 1528 50  0000 R CNN
 F 1 "1N4148W" H 12559 1477 28  0000 R CNN
 F 2 "mini-general-tweaks:D_SOD123_axial-dual" H 12500 1225 50  0001 C CNN
 F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 12500 1400 50  0001 C CNN
@@ -2494,10 +2461,10 @@ Connection ~ 6200 3150
 Wire Wire Line
 	11050 3900 10750 3900
 $Comp
-L Diode:1N4148W D59
+L Diode:1N4148W D58
 U 1 1 60BAA5EE
 P 13100 3500
-F 0 "D59" H 13049 3628 50  0000 R CNN
+F 0 "D58" H 13049 3628 50  0000 R CNN
 F 1 "1N4148W" H 13159 3577 28  0000 R CNN
 F 2 "mini-general-tweaks:D_SOD123_axial-dual" H 13100 3325 50  0001 C CNN
 F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 13100 3500 50  0001 C CNN
@@ -2505,10 +2472,10 @@ F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 13100 3500 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Diode:1N4148W D58
+L Diode:1N4148W D57
 U 1 1 60BAA5F4
 P 12500 3500
-F 0 "D58" H 12449 3628 50  0000 R CNN
+F 0 "D57" H 12449 3628 50  0000 R CNN
 F 1 "1N4148W" H 12559 3577 28  0000 R CNN
 F 2 "mini-general-tweaks:D_SOD123_axial-dual" H 12500 3325 50  0001 C CNN
 F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 12500 3500 50  0001 C CNN
@@ -2520,10 +2487,10 @@ Wire Wire Line
 Wire Wire Line
 	11600 3850 11600 3150
 $Comp
-L Diode:1N4148W D57
+L Diode:1N4148W D56
 U 1 1 60BAA5FA
 P 11900 3500
-F 0 "D57" H 11849 3628 50  0000 R CNN
+F 0 "D56" H 11849 3628 50  0000 R CNN
 F 1 "1N4148W" H 11959 3577 28  0000 R CNN
 F 2 "mini-general-tweaks:D_SOD123_axial-dual" H 11900 3325 50  0001 C CNN
 F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 11900 3500 50  0001 C CNN
@@ -2537,10 +2504,10 @@ Wire Wire Line
 Wire Wire Line
 	11000 3150 11000 3850
 $Comp
-L Diode:1N4148W D48
+L Diode:1N4148W D47
 U 1 1 60BAA630
 P 6500 3500
-F 0 "D48" H 6449 3628 50  0000 R CNN
+F 0 "D47" H 6449 3628 50  0000 R CNN
 F 1 "1N4148W" H 6559 3577 28  0000 R CNN
 F 2 "mini-general-tweaks:D_SOD123_axial-dual" H 6500 3325 50  0001 C CNN
 F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 6500 3500 50  0001 C CNN
@@ -2548,10 +2515,10 @@ F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 6500 3500 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Diode:1N4148W D49
+L Diode:1N4148W D48
 U 1 1 60BAA62A
 P 7100 3500
-F 0 "D49" H 7049 3628 50  0000 R CNN
+F 0 "D48" H 7049 3628 50  0000 R CNN
 F 1 "1N4148W" H 7159 3577 28  0000 R CNN
 F 2 "mini-general-tweaks:D_SOD123_axial-dual" H 7100 3325 50  0001 C CNN
 F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 7100 3500 50  0001 C CNN
@@ -2559,10 +2526,10 @@ F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 7100 3500 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Diode:1N4148W D50
+L Diode:1N4148W D49
 U 1 1 60BAA624
 P 7700 3500
-F 0 "D50" H 7649 3628 50  0000 R CNN
+F 0 "D49" H 7649 3628 50  0000 R CNN
 F 1 "1N4148W" H 7759 3577 28  0000 R CNN
 F 2 "mini-general-tweaks:D_SOD123_axial-dual" H 7700 3325 50  0001 C CNN
 F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 7700 3500 50  0001 C CNN
@@ -2570,10 +2537,10 @@ F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 7700 3500 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Diode:1N4148W D51
+L Diode:1N4148W D50
 U 1 1 60BAA61E
 P 8300 3500
-F 0 "D51" H 8249 3628 50  0000 R CNN
+F 0 "D50" H 8249 3628 50  0000 R CNN
 F 1 "1N4148W" H 8359 3577 28  0000 R CNN
 F 2 "mini-general-tweaks:D_SOD123_axial-dual" H 8300 3325 50  0001 C CNN
 F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 8300 3500 50  0001 C CNN
@@ -2581,10 +2548,10 @@ F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 8300 3500 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Diode:1N4148W D52
+L Diode:1N4148W D51
 U 1 1 60BAA618
 P 8900 3500
-F 0 "D52" H 8849 3628 50  0000 R CNN
+F 0 "D51" H 8849 3628 50  0000 R CNN
 F 1 "1N4148W" H 8959 3577 28  0000 R CNN
 F 2 "mini-general-tweaks:D_SOD123_axial-dual" H 8900 3325 50  0001 C CNN
 F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 8900 3500 50  0001 C CNN
@@ -2592,10 +2559,10 @@ F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 8900 3500 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Diode:1N4148W D53
+L Diode:1N4148W D52
 U 1 1 60BAA612
 P 9500 3500
-F 0 "D53" H 9449 3628 50  0000 R CNN
+F 0 "D52" H 9449 3628 50  0000 R CNN
 F 1 "1N4148W" H 9559 3577 28  0000 R CNN
 F 2 "mini-general-tweaks:D_SOD123_axial-dual" H 9500 3325 50  0001 C CNN
 F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 9500 3500 50  0001 C CNN
@@ -2603,10 +2570,10 @@ F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 9500 3500 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Diode:1N4148W D54
+L Diode:1N4148W D53
 U 1 1 60BAA60C
 P 10100 3500
-F 0 "D54" H 10049 3628 50  0000 R CNN
+F 0 "D53" H 10049 3628 50  0000 R CNN
 F 1 "1N4148W" H 10159 3577 28  0000 R CNN
 F 2 "mini-general-tweaks:D_SOD123_axial-dual" H 10100 3325 50  0001 C CNN
 F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 10100 3500 50  0001 C CNN
@@ -2614,10 +2581,10 @@ F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 10100 3500 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Diode:1N4148W D55
+L Diode:1N4148W D54
 U 1 1 60BAA606
 P 10700 3500
-F 0 "D55" H 10649 3628 50  0000 R CNN
+F 0 "D54" H 10649 3628 50  0000 R CNN
 F 1 "1N4148W" H 10759 3577 28  0000 R CNN
 F 2 "mini-general-tweaks:D_SOD123_axial-dual" H 10700 3325 50  0001 C CNN
 F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 10700 3500 50  0001 C CNN
@@ -2625,10 +2592,10 @@ F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 10700 3500 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Diode:1N4148W D56
+L Diode:1N4148W D55
 U 1 1 60BAA600
 P 11300 3500
-F 0 "D56" H 11249 3628 50  0000 R CNN
+F 0 "D55" H 11249 3628 50  0000 R CNN
 F 1 "1N4148W" H 11359 3577 28  0000 R CNN
 F 2 "mini-general-tweaks:D_SOD123_axial-dual" H 11300 3325 50  0001 C CNN
 F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 11300 3500 50  0001 C CNN
@@ -2763,10 +2730,10 @@ Wire Wire Line
 Wire Wire Line
 	4700 3150 4700 3850
 $Comp
-L Diode:1N4148W D45
+L Diode:1N4148W D44
 U 1 1 60A11924
 P 4400 3500
-F 0 "D45" H 4349 3628 50  0000 R CNN
+F 0 "D44" H 4349 3628 50  0000 R CNN
 F 1 "1N4148W" H 4459 3577 28  0000 R CNN
 F 2 "mini-general-tweaks:D_SOD123_axial-dual" H 4400 3325 50  0001 C CNN
 F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 4400 3500 50  0001 C CNN
@@ -2774,10 +2741,10 @@ F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 4400 3500 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Diode:1N4148W D47
+L Diode:1N4148W D46
 U 1 1 60BAA636
 P 5900 3500
-F 0 "D47" H 5849 3628 50  0000 R CNN
+F 0 "D46" H 5849 3628 50  0000 R CNN
 F 1 "1N4148W" H 5959 3577 28  0000 R CNN
 F 2 "mini-general-tweaks:D_SOD123_axial-dual" H 5900 3325 50  0001 C CNN
 F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 5900 3500 50  0001 C CNN
@@ -2785,10 +2752,10 @@ F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 5900 3500 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Diode:1N4148W D46
+L Diode:1N4148W D45
 U 1 1 60BAA63C
 P 5150 3500
-F 0 "D46" H 5099 3628 50  0000 R CNN
+F 0 "D45" H 5099 3628 50  0000 R CNN
 F 1 "1N4148W" H 5209 3577 28  0000 R CNN
 F 2 "mini-general-tweaks:D_SOD123_axial-dual" H 5150 3325 50  0001 C CNN
 F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 5150 3500 50  0001 C CNN
@@ -2835,10 +2802,10 @@ Wire Wire Line
 	4150 4350 4400 4350
 Connection ~ 5900 3650
 $Comp
-L Diode:1N4148W D61
+L Diode:1N4148W D60
 U 1 1 60A07B5C
 P 5150 4200
-F 0 "D61" H 5099 4328 50  0000 R CNN
+F 0 "D60" H 5099 4328 50  0000 R CNN
 F 1 "1N4148W" H 5209 4277 28  0000 R CNN
 F 2 "mini-general-tweaks:D_SOD123_axial-dual" H 5150 4025 50  0001 C CNN
 F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 5150 4200 50  0001 C CNN
@@ -2846,10 +2813,10 @@ F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 5150 4200 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Diode:1N4148W D60
+L Diode:1N4148W D59
 U 1 1 609FDC8A
 P 4400 4200
-F 0 "D60" H 4349 4328 50  0000 R CNN
+F 0 "D59" H 4349 4328 50  0000 R CNN
 F 1 "1N4148W" H 4459 4277 28  0000 R CNN
 F 2 "mini-general-tweaks:D_SOD123_axial-dual" H 4400 4025 50  0001 C CNN
 F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 4400 4200 50  0001 C CNN
@@ -2857,10 +2824,10 @@ F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 4400 4200 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Diode:1N4148W D62
+L Diode:1N4148W D61
 U 1 1 609F2922
 P 5900 4200
-F 0 "D62" H 5849 4328 50  0000 R CNN
+F 0 "D61" H 5849 4328 50  0000 R CNN
 F 1 "1N4148W" H 5959 4277 28  0000 R CNN
 F 2 "mini-general-tweaks:D_SOD123_axial-dual" H 5900 4025 50  0001 C CNN
 F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 5900 4200 50  0001 C CNN
@@ -3045,11 +3012,11 @@ F 3 "" H 7950 7350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+5C #PWR?
-U 1 1 60D01E1A
+L power:+5V #PWR0121
+U 1 1 60D5F5D4
 P 8200 7150
-F 0 "#PWR?" H 8200 7000 50  0001 C CNN
-F 1 "+5C" H 8215 7323 50  0000 C CNN
+F 0 "#PWR0121" H 8200 7000 50  0001 C CNN
+F 1 "+5V" H 8215 7323 50  0000 C CNN
 F 2 "" H 8200 7150 50  0001 C CNN
 F 3 "" H 8200 7150 50  0001 C CNN
 	1    8200 7150
@@ -3058,4 +3025,37 @@ $EndComp
 Wire Wire Line
 	8200 7150 7950 7150
 Connection ~ 7950 7150
+$Comp
+L Diode:1N4148W D1
+U 1 1 60A392AE
+P 5150 1400
+F 0 "D1" H 5099 1528 50  0000 R CNN
+F 1 "1N4148W" H 5209 1477 28  0000 R CNN
+F 2 "mini-general-tweaks:D_SOD123_axial-dual" H 5150 1225 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 5150 1400 50  0001 C CNN
+	1    5150 1400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:1N4148W D0
+U 1 1 60A2F34F
+P 4400 1400
+F 0 "D0" H 4349 1528 50  0000 R CNN
+F 1 "1N4148W" H 4459 1477 28  0000 R CNN
+F 2 "mini-general-tweaks:D_SOD123_axial-dual" H 4400 1225 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 4400 1400 50  0001 C CNN
+	1    4400 1400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:1N4148W D9
+U 1 1 60A86A5D
+P 10100 1400
+F 0 "D9" H 10095 1528 50  0000 R CNN
+F 1 "1N4148W" H 10159 1477 28  0000 R CNN
+F 2 "mini-general-tweaks:D_SOD123_axial-dual" H 10100 1225 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 10100 1400 50  0001 C CNN
+	1    10100 1400
+	0    -1   -1   0   
+$EndComp
 $EndSCHEMATC
