@@ -7,4 +7,5 @@
   (lib (name Type-C)(type KiCad)(uri ${KIPRJMOD}/Type-C.pretty)(options "")(descr ""))
   (lib (name mini-MX-Tweaks)(type KiCad)(uri ${KIPRJMOD}/mini-MX-Tweaks.pretty)(options "")(descr ""))
   (lib (name mini-general-tweaks)(type KiCad)(uri ${KIPRJMOD}/mini-general-tweaks.pretty)(options "")(descr ""))
+  (lib (name eec)(type KiCad)(uri "${KIPRJMOD}/Littelfuse SM24CANB-02HTG/eec.pretty")(options "")(descr ""))
 )

@@ -1324,10 +1324,10 @@ F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 10700 2100 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Diode:1N4148W D23
+L Diode:1N4148W D24
 U 1 1 60BC3780
 P 10100 2100
-F 0 "D23" H 10049 2228 50  0000 R CNN
+F 0 "D24" H 10049 2228 50  0000 R CNN
 F 1 "1N4148W" H 10159 2177 28  0000 R CNN
 F 2 "mini-general-tweaks:D_SOD123_axial-dual" H 10100 1925 50  0001 C CNN
 F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 10100 2100 50  0001 C CNN
@@ -1335,10 +1335,10 @@ F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 10100 2100 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Diode:1N4148W D24
+L Diode:1N4148W D23
 U 1 1 60BC3786
 P 9500 2100
-F 0 "D24" H 9449 2228 50  0000 R CNN
+F 0 "D23" H 9449 2228 50  0000 R CNN
 F 1 "1N4148W" H 9559 2177 28  0000 R CNN
 F 2 "mini-general-tweaks:D_SOD123_axial-dual" H 9500 1925 50  0001 C CNN
 F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 9500 2100 50  0001 C CNN
@@ -1853,17 +1853,6 @@ $EndComp
 Wire Wire Line
 	4200 2700 4550 2700
 $Comp
-L Power_Protection:USBLC6-2SC6 U2
-U 1 1 6063E3B9
-P 7350 7150
-F 0 "U2" V 6750 7150 50  0000 C CNN
-F 1 "USBLC6-2SC6" V 6650 7150 50  0000 C CNN
-F 2 "mini-general-tweaks:SOT-23-6_tweaked" H 6600 7550 50  0001 C CNN
-F 3 "http://www2.st.com/resource/en/datasheet/CD00050750.pdf" H 7550 7500 50  0001 C CNN
-	1    7350 7150
-	0    1    1    0   
-$EndComp
-$Comp
 L Device:Polyfuse_Small F1
 U 1 1 5F1C7377
 P 7400 5850
@@ -1971,28 +1960,26 @@ USB_D+
 $Comp
 L power:GND #PWR0119
 U 1 1 60A46743
-P 6750 7150
-F 0 "#PWR0119" H 6750 6900 50  0001 C CNN
-F 1 "GND" H 6755 6977 50  0000 C CNN
-F 2 "" H 6750 7150 50  0001 C CNN
-F 3 "" H 6750 7150 50  0001 C CNN
-	1    6750 7150
+P 6350 7550
+F 0 "#PWR0119" H 6350 7300 50  0001 C CNN
+F 1 "GND" H 6355 7377 50  0000 C CNN
+F 2 "" H 6350 7550 50  0001 C CNN
+F 3 "" H 6350 7550 50  0001 C CNN
+	1    6350 7550
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	6850 7150 6750 7150
-Text GLabel 7550 6650 2    50   Input ~ 0
+Text GLabel 7600 7450 2    50   Input ~ 0
 MCU_D-
-Text GLabel 7550 7650 2    50   Input ~ 0
+Text GLabel 7600 7650 2    50   Input ~ 0
 MCU_D+
 Wire Wire Line
-	7550 6650 7450 6650
+	7600 7450 7500 7450
 Wire Wire Line
-	7250 6650 7150 6650
+	6900 7450 6800 7450
 Wire Wire Line
-	7250 7650 7150 7650
+	6900 7650 6800 7650
 Wire Wire Line
-	7450 7650 7550 7650
+	7500 7650 7600 7650
 $Comp
 L Device:R_Small R6
 U 1 1 6077EF8B
@@ -2520,9 +2507,7 @@ Wire Wire Line
 	6200 3150 6200 3850
 Text GLabel 5400 6550 2    50   Input ~ 0
 USB_D-
-Text GLabel 7150 7650 0    50   Input ~ 0
-USB_D+
-Text GLabel 7150 6650 0    50   Input ~ 0
+Text GLabel 6800 7450 0    50   Input ~ 0
 USB_D-
 Text GLabel 1650 2450 3    50   Input ~ 0
 DN
@@ -2836,41 +2821,39 @@ Wire Wire Line
 $Comp
 L Device:C_Small C8
 U 1 1 60E08719
-P 7950 7250
-F 0 "C8" H 8042 7296 50  0000 L CNN
-F 1 "4.7u" H 8042 7205 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 7950 7250 50  0001 C CNN
-F 3 "~" H 7950 7250 50  0001 C CNN
-	1    7950 7250
+P 8100 7650
+F 0 "C8" H 8192 7696 50  0000 L CNN
+F 1 "100nF" H 8192 7605 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 8100 7650 50  0001 C CNN
+F 3 "~" H 8100 7650 50  0001 C CNN
+	1    8100 7650
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	7950 7150 7850 7150
 $Comp
 L power:GND #PWR0122
 U 1 1 60E0A898
-P 7950 7350
-F 0 "#PWR0122" H 7950 7100 50  0001 C CNN
-F 1 "GND" H 7955 7177 50  0000 C CNN
-F 2 "" H 7950 7350 50  0001 C CNN
-F 3 "" H 7950 7350 50  0001 C CNN
-	1    7950 7350
+P 8100 7750
+F 0 "#PWR0122" H 8100 7500 50  0001 C CNN
+F 1 "GND" H 8105 7577 50  0000 C CNN
+F 2 "" H 8100 7750 50  0001 C CNN
+F 3 "" H 8100 7750 50  0001 C CNN
+	1    8100 7750
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:+5V #PWR0121
 U 1 1 60D5F5D4
-P 8200 7150
-F 0 "#PWR0121" H 8200 7000 50  0001 C CNN
-F 1 "+5V" H 8215 7323 50  0000 C CNN
-F 2 "" H 8200 7150 50  0001 C CNN
-F 3 "" H 8200 7150 50  0001 C CNN
-	1    8200 7150
+P 8350 7550
+F 0 "#PWR0121" H 8350 7400 50  0001 C CNN
+F 1 "+5V" H 8365 7723 50  0000 C CNN
+F 2 "" H 8350 7550 50  0001 C CNN
+F 3 "" H 8350 7550 50  0001 C CNN
+	1    8350 7550
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	8200 7150 7950 7150
-Connection ~ 7950 7150
+	8350 7550 8100 7550
+Connection ~ 8100 7550
 $Comp
 L Diode:1N4148W D1
 U 1 1 60A392AE
@@ -2908,7 +2891,7 @@ $Comp
 L Diode:1N4148W D11
 U 1 1 60A9A295
 P 11300 1400
-F 0 "D11" H 11249 1528 50  0000 R CNN
+F 0 "D11" H 11249 1528 50  0000 L CNN
 F 1 "1N4148W" H 11359 1477 28  0000 R CNN
 F 2 "mini-general-tweaks:D_SOD123_axial-dual" H 11300 1225 50  0001 C CNN
 F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 11300 1400 50  0001 C CNN
@@ -3048,14 +3031,31 @@ F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 10700 1400 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Diode:1N4148W D60
+L Diode:1N4148W D59
 U 1 1 609FDC8A
 P 4400 4200
-F 0 "D60" H 4349 4328 50  0000 R CNN
+F 0 "D59" H 4349 4328 50  0000 R CNN
 F 1 "1N4148W" H 4459 4277 28  0000 R CNN
 F 2 "mini-general-tweaks:D_SOD123_axial-dual" H 4400 4025 50  0001 C CNN
 F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 4400 4200 50  0001 C CNN
 	1    4400 4200
 	0    -1   -1   0   
 $EndComp
+$Comp
+L Power_Protection:WE-TVS-82400102 U2
+U 1 1 60D419F0
+P 7200 7550
+F 0 "U2" H 7200 7875 50  0000 C CNN
+F 1 "WE-TVS-82400102" H 7200 7784 50  0000 C CNN
+F 2 "mini-general-tweaks:SOT-23-6_tweaked" H 7200 7350 50  0001 C CNN
+F 3 "https://katalog.we-online.de/pbs/datasheet/82400102.pdf" H 7200 7300 50  0001 C CNN
+	1    7200 7550
+	1    0    0    -1  
+$EndComp
+Text GLabel 6800 7650 0    50   Input ~ 0
+USB_D+
+Wire Wire Line
+	7500 7550 8100 7550
+Wire Wire Line
+	6350 7550 6900 7550
 $EndSCHEMATC
