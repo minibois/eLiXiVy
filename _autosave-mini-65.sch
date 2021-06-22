@@ -2516,109 +2516,71 @@ DP
 $Comp
 L Mechanical:MountingHole_Pad H0
 U 1 1 6086D118
-P 9100 5800
-F 0 "H0" H 9200 5849 50  0000 L CNN
-F 1 "MountingHole_Pad" H 9200 5758 50  0000 L CNN
-F 2 "mini-general-tweaks:MountingHole_2.2mm_M2_Pad_tweaked" H 9100 5800 50  0001 C CNN
-F 3 "~" H 9100 5800 50  0001 C CNN
-	1    9100 5800
+P 10400 6550
+F 0 "H0" H 10500 6599 50  0000 L CNN
+F 1 "MountingHole_Pad" H 10500 6508 50  0000 L CNN
+F 2 "mini-general-tweaks:MountingHole_2.2mm_M2_Pad_tweaked" H 10400 6550 50  0001 C CNN
+F 3 "~" H 10400 6550 50  0001 C CNN
+	1    10400 6550
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole_Pad H1
 U 1 1 6087565E
-P 9100 6050
-F 0 "H1" H 9200 6099 50  0000 L CNN
-F 1 "MountingHole_Pad" H 9200 6008 50  0000 L CNN
-F 2 "mini-general-tweaks:MountingHole_2.2mm_M2_Pad_tweaked" H 9100 6050 50  0001 C CNN
-F 3 "~" H 9100 6050 50  0001 C CNN
-	1    9100 6050
+P 10400 6250
+F 0 "H1" H 10500 6299 50  0000 L CNN
+F 1 "MountingHole_Pad" H 10500 6208 50  0000 L CNN
+F 2 "mini-general-tweaks:MountingHole_2.2mm_M2_Pad_tweaked" H 10400 6250 50  0001 C CNN
+F 3 "~" H 10400 6250 50  0001 C CNN
+	1    10400 6250
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole_Pad H2
 U 1 1 6089094F
-P 9100 6300
-F 0 "H2" H 9200 6349 50  0000 L CNN
-F 1 "MountingHole_Pad" H 9200 6258 50  0000 L CNN
-F 2 "mini-general-tweaks:MountingHole_2.2mm_M2_Pad_tweaked" H 9100 6300 50  0001 C CNN
-F 3 "~" H 9100 6300 50  0001 C CNN
-	1    9100 6300
+P 10400 6000
+F 0 "H2" H 10500 6049 50  0000 L CNN
+F 1 "MountingHole_Pad" H 10500 5958 50  0000 L CNN
+F 2 "mini-general-tweaks:MountingHole_2.2mm_M2_Pad_tweaked" H 10400 6000 50  0001 C CNN
+F 3 "~" H 10400 6000 50  0001 C CNN
+	1    10400 6000
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole_Pad H3
 U 1 1 608ABAB5
-P 9100 6550
-F 0 "H3" H 9200 6599 50  0000 L CNN
-F 1 "MountingHole_Pad" H 9200 6508 50  0000 L CNN
-F 2 "mini-general-tweaks:MountingHole_2.2mm_M2_Pad_tweaked" H 9100 6550 50  0001 C CNN
-F 3 "~" H 9100 6550 50  0001 C CNN
-	1    9100 6550
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole_Pad H5
-U 1 1 608E1DAA
-P 9100 7050
-F 0 "H5" H 9200 7099 50  0000 L CNN
-F 1 "MountingHole_Pad" H 9200 7008 50  0000 L CNN
-F 2 "mini-general-tweaks:MountingHole_2.2mm_M2_Pad_tweaked" H 9100 7050 50  0001 C CNN
-F 3 "~" H 9100 7050 50  0001 C CNN
-	1    9100 7050
+P 10400 5750
+F 0 "H3" H 10500 5799 50  0000 L CNN
+F 1 "MountingHole_Pad" H 10500 5708 50  0000 L CNN
+F 2 "mini-general-tweaks:MountingHole_2.2mm_M2_Pad_tweaked" H 10400 5750 50  0001 C CNN
+F 3 "~" H 10400 5750 50  0001 C CNN
+	1    10400 5750
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole_Pad H4
 U 1 1 608C6C75
-P 9100 6800
-F 0 "H4" H 9200 6849 50  0000 L CNN
-F 1 "MountingHole_Pad" H 9200 6758 50  0000 L CNN
-F 2 "mini-general-tweaks:MountingHole_2.2mm_M2_Pad_tweaked" H 9100 6800 50  0001 C CNN
-F 3 "~" H 9100 6800 50  0001 C CNN
-	1    9100 6800
+P 10400 5500
+F 0 "H4" H 10500 5549 50  0000 L CNN
+F 1 "MountingHole_Pad" H 10500 5458 50  0000 L CNN
+F 2 "mini-general-tweaks:MountingHole_2.2mm_M2_Pad_tweaked" H 10400 5500 50  0001 C CNN
+F 3 "~" H 10400 5500 50  0001 C CNN
+	1    10400 5500
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR0120
 U 1 1 60985804
-P 8950 7200
-F 0 "#PWR0120" H 8950 6950 50  0001 C CNN
-F 1 "GND" H 8955 7027 50  0000 C CNN
-F 2 "" H 8950 7200 50  0001 C CNN
-F 3 "" H 8950 7200 50  0001 C CNN
-	1    8950 7200
+P 10250 6650
+F 0 "#PWR0120" H 10250 6400 50  0001 C CNN
+F 1 "GND" H 10255 6477 50  0000 C CNN
+F 2 "" H 10250 6650 50  0001 C CNN
+F 3 "" H 10250 6650 50  0001 C CNN
+	1    10250 6650
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	9100 5900 8950 5900
-Wire Wire Line
-	8950 5900 8950 6150
-Wire Wire Line
-	9100 6150 8950 6150
-Connection ~ 8950 6150
-Wire Wire Line
-	8950 6150 8950 6400
-Wire Wire Line
-	9100 6400 8950 6400
-Connection ~ 8950 6400
-Wire Wire Line
-	8950 6400 8950 6650
-Wire Wire Line
-	9100 6650 8950 6650
-Connection ~ 8950 6650
-Wire Wire Line
-	8950 6650 8950 6900
-Wire Wire Line
-	9100 6900 8950 6900
-Connection ~ 8950 6900
-Wire Wire Line
-	8950 6900 8950 7150
-Wire Wire Line
-	9100 7150 8950 7150
-Connection ~ 8950 7150
-Wire Wire Line
-	8950 7150 8950 7200
+	10400 6650 10250 6650
 Connection ~ 5450 3150
 Connection ~ 6500 3650
 Connection ~ 8300 4350
@@ -3058,4 +3020,15 @@ Wire Wire Line
 	7500 7550 8100 7550
 Wire Wire Line
 	6350 7550 6900 7550
+$Comp
+L Mechanical:MountingHole_Pad H5
+U 1 1 608E1DAA
+P 10400 5250
+F 0 "H5" H 10500 5299 50  0000 L CNN
+F 1 "MountingHole_Pad" H 10500 5208 50  0000 L CNN
+F 2 "mini-general-tweaks:MountingHole_2.2mm_M2_Pad_tweaked" H 10400 5250 50  0001 C CNN
+F 3 "~" H 10400 5250 50  0001 C CNN
+	1    10400 5250
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
