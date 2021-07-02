@@ -342,6 +342,38 @@ X SBU2 9 600 -1150 200 L 50 50 1 1 B
 ENDDRAW
 ENDDEF
 #
+# mini_random_library_mini-eLiXiR-Logo-Mask
+#
+DEF mini_random_library_mini-eLiXiR-Logo-Mask LO 0 40 Y Y 1 F N
+F0 "LO" 0 0 50 H V C CNN
+F1 "mini_random_library_mini-eLiXiR-Logo-Mask" 0 -100 50 H V C CNN
+F2 "" 0 -100 50 H I C CNN
+F3 "" 0 -100 50 H I C CNN
+DRAW
+C 0 -250 50 0 1 0 N
+P 2 0 1 0 -50 -250 -100 -250 N
+P 2 0 1 0 0 -300 0 -350 N
+P 2 0 1 0 0 -200 0 -150 N
+P 2 0 1 0 50 -250 100 -250 N
+ENDDRAW
+ENDDEF
+#
+# mini_random_library_mini-eLiXiR-Logo-SilkScreen
+#
+DEF mini_random_library_mini-eLiXiR-Logo-SilkScreen LO 0 40 Y Y 1 F N
+F0 "LO" 0 0 50 H V C CNN
+F1 "mini_random_library_mini-eLiXiR-Logo-SilkScreen" 0 -100 50 H V C CNN
+F2 "" 0 -100 50 H I C CNN
+F3 "" 0 -100 50 H I C CNN
+DRAW
+C 0 -250 50 0 1 0 N
+P 2 0 1 0 -50 -250 -100 -250 N
+P 2 0 1 0 0 -300 0 -350 N
+P 2 0 1 0 0 -200 0 -150 N
+P 2 0 1 0 50 -250 100 -250 N
+ENDDRAW
+ENDDEF
+#
 # power_+5V
 #
 DEF power_+5V #PWR 0 0 Y Y 1 F P

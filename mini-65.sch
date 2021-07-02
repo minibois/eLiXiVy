@@ -2571,16 +2571,14 @@ $EndComp
 $Comp
 L power:GND #PWR0120
 U 1 1 60985804
-P 10250 6650
-F 0 "#PWR0120" H 10250 6400 50  0001 C CNN
-F 1 "GND" H 10255 6477 50  0000 C CNN
-F 2 "" H 10250 6650 50  0001 C CNN
-F 3 "" H 10250 6650 50  0001 C CNN
-	1    10250 6650
+P 10400 6650
+F 0 "#PWR0120" H 10400 6400 50  0001 C CNN
+F 1 "GND" H 10405 6477 50  0000 C CNN
+F 2 "" H 10400 6650 50  0001 C CNN
+F 3 "" H 10400 6650 50  0001 C CNN
+	1    10400 6650
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	10400 6650 10250 6650
 Connection ~ 5450 3150
 Connection ~ 6500 3650
 Connection ~ 8300 4350
@@ -3020,15 +3018,6 @@ Wire Wire Line
 	7500 7550 8100 7550
 Wire Wire Line
 	6350 7550 6900 7550
-Wire Wire Line
-	8950 6150 8950 6900
-Wire Wire Line
-	9100 6900 8950 6900
-Wire Wire Line
-	9100 6150 8950 6150
-Connection ~ 8950 6150
-Wire Wire Line
-	8950 5900 8950 6150
 $Comp
 L Mechanical:MountingHole_Pad H5
 U 1 1 608E1DAA
@@ -3038,6 +3027,33 @@ F 1 "MountingHole_Pad" H 10500 5208 50  0000 L CNN
 F 2 "mini-general-tweaks:MountingHole_2.2mm_M2_Pad_tweaked" H 10400 5250 50  0001 C CNN
 F 3 "~" H 10400 5250 50  0001 C CNN
 	1    10400 5250
+	1    0    0    -1  
+$EndComp
+NoConn ~ 10400 5350
+NoConn ~ 10400 5600
+NoConn ~ 10400 5850
+NoConn ~ 10400 6100
+NoConn ~ 10400 6350
+$Comp
+L mini_random_library:mini-eLiXiR-Logo-Mask LO0
+U 1 1 60E319B2
+P 11750 4950
+F 0 "LO0" H 11878 4746 50  0000 L CNN
+F 1 "mini-eLiXiR-Logo-Mask" H 11878 4655 50  0000 L CNN
+F 2 "mini-Logos:eLiXiVy-Mask" H 11750 4850 50  0001 C CNN
+F 3 "" H 11750 4850 50  0001 C CNN
+	1    11750 4950
+	1    0    0    -1  
+$EndComp
+$Comp
+L mini_random_library:mini-eLiXiR-Logo-SilkScreen LO1
+U 1 1 60E339A9
+P 11750 5200
+F 0 "LO1" H 11878 4996 50  0000 L CNN
+F 1 "mini-eLiXiR-Logo-SilkScreen" H 11878 4905 50  0000 L CNN
+F 2 "mini-Logos:eLiXiVy-SilkScreen" H 11750 5100 50  0001 C CNN
+F 3 "" H 11750 5100 50  0001 C CNN
+	1    11750 5200
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
