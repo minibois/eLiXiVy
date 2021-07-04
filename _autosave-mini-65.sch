@@ -2949,12 +2949,12 @@ NoConn ~ 10400 6350
 $Comp
 L mini_random_library:mini-eLiXiR-Logo-Mask LO0
 U 1 1 60E319B2
-P 11750 4950
-F 0 "LO0" H 11878 4746 50  0000 L CNN
-F 1 "mini-eLiXiR-Logo-Mask" H 11878 4655 50  0000 L CNN
-F 2 "mini-Logos:eLiXiVy-Maskv2" H 11750 4850 50  0001 C CNN
-F 3 "" H 11750 4850 50  0001 C CNN
-	1    11750 4950
+P 11650 4950
+F 0 "LO0" H 11778 4746 50  0000 L CNN
+F 1 "mini-eLiXiR-Logo-Mask" H 11778 4655 50  0000 L CNN
+F 2 "mini-Logos:eLiXiVy-Maskv2" H 11650 4850 50  0001 C CNN
+F 3 "" H 11650 4850 50  0001 C CNN
+	1    11650 4950
 	1    0    0    -1  
 $EndComp
 Text GLabel 1950 1550 0    50   Input ~ 0
@@ -3056,12 +3056,12 @@ $EndComp
 $Comp
 L mini_random_library:mini-eLiXiR-Logo-SilkScreen LO1
 U 1 1 60E83B80
-P 11750 5200
-F 0 "LO1" H 11878 4996 50  0000 L CNN
-F 1 "mini-eLiXiR-Logo-SilkScreen" H 11878 4905 50  0000 L CNN
-F 2 "mini-Logos:eLiXiVy-SilkScreenv2" H 11750 5100 50  0001 C CNN
-F 3 "" H 11750 5100 50  0001 C CNN
-	1    11750 5200
+P 11650 5200
+F 0 "LO1" H 11778 4996 50  0000 L CNN
+F 1 "mini-eLiXiR-Logo-SilkScreen" H 11778 4905 50  0000 L CNN
+F 2 "mini-Logos:eLiXiVy-SilkScreenv2" H 11650 5100 50  0001 C CNN
+F 3 "" H 11650 5100 50  0001 C CNN
+	1    11650 5200
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
