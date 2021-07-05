@@ -2,158 +2,36 @@ EESchema Schematic File Version 4
 LIBS:mini-65-cache
 EELAYER 30 0
 EELAYER END
-$Descr User 13701 8780
+$Descr User 13701 8701
 encoding utf-8
 Sheet 1 1
-Title ""
-Date ""
-Rev ""
-Comp ""
-Comment1 ""
-Comment2 ""
-Comment3 ""
-Comment4 ""
+Title "eLiXiVy"
+Date "2021-07-05"
+Rev "1a"
+Comp "designed by mini. Inspired by many."
+Comment1 "https://github.com/minibois/eLiXiVy"
+Comment2 "Compatible with KBDFans' 65% case and plate"
+Comment3 "Open-source USB Type C 65% keyboard"
+Comment4 "c4"
 $EndDescr
-Text Notes 450  9050 0    98   ~ 20
-USB Type C
-Wire Bus Line
-	450  8850 450  9100
-Wire Bus Line
-	450  8850 2100 8850
-Wire Bus Line
-	450  9100 2100 9100
-Wire Bus Line
-	450  9100 450  9800
-Connection ~ 450  9100
 Connection ~ 13200 5000
-Connection ~ 11500 5000
 Connection ~ 13200 750 
 Wire Bus Line
 	13200 4750 13200 5000
 Wire Bus Line
-	11500 5000 11500 5750
-Wire Bus Line
-	11500 4750 11500 5000
+	11350 4750 11350 5000
 Wire Bus Line
 	13200 750  13200 4700
 Wire Bus Line
 	13200 500  13200 750 
 Wire Bus Line
-	8900 4750 11500 4750
-Wire Bus Line
-	7350 5000 7350 8200
-Wire Bus Line
-	8850 5000 8850 8200
-Wire Bus Line
-	500  5500 500  6550
-Connection ~ 500  5500
-Wire Bus Line
-	500  5500 2250 5500
-$Comp
-L power:GND #PWR0119
-U 1 1 60A46743
-P 5450 5400
-F 0 "#PWR0119" H 5450 5150 50  0001 C CNN
-F 1 "GND" H 5455 5227 50  0000 C CNN
-F 2 "" H 5450 5400 50  0001 C CNN
-F 3 "" H 5450 5400 50  0001 C CNN
-	1    5450 5400
-	1    0    0    -1  
-$EndComp
-Text GLabel 6500 5300 2    50   Input ~ 0
-MCU_D-
-Text GLabel 6500 5500 2    50   Input ~ 0
-MCU_D+
-Text GLabel 5900 5300 0    50   Input ~ 0
-USB_D-
-$Comp
-L Device:C_Small C8
-U 1 1 60E08719
-P 6950 5500
-F 0 "C8" H 7042 5546 50  0000 L CNN
-F 1 "100nF" H 7042 5455 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 6950 5500 50  0001 C CNN
-F 3 "~" H 6950 5500 50  0001 C CNN
-	1    6950 5500
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR0122
-U 1 1 60E0A898
-P 6950 5600
-F 0 "#PWR0122" H 6950 5350 50  0001 C CNN
-F 1 "GND" H 6955 5427 50  0000 C CNN
-F 2 "" H 6950 5600 50  0001 C CNN
-F 3 "" H 6950 5600 50  0001 C CNN
-	1    6950 5600
-	1    0    0    -1  
-$EndComp
-$Comp
-L Power_Protection:WE-TVS-82400102 U2
-U 1 1 60D419F0
-P 6200 5400
-F 0 "U2" H 6200 5725 50  0000 C CNN
-F 1 "WE-TVS-82400102" H 6200 5634 50  0000 C CNN
-F 2 "mini-general-tweaks:SOT-23-6_tweaked" H 6200 5200 50  0001 C CNN
-F 3 "https://katalog.we-online.de/pbs/datasheet/82400102.pdf" H 6200 5150 50  0001 C CNN
-	1    6200 5400
-	1    0    0    -1  
-$EndComp
-Text GLabel 5900 5500 0    50   Input ~ 0
-USB_D+
-Wire Wire Line
-	5900 5400 5450 5400
-Wire Wire Line
-	6950 5400 6500 5400
-$Comp
-L power:+5V #PWR0121
-U 1 1 60D5F5D4
-P 7150 5400
-F 0 "#PWR0121" H 7150 5250 50  0001 C CNN
-F 1 "+5V" H 7165 5573 50  0000 C CNN
-F 2 "" H 7150 5400 50  0001 C CNN
-F 3 "" H 7150 5400 50  0001 C CNN
-	1    7150 5400
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	6950 5400 7150 5400
-Connection ~ 6950 5400
-Text Notes 5350 4950 0    98   ~ 20
-ESD Protection TVS Diode
-Wire Bus Line
-	5350 4750 5350 5000
-Wire Bus Line
-	7300 4750 7300 5000
-Wire Bus Line
-	5350 5000 7300 5000
-Connection ~ 5350 5000
-Wire Bus Line
-	5350 5000 5350 5850
-Connection ~ 7300 5000
-Wire Bus Line
-	5350 5850 7300 5850
-Text Notes 11550 4950 0    98   ~ 20
+	9600 4750 11350 4750
+Text Notes 11450 4950 0    98   ~ 20
 Logos
 Wire Bus Line
-	8900 5000 11500 5000
-Wire Bus Line
-	8900 5000 8900 5750
-Wire Bus Line
-	11500 5750 8900 5750
-Connection ~ 8900 5000
-Wire Bus Line
-	8900 4750 8900 5000
-Text Notes 8900 4950 0    98   ~ 20
+	9600 4750 9600 5000
+Text Notes 9600 4950 0    98   ~ 20
 Mounting Holes
-Wire Bus Line
-	2300 5500 3500 5500
-Wire Bus Line
-	3500 5250 2300 5250
-Wire Bus Line
-	2300 6550 3500 6550
-Text Notes 2300 5450 0    98   ~ 20
-Crystal
 Connection ~ 3550 750 
 Wire Bus Line
 	3550 4700 3550 750 
@@ -163,38 +41,13 @@ Wire Bus Line
 	500  750  3500 750 
 Connection ~ 3500 750 
 Wire Bus Line
-	500  6550 2250 6550
+	500  6500 2250 6500
 Wire Bus Line
 	500  5250 2250 5250
 Wire Bus Line
 	500  750  500  5200
 Wire Bus Line
 	500  5200 3500 5200
-Connection ~ 7350 5000
-Wire Bus Line
-	7350 5000 8850 5000
-Wire Bus Line
-	7350 4750 7350 5000
-Wire Bus Line
-	8850 5000 8850 4750
-Text Notes 7350 4950 0    98   ~ 20
-USB Type C
-Wire Bus Line
-	500  5250 500  5500
-Wire Bus Line
-	2250 5500 2250 6550
-Wire Bus Line
-	3500 5500 3500 5250
-Connection ~ 3500 5500
-Wire Bus Line
-	2300 5500 2300 6550
-Connection ~ 2300 5500
-Wire Bus Line
-	2250 5500 2300 5500
-Wire Bus Line
-	3500 6550 3500 5500
-Wire Bus Line
-	2300 5250 2300 5500
 Connection ~ 2250 5500
 Wire Bus Line
 	2250 5250 2250 5500
@@ -203,12 +56,12 @@ Decoupling Capacitors
 $Comp
 L Mechanical:MountingHole_Pad H2
 U 1 1 6089094F
-P 9000 5400
-F 0 "H2" H 9100 5449 50  0000 L CNN
-F 1 "MountingHole_Pad" H 9100 5358 50  0000 L CNN
-F 2 "mini-general-tweaks:MountingHole_2.2mm_M2_Pad_tweaked" H 9000 5400 50  0001 C CNN
-F 3 "~" H 9000 5400 50  0001 C CNN
-	1    9000 5400
+P 10550 5450
+F 0 "H2" H 10650 5499 50  0000 L CNN
+F 1 "MountingHole_Pad" H 10650 5408 50  0000 L CNN
+F 2 "mini-general-tweaks:MountingHole_2.2mm_M2_Pad_tweaked" H 10550 5450 50  0001 C CNN
+F 3 "~" H 10550 5450 50  0001 C CNN
+	1    10550 5450
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -2721,12 +2574,12 @@ Connection ~ 2150 4900
 $Comp
 L mini_random_library:mini-eLiXiR-Logo-SilkScreen LO1
 U 1 1 60E83B80
-P 11700 5150
-F 0 "LO1" H 11828 4946 50  0000 L CNN
-F 1 "mini-eLiXiR-Logo-SilkScreen" H 11828 4855 50  0000 L CNN
-F 2 "mini-Logos:eLiXiVy-SilkScreenv2" H 11700 5050 50  0001 C CNN
-F 3 "" H 11700 5050 50  0001 C CNN
-	1    11700 5150
+P 11600 5150
+F 0 "LO1" H 11728 4946 50  0000 L CNN
+F 1 "mini-eLiXiR-Logo-SilkScreen" H 11728 4855 50  0000 L CNN
+F 2 "mini-Logos:eLiXiVy-SilkScreenv2" H 11600 5050 50  0001 C CNN
+F 3 "" H 11600 5050 50  0001 C CNN
+	1    11600 5150
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -2741,111 +2594,32 @@ F 3 "~" H 700 6000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2900 5900 3200 5900
-Wire Wire Line
-	2900 6100 3200 6100
-Wire Wire Line
-	2800 6200 2800 6300
-Connection ~ 2800 6200
-Wire Wire Line
-	3000 6200 2800 6200
-Wire Wire Line
-	2800 6000 2800 6200
-$Comp
-L Device:Crystal_GND24_Small Y1
-U 1 1 5F18D205
-P 2900 6000
-F 0 "Y1" V 2850 6150 50  0000 L CNN
-F 1 "Crystal_GND24_Small" V 3044 5955 50  0001 L CNN
-F 2 "Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm" H 2900 6000 50  0001 C CNN
-F 3 "~" H 2900 6000 50  0001 C CNN
-	1    2900 6000
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:C_Small C1
-U 1 1 5F1942FA
-P 2550 5800
-F 0 "C1" V 2321 5800 50  0000 C CNN
-F 1 "22pF" V 2412 5800 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 2550 5800 50  0001 C CNN
-F 3 "~" H 2550 5800 50  0001 C CNN
-	1    2550 5800
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:C_Small C2
-U 1 1 5F194FE3
-P 2550 6150
-F 0 "C2" V 2321 6150 50  0000 C CNN
-F 1 "22pF" V 2412 6150 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 2550 6150 50  0001 C CNN
-F 3 "~" H 2550 6150 50  0001 C CNN
-	1    2550 6150
-	0    1    1    0   
-$EndComp
-$Comp
-L power:GND #PWR0113
-U 1 1 5F19652E
-P 2450 6300
-F 0 "#PWR0113" H 2450 6050 50  0001 C CNN
-F 1 "GND" H 2455 6127 50  0000 C CNN
-F 2 "" H 2450 6300 50  0001 C CNN
-F 3 "" H 2450 6300 50  0001 C CNN
-	1    2450 6300
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2650 6150 2650 6100
-Wire Wire Line
-	2650 6100 2900 6100
-Connection ~ 2900 6100
-Wire Wire Line
-	2650 5800 2650 5900
-Wire Wire Line
-	2650 5900 2900 5900
-Connection ~ 2900 5900
-Wire Wire Line
-	2450 5800 2450 6150
-Connection ~ 2450 6150
-Wire Wire Line
-	2450 6150 2450 6300
-Wire Wire Line
-	2450 6300 2800 6300
-Connection ~ 2450 6300
-Wire Wire Line
-	3000 6200 3000 6000
-Text GLabel 3200 5900 2    50   Input ~ 0
-XTAL1
-Text GLabel 3200 6100 2    50   Input ~ 0
-XTAL2
-Wire Wire Line
 	700  5900 1100 5900
 $Comp
 L mini_random_library:mini-eLiXiR-Logo-Mask LO0
 U 1 1 60E319B2
-P 11700 4900
-F 0 "LO0" H 11828 4696 50  0000 L CNN
-F 1 "mini-eLiXiR-Logo-Mask" H 11828 4605 50  0000 L CNN
-F 2 "mini-Logos:eLiXiVy-Maskv2" H 11700 4800 50  0001 C CNN
-F 3 "" H 11700 4800 50  0001 C CNN
-	1    11700 4900
+P 11600 4900
+F 0 "LO0" H 11728 4696 50  0000 L CNN
+F 1 "mini-eLiXiR-Logo-Mask" H 11728 4605 50  0000 L CNN
+F 2 "mini-Logos:eLiXiVy-Maskv2" H 11600 4800 50  0001 C CNN
+F 3 "" H 11600 4800 50  0001 C CNN
+	1    11600 4900
 	1    0    0    -1  
 $EndComp
-NoConn ~ 9850 5500
-NoConn ~ 9000 5500
-NoConn ~ 9000 5250
-NoConn ~ 9850 5250
-NoConn ~ 10700 5250
+NoConn ~ 9700 5850
+NoConn ~ 10550 5550
+NoConn ~ 9700 5550
+NoConn ~ 9700 5250
+NoConn ~ 10550 5250
 $Comp
 L Mechanical:MountingHole_Pad H5
 U 1 1 608E1DAA
-P 10700 5150
-F 0 "H5" H 10800 5199 50  0000 L CNN
-F 1 "MountingHole_Pad" H 10800 5108 50  0000 L CNN
-F 2 "mini-general-tweaks:MountingHole_2.2mm_M2_Pad_tweaked" H 10700 5150 50  0001 C CNN
-F 3 "~" H 10700 5150 50  0001 C CNN
-	1    10700 5150
+P 10550 5150
+F 0 "H5" H 10650 5199 50  0000 L CNN
+F 1 "MountingHole_Pad" H 10650 5108 50  0000 L CNN
+F 2 "mini-general-tweaks:MountingHole_2.2mm_M2_Pad_tweaked" H 10550 5150 50  0001 C CNN
+F 3 "~" H 10550 5150 50  0001 C CNN
+	1    10550 5150
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -2862,157 +2636,56 @@ $EndComp
 $Comp
 L power:GND #PWR0120
 U 1 1 60985804
-P 10700 5500
-F 0 "#PWR0120" H 10700 5250 50  0001 C CNN
-F 1 "GND" H 10705 5327 50  0000 C CNN
-F 2 "" H 10700 5500 50  0001 C CNN
-F 3 "" H 10700 5500 50  0001 C CNN
-	1    10700 5500
+P 10550 5850
+F 0 "#PWR0120" H 10550 5600 50  0001 C CNN
+F 1 "GND" H 10555 5677 50  0000 C CNN
+F 2 "" H 10550 5850 50  0001 C CNN
+F 3 "" H 10550 5850 50  0001 C CNN
+	1    10550 5850
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole_Pad H4
 U 1 1 608C6C75
-P 9850 5150
-F 0 "H4" H 9950 5199 50  0000 L CNN
-F 1 "MountingHole_Pad" H 9950 5108 50  0000 L CNN
-F 2 "mini-general-tweaks:MountingHole_2.2mm_M2_Pad_tweaked" H 9850 5150 50  0001 C CNN
-F 3 "~" H 9850 5150 50  0001 C CNN
-	1    9850 5150
+P 9700 5150
+F 0 "H4" H 9800 5199 50  0000 L CNN
+F 1 "MountingHole_Pad" H 9800 5108 50  0000 L CNN
+F 2 "mini-general-tweaks:MountingHole_2.2mm_M2_Pad_tweaked" H 9700 5150 50  0001 C CNN
+F 3 "~" H 9700 5150 50  0001 C CNN
+	1    9700 5150
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole_Pad H3
 U 1 1 608ABAB5
-P 9000 5150
-F 0 "H3" H 9100 5199 50  0000 L CNN
-F 1 "MountingHole_Pad" H 9100 5108 50  0000 L CNN
-F 2 "mini-general-tweaks:MountingHole_2.2mm_M2_Pad_tweaked" H 9000 5150 50  0001 C CNN
-F 3 "~" H 9000 5150 50  0001 C CNN
-	1    9000 5150
+P 9700 5450
+F 0 "H3" H 9800 5499 50  0000 L CNN
+F 1 "MountingHole_Pad" H 9800 5408 50  0000 L CNN
+F 2 "mini-general-tweaks:MountingHole_2.2mm_M2_Pad_tweaked" H 9700 5450 50  0001 C CNN
+F 3 "~" H 9700 5450 50  0001 C CNN
+	1    9700 5450
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole_Pad H1
 U 1 1 6087565E
-P 9850 5400
-F 0 "H1" H 9950 5449 50  0000 L CNN
-F 1 "MountingHole_Pad" H 9950 5358 50  0000 L CNN
-F 2 "mini-general-tweaks:MountingHole_2.2mm_M2_Pad_tweaked" H 9850 5400 50  0001 C CNN
-F 3 "~" H 9850 5400 50  0001 C CNN
-	1    9850 5400
+P 9700 5750
+F 0 "H1" H 9800 5799 50  0000 L CNN
+F 1 "MountingHole_Pad" H 9800 5708 50  0000 L CNN
+F 2 "mini-general-tweaks:MountingHole_2.2mm_M2_Pad_tweaked" H 9700 5750 50  0001 C CNN
+F 3 "~" H 9700 5750 50  0001 C CNN
+	1    9700 5750
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole_Pad H0
 U 1 1 6086D118
-P 10700 5400
-F 0 "H0" H 10800 5449 50  0000 L CNN
-F 1 "MountingHole_Pad" H 10800 5358 50  0000 L CNN
-F 2 "mini-general-tweaks:MountingHole_2.2mm_M2_Pad_tweaked" H 10700 5400 50  0001 C CNN
-F 3 "~" H 10700 5400 50  0001 C CNN
-	1    10700 5400
-	1    0    0    -1  
-$EndComp
-$Comp
-L mini_random_library:TYPE-C-31-M12_13_EDITED J1
-U 1 1 60832B1A
-P 7800 6500
-F 0 "J1" H 7907 7917 50  0000 C CNN
-F 1 "TYPE-C-31-M12_13_EDITED" H 7907 7826 50  0000 C CNN
-F 2 "mini-general-tweaks:HRO-TYPE-C-31-M-12-HandSoldering_tweaked" V 7300 6550 50  0001 C CNN
-F 3 "" H 8000 6550 50  0001 C CNN
-	1    7800 6500
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR0117
-U 1 1 6077CEC0
-P 8650 6050
-F 0 "#PWR0117" H 8650 5800 50  0001 C CNN
-F 1 "GND" H 8655 5877 50  0000 C CNN
-F 2 "" H 8650 6050 50  0001 C CNN
-F 3 "" H 8650 6050 50  0001 C CNN
-	1    8650 6050
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	8650 6050 8600 6050
-$Comp
-L Device:R_Small R6
-U 1 1 6077EF8B
-P 8500 6050
-F 0 "R6" V 8363 6050 50  0000 C CNN
-F 1 "5.1k" V 8430 6050 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" H 8500 6050 50  0001 C CNN
-F 3 "~" H 8500 6050 50  0001 C CNN
-	1    8500 6050
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	8400 6800 8400 6900
-Wire Wire Line
-	8400 6500 8400 6600
-Wire Wire Line
-	8700 5850 8750 5850
-$Comp
-L power:GND #PWR0116
-U 1 1 6077B7AA
-P 8750 5850
-F 0 "#PWR0116" H 8750 5600 50  0001 C CNN
-F 1 "GND" H 8755 5677 50  0000 C CNN
-F 2 "" H 8750 5850 50  0001 C CNN
-F 3 "" H 8750 5850 50  0001 C CNN
-	1    8750 5850
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R_Small R5
-U 1 1 60779B82
-P 8600 5850
-F 0 "R5" V 8404 5850 50  0000 C CNN
-F 1 "5.1k" V 8495 5850 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" H 8600 5850 50  0001 C CNN
-F 3 "~" H 8600 5850 50  0001 C CNN
-	1    8600 5850
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	7800 7950 7900 7950
-Connection ~ 7800 7950
-Wire Wire Line
-	7700 7950 7800 7950
-Connection ~ 7700 7950
-Wire Wire Line
-	7500 7950 7700 7950
-$Comp
-L power:GND #PWR0101
-U 1 1 607575CF
-P 7900 7950
-F 0 "#PWR0101" H 7900 7700 50  0001 C CNN
-F 1 "GND" H 7905 7777 50  0000 C CNN
-F 2 "" H 7900 7950 50  0001 C CNN
-F 3 "" H 7900 7950 50  0001 C CNN
-	1    7900 7950
-	1    0    0    -1  
-$EndComp
-NoConn ~ 8400 7650
-NoConn ~ 8400 7550
-Wire Wire Line
-	8400 5350 8450 5350
-Wire Wire Line
-	8450 5450 8450 5350
-Wire Wire Line
-	8400 5450 8450 5450
-$Comp
-L power:VCC #PWR0103
-U 1 1 5F1CE53D
-P 8600 5350
-F 0 "#PWR0103" H 8600 5200 50  0001 C CNN
-F 1 "VCC" H 8617 5523 50  0000 C CNN
-F 2 "" H 8600 5350 50  0001 C CNN
-F 3 "" H 8600 5350 50  0001 C CNN
-	1    8600 5350
+P 10550 5750
+F 0 "H0" H 10650 5799 50  0000 L CNN
+F 1 "MountingHole_Pad" H 10650 5708 50  0000 L CNN
+F 2 "mini-general-tweaks:MountingHole_2.2mm_M2_Pad_tweaked" H 10550 5750 50  0001 C CNN
+F 3 "~" H 10550 5750 50  0001 C CNN
+	1    10550 5750
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -3094,159 +2767,500 @@ F 3 "" H 1300 6200 50  0001 C CNN
 	1    1300 6200
 	1    0    0    -1  
 $EndComp
-$Comp
-L Device:Polyfuse_Small F1
-U 1 1 5F1C7377
-P 5700 6450
-F 0 "F1" V 5495 6450 50  0000 C CNN
-F 1 "500mA" V 5586 6450 50  0000 C CNN
-F 2 "Fuse:Fuse_1206_3216Metric" H 5750 6250 50  0001 L CNN
-F 3 "~" H 5700 6450 50  0001 C CNN
-	1    5700 6450
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	5800 6450 5900 6450
-$Comp
-L power:+5V #PWR0102
-U 1 1 5F1CEBD1
-P 5900 6450
-F 0 "#PWR0102" H 5900 6300 50  0001 C CNN
-F 1 "+5V" H 5915 6623 50  0000 C CNN
-F 2 "" H 5900 6450 50  0001 C CNN
-F 3 "" H 5900 6450 50  0001 C CNN
-	1    5900 6450
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:VCC #PWR0118
-U 1 1 60DE2F1D
-P 5450 6450
-F 0 "#PWR0118" H 5450 6300 50  0001 C CNN
-F 1 "VCC" H 5467 6623 50  0000 C CNN
-F 2 "" H 5450 6450 50  0001 C CNN
-F 3 "" H 5450 6450 50  0001 C CNN
-	1    5450 6450
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	5600 6450 5450 6450
-Text Notes 5350 6100 0    98   ~ 20
-Polyfuse
 Wire Bus Line
 	13200 4700 3550 4700
 $Comp
 L Connector:AVR-ISP-6 J2
 U 1 1 5FE1BF7A
-P 4450 5800
-F 0 "J2" H 4171 5896 50  0000 R CNN
-F 1 "AVR-ISP-6" H 4171 5805 50  0000 R CNN
-F 2 "mini-general-tweaks:ICSP_2.54mm_LAYOUT" V 4200 5850 50  0001 C CNN
-F 3 " ~" H 3175 5250 50  0001 C CNN
-	1    4450 5800
+P 1400 7550
+F 0 "J2" H 1121 7646 50  0000 R CNN
+F 1 "AVR-ISP-6" H 1121 7555 50  0000 R CNN
+F 2 "mini-general-tweaks:ICSP_2.54mm_LAYOUT" V 1150 7600 50  0001 C CNN
+F 3 " ~" H 125 7000 50  0001 C CNN
+	1    1400 7550
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:+5V #PWR0114
 U 1 1 5FE1DFB7
-P 4350 5300
-F 0 "#PWR0114" H 4350 5150 50  0001 C CNN
-F 1 "+5V" H 4365 5473 50  0000 C CNN
-F 2 "" H 4350 5300 50  0001 C CNN
-F 3 "" H 4350 5300 50  0001 C CNN
-	1    4350 5300
+P 1300 7050
+F 0 "#PWR0114" H 1300 6900 50  0001 C CNN
+F 1 "+5V" H 1315 7223 50  0000 C CNN
+F 2 "" H 1300 7050 50  0001 C CNN
+F 3 "" H 1300 7050 50  0001 C CNN
+	1    1300 7050
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR0115
 U 1 1 5FE20ACB
-P 4350 6200
-F 0 "#PWR0115" H 4350 5950 50  0001 C CNN
-F 1 "GND" H 4355 6027 50  0000 C CNN
-F 2 "" H 4350 6200 50  0001 C CNN
-F 3 "" H 4350 6200 50  0001 C CNN
-	1    4350 6200
+P 1300 7950
+F 0 "#PWR0115" H 1300 7700 50  0001 C CNN
+F 1 "GND" H 1305 7777 50  0000 C CNN
+F 2 "" H 1300 7950 50  0001 C CNN
+F 3 "" H 1300 7950 50  0001 C CNN
+	1    1300 7950
 	1    0    0    -1  
 $EndComp
-Text GLabel 4850 5600 2    50   Input ~ 0
+Text GLabel 1800 7350 2    50   Input ~ 0
 MISO
-Text GLabel 4850 5700 2    50   Input ~ 0
+Text GLabel 1800 7450 2    50   Input ~ 0
 MOSI
-Text GLabel 4850 5800 2    50   Input ~ 0
+Text GLabel 1800 7550 2    50   Input ~ 0
 SCK
-Text GLabel 4850 5900 2    50   Input ~ 0
+Text GLabel 1800 7650 2    50   Input ~ 0
 RESET
-Text Notes 3550 4950 0    98   ~ 20
+Text Notes 500  6750 0    98   ~ 20
 ICSP Header
 Wire Bus Line
-	3550 4750 5300 4750
+	500  6550 2250 6550
 Wire Bus Line
-	3550 6550 5300 6550
+	500  8200 2250 8200
 Wire Bus Line
-	7300 5000 7300 5850
+	2250 6550 2250 6800
 Wire Bus Line
-	5300 4750 5300 5000
+	500  6550 500  6800
 Wire Bus Line
-	3550 4750 3550 5000
+	2250 6800 500  6800
+Connection ~ 2250 6800
+Connection ~ 500  6800
 Wire Bus Line
-	5300 5000 3550 5000
-Connection ~ 5300 5000
-Connection ~ 3550 5000
+	500  6800 500  8200
 Wire Bus Line
-	3550 5000 3550 6550
-Wire Bus Line
-	5300 5000 5300 6550
-Wire Bus Line
-	5350 6550 6050 6550
-Wire Bus Line
-	5350 5900 6050 5900
-Connection ~ 5350 6150
-Wire Bus Line
-	5350 6150 5350 6550
-Wire Bus Line
-	5350 5900 5350 6150
-Wire Bus Line
-	6050 6550 6050 6150
-Wire Bus Line
-	6050 6150 6050 5900
-Connection ~ 6050 6150
-Wire Bus Line
-	5350 6150 6050 6150
+	2250 6800 2250 8200
 Wire Bus Line
 	13200 5000 13200 5750
+Wire Bus Line
+	450  9100 450  9800
+Wire Bus Line
+	450  9100 2100 9100
+Wire Bus Line
+	450  8850 2100 8850
+Connection ~ 450  9100
+Wire Bus Line
+	450  8850 450  9100
+Text Notes 450  9050 0    98   ~ 20
+USB Type C
+Text Notes 500  350  0    197  ~ 39
+mini eLiXiVy Schematic
+Text GLabel 3150 6080 2    50   Input ~ 0
+XTAL2
+Text GLabel 3150 5880 2    50   Input ~ 0
+XTAL1
 Wire Wire Line
-	8400 5850 8500 5850
+	2950 6180 2950 5980
+Connection ~ 2400 6280
 Wire Wire Line
-	8450 5350 8600 5350
-Connection ~ 8450 5350
-Text GLabel 8450 6800 2    50   Input ~ 0
+	2400 6280 2750 6280
+Wire Wire Line
+	2400 6130 2400 6280
+Connection ~ 2400 6130
+Wire Wire Line
+	2400 5780 2400 6130
+Connection ~ 2850 5880
+Wire Wire Line
+	2600 5880 2850 5880
+Wire Wire Line
+	2600 5780 2600 5880
+Connection ~ 2850 6080
+Wire Wire Line
+	2600 6080 2850 6080
+Wire Wire Line
+	2600 6130 2600 6080
+$Comp
+L power:GND #PWR0113
+U 1 1 5F19652E
+P 2400 6280
+F 0 "#PWR0113" H 2400 6030 50  0001 C CNN
+F 1 "GND" H 2405 6107 50  0000 C CNN
+F 2 "" H 2400 6280 50  0001 C CNN
+F 3 "" H 2400 6280 50  0001 C CNN
+	1    2400 6280
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C2
+U 1 1 5F194FE3
+P 2500 6130
+F 0 "C2" V 2271 6130 50  0000 C CNN
+F 1 "22pF" V 2362 6130 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 2500 6130 50  0001 C CNN
+F 3 "~" H 2500 6130 50  0001 C CNN
+	1    2500 6130
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C_Small C1
+U 1 1 5F1942FA
+P 2500 5780
+F 0 "C1" V 2271 5780 50  0000 C CNN
+F 1 "22pF" V 2362 5780 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 2500 5780 50  0001 C CNN
+F 3 "~" H 2500 5780 50  0001 C CNN
+	1    2500 5780
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:Crystal_GND24_Small Y1
+U 1 1 5F18D205
+P 2850 5980
+F 0 "Y1" V 2800 6130 50  0000 L CNN
+F 1 "Crystal_GND24_Small" V 2994 5935 50  0001 L CNN
+F 2 "Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm" H 2850 5980 50  0001 C CNN
+F 3 "~" H 2850 5980 50  0001 C CNN
+	1    2850 5980
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2750 5980 2750 6180
+Wire Wire Line
+	2950 6180 2750 6180
+Connection ~ 2750 6180
+Wire Wire Line
+	2750 6180 2750 6280
+Wire Wire Line
+	2850 6080 3150 6080
+Wire Wire Line
+	2850 5880 3150 5880
+Wire Bus Line
+	2300 5250 2300 5500
+Connection ~ 2300 5500
+Wire Bus Line
+	2300 5500 2300 6500
+Connection ~ 3500 5500
+Wire Bus Line
+	3500 5500 3500 5250
+Text Notes 2300 5450 0    98   ~ 20
+Crystal
+Wire Bus Line
+	2300 6500 3500 6500
+Wire Bus Line
+	3500 5250 2300 5250
+Wire Bus Line
+	2300 5500 3500 5500
+Wire Bus Line
+	500  5250 500  5500
+Connection ~ 500  5500
+Wire Bus Line
+	500  5500 2250 5500
+Wire Bus Line
+	3500 6500 3500 5500
+Wire Bus Line
+	2250 5500 2250 6500
+Wire Bus Line
+	500  5500 500  6500
+Wire Bus Line
+	9600 5000 11350 5000
+Wire Bus Line
+	9600 5000 9600 6100
+Wire Bus Line
+	9600 6100 11350 6100
+Wire Bus Line
+	11350 6100 11350 5000
+Connection ~ 9600 5000
+Connection ~ 11350 5000
+Wire Bus Line
+	11450 4750 11450 5000
+Wire Bus Line
+	11450 4750 13200 4750
+Wire Bus Line
+	11450 5000 13200 5000
+Connection ~ 11450 5000
+Wire Bus Line
+	11450 5000 11450 5750
+Wire Bus Line
+	11450 5750 13200 5750
+Wire Bus Line
+	7400 5000 7400 8200
+$Comp
+L power:GND #PWR0119
+U 1 1 60A46743
+P 5450 5700
+F 0 "#PWR0119" H 5450 5450 50  0001 C CNN
+F 1 "GND" H 5455 5527 50  0000 C CNN
+F 2 "" H 5450 5700 50  0001 C CNN
+F 3 "" H 5450 5700 50  0001 C CNN
+	1    5450 5700
+	1    0    0    -1  
+$EndComp
+Text GLabel 6500 5600 2    50   Input ~ 0
+MCU_D-
+Text GLabel 6500 5800 2    50   Input ~ 0
+MCU_D+
+Text GLabel 5900 5600 0    50   Input ~ 0
+USB_D-
+$Comp
+L Device:C_Small C8
+U 1 1 60E08719
+P 6950 5800
+F 0 "C8" H 7042 5846 50  0000 L CNN
+F 1 "100nF" H 7042 5755 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 6950 5800 50  0001 C CNN
+F 3 "~" H 6950 5800 50  0001 C CNN
+	1    6950 5800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0122
+U 1 1 60E0A898
+P 6950 5900
+F 0 "#PWR0122" H 6950 5650 50  0001 C CNN
+F 1 "GND" H 6955 5727 50  0000 C CNN
+F 2 "" H 6950 5900 50  0001 C CNN
+F 3 "" H 6950 5900 50  0001 C CNN
+	1    6950 5900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Power_Protection:WE-TVS-82400102 U2
+U 1 1 60D419F0
+P 6200 5700
+F 0 "U2" H 6200 6025 50  0000 C CNN
+F 1 "WE-TVS-82400102" H 6200 5934 50  0000 C CNN
+F 2 "mini-general-tweaks:SOT-23-6_tweaked" H 6200 5500 50  0001 C CNN
+F 3 "https://katalog.we-online.de/pbs/datasheet/82400102.pdf" H 6200 5450 50  0001 C CNN
+	1    6200 5700
+	1    0    0    -1  
+$EndComp
+Text GLabel 5900 5800 0    50   Input ~ 0
 USB_D+
-Text GLabel 8450 6600 2    50   Input ~ 0
+Wire Wire Line
+	5900 5700 5450 5700
+Wire Wire Line
+	6950 5700 6500 5700
+$Comp
+L power:+5V #PWR0121
+U 1 1 60D5F5D4
+P 7150 5700
+F 0 "#PWR0121" H 7150 5550 50  0001 C CNN
+F 1 "+5V" H 7165 5873 50  0000 C CNN
+F 2 "" H 7150 5700 50  0001 C CNN
+F 3 "" H 7150 5700 50  0001 C CNN
+	1    7150 5700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6950 5700 7150 5700
+Connection ~ 6950 5700
+Text Notes 5300 5250 0    98   ~ 20
+ESD Protection TVS Diode
+Wire Bus Line
+	5300 5050 5300 5300
+Connection ~ 5300 5300
+Wire Bus Line
+	5300 5300 5300 6150
+Connection ~ 7400 5000
+Wire Bus Line
+	7400 4750 7400 5000
+Text Notes 7400 4950 0    98   ~ 20
+USB Type C
+$Comp
+L mini_random_library:TYPE-C-31-M12_13_EDITED J1
+U 1 1 60832B1A
+P 7850 6500
+F 0 "J1" H 7957 7917 50  0000 C CNN
+F 1 "TYPE-C-31-M12_13_EDITED" H 7957 7826 50  0000 C CNN
+F 2 "mini-general-tweaks:HRO-TYPE-C-31-M-12-HandSoldering_tweaked" V 7350 6550 50  0001 C CNN
+F 3 "" H 8050 6550 50  0001 C CNN
+	1    7850 6500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0117
+U 1 1 6077CEC0
+P 8700 6050
+F 0 "#PWR0117" H 8700 5800 50  0001 C CNN
+F 1 "GND" H 8705 5877 50  0000 C CNN
+F 2 "" H 8700 6050 50  0001 C CNN
+F 3 "" H 8700 6050 50  0001 C CNN
+	1    8700 6050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8700 6050 8650 6050
+$Comp
+L Device:R_Small R6
+U 1 1 6077EF8B
+P 8550 6050
+F 0 "R6" V 8413 6050 50  0000 C CNN
+F 1 "5.1k" V 8480 6050 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 8550 6050 50  0001 C CNN
+F 3 "~" H 8550 6050 50  0001 C CNN
+	1    8550 6050
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8450 6800 8450 6900
+Wire Wire Line
+	8450 6500 8450 6600
+Wire Wire Line
+	8800 5850 8850 5850
+$Comp
+L power:GND #PWR0116
+U 1 1 6077B7AA
+P 8850 5850
+F 0 "#PWR0116" H 8850 5600 50  0001 C CNN
+F 1 "GND" H 8855 5677 50  0000 C CNN
+F 2 "" H 8850 5850 50  0001 C CNN
+F 3 "" H 8850 5850 50  0001 C CNN
+	1    8850 5850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R5
+U 1 1 60779B82
+P 8700 5850
+F 0 "R5" V 8504 5850 50  0000 C CNN
+F 1 "5.1k" V 8595 5850 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 8700 5850 50  0001 C CNN
+F 3 "~" H 8700 5850 50  0001 C CNN
+	1    8700 5850
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7850 7950 7950 7950
+Connection ~ 7850 7950
+Wire Wire Line
+	7750 7950 7850 7950
+Connection ~ 7750 7950
+Wire Wire Line
+	7550 7950 7750 7950
+$Comp
+L power:GND #PWR0101
+U 1 1 607575CF
+P 7950 7950
+F 0 "#PWR0101" H 7950 7700 50  0001 C CNN
+F 1 "GND" H 7955 7777 50  0000 C CNN
+F 2 "" H 7950 7950 50  0001 C CNN
+F 3 "" H 7950 7950 50  0001 C CNN
+	1    7950 7950
+	1    0    0    -1  
+$EndComp
+NoConn ~ 8450 7650
+NoConn ~ 8450 7550
+Wire Wire Line
+	8450 5350 8500 5350
+Wire Wire Line
+	8500 5450 8500 5350
+Wire Wire Line
+	8450 5450 8500 5450
+$Comp
+L power:VCC #PWR0103
+U 1 1 5F1CE53D
+P 8650 5350
+F 0 "#PWR0103" H 8650 5200 50  0001 C CNN
+F 1 "VCC" H 8667 5523 50  0000 C CNN
+F 2 "" H 8650 5350 50  0001 C CNN
+F 3 "" H 8650 5350 50  0001 C CNN
+	1    8650 5350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8500 5350 8650 5350
+Connection ~ 8500 5350
+Text GLabel 8500 6800 2    50   Input ~ 0
+USB_D+
+Text GLabel 8500 6600 2    50   Input ~ 0
 USB_D-
 Wire Wire Line
-	8450 6600 8400 6600
-Connection ~ 8400 6600
+	8500 6600 8450 6600
+Connection ~ 8450 6600
 Wire Wire Line
-	8450 6800 8400 6800
-Connection ~ 8400 6800
-Connection ~ 8850 5000
+	8500 6800 8450 6800
+Connection ~ 8450 6800
+Wire Wire Line
+	8450 5850 8600 5850
 Wire Bus Line
-	8750 5000 8850 5000
+	8950 4750 8950 5000
 Wire Bus Line
-	8850 8200 7350 8200
+	7400 4750 8950 4750
 Wire Bus Line
-	7350 4750 8850 4750
+	7400 5000 8950 5000
+Connection ~ 8950 5000
 Wire Bus Line
-	5350 4750 7300 4750
+	8950 5000 8950 8200
 Wire Bus Line
-	11550 4750 11550 5000
+	7400 8200 8950 8200
 Wire Bus Line
-	11550 4750 13200 4750
+	7300 5050 7300 5300
 Wire Bus Line
-	11550 5000 13200 5000
-Connection ~ 11550 5000
+	5300 6150 7300 6150
 Wire Bus Line
-	11550 5000 11550 5750
+	5300 5050 7300 5050
 Wire Bus Line
-	11550 5750 13200 5750
+	5300 5300 7300 5300
+Connection ~ 7300 5300
+Wire Bus Line
+	7300 5300 7300 6150
+Wire Wire Line
+	5950 6850 6200 6850
+Wire Wire Line
+	6400 6850 6600 6850
+Wire Bus Line
+	5650 6450 5650 7100
+Wire Bus Line
+	6950 6450 6950 7100
+Connection ~ 6950 6450
+Wire Bus Line
+	5650 6450 6950 6450
+Wire Bus Line
+	5650 7100 6950 7100
+Wire Bus Line
+	5650 6200 6950 6200
+Connection ~ 5650 6450
+Wire Bus Line
+	6950 6200 6950 6450
+Wire Bus Line
+	5650 6200 5650 6450
+Text Notes 5650 6400 0    98   ~ 20
+Polyfuse
+$Comp
+L power:VCC #PWR0118
+U 1 1 60DE2F1D
+P 5950 6850
+F 0 "#PWR0118" H 5950 6700 50  0001 C CNN
+F 1 "VCC" H 5967 7023 50  0000 C CNN
+F 2 "" H 5950 6850 50  0001 C CNN
+F 3 "" H 5950 6850 50  0001 C CNN
+	1    5950 6850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR0102
+U 1 1 5F1CEBD1
+P 6600 6850
+F 0 "#PWR0102" H 6600 6700 50  0001 C CNN
+F 1 "+5V" H 6615 7023 50  0000 C CNN
+F 2 "" H 6600 6850 50  0001 C CNN
+F 3 "" H 6600 6850 50  0001 C CNN
+	1    6600 6850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Polyfuse_Small F1
+U 1 1 5F1C7377
+P 6300 6850
+F 0 "F1" V 6095 6850 50  0000 C CNN
+F 1 "500mA" V 6186 6850 50  0000 C CNN
+F 2 "Fuse:Fuse_1206_3216Metric" H 6350 6650 50  0001 L CNN
+F 3 "~" H 6300 6850 50  0001 C CNN
+	1    6300 6850
+	0    1    1    0   
+$EndComp
+Wire Bus Line
+	5250 4750 5250 5000
+Text Notes 5250 4950 0    98   ~ 20
+Electrical protection
+Wire Bus Line
+	5250 5000 7350 5000
+Wire Bus Line
+	7350 4750 7350 5000
+Wire Bus Line
+	5250 4750 7350 4750
+Wire Notes Line
+	5250 5000 5250 7150
+Wire Notes Line
+	5250 7150 7350 7150
+Wire Notes Line
+	7350 7150 7350 5000
 $EndSCHEMATC
