@@ -811,12 +811,8 @@ F 3 "" H 8725 2025 60  0001 C CNN
 	1    9350 2050
 	1    0    0    -1  
 $EndComp
-Connection ~ 11300 2000
 Wire Wire Line
 	11300 2000 11300 2700
-Connection ~ 11300 1300
-Wire Wire Line
-	11300 1300 11300 2000
 Connection ~ 10700 2000
 Wire Wire Line
 	10700 2000 10700 2700
@@ -1534,8 +1530,6 @@ Wire Wire Line
 Wire Wire Line
 	10400 2500 11000 2500
 Wire Wire Line
-	10400 1800 11000 1800
-Wire Wire Line
 	11700 4300 11600 4300
 $Comp
 L MX_Alps_Hybrid:MX-NoLED MX_ARR_L1
@@ -1548,9 +1542,6 @@ F 3 "" H 11125 4125 60  0001 C CNN
 	1    11750 4150
 	1    0    0    -1  
 $EndComp
-Connection ~ 11900 1300
-Wire Wire Line
-	11900 1300 11900 2000
 Wire Wire Line
 	11700 1500 11600 1500
 $Comp
@@ -1583,7 +1574,6 @@ Text GLabel 11900 1100 1    50   Input ~ 0
 COL12
 Wire Wire Line
 	11900 2700 11900 3400
-Connection ~ 11900 2000
 Wire Wire Line
 	11700 2900 11600 2900
 $Comp
@@ -1600,17 +1590,6 @@ $EndComp
 Wire Wire Line
 	11900 2000 11900 2700
 Connection ~ 11900 2700
-$Comp
-L Diode:1N4148W D12
-U 1 1 60AA3F32
-P 11600 1650
-F 0 "D12" H 11549 1778 50  0000 R CNN
-F 1 "1N4148W" H 11659 1727 28  0000 R CNN
-F 2 "mini-general-tweaks:D_SOD123_axial-dual" H 11600 1475 50  0001 C CNN
-F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 11600 1650 50  0001 C CNN
-	1    11600 1650
-	0    -1   -1   0   
-$EndComp
 $Comp
 L Diode:1N4148W D42
 U 1 1 60AD728D
@@ -1722,12 +1701,7 @@ F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 9200 1650 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	8600 1800 9200 1800
-Connection ~ 9800 1800
-Wire Wire Line
-	9800 1800 10400 1800
 Connection ~ 9200 1800
-Wire Wire Line
-	9200 1800 9800 1800
 $Comp
 L MX_Alps_Hybrid:MX-NoLED MX_L_ALT1
 U 1 1 60B90951
@@ -1888,28 +1862,6 @@ F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 12800 3050 50  0001 C CNN
 	1    12800 3050
 	0    -1   -1   0   
 $EndComp
-$Comp
-L Diode:1N4148W D14
-U 1 1 60AB73FF
-P 12800 1650
-F 0 "D14" H 12749 1778 50  0000 R CNN
-F 1 "1N4148W" H 12859 1727 28  0000 R CNN
-F 2 "mini-general-tweaks:D_SOD123_axial-dual" H 12800 1475 50  0001 C CNN
-F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 12800 1650 50  0001 C CNN
-	1    12800 1650
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Diode:1N4148W D13
-U 1 1 60AAD9BF
-P 12200 1650
-F 0 "D13" H 12149 1778 50  0000 R CNN
-F 1 "1N4148W" H 12259 1727 28  0000 R CNN
-F 2 "mini-general-tweaks:D_SOD123_axial-dual" H 12200 1475 50  0001 C CNN
-F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 12200 1650 50  0001 C CNN
-	1    12200 1650
-	0    -1   -1   0   
-$EndComp
 Text GLabel 13100 1100 1    50   Input ~ 0
 COL14
 Text GLabel 12500 1100 1    50   Input ~ 0
@@ -2024,9 +1976,6 @@ $EndComp
 Wire Wire Line
 	12300 4300 12200 4300
 Wire Wire Line
-	12500 1300 12500 2000
-Connection ~ 12500 1300
-Wire Wire Line
 	11000 4600 11600 4600
 Connection ~ 11000 4600
 Connection ~ 11600 4600
@@ -2050,15 +1999,6 @@ Wire Wire Line
 Connection ~ 12200 2500
 Wire Wire Line
 	12200 2500 12800 2500
-Wire Wire Line
-	11000 1800 11600 1800
-Connection ~ 11000 1800
-Connection ~ 11600 1800
-Wire Wire Line
-	11600 1800 12200 1800
-Connection ~ 12200 1800
-Wire Wire Line
-	12200 1800 12800 1800
 Connection ~ 12200 3900
 Wire Wire Line
 	12200 3900 12800 3900
@@ -2390,28 +2330,6 @@ F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 4100 1650 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Diode:1N4148W D9
-U 1 1 60A86A5D
-P 9800 1650
-F 0 "D9" H 9795 1778 50  0000 R CNN
-F 1 "1N4148W" H 9859 1727 28  0000 R CNN
-F 2 "mini-general-tweaks:D_SOD123_axial-dual" H 9800 1475 50  0001 C CNN
-F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 9800 1650 50  0001 C CNN
-	1    9800 1650
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Diode:1N4148W D11
-U 1 1 60A9A295
-P 11000 1650
-F 0 "D11" H 10949 1778 50  0000 L CNN
-F 1 "1N4148W" H 11059 1727 28  0000 R CNN
-F 2 "mini-general-tweaks:D_SOD123_axial-dual" H 11000 1475 50  0001 C CNN
-F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 11000 1650 50  0001 C CNN
-	1    11000 1650
-	0    -1   -1   0   
-$EndComp
-$Comp
 L Diode:1N4148W D51
 U 1 1 60BAA618
 P 8600 3750
@@ -2572,17 +2490,6 @@ Wire Wire Line
 	2250 4900 2150 4900
 Connection ~ 2150 4900
 $Comp
-L mini_random_library:mini-eLiXiR-Logo-SilkScreen LO1
-U 1 1 60E83B80
-P 11600 5150
-F 0 "LO1" H 11728 4946 50  0000 L CNN
-F 1 "mini-eLiXiR-Logo-SilkScreen" H 11728 4855 50  0000 L CNN
-F 2 "mini-Logos:eLiXiVy-SilkScreenv2" H 11600 5050 50  0001 C CNN
-F 3 "" H 11600 5050 50  0001 C CNN
-	1    11600 5150
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:C_Small C4
 U 1 1 5F17E05A
 P 700 6000
@@ -2595,17 +2502,6 @@ F 3 "~" H 700 6000 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	700  5900 1100 5900
-$Comp
-L mini_random_library:mini-eLiXiR-Logo-Mask LO0
-U 1 1 60E319B2
-P 11600 4900
-F 0 "LO0" H 11728 4696 50  0000 L CNN
-F 1 "mini-eLiXiR-Logo-Mask" H 11728 4605 50  0000 L CNN
-F 2 "mini-Logos:eLiXiVy-Maskv2" H 11600 4800 50  0001 C CNN
-F 3 "" H 11600 4800 50  0001 C CNN
-	1    11600 4900
-	1    0    0    -1  
-$EndComp
 NoConn ~ 9700 5850
 NoConn ~ 10550 5550
 NoConn ~ 9700 5550
@@ -2829,8 +2725,6 @@ Wire Bus Line
 Wire Bus Line
 	2250 6800 2250 8200
 Wire Bus Line
-	13200 5000 13200 5750
-Wire Bus Line
 	450  9100 450  9800
 Wire Bus Line
 	450  9100 2100 9100
@@ -2967,93 +2861,7 @@ Wire Bus Line
 	11450 5000 13200 5000
 Connection ~ 11450 5000
 Wire Bus Line
-	11450 5000 11450 5750
-Wire Bus Line
-	11450 5750 13200 5750
-Wire Bus Line
-	7400 5000 7400 8200
-$Comp
-L power:GND #PWR0119
-U 1 1 60A46743
-P 5450 5700
-F 0 "#PWR0119" H 5450 5450 50  0001 C CNN
-F 1 "GND" H 5455 5527 50  0000 C CNN
-F 2 "" H 5450 5700 50  0001 C CNN
-F 3 "" H 5450 5700 50  0001 C CNN
-	1    5450 5700
-	1    0    0    -1  
-$EndComp
-Text GLabel 6500 5600 2    50   Input ~ 0
-MCU_D-
-Text GLabel 6500 5800 2    50   Input ~ 0
-MCU_D+
-Text GLabel 5900 5600 0    50   Input ~ 0
-USB_D-
-$Comp
-L Device:C_Small C8
-U 1 1 60E08719
-P 6950 5800
-F 0 "C8" H 7042 5846 50  0000 L CNN
-F 1 "100nF" H 7042 5755 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 6950 5800 50  0001 C CNN
-F 3 "~" H 6950 5800 50  0001 C CNN
-	1    6950 5800
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR0122
-U 1 1 60E0A898
-P 6950 5900
-F 0 "#PWR0122" H 6950 5650 50  0001 C CNN
-F 1 "GND" H 6955 5727 50  0000 C CNN
-F 2 "" H 6950 5900 50  0001 C CNN
-F 3 "" H 6950 5900 50  0001 C CNN
-	1    6950 5900
-	1    0    0    -1  
-$EndComp
-$Comp
-L Power_Protection:WE-TVS-82400102 U2
-U 1 1 60D419F0
-P 6200 5700
-F 0 "U2" H 6200 6025 50  0000 C CNN
-F 1 "WE-TVS-82400102" H 6200 5934 50  0000 C CNN
-F 2 "mini-general-tweaks:SOT-23-6_tweaked" H 6200 5500 50  0001 C CNN
-F 3 "https://katalog.we-online.de/pbs/datasheet/82400102.pdf" H 6200 5450 50  0001 C CNN
-	1    6200 5700
-	1    0    0    -1  
-$EndComp
-Text GLabel 5900 5800 0    50   Input ~ 0
-USB_D+
-Wire Wire Line
-	5900 5700 5450 5700
-Wire Wire Line
-	6950 5700 6500 5700
-$Comp
-L power:+5V #PWR0121
-U 1 1 60D5F5D4
-P 7150 5700
-F 0 "#PWR0121" H 7150 5550 50  0001 C CNN
-F 1 "+5V" H 7165 5873 50  0000 C CNN
-F 2 "" H 7150 5700 50  0001 C CNN
-F 3 "" H 7150 5700 50  0001 C CNN
-	1    7150 5700
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	6950 5700 7150 5700
-Connection ~ 6950 5700
-Text Notes 5300 5250 0    98   ~ 20
-ESD Protection TVS Diode
-Wire Bus Line
-	5300 5050 5300 5300
-Connection ~ 5300 5300
-Wire Bus Line
-	5300 5300 5300 6150
-Connection ~ 7400 5000
-Wire Bus Line
-	7400 4750 7400 5000
-Text Notes 7400 4950 0    98   ~ 20
-USB Type C
+	11450 5800 13200 5800
 $Comp
 L mini_random_library:TYPE-C-31-M12_13_EDITED J1
 U 1 1 60832B1A
@@ -3171,59 +2979,38 @@ Connection ~ 8450 6800
 Wire Wire Line
 	8450 5850 8600 5850
 Wire Bus Line
-	8950 4750 8950 5000
-Wire Bus Line
-	7400 4750 8950 4750
-Wire Bus Line
-	7400 5000 8950 5000
+	7400 8200 8950 8200
 Connection ~ 8950 5000
 Wire Bus Line
 	8950 5000 8950 8200
 Wire Bus Line
-	7400 8200 8950 8200
+	8950 4750 8950 5000
+Wire Notes Line
+	7350 7150 7350 5000
+Wire Notes Line
+	5250 7150 7350 7150
+Wire Notes Line
+	5250 5000 5250 7150
 Wire Bus Line
-	7300 5050 7300 5300
+	5250 4750 7350 4750
 Wire Bus Line
-	5300 6150 7300 6150
+	7350 4750 7350 5000
 Wire Bus Line
-	5300 5050 7300 5050
+	5250 5000 7350 5000
+Text Notes 5250 4950 0    98   ~ 20
+Electrical protection
 Wire Bus Line
-	5300 5300 7300 5300
-Connection ~ 7300 5300
-Wire Bus Line
-	7300 5300 7300 6150
-Wire Wire Line
-	5950 6850 6200 6850
-Wire Wire Line
-	6400 6850 6600 6850
-Wire Bus Line
-	5650 6450 5650 7100
-Wire Bus Line
-	6950 6450 6950 7100
-Connection ~ 6950 6450
-Wire Bus Line
-	5650 6450 6950 6450
-Wire Bus Line
-	5650 7100 6950 7100
-Wire Bus Line
-	5650 6200 6950 6200
-Connection ~ 5650 6450
-Wire Bus Line
-	6950 6200 6950 6450
-Wire Bus Line
-	5650 6200 5650 6450
-Text Notes 5650 6400 0    98   ~ 20
-Polyfuse
+	5250 4750 5250 5000
 $Comp
-L power:VCC #PWR0118
-U 1 1 60DE2F1D
-P 5950 6850
-F 0 "#PWR0118" H 5950 6700 50  0001 C CNN
-F 1 "VCC" H 5967 7023 50  0000 C CNN
-F 2 "" H 5950 6850 50  0001 C CNN
-F 3 "" H 5950 6850 50  0001 C CNN
-	1    5950 6850
-	1    0    0    -1  
+L Device:Polyfuse_Small F1
+U 1 1 5F1C7377
+P 6300 6850
+F 0 "F1" V 6095 6850 50  0000 C CNN
+F 1 "500mA" V 6186 6850 50  0000 C CNN
+F 2 "Fuse:Fuse_1206_3216Metric" H 6350 6650 50  0001 L CNN
+F 3 "~" H 6300 6850 50  0001 C CNN
+	1    6300 6850
+	0    1    1    0   
 $EndComp
 $Comp
 L power:+5V #PWR0102
@@ -3237,30 +3024,240 @@ F 3 "" H 6600 6850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:Polyfuse_Small F1
-U 1 1 5F1C7377
-P 6300 6850
-F 0 "F1" V 6095 6850 50  0000 C CNN
-F 1 "500mA" V 6186 6850 50  0000 C CNN
-F 2 "Fuse:Fuse_1206_3216Metric" H 6350 6650 50  0001 L CNN
-F 3 "~" H 6300 6850 50  0001 C CNN
-	1    6300 6850
-	0    1    1    0   
+L power:VCC #PWR0118
+U 1 1 60DE2F1D
+P 5950 6850
+F 0 "#PWR0118" H 5950 6700 50  0001 C CNN
+F 1 "VCC" H 5967 7023 50  0000 C CNN
+F 2 "" H 5950 6850 50  0001 C CNN
+F 3 "" H 5950 6850 50  0001 C CNN
+	1    5950 6850
+	1    0    0    -1  
+$EndComp
+Text Notes 5650 6400 0    98   ~ 20
+Polyfuse
+Wire Bus Line
+	5650 6200 5650 6450
+Wire Bus Line
+	6950 6200 6950 6450
+Connection ~ 5650 6450
+Wire Bus Line
+	5650 6200 6950 6200
+Wire Bus Line
+	5650 7100 6950 7100
+Wire Bus Line
+	5650 6450 6950 6450
+Connection ~ 6950 6450
+Wire Bus Line
+	6950 6450 6950 7100
+Wire Bus Line
+	5650 6450 5650 7100
+Wire Wire Line
+	6400 6850 6600 6850
+Wire Wire Line
+	5950 6850 6200 6850
+Wire Bus Line
+	7300 5300 7300 6150
+Connection ~ 7300 5300
+Wire Bus Line
+	5300 5300 7300 5300
+Wire Bus Line
+	5300 5050 7300 5050
+Wire Bus Line
+	5300 6150 7300 6150
+Wire Bus Line
+	7300 5050 7300 5300
+Wire Bus Line
+	7400 5000 8950 5000
+Wire Bus Line
+	7400 4750 8950 4750
+Text Notes 7400 4950 0    98   ~ 20
+USB Type C
+Wire Bus Line
+	7400 4750 7400 5000
+Connection ~ 7400 5000
+Wire Bus Line
+	5300 5300 5300 6150
+Connection ~ 5300 5300
+Wire Bus Line
+	5300 5050 5300 5300
+Text Notes 5300 5250 0    98   ~ 20
+ESD Protection TVS Diode
+Connection ~ 6950 5700
+Wire Wire Line
+	6950 5700 7150 5700
+$Comp
+L power:+5V #PWR0121
+U 1 1 60D5F5D4
+P 7150 5700
+F 0 "#PWR0121" H 7150 5550 50  0001 C CNN
+F 1 "+5V" H 7165 5873 50  0000 C CNN
+F 2 "" H 7150 5700 50  0001 C CNN
+F 3 "" H 7150 5700 50  0001 C CNN
+	1    7150 5700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6950 5700 6500 5700
+Wire Wire Line
+	5900 5700 5450 5700
+Text GLabel 5900 5800 0    50   Input ~ 0
+USB_D+
+$Comp
+L Power_Protection:WE-TVS-82400102 U2
+U 1 1 60D419F0
+P 6200 5700
+F 0 "U2" H 6200 6025 50  0000 C CNN
+F 1 "WE-TVS-82400102" H 6200 5934 50  0000 C CNN
+F 2 "mini-general-tweaks:SOT-23-6_tweaked" H 6200 5500 50  0001 C CNN
+F 3 "https://katalog.we-online.de/pbs/datasheet/82400102.pdf" H 6200 5450 50  0001 C CNN
+	1    6200 5700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0122
+U 1 1 60E0A898
+P 6950 5900
+F 0 "#PWR0122" H 6950 5650 50  0001 C CNN
+F 1 "GND" H 6955 5727 50  0000 C CNN
+F 2 "" H 6950 5900 50  0001 C CNN
+F 3 "" H 6950 5900 50  0001 C CNN
+	1    6950 5900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C8
+U 1 1 60E08719
+P 6950 5800
+F 0 "C8" H 7042 5846 50  0000 L CNN
+F 1 "100nF" H 7042 5755 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 6950 5800 50  0001 C CNN
+F 3 "~" H 6950 5800 50  0001 C CNN
+	1    6950 5800
+	1    0    0    -1  
+$EndComp
+Text GLabel 5900 5600 0    50   Input ~ 0
+USB_D-
+Text GLabel 6500 5800 2    50   Input ~ 0
+MCU_D+
+Text GLabel 6500 5600 2    50   Input ~ 0
+MCU_D-
+$Comp
+L power:GND #PWR0119
+U 1 1 60A46743
+P 5450 5700
+F 0 "#PWR0119" H 5450 5450 50  0001 C CNN
+F 1 "GND" H 5455 5527 50  0000 C CNN
+F 2 "" H 5450 5700 50  0001 C CNN
+F 3 "" H 5450 5700 50  0001 C CNN
+	1    5450 5700
+	1    0    0    -1  
 $EndComp
 Wire Bus Line
-	5250 4750 5250 5000
-Text Notes 5250 4950 0    98   ~ 20
-Electrical protection
+	7400 5000 7400 8200
+$Comp
+L mini_random_library:Logo LO2
+U 1 1 638922C8
+P 11600 5400
+F 0 "LO2" H 11728 5196 50  0000 L CNN
+F 1 "OSHW-Logo" H 11728 5105 50  0000 L CNN
+F 2 "mini-Logos:OSHW-Logo" H 11600 5300 50  0001 C CNN
+F 3 "" H 11600 5300 50  0001 C CNN
+	1    11600 5400
+	1    0    0    -1  
+$EndComp
 Wire Bus Line
-	5250 5000 7350 5000
+	11450 5000 11450 5800
 Wire Bus Line
-	7350 4750 7350 5000
-Wire Bus Line
-	5250 4750 7350 4750
-Wire Notes Line
-	5250 5000 5250 7150
-Wire Notes Line
-	5250 7150 7350 7150
-Wire Notes Line
-	7350 7150 7350 5000
+	13200 5000 13200 5800
+$Comp
+L mini_random_library:Logo LO0
+U 1 1 6390C410
+P 11600 4900
+F 0 "LO0" H 11728 4696 50  0000 L CNN
+F 1 "mini-eLiXiVy-SilkScreen" H 11728 4605 50  0000 L CNN
+F 2 "mini-Logos:eLiXiVy-SilkScreenv2" H 11600 4800 50  0001 C CNN
+F 3 "" H 11600 4800 50  0001 C CNN
+	1    11600 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L mini_random_library:Logo LO1
+U 1 1 6390E149
+P 11600 5150
+F 0 "LO1" H 11728 4946 50  0000 L CNN
+F 1 "mini-eLiXiVy-Mask" H 11728 4855 50  0000 L CNN
+F 2 "mini-Logos:eLiXiVy-Maskv2" H 11600 5050 50  0001 C CNN
+F 3 "" H 11600 5050 50  0001 C CNN
+	1    11600 5150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9200 1800 10400 1800
+Connection ~ 12500 1300
+Wire Wire Line
+	12500 1300 12500 2000
+Wire Wire Line
+	12200 1800 12800 1800
+Connection ~ 12200 1800
+$Comp
+L Diode:1N4148W D13
+U 1 1 60AAD9BF
+P 12200 1650
+F 0 "D13" H 12149 1778 50  0000 R CNN
+F 1 "1N4148W" H 12259 1727 28  0000 R CNN
+F 2 "mini-general-tweaks:D_SOD123_axial-dual" H 12200 1475 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 12200 1650 50  0001 C CNN
+	1    12200 1650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:1N4148W D14
+U 1 1 60AB73FF
+P 12800 1650
+F 0 "D14" H 12749 1778 50  0000 R CNN
+F 1 "1N4148W" H 12859 1727 28  0000 R CNN
+F 2 "mini-general-tweaks:D_SOD123_axial-dual" H 12800 1475 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 12800 1650 50  0001 C CNN
+	1    12800 1650
+	0    -1   -1   0   
+$EndComp
+Connection ~ 11900 2000
+Connection ~ 11900 1300
+Wire Wire Line
+	11900 1300 11900 2000
+Connection ~ 11300 2000
+Connection ~ 11300 1300
+Wire Wire Line
+	11300 1300 11300 2000
+Wire Wire Line
+	11600 1800 12200 1800
+Connection ~ 11600 1800
+$Comp
+L Diode:1N4148W D12
+U 1 1 60AA3F32
+P 11600 1650
+F 0 "D12" H 11549 1778 50  0000 R CNN
+F 1 "1N4148W" H 11659 1727 28  0000 R CNN
+F 2 "mini-general-tweaks:D_SOD123_axial-dual" H 11600 1475 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 11600 1650 50  0001 C CNN
+	1    11600 1650
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	11000 1800 11600 1800
+Wire Wire Line
+	10400 1800 11000 1800
+Connection ~ 11000 1800
+$Comp
+L Diode:1N4148W D11
+U 1 1 60A9A295
+P 11000 1650
+F 0 "D11" H 10949 1778 50  0000 L CNN
+F 1 "1N4148W" H 11059 1727 28  0000 R CNN
+F 2 "mini-general-tweaks:D_SOD123_axial-dual" H 11000 1475 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 11000 1650 50  0001 C CNN
+	1    11000 1650
+	0    -1   -1   0   
+$EndComp
 $EndSCHEMATC

@@ -1,6 +1,44 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
+# D_Small_EDIT
+#
+DEF D_Small_EDIT D 0 10 N N 1 F N
+F0 "D" -50 80 50 H V L CNN
+F1 "D_Small_EDIT" -150 -80 50 H V L CNN
+F2 "" 0 0 50 V I C CNN
+F3 "" 0 0 50 V I C CNN
+$FPLIST
+ TO-???*
+ *_Diode_*
+ *SingleDiode*
+ D_*
+$ENDFPLIST
+DRAW
+P 2 0 1 0 -30 -40 -30 40 N
+P 2 0 1 0 -30 0 30 0 N
+P 4 0 1 0 30 -40 -30 0 30 40 30 -40 N
+X K 1 -100 0 70 R 50 50 1 1 P
+X A 2 100 0 70 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Logo
+#
+DEF Logo LO 0 40 Y Y 1 F N
+F0 "LO" 0 0 50 H V C CNN
+F1 "Logo" 0 -100 50 H V C CNN
+F2 "" 0 -100 50 H I C CNN
+F3 "" 0 -100 50 H I C CNN
+DRAW
+C 0 -250 50 0 1 0 N
+P 2 0 1 0 -50 -250 -100 -250 N
+P 2 0 1 0 0 -300 0 -350 N
+P 2 0 1 0 0 -200 0 -150 N
+P 2 0 1 0 50 -250 100 -250 N
+ENDDRAW
+ENDDEF
+#
 # TYPE-C-31-M12_13_EDITED
 #
 DEF TYPE-C-31-M12_13_EDITED J 0 40 Y Y 1 F N
@@ -54,38 +92,6 @@ X D+ 6 600 -300 200 L 50 50 1 1 B
 X D- 7 600 0 200 L 50 50 1 1 B
 X D+ 8 600 -400 200 L 50 50 1 1 B
 X SBU2 9 600 -1150 200 L 50 50 1 1 B
-ENDDRAW
-ENDDEF
-#
-# mini-eLiXiR-Logo-Mask
-#
-DEF mini-eLiXiR-Logo-Mask LO 0 40 Y Y 1 F N
-F0 "LO" 0 0 50 H V C CNN
-F1 "mini-eLiXiR-Logo-Mask" 0 -100 50 H V C CNN
-F2 "" 0 -100 50 H I C CNN
-F3 "" 0 -100 50 H I C CNN
-DRAW
-C 0 -250 50 0 1 0 N
-P 2 0 1 0 -50 -250 -100 -250 N
-P 2 0 1 0 0 -300 0 -350 N
-P 2 0 1 0 0 -200 0 -150 N
-P 2 0 1 0 50 -250 100 -250 N
-ENDDRAW
-ENDDEF
-#
-# mini-eLiXiR-Logo-SilkScreen
-#
-DEF mini-eLiXiR-Logo-SilkScreen LO 0 40 Y Y 1 F N
-F0 "LO" 0 0 50 H V C CNN
-F1 "mini-eLiXiR-Logo-SilkScreen" 0 -100 50 H V C CNN
-F2 "" 0 -100 50 H I C CNN
-F3 "" 0 -100 50 H I C CNN
-DRAW
-C 0 -250 50 0 1 0 N
-P 2 0 1 0 -50 -250 -100 -250 N
-P 2 0 1 0 0 -300 0 -350 N
-P 2 0 1 0 0 -200 0 -150 N
-P 2 0 1 0 50 -250 100 -250 N
 ENDDRAW
 ENDDEF
 #
