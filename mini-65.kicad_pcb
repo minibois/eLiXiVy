@@ -7643,7 +7643,7 @@
   )
 
   (module mini-general-tweaks:MountingHole_2.2mm_M2_Pad_tweaked locked (layer F.Cu) (tedit 6088278F) (tstamp 608376EB)
-    (at 165.72865 154.83205)
+    (at 166.5732 154.83205)
     (descr "Mounting Hole 2.2mm, M2")
     (tags "mounting hole 2.2mm m2")
     (path /608ABAB5)

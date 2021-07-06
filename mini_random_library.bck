@@ -6,10 +6,4 @@ K diode
 F ~
 $ENDCMP
 #
-$CMP ​
-D Diode, small symbol
-K diode
-F ~
-$ENDCMP
-#
 #End Doc Library

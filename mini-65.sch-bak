@@ -2,7 +2,7 @@ EESchema Schematic File Version 4
 LIBS:mini-65-cache
 EELAYER 30 0
 EELAYER END
-$Descr User 13701 8701
+$Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "eLiXiVy"
@@ -14,162 +14,140 @@ Comment2 "Compatible with KBDFans' 65% case and plate"
 Comment3 "Open-source USB Type C 65% keyboard"
 Comment4 "c4"
 $EndDescr
-Connection ~ 13200 5000
-Connection ~ 13200 750 
+Connection ~ 10450 3200
 Wire Bus Line
-	13200 4750 13200 5000
+	10450 2950 10450 3200
 Wire Bus Line
-	11350 4750 11350 5000
+	8600 2950 8600 3200
 Wire Bus Line
-	13200 750  13200 4700
-Wire Bus Line
-	13200 500  13200 750 
-Wire Bus Line
-	9600 4750 11350 4750
-Text Notes 11450 4950 0    98   ~ 20
+	6850 2950 8600 2950
+Text Notes 8700 3150 0    98   ~ 20
 Logos
 Wire Bus Line
-	9600 4750 9600 5000
-Text Notes 9600 4950 0    98   ~ 20
+	6850 2950 6850 3200
+Text Notes 6850 3150 0    98   ~ 20
 Mounting Holes
-Connection ~ 3550 750 
 Wire Bus Line
-	3550 4700 3550 750 
+	3400 750  3400 5200
 Wire Bus Line
-	3500 750  3500 5200
-Wire Bus Line
-	500  750  3500 750 
-Connection ~ 3500 750 
-Wire Bus Line
-	500  6500 2250 6500
-Wire Bus Line
-	500  5250 2250 5250
+	3450 500  5150 500 
 Wire Bus Line
 	500  750  500  5200
 Wire Bus Line
-	500  5200 3500 5200
-Connection ~ 2250 5500
+	500  5200 3400 5200
 Wire Bus Line
-	2250 5250 2250 5500
-Text Notes 500  5450 0    98   ~ 20
+	5150 500  5150 750 
+Text Notes 3450 700  0    98   ~ 20
 Decoupling Capacitors
 $Comp
 L Mechanical:MountingHole_Pad H2
 U 1 1 6089094F
-P 10550 5450
-F 0 "H2" H 10650 5499 50  0000 L CNN
-F 1 "MountingHole_Pad" H 10650 5408 50  0000 L CNN
-F 2 "mini-general-tweaks:MountingHole_2.2mm_M2_Pad_tweaked" H 10550 5450 50  0001 C CNN
-F 3 "~" H 10550 5450 50  0001 C CNN
-	1    10550 5450
+P 7800 3650
+F 0 "H2" H 7900 3699 50  0000 L CNN
+F 1 "MountingHole_Pad" H 7900 3608 50  0000 L CNN
+F 2 "mini-general-tweaks:MountingHole_2.2mm_M2_Pad_tweaked" H 7800 3650 50  0001 C CNN
+F 3 "~" H 7800 3650 50  0001 C CNN
+	1    7800 3650
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1500 2900 1650 2900
+	1400 2900 1550 2900
 Connection ~ 500  750 
 Wire Bus Line
-	3500 750  3500 500 
-Wire Bus Line
-	500  500  3500 500 
+	3400 750  3400 500 
 Wire Bus Line
 	500  500  500  750 
-Wire Bus Line
-	3550 500  3550 750 
 Text GLabel 900  2700 0    50   Input ~ 0
 MCU_D-
 Text GLabel 900  2600 0    50   Input ~ 0
 MCU_D+
 Wire Wire Line
-	1500 1050 1500 1000
+	1400 1050 1400 1000
 Wire Wire Line
-	1500 1450 1550 1450
-Connection ~ 1500 1450
+	1400 1450 1450 1450
+Connection ~ 1400 1450
 Wire Wire Line
-	1500 1450 1500 1250
+	1400 1450 1400 1250
 $Comp
 L power:+5V #PWR0105
 U 1 1 5F1C0BF9
-P 1500 1000
-F 0 "#PWR0105" H 1500 850 50  0001 C CNN
-F 1 "+5V" H 1515 1173 50  0000 C CNN
-F 2 "" H 1500 1000 50  0001 C CNN
-F 3 "" H 1500 1000 50  0001 C CNN
-	1    1500 1000
+P 1400 1000
+F 0 "#PWR0105" H 1400 850 50  0001 C CNN
+F 1 "+5V" H 1415 1173 50  0000 C CNN
+F 2 "" H 1400 1000 50  0001 C CNN
+F 3 "" H 1400 1000 50  0001 C CNN
+	1    1400 1000
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:R_Small R1
 U 1 1 5F1BFF27
-P 1500 1150
-F 0 "R1" H 1559 1196 50  0000 L CNN
-F 1 "10k" H 1559 1105 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" H 1500 1150 50  0001 C CNN
-F 3 "~" H 1500 1150 50  0001 C CNN
-	1    1500 1150
+P 1400 1150
+F 0 "R1" H 1459 1196 50  0000 L CNN
+F 1 "10k" H 1459 1105 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 1400 1150 50  0001 C CNN
+F 3 "~" H 1400 1150 50  0001 C CNN
+	1    1400 1150
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1450 1450 1500 1450
+	1350 1450 1400 1450
 $Comp
 L Switch:SW_Push SW1
 U 1 1 5F19CADF
-P 1250 1450
-F 0 "SW1" H 1250 1735 50  0000 C CNN
-F 1 "SW_Push" H 1250 1644 50  0000 C CNN
-F 2 "random-keyboard-parts:SKQG-1155865" H 1250 1650 50  0001 C CNN
-F 3 "~" H 1250 1650 50  0001 C CNN
-	1    1250 1450
+P 1150 1450
+F 0 "SW1" H 1150 1735 50  0000 C CNN
+F 1 "SW_Push" H 1150 1644 50  0000 C CNN
+F 2 "random-keyboard-parts:SKQG-1155865" H 1150 1650 50  0001 C CNN
+F 3 "~" H 1150 1650 50  0001 C CNN
+	1    1150 1450
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1050 1350 1050 1450
+	950  1350 950  1450
 Wire Wire Line
-	900  1350 1050 1350
+	800  1350 950  1350
 Wire Wire Line
-	1650 2400 1350 2400
+	1550 2400 1250 2400
 $Comp
 L power:+5V #PWR0107
 U 1 1 5F18B570
-P 1350 2400
-F 0 "#PWR0107" H 1350 2250 50  0001 C CNN
-F 1 "+5V" H 1365 2573 50  0000 C CNN
-F 2 "" H 1350 2400 50  0001 C CNN
-F 3 "" H 1350 2400 50  0001 C CNN
-	1    1350 2400
+P 1250 2400
+F 0 "#PWR0107" H 1250 2250 50  0001 C CNN
+F 1 "+5V" H 1265 2573 50  0000 C CNN
+F 2 "" H 1250 2400 50  0001 C CNN
+F 3 "" H 1250 2400 50  0001 C CNN
+	1    1250 2400
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1500 3100 1500 3200
+	1400 3100 1400 3200
 $Comp
 L power:GND #PWR0108
 U 1 1 5F178EBA
-P 1500 3200
-F 0 "#PWR0108" H 1500 2950 50  0001 C CNN
-F 1 "GND" H 1505 3027 50  0000 C CNN
-F 2 "" H 1500 3200 50  0001 C CNN
-F 3 "" H 1500 3200 50  0001 C CNN
-	1    1500 3200
+P 1400 3200
+F 0 "#PWR0108" H 1400 2950 50  0001 C CNN
+F 1 "GND" H 1405 3027 50  0000 C CNN
+F 2 "" H 1400 3200 50  0001 C CNN
+F 3 "" H 1400 3200 50  0001 C CNN
+	1    1400 3200
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:C_Small C3
 U 1 1 5F17498F
-P 1500 3000
-F 0 "C3" H 1592 3046 50  0000 L CNN
-F 1 "1uF" H 1592 2955 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 1500 3000 50  0001 C CNN
-F 3 "~" H 1500 3000 50  0001 C CNN
-	1    1500 3000
+P 1400 3000
+F 0 "C3" H 1492 3046 50  0000 L CNN
+F 1 "1uF" H 1492 2955 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 1400 3000 50  0001 C CNN
+F 3 "~" H 1400 3000 50  0001 C CNN
+	1    1400 3000
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	1100 2600 900  2600
 Wire Wire Line
-	1650 2600 1300 2600
-Wire Wire Line
 	950  2700 900  2700
-Wire Wire Line
-	1650 2700 1150 2700
 $Comp
 L Device:R_Small R3
 U 1 1 5F17179E
@@ -193,3085 +171,3103 @@ F 3 "~" H 1200 2600 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	2150 1200 2150 1300
+	2050 1200 2050 1300
 $Comp
 L power:+5V #PWR0110
 U 1 1 5F168FB6
-P 2150 1200
-F 0 "#PWR0110" H 2150 1050 50  0001 C CNN
-F 1 "+5V" H 2165 1373 50  0000 C CNN
-F 2 "" H 2150 1200 50  0001 C CNN
-F 3 "" H 2150 1200 50  0001 C CNN
-	1    2150 1200
+P 2050 1200
+F 0 "#PWR0110" H 2050 1050 50  0001 C CNN
+F 1 "+5V" H 2065 1373 50  0000 C CNN
+F 2 "" H 2050 1200 50  0001 C CNN
+F 3 "" H 2050 1200 50  0001 C CNN
+	1    2050 1200
 	1    0    0    -1  
 $EndComp
-$Comp
-L MX_Alps_Hybrid:MX-NoLED MX_1.5U_TAB1
-U 1 1 5F19F256
-P 4250 2050
-F 0 "MX_1.5U_TAB1" H 4222 2224 39  0000 C CNN
-F 1 "MX-NoLED" H 4224 2169 20  0000 C CNN
-F 2 "mini-MX-Tweaks:MXOnly-1.5U-NoLED_tweak" H 3625 2025 60  0001 C CNN
-F 3 "" H 3625 2025 60  0001 C CNN
-	1    4250 2050
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4200 2200 4100 2200
-Text GLabel 3850 2500 0    50   Input ~ 0
-ROW1
-Text GLabel 3850 3200 0    50   Input ~ 0
-ROW2
-Wire Wire Line
-	4400 1300 4400 1100
-Text GLabel 4400 1100 1    50   Input ~ 0
-COL0
-$Comp
-L MX_Alps_Hybrid:MX-NoLED MX_ESC1
-U 1 1 5F1D4CF0
-P 4250 1350
-F 0 "MX_ESC1" H 4222 1524 39  0000 C CNN
-F 1 "MX-NoLED" H 4224 1469 20  0000 C CNN
-F 2 "mini-MX-Tweaks:MXOnly-1U-NoLED_tweak" H 3625 1325 60  0001 C CNN
-F 3 "" H 3625 1325 60  0001 C CNN
-	1    4250 1350
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4200 1500 4100 1500
-Text GLabel 3850 1800 0    50   Input ~ 0
-ROW0
-Wire Wire Line
-	4200 3600 4100 3600
-Wire Wire Line
-	4200 2900 4100 2900
-$Comp
-L MX_Alps_Hybrid:MX-NoLED MX_2.25U_LSHIFT1
-U 1 1 5F1B051B
-P 4250 3450
-F 0 "MX_2.25U_LSHIFT1" H 4222 3624 39  0000 C CNN
-F 1 "MX-NoLED" H 4224 3569 20  0000 C CNN
-F 2 "mini-MX-Tweaks:MXOnly-2.25U-NoLED_tweak" H 3625 3425 60  0001 C CNN
-F 3 "" H 3625 3425 60  0001 C CNN
-	1    4250 3450
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4400 1300 4400 2000
-Connection ~ 4400 1300
-Wire Wire Line
-	4400 2000 4400 2700
-Connection ~ 4400 2000
-Wire Wire Line
-	4400 2700 4400 3400
-Connection ~ 4400 2700
-Connection ~ 4400 3400
-Wire Wire Line
-	1650 1600 1550 1600
-Text GLabel 1450 1600 0    50   Input ~ 0
-RESET
-Wire Wire Line
-	1550 1600 1550 1450
-Connection ~ 1550 1600
 Wire Wire Line
 	1550 1600 1450 1600
-Text GLabel 2850 1700 2    50   Input ~ 0
+Text GLabel 1350 1600 0    50   Input ~ 0
+RESET
+Wire Wire Line
+	1450 1600 1450 1450
+Connection ~ 1450 1600
+Wire Wire Line
+	1450 1600 1350 1600
+Text GLabel 2750 1700 2    50   Input ~ 0
 SCK
-Text GLabel 2850 1800 2    50   Input ~ 0
+Text GLabel 2750 1800 2    50   Input ~ 0
 MOSI
-Text GLabel 2850 1900 2    50   Input ~ 0
+Text GLabel 2750 1900 2    50   Input ~ 0
 MISO
-Connection ~ 4200 2900
-Connection ~ 4200 3600
-$Comp
-L MX_Alps_Hybrid:MX-NoLED MX_Q1
-U 1 1 5F19F24F
-P 5000 2050
-F 0 "MX_Q1" H 4972 2224 39  0000 C CNN
-F 1 "MX-NoLED" H 4974 2169 20  0000 C CNN
-F 2 "mini-MX-Tweaks:MXOnly-1U-NoLED_tweak" H 4375 2025 60  0001 C CNN
-F 3 "" H 4375 2025 60  0001 C CNN
-	1    5000 2050
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4950 2200 4850 2200
-Wire Wire Line
-	5150 1300 5150 1100
-$Comp
-L MX_Alps_Hybrid:MX-NoLED MX_1
-U 1 1 5F1E7BDC
-P 5000 1350
-F 0 "MX_1" H 4972 1524 39  0000 C CNN
-F 1 "MX-NoLED" H 4974 1469 20  0000 C CNN
-F 2 "mini-MX-Tweaks:MXOnly-1U-NoLED_tweak" H 4375 1325 60  0001 C CNN
-F 3 "" H 4375 1325 60  0001 C CNN
-	1    5000 1350
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4950 1500 4850 1500
-Text GLabel 5150 1100 1    50   Input ~ 0
-COL1
-Wire Wire Line
-	4950 2900 4850 2900
-Wire Wire Line
-	5700 3600 5600 3600
-$Comp
-L MX_Alps_Hybrid:MX-NoLED MX_A1
-U 1 1 5F1A6063
-P 5000 2750
-F 0 "MX_A1" H 4972 2924 39  0000 C CNN
-F 1 "MX-NoLED" H 4974 2869 20  0000 C CNN
-F 2 "mini-MX-Tweaks:MXOnly-1U-NoLED_tweak" H 4375 2725 60  0001 C CNN
-F 3 "" H 4375 2725 60  0001 C CNN
-	1    5000 2750
-	1    0    0    -1  
-$EndComp
-$Comp
-L MX_Alps_Hybrid:MX-NoLED MX_Z1
-U 1 1 5F1B0514
-P 5750 3450
-F 0 "MX_Z1" H 5722 3624 39  0000 C CNN
-F 1 "MX-NoLED" H 5724 3569 20  0000 C CNN
-F 2 "mini-MX-Tweaks:MXOnly-1U-NoLED_tweak" H 5125 3425 60  0001 C CNN
-F 3 "" H 5125 3425 60  0001 C CNN
-	1    5750 3450
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	5150 1300 5150 2000
-Connection ~ 5150 1300
-Wire Wire Line
-	5150 2000 5150 2700
-Connection ~ 5150 2000
-Wire Wire Line
-	5900 2700 5900 3400
-Connection ~ 6500 2700
-Wire Wire Line
-	7100 2700 7100 3400
-Connection ~ 6500 2000
-Wire Wire Line
-	6500 2000 6500 2700
-Connection ~ 6500 1300
-Wire Wire Line
-	6500 1300 6500 2000
-Connection ~ 5900 2700
-Wire Wire Line
-	6500 2700 6500 3400
-Connection ~ 5900 2000
-Wire Wire Line
-	5900 2000 5900 2700
-Connection ~ 5900 1300
-Wire Wire Line
-	5900 1300 5900 2000
-$Comp
-L MX_Alps_Hybrid:MX-NoLED MX_C1
-U 1 1 5F3DCD59
-P 6950 3450
-F 0 "MX_C1" H 6922 3624 39  0000 C CNN
-F 1 "MX-NoLED" H 6924 3569 20  0000 C CNN
-F 2 "mini-MX-Tweaks:MXOnly-1U-NoLED_tweak" H 6325 3425 60  0001 C CNN
-F 3 "" H 6325 3425 60  0001 C CNN
-	1    6950 3450
-	1    0    0    -1  
-$EndComp
-$Comp
-L MX_Alps_Hybrid:MX-NoLED MX_D1
-U 1 1 5F3DCD53
-P 6350 2750
-F 0 "MX_D1" H 6322 2924 39  0000 C CNN
-F 1 "MX-NoLED" H 6324 2869 20  0000 C CNN
-F 2 "mini-MX-Tweaks:MXOnly-1U-NoLED_tweak" H 5725 2725 60  0001 C CNN
-F 3 "" H 5725 2725 60  0001 C CNN
-	1    6350 2750
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	6900 3600 6800 3600
-Wire Wire Line
-	6300 2900 6200 2900
-$Comp
-L MX_Alps_Hybrid:MX-NoLED MX_S1
-U 1 1 5F3DCD4B
-P 5750 2750
-F 0 "MX_S1" H 5722 2924 39  0000 C CNN
-F 1 "MX-NoLED" H 5724 2869 20  0000 C CNN
-F 2 "mini-MX-Tweaks:MXOnly-1U-NoLED_tweak" H 5125 2725 60  0001 C CNN
-F 3 "" H 5125 2725 60  0001 C CNN
-	1    5750 2750
-	1    0    0    -1  
-$EndComp
-$Comp
-L MX_Alps_Hybrid:MX-NoLED MX_X1
-U 1 1 5F3DCD45
-P 6350 3450
-F 0 "MX_X1" H 6322 3624 39  0000 C CNN
-F 1 "MX-NoLED" H 6324 3569 20  0000 C CNN
-F 2 "mini-MX-Tweaks:MXOnly-1U-NoLED_tweak" H 5725 3425 60  0001 C CNN
-F 3 "" H 5725 3425 60  0001 C CNN
-	1    6350 3450
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	5700 2900 5600 2900
-Wire Wire Line
-	6300 3600 6200 3600
-Wire Wire Line
-	6300 1500 6200 1500
-$Comp
-L MX_Alps_Hybrid:MX-NoLED MX_3
-U 1 1 5F3DCCFA
-P 6350 1350
-F 0 "MX_3" H 6322 1524 39  0000 C CNN
-F 1 "MX-NoLED" H 6324 1469 20  0000 C CNN
-F 2 "mini-MX-Tweaks:MXOnly-1U-NoLED_tweak" H 5725 1325 60  0001 C CNN
-F 3 "" H 5725 1325 60  0001 C CNN
-	1    6350 1350
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	5700 1500 5600 1500
-$Comp
-L MX_Alps_Hybrid:MX-NoLED MX_2
-U 1 1 5F3DCCF3
-P 5750 1350
-F 0 "MX_2" H 5722 1524 39  0000 C CNN
-F 1 "MX-NoLED" H 5724 1469 20  0000 C CNN
-F 2 "mini-MX-Tweaks:MXOnly-1U-NoLED_tweak" H 5125 1325 60  0001 C CNN
-F 3 "" H 5125 1325 60  0001 C CNN
-	1    5750 1350
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	5900 1300 5900 1100
-Wire Wire Line
-	6500 1300 6500 1100
-Wire Wire Line
-	6300 2200 6200 2200
-$Comp
-L MX_Alps_Hybrid:MX-NoLED MX_E1
-U 1 1 5F3DCCDB
-P 6350 2050
-F 0 "MX_E1" H 6322 2224 39  0000 C CNN
-F 1 "MX-NoLED" H 6324 2169 20  0000 C CNN
-F 2 "mini-MX-Tweaks:MXOnly-1U-NoLED_tweak" H 5725 2025 60  0001 C CNN
-F 3 "" H 5725 2025 60  0001 C CNN
-	1    6350 2050
-	1    0    0    -1  
-$EndComp
-$Comp
-L MX_Alps_Hybrid:MX-NoLED MX_W1
-U 1 1 5F3DCCD4
-P 5750 2050
-F 0 "MX_W1" H 5722 2224 39  0000 C CNN
-F 1 "MX-NoLED" H 5724 2169 20  0000 C CNN
-F 2 "mini-MX-Tweaks:MXOnly-1U-NoLED_tweak" H 5125 2025 60  0001 C CNN
-F 3 "" H 5125 2025 60  0001 C CNN
-	1    5750 2050
-	1    0    0    -1  
-$EndComp
-Connection ~ 7700 2700
-Wire Wire Line
-	8300 2700 8300 3400
-Connection ~ 7700 2000
-Wire Wire Line
-	7700 2000 7700 2700
-Connection ~ 7700 1300
-Wire Wire Line
-	7700 1300 7700 2000
-Connection ~ 7100 2700
-Wire Wire Line
-	7700 2700 7700 3400
-Connection ~ 7100 2000
-Wire Wire Line
-	7100 2000 7100 2700
-Connection ~ 7100 1300
-Wire Wire Line
-	7100 1300 7100 2000
-$Comp
-L MX_Alps_Hybrid:MX-NoLED MX_B1
-U 1 1 5F41B4A3
-P 8150 3450
-F 0 "MX_B1" H 8122 3624 39  0000 C CNN
-F 1 "MX-NoLED" H 8124 3569 20  0000 C CNN
-F 2 "mini-MX-Tweaks:MXOnly-1U-NoLED_tweak" H 7525 3425 60  0001 C CNN
-F 3 "" H 7525 3425 60  0001 C CNN
-	1    8150 3450
-	1    0    0    -1  
-$EndComp
-$Comp
-L MX_Alps_Hybrid:MX-NoLED MX_G1
-U 1 1 5F41B4A9
-P 7550 2750
-F 0 "MX_G1" H 7522 2924 39  0000 C CNN
-F 1 "MX-NoLED" H 7524 2869 20  0000 C CNN
-F 2 "mini-MX-Tweaks:MXOnly-1U-NoLED_tweak" H 6925 2725 60  0001 C CNN
-F 3 "" H 6925 2725 60  0001 C CNN
-	1    7550 2750
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	8100 3600 8000 3600
-Wire Wire Line
-	7500 2900 7400 2900
-$Comp
-L MX_Alps_Hybrid:MX-NoLED MX_F1
-U 1 1 5F41B4B1
-P 6950 2750
-F 0 "MX_F1" H 6922 2924 39  0000 C CNN
-F 1 "MX-NoLED" H 6924 2869 20  0000 C CNN
-F 2 "mini-MX-Tweaks:MXOnly-1U-NoLED_tweak" H 6325 2725 60  0001 C CNN
-F 3 "" H 6325 2725 60  0001 C CNN
-	1    6950 2750
-	1    0    0    -1  
-$EndComp
-$Comp
-L MX_Alps_Hybrid:MX-NoLED MX_V1
-U 1 1 5F41B4B7
-P 7550 3450
-F 0 "MX_V1" H 7522 3624 39  0000 C CNN
-F 1 "MX-NoLED" H 7524 3569 20  0000 C CNN
-F 2 "mini-MX-Tweaks:MXOnly-1U-NoLED_tweak" H 6925 3425 60  0001 C CNN
-F 3 "" H 6925 3425 60  0001 C CNN
-	1    7550 3450
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	6900 2900 6800 2900
-Wire Wire Line
-	7500 3600 7400 3600
-Wire Wire Line
-	8100 4300 8000 4300
-$Comp
-L MX_Alps_Hybrid:MX-NoLED MX_6.25U_SPACE1
-U 1 1 5F41B4E1
-P 8150 4150
-F 0 "MX_6.25U_SPACE1" H 8122 4324 39  0000 C CNN
-F 1 "MX-NoLED" H 8124 4269 20  0000 C CNN
-F 2 "mini-MX-Tweaks:MXOnly-6.25U-ReversedStabilizers-NoLED_tweak" H 7525 4125 60  0001 C CNN
-F 3 "" H 7525 4125 60  0001 C CNN
-	1    8150 4150
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	7500 1500 7400 1500
-$Comp
-L MX_Alps_Hybrid:MX-NoLED MX_5
-U 1 1 5F41B502
-P 7550 1350
-F 0 "MX_5" H 7522 1524 39  0000 C CNN
-F 1 "MX-NoLED" H 7524 1469 20  0000 C CNN
-F 2 "mini-MX-Tweaks:MXOnly-1U-NoLED_tweak" H 6925 1325 60  0001 C CNN
-F 3 "" H 6925 1325 60  0001 C CNN
-	1    7550 1350
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	6900 1500 6800 1500
-$Comp
-L MX_Alps_Hybrid:MX-NoLED MX_4
-U 1 1 5F41B509
-P 6950 1350
-F 0 "MX_4" H 6922 1524 39  0000 C CNN
-F 1 "MX-NoLED" H 6924 1469 20  0000 C CNN
-F 2 "mini-MX-Tweaks:MXOnly-1U-NoLED_tweak" H 6325 1325 60  0001 C CNN
-F 3 "" H 6325 1325 60  0001 C CNN
-	1    6950 1350
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	7100 1300 7100 1100
-Wire Wire Line
-	7700 1300 7700 1100
-Wire Wire Line
-	7500 2200 7400 2200
-$Comp
-L MX_Alps_Hybrid:MX-NoLED MX_T1
-U 1 1 5F41B521
-P 7550 2050
-F 0 "MX_T1" H 7522 2224 39  0000 C CNN
-F 1 "MX-NoLED" H 7524 2169 20  0000 C CNN
-F 2 "mini-MX-Tweaks:MXOnly-1U-NoLED_tweak" H 6925 2025 60  0001 C CNN
-F 3 "" H 6925 2025 60  0001 C CNN
-	1    7550 2050
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	6900 2200 6800 2200
-$Comp
-L MX_Alps_Hybrid:MX-NoLED MX_R1
-U 1 1 5F41B528
-P 6950 2050
-F 0 "MX_R1" H 6922 2224 39  0000 C CNN
-F 1 "MX-NoLED" H 6924 2169 20  0000 C CNN
-F 2 "mini-MX-Tweaks:MXOnly-1U-NoLED_tweak" H 6325 2025 60  0001 C CNN
-F 3 "" H 6325 2025 60  0001 C CNN
-	1    6950 2050
-	1    0    0    -1  
-$EndComp
-Connection ~ 8900 2000
-Wire Wire Line
-	8900 2000 8900 2700
-Connection ~ 8900 1300
-Wire Wire Line
-	8900 1300 8900 2000
-Connection ~ 8300 2000
-Wire Wire Line
-	8300 2000 8300 2700
-Connection ~ 8300 1300
-Wire Wire Line
-	8300 1300 8300 2000
-$Comp
-L MX_Alps_Hybrid:MX-NoLED MX_J1
-U 1 1 5F430257
-P 8750 2750
-F 0 "MX_J1" H 8722 2924 39  0000 C CNN
-F 1 "MX-NoLED" H 8724 2869 20  0000 C CNN
-F 2 "mini-MX-Tweaks:MXOnly-1U-NoLED_tweak" H 8125 2725 60  0001 C CNN
-F 3 "" H 8125 2725 60  0001 C CNN
-	1    8750 2750
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	8700 2900 8600 2900
-$Comp
-L MX_Alps_Hybrid:MX-NoLED MX_H1
-U 1 1 5F43025F
-P 8150 2750
-F 0 "MX_H1" H 8122 2924 39  0000 C CNN
-F 1 "MX-NoLED" H 8124 2869 20  0000 C CNN
-F 2 "mini-MX-Tweaks:MXOnly-1U-NoLED_tweak" H 7525 2725 60  0001 C CNN
-F 3 "" H 7525 2725 60  0001 C CNN
-	1    8150 2750
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	8100 2900 8000 2900
-Wire Wire Line
-	8700 1500 8600 1500
-$Comp
-L MX_Alps_Hybrid:MX-NoLED MX_7
-U 1 1 5F4302B0
-P 8750 1350
-F 0 "MX_7" H 8722 1524 39  0000 C CNN
-F 1 "MX-NoLED" H 8724 1469 20  0000 C CNN
-F 2 "mini-MX-Tweaks:MXOnly-1U-NoLED_tweak" H 8125 1325 60  0001 C CNN
-F 3 "" H 8125 1325 60  0001 C CNN
-	1    8750 1350
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	8100 1500 8000 1500
-$Comp
-L MX_Alps_Hybrid:MX-NoLED MX_6
-U 1 1 5F4302B7
-P 8150 1350
-F 0 "MX_6" H 8122 1524 39  0000 C CNN
-F 1 "MX-NoLED" H 8124 1469 20  0000 C CNN
-F 2 "mini-MX-Tweaks:MXOnly-1U-NoLED_tweak" H 7525 1325 60  0001 C CNN
-F 3 "" H 7525 1325 60  0001 C CNN
-	1    8150 1350
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	8300 1300 8300 1100
-Wire Wire Line
-	8900 1300 8900 1100
-Wire Wire Line
-	8700 2200 8600 2200
-$Comp
-L MX_Alps_Hybrid:MX-NoLED MX_U1
-U 1 1 5F4302CF
-P 8750 2050
-F 0 "MX_U1" H 8722 2224 39  0000 C CNN
-F 1 "MX-NoLED" H 8724 2169 20  0000 C CNN
-F 2 "mini-MX-Tweaks:MXOnly-1U-NoLED_tweak" H 8125 2025 60  0001 C CNN
-F 3 "" H 8125 2025 60  0001 C CNN
-	1    8750 2050
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	8100 2200 8000 2200
-$Comp
-L MX_Alps_Hybrid:MX-NoLED MX_Y1
-U 1 1 5F4302D6
-P 8150 2050
-F 0 "MX_Y1" H 8122 2224 39  0000 C CNN
-F 1 "MX-NoLED" H 8124 2169 20  0000 C CNN
-F 2 "mini-MX-Tweaks:MXOnly-1U-NoLED_tweak" H 7525 2025 60  0001 C CNN
-F 3 "" H 7525 2025 60  0001 C CNN
-	1    8150 2050
-	1    0    0    -1  
-$EndComp
-Connection ~ 10100 2000
-Wire Wire Line
-	10100 2000 10100 2700
-Connection ~ 10100 1300
-Wire Wire Line
-	10100 1300 10100 2000
-Connection ~ 9500 2000
-Wire Wire Line
-	9500 2000 9500 2700
-Connection ~ 9500 1300
-Wire Wire Line
-	9500 1300 9500 2000
-$Comp
-L MX_Alps_Hybrid:MX-NoLED MX_L1
-U 1 1 5F444742
-P 9950 2750
-F 0 "MX_L1" H 9922 2924 39  0000 C CNN
-F 1 "MX-NoLED" H 9924 2869 20  0000 C CNN
-F 2 "mini-MX-Tweaks:MXOnly-1U-NoLED_tweak" H 9325 2725 60  0001 C CNN
-F 3 "" H 9325 2725 60  0001 C CNN
-	1    9950 2750
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	9900 2900 9800 2900
-$Comp
-L MX_Alps_Hybrid:MX-NoLED MX_K1
-U 1 1 5F44474A
-P 9350 2750
-F 0 "MX_K1" H 9322 2924 39  0000 C CNN
-F 1 "MX-NoLED" H 9324 2869 20  0000 C CNN
-F 2 "mini-MX-Tweaks:MXOnly-1U-NoLED_tweak" H 8725 2725 60  0001 C CNN
-F 3 "" H 8725 2725 60  0001 C CNN
-	1    9350 2750
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	9300 2900 9200 2900
-Wire Wire Line
-	9900 4300 9800 4300
-$Comp
-L MX_Alps_Hybrid:MX-NoLED MX_1.25U_R_CTRL1
-U 1 1 5F44477A
-P 9950 4150
-F 0 "MX_1.25U_R_CTRL1" H 9922 4324 39  0000 C CNN
-F 1 "MX-NoLED" H 9924 4269 20  0000 C CNN
-F 2 "mini-MX-Tweaks:MXOnly-1.25U-NoLED_tweak" H 9325 4125 60  0001 C CNN
-F 3 "" H 9325 4125 60  0001 C CNN
-	1    9950 4150
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	9900 1500 9800 1500
-$Comp
-L MX_Alps_Hybrid:MX-NoLED MX_9
-U 1 1 5F44479B
-P 9950 1350
-F 0 "MX_9" H 9922 1524 39  0000 C CNN
-F 1 "MX-NoLED" H 9924 1469 20  0000 C CNN
-F 2 "mini-MX-Tweaks:MXOnly-1U-NoLED_tweak" H 9325 1325 60  0001 C CNN
-F 3 "" H 9325 1325 60  0001 C CNN
-	1    9950 1350
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	9300 1500 9200 1500
-$Comp
-L MX_Alps_Hybrid:MX-NoLED MX_8
-U 1 1 5F4447A2
-P 9350 1350
-F 0 "MX_8" H 9322 1524 39  0000 C CNN
-F 1 "MX-NoLED" H 9324 1469 20  0000 C CNN
-F 2 "mini-MX-Tweaks:MXOnly-1U-NoLED_tweak" H 8725 1325 60  0001 C CNN
-F 3 "" H 8725 1325 60  0001 C CNN
-	1    9350 1350
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	9500 1300 9500 1100
-Wire Wire Line
-	10100 1300 10100 1100
-Wire Wire Line
-	9900 2200 9800 2200
-$Comp
-L MX_Alps_Hybrid:MX-NoLED MX_O1
-U 1 1 5F4447BA
-P 9950 2050
-F 0 "MX_O1" H 9922 2224 39  0000 C CNN
-F 1 "MX-NoLED" H 9924 2169 20  0000 C CNN
-F 2 "mini-MX-Tweaks:MXOnly-1U-NoLED_tweak" H 9325 2025 60  0001 C CNN
-F 3 "" H 9325 2025 60  0001 C CNN
-	1    9950 2050
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	9300 2200 9200 2200
-$Comp
-L MX_Alps_Hybrid:MX-NoLED MX_I1
-U 1 1 5F4447C1
-P 9350 2050
-F 0 "MX_I1" H 9322 2224 39  0000 C CNN
-F 1 "MX-NoLED" H 9324 2169 20  0000 C CNN
-F 2 "mini-MX-Tweaks:MXOnly-1U-NoLED_tweak" H 8725 2025 60  0001 C CNN
-F 3 "" H 8725 2025 60  0001 C CNN
-	1    9350 2050
-	1    0    0    -1  
-$EndComp
-Connection ~ 11300 2000
-Wire Wire Line
-	11300 2000 11300 2700
-Connection ~ 11300 1300
-Wire Wire Line
-	11300 1300 11300 2000
-Connection ~ 10700 2000
-Wire Wire Line
-	10700 2000 10700 2700
-Connection ~ 10700 1300
-Wire Wire Line
-	10700 1300 10700 2000
-$Comp
-L MX_Alps_Hybrid:MX-NoLED MX_'1
-U 1 1 5F45D484
-P 11150 2750
-F 0 "MX_'1" H 11122 2924 39  0000 C CNN
-F 1 "MX-NoLED" H 11124 2869 20  0000 C CNN
-F 2 "mini-MX-Tweaks:MXOnly-1U-NoLED_tweak" H 10525 2725 60  0001 C CNN
-F 3 "" H 10525 2725 60  0001 C CNN
-	1    11150 2750
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	11100 2900 11000 2900
-$Comp
-L MX_Alps_Hybrid:MX-NoLED MX_;1
-U 1 1 5F45D48C
-P 10550 2750
-F 0 "MX_;1" H 10522 2924 39  0000 C CNN
-F 1 "MX-NoLED" H 10524 2869 20  0000 C CNN
-F 2 "mini-MX-Tweaks:MXOnly-1U-NoLED_tweak" H 9925 2725 60  0001 C CNN
-F 3 "" H 9925 2725 60  0001 C CNN
-	1    10550 2750
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	10500 2900 10400 2900
-Wire Wire Line
-	10500 4300 10400 4300
-$Comp
-L MX_Alps_Hybrid:MX-NoLED MX_1.25U_FN1
-U 1 1 5F45D4C3
-P 10550 4150
-F 0 "MX_1.25U_FN1" H 10522 4324 39  0000 C CNN
-F 1 "MX-NoLED" H 10524 4269 20  0000 C CNN
-F 2 "mini-MX-Tweaks:MXOnly-1.25U-NoLED_tweak" H 9925 4125 60  0001 C CNN
-F 3 "" H 9925 4125 60  0001 C CNN
-	1    10550 4150
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	11100 1500 11000 1500
-Wire Wire Line
-	10500 1500 10400 1500
-Wire Wire Line
-	10700 1300 10700 1100
-Wire Wire Line
-	11300 1300 11300 1100
-Wire Wire Line
-	11100 2200 11000 2200
-$Comp
-L MX_Alps_Hybrid:MX-NoLED MX_[1
-U 1 1 5F45D4FC
-P 11150 2050
-F 0 "MX_[1" H 11122 2224 39  0000 C CNN
-F 1 "MX-NoLED" H 11124 2169 20  0000 C CNN
-F 2 "mini-MX-Tweaks:MXOnly-1U-NoLED_tweak" H 10525 2025 60  0001 C CNN
-F 3 "" H 10525 2025 60  0001 C CNN
-	1    11150 2050
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	10500 2200 10400 2200
-$Comp
-L MX_Alps_Hybrid:MX-NoLED MX_P1
-U 1 1 5F45D503
-P 10550 2050
-F 0 "MX_P1" H 10522 2224 39  0000 C CNN
-F 1 "MX-NoLED" H 10524 2169 20  0000 C CNN
-F 2 "mini-MX-Tweaks:MXOnly-1U-NoLED_tweak" H 9925 2025 60  0001 C CNN
-F 3 "" H 9925 2025 60  0001 C CNN
-	1    10550 2050
-	1    0    0    -1  
-$EndComp
-Text GLabel 5900 1100 1    50   Input ~ 0
-COL2
-Text GLabel 6500 1100 1    50   Input ~ 0
-COL3
-Text GLabel 7100 1100 1    50   Input ~ 0
-COL4
-Text GLabel 7700 1100 1    50   Input ~ 0
-COL5
-Text GLabel 8300 1100 1    50   Input ~ 0
-COL6
-Text GLabel 8900 1100 1    50   Input ~ 0
-COL7
-Text GLabel 9500 1100 1    50   Input ~ 0
-COL8
-Text GLabel 10100 1100 1    50   Input ~ 0
-COL9
-Text GLabel 10700 1100 1    50   Input ~ 0
-COL10
-Text GLabel 11300 1100 1    50   Input ~ 0
-COL11
-Connection ~ 10700 2700
-Connection ~ 11300 2700
-Connection ~ 9500 2700
-Connection ~ 10100 2700
-Connection ~ 8900 2700
-Connection ~ 8300 2700
-Wire Wire Line
-	9500 2700 9500 3400
-Wire Wire Line
-	8900 2700 8900 3400
-$Comp
-L MX_Alps_Hybrid:MX-NoLED MX_M1
-U 1 1 5F430251
-P 9350 3450
-F 0 "MX_M1" H 9322 3624 39  0000 C CNN
-F 1 "MX-NoLED" H 9324 3569 20  0000 C CNN
-F 2 "mini-MX-Tweaks:MXOnly-1U-NoLED_tweak" H 8725 3425 60  0001 C CNN
-F 3 "" H 8725 3425 60  0001 C CNN
-	1    9350 3450
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	9300 3600 9200 3600
-$Comp
-L MX_Alps_Hybrid:MX-NoLED MX_N1
-U 1 1 5F430265
-P 8750 3450
-F 0 "MX_N1" H 8722 3624 39  0000 C CNN
-F 1 "MX-NoLED" H 8724 3569 20  0000 C CNN
-F 2 "mini-MX-Tweaks:MXOnly-1U-NoLED_tweak" H 8125 3425 60  0001 C CNN
-F 3 "" H 8125 3425 60  0001 C CNN
-	1    8750 3450
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	8700 3600 8600 3600
-Wire Wire Line
-	10700 2700 10700 3400
-Wire Wire Line
-	10100 2700 10100 3400
-$Comp
-L MX_Alps_Hybrid:MX-NoLED MX_.1
-U 1 1 5F44473C
-P 10550 3450
-F 0 "MX_.1" H 10522 3624 39  0000 C CNN
-F 1 "MX-NoLED" H 10524 3569 20  0000 C CNN
-F 2 "mini-MX-Tweaks:MXOnly-1U-NoLED_tweak" H 9925 3425 60  0001 C CNN
-F 3 "" H 9925 3425 60  0001 C CNN
-	1    10550 3450
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	10500 3600 10400 3600
-$Comp
-L MX_Alps_Hybrid:MX-NoLED MX_,1
-U 1 1 5F444750
-P 9950 3450
-F 0 "MX_,1" H 9922 3624 39  0000 C CNN
-F 1 "MX-NoLED" H 9924 3569 20  0000 C CNN
-F 2 "mini-MX-Tweaks:MXOnly-1U-NoLED_tweak" H 9325 3425 60  0001 C CNN
-F 3 "" H 9325 3425 60  0001 C CNN
-	1    9950 3450
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	9900 3600 9800 3600
-Wire Wire Line
-	11300 2700 11300 3400
-$Comp
-L MX_Alps_Hybrid:MX-NoLED MX_/1
-U 1 1 5F45D492
-P 11150 3450
-F 0 "MX_/1" H 11122 3624 39  0000 C CNN
-F 1 "MX-NoLED" H 11124 3569 20  0000 C CNN
-F 2 "mini-MX-Tweaks:MXOnly-1U-NoLED_tweak" H 10525 3425 60  0001 C CNN
-F 3 "" H 10525 3425 60  0001 C CNN
-	1    11150 3450
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	11100 3600 11000 3600
-Wire Wire Line
-	4950 3600 4850 3600
-$Comp
-L MX_Alps_Hybrid:MX-NoLED MX_L_BSLASH1
-U 1 1 5FF7E764
-P 5000 3450
-F 0 "MX_L_BSLASH1" H 4972 3624 24  0000 C CNN
-F 1 "MX-NoLED" H 4974 3569 20  0000 C CNN
-F 2 "mini-MX-Tweaks:MXOnly-1U-NoLED_tweak" H 4375 3425 60  0001 C CNN
-F 3 "" H 4375 3425 60  0001 C CNN
-	1    5000 3450
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	5150 2700 5150 3400
-Wire Wire Line
-	4400 3400 4450 3400
-Wire Wire Line
-	4450 3450 4100 3450
-Wire Wire Line
-	4450 3400 4450 3450
-$Comp
-L Diode:1N4148W D30
-U 1 1 60A1B787
-P 4100 3050
-F 0 "D30" H 4049 3178 50  0000 R CNN
-F 1 "1N4148W" H 4159 3127 28  0000 R CNN
-F 2 "mini-general-tweaks:D_SOD123_axial-dual" H 4100 2875 50  0001 C CNN
-F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 4100 3050 50  0001 C CNN
-	1    4100 3050
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Diode:1N4148W D15
-U 1 1 60A2556B
-P 4100 2350
-F 0 "D15" H 4049 2478 50  0000 R CNN
-F 1 "1N4148W" H 4159 2427 28  0000 R CNN
-F 2 "mini-general-tweaks:D_SOD123_axial-dual" H 4100 2175 50  0001 C CNN
-F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 4100 2350 50  0001 C CNN
-	1    4100 2350
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Diode:1N4148W D2
-U 1 1 60A42E9C
-P 5600 1650
-F 0 "D2" H 5549 1778 50  0000 R CNN
-F 1 "1N4148W" H 5659 1727 28  0000 R CNN
-F 2 "mini-general-tweaks:D_SOD123_axial-dual" H 5600 1475 50  0001 C CNN
-F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 5600 1650 50  0001 C CNN
-	1    5600 1650
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Diode:1N4148W D3
-U 1 1 60A4CB49
-P 6200 1650
-F 0 "D3" H 6149 1778 50  0000 R CNN
-F 1 "1N4148W" H 6259 1727 28  0000 R CNN
-F 2 "mini-general-tweaks:D_SOD123_axial-dual" H 6200 1475 50  0001 C CNN
-F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 6200 1650 50  0001 C CNN
-	1    6200 1650
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Diode:1N4148W D4
-U 1 1 60A566E7
-P 6800 1650
-F 0 "D4" H 6749 1778 50  0000 R CNN
-F 1 "1N4148W" H 6859 1727 28  0000 R CNN
-F 2 "mini-general-tweaks:D_SOD123_axial-dual" H 6800 1475 50  0001 C CNN
-F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 6800 1650 50  0001 C CNN
-	1    6800 1650
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Diode:1N4148W D5
-U 1 1 60A600EA
-P 7400 1650
-F 0 "D5" H 7349 1778 50  0000 R CNN
-F 1 "1N4148W" H 7459 1727 28  0000 R CNN
-F 2 "mini-general-tweaks:D_SOD123_axial-dual" H 7400 1475 50  0001 C CNN
-F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 7400 1650 50  0001 C CNN
-	1    7400 1650
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Diode:1N4148W D6
-U 1 1 60A69C92
-P 8000 1650
-F 0 "D6" H 7949 1778 50  0000 R CNN
-F 1 "1N4148W" H 8059 1727 28  0000 R CNN
-F 2 "mini-general-tweaks:D_SOD123_axial-dual" H 8000 1475 50  0001 C CNN
-F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 8000 1650 50  0001 C CNN
-	1    8000 1650
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Diode:1N4148W D7
-U 1 1 60A73976
-P 8600 1650
-F 0 "D7" H 8549 1778 50  0000 R CNN
-F 1 "1N4148W" H 8659 1727 28  0000 R CNN
-F 2 "mini-general-tweaks:D_SOD123_axial-dual" H 8600 1475 50  0001 C CNN
-F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 8600 1650 50  0001 C CNN
-	1    8600 1650
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Diode:1N4148W D41
-U 1 1 60AD7287
-P 11000 3050
-F 0 "D41" H 10949 3178 50  0000 R CNN
-F 1 "1N4148W" H 11059 3127 28  0000 R CNN
-F 2 "mini-general-tweaks:D_SOD123_axial-dual" H 11000 2875 50  0001 C CNN
-F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 11000 3050 50  0001 C CNN
-	1    11000 3050
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Diode:1N4148W D40
-U 1 1 60AD7281
-P 10400 3050
-F 0 "D40" H 10349 3178 50  0000 R CNN
-F 1 "1N4148W" H 10459 3127 28  0000 R CNN
-F 2 "mini-general-tweaks:D_SOD123_axial-dual" H 10400 2875 50  0001 C CNN
-F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 10400 3050 50  0001 C CNN
-	1    10400 3050
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Diode:1N4148W D39
-U 1 1 60AD727B
-P 9800 3050
-F 0 "D39" H 9749 3178 50  0000 R CNN
-F 1 "1N4148W" H 9859 3127 28  0000 R CNN
-F 2 "mini-general-tweaks:D_SOD123_axial-dual" H 9800 2875 50  0001 C CNN
-F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 9800 3050 50  0001 C CNN
-	1    9800 3050
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Diode:1N4148W D38
-U 1 1 60AD7275
-P 9200 3050
-F 0 "D38" H 9149 3178 50  0000 R CNN
-F 1 "1N4148W" H 9259 3127 28  0000 R CNN
-F 2 "mini-general-tweaks:D_SOD123_axial-dual" H 9200 2875 50  0001 C CNN
-F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 9200 3050 50  0001 C CNN
-	1    9200 3050
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Diode:1N4148W D37
-U 1 1 60AD726F
-P 8600 3050
-F 0 "D37" H 8549 3178 50  0000 R CNN
-F 1 "1N4148W" H 8659 3127 28  0000 R CNN
-F 2 "mini-general-tweaks:D_SOD123_axial-dual" H 8600 2875 50  0001 C CNN
-F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 8600 3050 50  0001 C CNN
-	1    8600 3050
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Diode:1N4148W D36
-U 1 1 60AD7269
-P 8000 3050
-F 0 "D36" H 7949 3178 50  0000 R CNN
-F 1 "1N4148W" H 8059 3127 28  0000 R CNN
-F 2 "mini-general-tweaks:D_SOD123_axial-dual" H 8000 2875 50  0001 C CNN
-F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 8000 3050 50  0001 C CNN
-	1    8000 3050
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Diode:1N4148W D35
-U 1 1 60AD7263
-P 7400 3050
-F 0 "D35" H 7349 3178 50  0000 R CNN
-F 1 "1N4148W" H 7459 3127 28  0000 R CNN
-F 2 "mini-general-tweaks:D_SOD123_axial-dual" H 7400 2875 50  0001 C CNN
-F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 7400 3050 50  0001 C CNN
-	1    7400 3050
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Diode:1N4148W D34
-U 1 1 60AD725D
-P 6800 3050
-F 0 "D34" H 6749 3178 50  0000 R CNN
-F 1 "1N4148W" H 6859 3127 28  0000 R CNN
-F 2 "mini-general-tweaks:D_SOD123_axial-dual" H 6800 2875 50  0001 C CNN
-F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 6800 3050 50  0001 C CNN
-	1    6800 3050
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Diode:1N4148W D33
-U 1 1 60AD7257
-P 6200 3050
-F 0 "D33" H 6149 3178 50  0000 R CNN
-F 1 "1N4148W" H 6259 3127 28  0000 R CNN
-F 2 "mini-general-tweaks:D_SOD123_axial-dual" H 6200 2875 50  0001 C CNN
-F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 6200 3050 50  0001 C CNN
-	1    6200 3050
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Diode:1N4148W D32
-U 1 1 60AD7251
-P 5600 3050
-F 0 "D32" H 5549 3178 50  0000 R CNN
-F 1 "1N4148W" H 5659 3127 28  0000 R CNN
-F 2 "mini-general-tweaks:D_SOD123_axial-dual" H 5600 2875 50  0001 C CNN
-F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 5600 3050 50  0001 C CNN
-	1    5600 3050
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Diode:1N4148W D31
-U 1 1 60AD724B
-P 4850 3050
-F 0 "D31" H 4799 3178 50  0000 R CNN
-F 1 "1N4148W" H 4909 3127 28  0000 R CNN
-F 2 "mini-general-tweaks:D_SOD123_axial-dual" H 4850 2875 50  0001 C CNN
-F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 4850 3050 50  0001 C CNN
-	1    4850 3050
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Diode:1N4148W D26
-U 1 1 60BC3774
-P 11000 2350
-F 0 "D26" H 10949 2478 50  0000 R CNN
-F 1 "1N4148W" H 11059 2427 28  0000 R CNN
-F 2 "mini-general-tweaks:D_SOD123_axial-dual" H 11000 2175 50  0001 C CNN
-F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 11000 2350 50  0001 C CNN
-	1    11000 2350
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Diode:1N4148W D25
-U 1 1 60BC377A
-P 10400 2350
-F 0 "D25" H 10349 2478 50  0000 R CNN
-F 1 "1N4148W" H 10459 2427 28  0000 R CNN
-F 2 "mini-general-tweaks:D_SOD123_axial-dual" H 10400 2175 50  0001 C CNN
-F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 10400 2350 50  0001 C CNN
-	1    10400 2350
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Diode:1N4148W D24
-U 1 1 60BC3780
-P 9800 2350
-F 0 "D24" H 9749 2478 50  0000 R CNN
-F 1 "1N4148W" H 9859 2427 28  0000 R CNN
-F 2 "mini-general-tweaks:D_SOD123_axial-dual" H 9800 2175 50  0001 C CNN
-F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 9800 2350 50  0001 C CNN
-	1    9800 2350
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Diode:1N4148W D23
-U 1 1 60BC3786
-P 9200 2350
-F 0 "D23" H 9149 2478 50  0000 R CNN
-F 1 "1N4148W" H 9259 2427 28  0000 R CNN
-F 2 "mini-general-tweaks:D_SOD123_axial-dual" H 9200 2175 50  0001 C CNN
-F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 9200 2350 50  0001 C CNN
-	1    9200 2350
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Diode:1N4148W D22
-U 1 1 60BC378C
-P 8600 2350
-F 0 "D22" H 8549 2478 50  0000 R CNN
-F 1 "1N4148W" H 8659 2427 28  0000 R CNN
-F 2 "mini-general-tweaks:D_SOD123_axial-dual" H 8600 2175 50  0001 C CNN
-F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 8600 2350 50  0001 C CNN
-	1    8600 2350
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Diode:1N4148W D21
-U 1 1 60BC3792
-P 8000 2350
-F 0 "D21" H 7949 2478 50  0000 R CNN
-F 1 "1N4148W" H 8059 2427 28  0000 R CNN
-F 2 "mini-general-tweaks:D_SOD123_axial-dual" H 8000 2175 50  0001 C CNN
-F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 8000 2350 50  0001 C CNN
-	1    8000 2350
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Diode:1N4148W D20
-U 1 1 60BC3798
-P 7400 2350
-F 0 "D20" H 7349 2478 50  0000 R CNN
-F 1 "1N4148W" H 7459 2427 28  0000 R CNN
-F 2 "mini-general-tweaks:D_SOD123_axial-dual" H 7400 2175 50  0001 C CNN
-F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 7400 2350 50  0001 C CNN
-	1    7400 2350
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Diode:1N4148W D19
-U 1 1 60BC379E
-P 6800 2350
-F 0 "D19" H 6749 2478 50  0000 R CNN
-F 1 "1N4148W" H 6859 2427 28  0000 R CNN
-F 2 "mini-general-tweaks:D_SOD123_axial-dual" H 6800 2175 50  0001 C CNN
-F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 6800 2350 50  0001 C CNN
-	1    6800 2350
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Diode:1N4148W D18
-U 1 1 60BC37A4
-P 6200 2350
-F 0 "D18" H 6149 2478 50  0000 R CNN
-F 1 "1N4148W" H 6259 2427 28  0000 R CNN
-F 2 "mini-general-tweaks:D_SOD123_axial-dual" H 6200 2175 50  0001 C CNN
-F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 6200 2350 50  0001 C CNN
-	1    6200 2350
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Diode:1N4148W D16
-U 1 1 60BC37B0
-P 4850 2350
-F 0 "D16" H 4799 2478 50  0000 R CNN
-F 1 "1N4148W" H 4909 2427 28  0000 R CNN
-F 2 "mini-general-tweaks:D_SOD123_axial-dual" H 4850 2175 50  0001 C CNN
-F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 4850 2350 50  0001 C CNN
-	1    4850 2350
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Diode:1N4148W D63
-U 1 1 60BD70E6
-P 9800 4450
-F 0 "D63" H 9749 4578 50  0000 R CNN
-F 1 "1N4148W" H 9859 4527 28  0000 R CNN
-F 2 "mini-general-tweaks:D_SOD123_axial-dual" H 9800 4275 50  0001 C CNN
-F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 9800 4450 50  0001 C CNN
-	1    9800 4450
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Diode:1N4148W D64
-U 1 1 60BE0D66
-P 10400 4450
-F 0 "D64" H 10349 4578 50  0000 R CNN
-F 1 "1N4148W" H 10459 4527 28  0000 R CNN
-F 2 "mini-general-tweaks:D_SOD123_axial-dual" H 10400 4275 50  0001 C CNN
-F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 10400 4450 50  0001 C CNN
-	1    10400 4450
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	4400 2700 4450 2700
-Wire Wire Line
-	4450 2700 4450 2750
-Wire Wire Line
-	4450 2750 4100 2750
-Connection ~ 5150 2700
-Wire Wire Line
-	3850 1800 4100 1800
-Connection ~ 5600 1800
-Wire Wire Line
-	5600 1800 6200 1800
-Connection ~ 6200 1800
-Wire Wire Line
-	6200 1800 6800 1800
-Connection ~ 6800 1800
-Wire Wire Line
-	6800 1800 7400 1800
-Connection ~ 7400 1800
-Wire Wire Line
-	7400 1800 8000 1800
-Connection ~ 8000 1800
-Wire Wire Line
-	8000 1800 8600 1800
-Wire Wire Line
-	3850 2500 4100 2500
-Connection ~ 6200 2500
-Wire Wire Line
-	6200 2500 6800 2500
-Connection ~ 6800 2500
-Wire Wire Line
-	6800 2500 7400 2500
-Connection ~ 7400 2500
-Wire Wire Line
-	7400 2500 8000 2500
-Connection ~ 8000 2500
-Wire Wire Line
-	8000 2500 8600 2500
-Connection ~ 8600 2500
-Wire Wire Line
-	8600 2500 9200 2500
-Connection ~ 9200 2500
-Wire Wire Line
-	9200 2500 9800 2500
-Connection ~ 9800 2500
-Wire Wire Line
-	9800 2500 10400 2500
-Connection ~ 10400 2500
-Wire Wire Line
-	3850 3200 4100 3200
-Connection ~ 5600 3200
-Wire Wire Line
-	5600 3200 6200 3200
-Connection ~ 6200 3200
-Wire Wire Line
-	6200 3200 6800 3200
-Connection ~ 6800 3200
-Wire Wire Line
-	6800 3200 7400 3200
-Connection ~ 7400 3200
-Wire Wire Line
-	7400 3200 8000 3200
-Connection ~ 8000 3200
-Wire Wire Line
-	8000 3200 8600 3200
-Connection ~ 8600 3200
-Wire Wire Line
-	8600 3200 9200 3200
-Connection ~ 9200 3200
-Wire Wire Line
-	9200 3200 9800 3200
-Connection ~ 9800 3200
-Wire Wire Line
-	9800 3200 10400 3200
-Connection ~ 10400 3200
-Wire Wire Line
-	5700 2200 5600 2200
-Wire Wire Line
-	5600 2500 6200 2500
-Connection ~ 5600 2500
-$Comp
-L Diode:1N4148W D17
-U 1 1 60BC37AA
-P 5600 2350
-F 0 "D17" H 5549 2478 50  0000 R CNN
-F 1 "1N4148W" H 5659 2427 28  0000 R CNN
-F 2 "mini-general-tweaks:D_SOD123_axial-dual" H 5600 2175 50  0001 C CNN
-F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 5600 2350 50  0001 C CNN
-	1    5600 2350
-	0    -1   -1   0   
-$EndComp
-$Comp
-L MX_Alps_Hybrid:MX-NoLED MX_STEP_CAPS1
-U 1 1 611DE4E1
-P 3950 2800
-F 0 "MX_STEP_CAPS1" H 3922 2954 24  0000 C CNN
-F 1 "MX-NoLED" H 3924 2919 20  0000 C CNN
-F 2 "mini-MX-Tweaks:MXOnly-1U-NoLED_tweak" H 3325 2775 60  0001 C CNN
-F 3 "" H 3325 2775 60  0001 C CNN
-	1    3950 2800
-	1    0    0    -1  
-$EndComp
-Connection ~ 10500 4300
-Wire Wire Line
-	10500 4300 10550 4300
-Wire Wire Line
-	10550 4300 10550 4350
-Wire Wire Line
-	10250 4350 10550 4350
-Wire Wire Line
-	4200 3600 4250 3600
-Wire Wire Line
-	4200 2900 4250 2900
-Wire Wire Line
-	4250 2900 4250 2950
-Wire Wire Line
-	4100 3200 4850 3200
-Connection ~ 4100 3200
-Wire Wire Line
-	4100 2500 4850 2500
-Connection ~ 4100 2500
-Wire Wire Line
-	4100 1800 4850 1800
-Connection ~ 4100 1800
-Wire Wire Line
-	4850 1800 5600 1800
-Connection ~ 4850 1800
-Wire Wire Line
-	4850 2500 5600 2500
-Connection ~ 4850 2500
-Wire Wire Line
-	4850 3200 5600 3200
-Connection ~ 4850 3200
-$Comp
-L MX_Alps_Hybrid:MX-NoLED MX_1.75U_CAPSLOCK1
-U 1 1 5F1A606A
-P 4250 2750
-F 0 "MX_1.75U_CAPSLOCK1" H 4222 2924 39  0000 C CNN
-F 1 "MX-NoLED" H 4224 2869 20  0000 C CNN
-F 2 "mini-MX-Tweaks:MXOnly-1.75U-NoLED_tweak" H 3625 2725 60  0001 C CNN
-F 3 "" H 3625 2725 60  0001 C CNN
-	1    4250 2750
-	1    0    0    -1  
-$EndComp
-$Comp
-L MX_Alps_Hybrid:MX-NoLED MX_DASH1
-U 1 1 5F45D4DD
-P 11150 1350
-F 0 "MX_DASH1" H 11122 1524 39  0000 C CNN
-F 1 "MX-NoLED" H 11124 1469 20  0000 C CNN
-F 2 "mini-MX-Tweaks:MXOnly-1U-NoLED_tweak" H 10525 1325 60  0001 C CNN
-F 3 "" H 10525 1325 60  0001 C CNN
-	1    11150 1350
-	1    0    0    -1  
-$EndComp
-$Comp
-L MX_Alps_Hybrid:MX-NoLED MX_0
-U 1 1 5F45D4E4
-P 10550 1350
-F 0 "MX_0" H 10522 1524 39  0000 C CNN
-F 1 "MX-NoLED" H 10524 1469 20  0000 C CNN
-F 2 "mini-MX-Tweaks:MXOnly-1U-NoLED_tweak" H 9925 1325 60  0001 C CNN
-F 3 "" H 9925 1325 60  0001 C CNN
-	1    10550 1350
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	10700 4100 10750 4100
-Wire Wire Line
-	10750 4100 10750 4150
-Wire Wire Line
-	10400 3200 11000 3200
-Wire Wire Line
-	10400 2500 11000 2500
-Wire Wire Line
-	10400 1800 11000 1800
-Wire Wire Line
-	11700 4300 11600 4300
-$Comp
-L MX_Alps_Hybrid:MX-NoLED MX_ARR_L1
-U 1 1 5F45D4BC
-P 11750 4150
-F 0 "MX_ARR_L1" H 11722 4324 39  0000 C CNN
-F 1 "MX-NoLED" H 11724 4269 20  0000 C CNN
-F 2 "mini-MX-Tweaks:MXOnly-1U-NoLED_tweak" H 11125 4125 60  0001 C CNN
-F 3 "" H 11125 4125 60  0001 C CNN
-	1    11750 4150
-	1    0    0    -1  
-$EndComp
-Connection ~ 11900 1300
-Wire Wire Line
-	11900 1300 11900 2000
-Wire Wire Line
-	11700 1500 11600 1500
-$Comp
-L MX_Alps_Hybrid:MX-NoLED MX_EQUALS1
-U 1 1 5F474929
-P 11750 1350
-F 0 "MX_EQUALS1" H 11722 1524 39  0000 C CNN
-F 1 "MX-NoLED" H 11724 1469 20  0000 C CNN
-F 2 "mini-MX-Tweaks:MXOnly-1U-NoLED_tweak" H 11125 1325 60  0001 C CNN
-F 3 "" H 11125 1325 60  0001 C CNN
-	1    11750 1350
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	11900 1300 11900 1100
-Wire Wire Line
-	11700 2200 11600 2200
-$Comp
-L MX_Alps_Hybrid:MX-NoLED MX_]1
-U 1 1 5F474948
-P 11750 2050
-F 0 "MX_]1" H 11722 2224 39  0000 C CNN
-F 1 "MX-NoLED" H 11724 2169 20  0000 C CNN
-F 2 "mini-MX-Tweaks:MXOnly-1U-NoLED_tweak" H 11125 2025 60  0001 C CNN
-F 3 "" H 11125 2025 60  0001 C CNN
-	1    11750 2050
-	1    0    0    -1  
-$EndComp
-Text GLabel 11900 1100 1    50   Input ~ 0
-COL12
-Wire Wire Line
-	11900 2700 11900 3400
-Connection ~ 11900 2000
-Wire Wire Line
-	11700 2900 11600 2900
-$Comp
-L MX_Alps_Hybrid:MX-NoLED MX_2.25U_ENTER1
-U 1 1 5F4748D1
-P 11750 2750
-F 0 "MX_2.25U_ENTER1" H 11722 2924 39  0000 C CNN
-F 1 "MX-NoLED" H 11724 2869 20  0000 C CNN
-F 2 "mini-MX-Tweaks:MXOnly-2.25U-NoLED_tweak" H 11125 2725 60  0001 C CNN
-F 3 "" H 11125 2725 60  0001 C CNN
-	1    11750 2750
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	11900 2000 11900 2700
-Connection ~ 11900 2700
-$Comp
-L Diode:1N4148W D12
-U 1 1 60AA3F32
-P 11600 1650
-F 0 "D12" H 11549 1778 50  0000 R CNN
-F 1 "1N4148W" H 11659 1727 28  0000 R CNN
-F 2 "mini-general-tweaks:D_SOD123_axial-dual" H 11600 1475 50  0001 C CNN
-F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 11600 1650 50  0001 C CNN
-	1    11600 1650
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Diode:1N4148W D42
-U 1 1 60AD728D
-P 11600 3050
-F 0 "D42" H 11549 3178 50  0000 R CNN
-F 1 "1N4148W" H 11659 3127 28  0000 R CNN
-F 2 "mini-general-tweaks:D_SOD123_axial-dual" H 11600 2875 50  0001 C CNN
-F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 11600 3050 50  0001 C CNN
-	1    11600 3050
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Diode:1N4148W D27
-U 1 1 60BC376E
-P 11600 2350
-F 0 "D27" H 11549 2478 50  0000 R CNN
-F 1 "1N4148W" H 11659 2427 28  0000 R CNN
-F 2 "mini-general-tweaks:D_SOD123_axial-dual" H 11600 2175 50  0001 C CNN
-F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 11600 2350 50  0001 C CNN
-	1    11600 2350
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Diode:1N4148W D65
-U 1 1 60BEAA33
-P 11000 4450
-F 0 "D65" H 10949 4578 50  0000 R CNN
-F 1 "1N4148W" H 11059 4527 28  0000 R CNN
-F 2 "mini-general-tweaks:D_SOD123_axial-dual" H 11000 4275 50  0001 C CNN
-F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 11000 4450 50  0001 C CNN
-	1    11000 4450
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Diode:1N4148W D66
-U 1 1 60BF4570
-P 11600 4450
-F 0 "D66" H 11549 4578 50  0000 R CNN
-F 1 "1N4148W" H 11659 4527 28  0000 R CNN
-F 2 "mini-general-tweaks:D_SOD123_axial-dual" H 11600 4275 50  0001 C CNN
-F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 11600 4450 50  0001 C CNN
-	1    11600 4450
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	11900 2700 11950 2700
-Wire Wire Line
-	11950 2700 11950 2750
-Wire Wire Line
-	11950 2750 11650 2750
-Connection ~ 11700 2900
-$Comp
-L MX_Alps_Hybrid:MX-NoLED MX_ISO_\1
-U 1 1 61369504
-P 11500 2800
-F 0 "MX_ISO_\\1" H 11472 2954 24  0000 C CNN
-F 1 "MX-NoLED" H 11474 2919 20  0000 C CNN
-F 2 "mini-MX-Tweaks:MXOnly-1U-NoLED_tweak" H 10875 2775 60  0001 C CNN
-F 3 "" H 10875 2775 60  0001 C CNN
-	1    11500 2800
-	1    0    0    -1  
-$EndComp
-$Comp
-L MX_Alps_Hybrid:MX-NoLED MX_1.75U__RSHIFT1
-U 1 1 613FDD77
-P 11750 3450
-F 0 "MX_1.75U__RSHIFT1" H 11722 3604 24  0000 C CNN
-F 1 "MX-NoLED" H 11724 3569 20  0000 C CNN
-F 2 "mini-MX-Tweaks:MXOnly-1.75U-NoLED_tweak" H 11125 3425 60  0001 C CNN
-F 3 "" H 11125 3425 60  0001 C CNN
-	1    11750 3450
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	11700 2900 11750 2900
-Wire Wire Line
-	11750 2900 11750 2950
-Wire Wire Line
-	11450 2950 11750 2950
 $Comp
 L power:GND #PWR0106
 U 1 1 5F19B973
-P 900 1350
-F 0 "#PWR0106" H 900 1100 50  0001 C CNN
-F 1 "GND" H 905 1177 50  0000 C CNN
-F 2 "" H 900 1350 50  0001 C CNN
-F 3 "" H 900 1350 50  0001 C CNN
-	1    900  1350
+P 800 1350
+F 0 "#PWR0106" H 800 1100 50  0001 C CNN
+F 1 "GND" H 805 1177 50  0000 C CNN
+F 2 "" H 800 1350 50  0001 C CNN
+F 3 "" H 800 1350 50  0001 C CNN
+	1    800  1350
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3900 2950 4250 2950
-Wire Wire Line
-	11600 3600 11700 3600
-Wire Wire Line
-	8000 4600 9800 4600
-Connection ~ 10400 1800
-Connection ~ 8600 1800
-$Comp
-L Diode:1N4148W D8
-U 1 1 60A7D26D
-P 9200 1650
-F 0 "D8" H 9149 1778 50  0000 R CNN
-F 1 "1N4148W" H 9259 1727 28  0000 R CNN
-F 2 "mini-general-tweaks:D_SOD123_axial-dual" H 9200 1475 50  0001 C CNN
-F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 9200 1650 50  0001 C CNN
-	1    9200 1650
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	8600 1800 9200 1800
-Connection ~ 9800 1800
-Wire Wire Line
-	9800 1800 10400 1800
-Connection ~ 9200 1800
-Wire Wire Line
-	9200 1800 9800 1800
-$Comp
-L MX_Alps_Hybrid:MX-NoLED MX_L_ALT1
-U 1 1 60B90951
-P 9700 4200
-F 0 "MX_L_ALT1" H 9672 4374 39  0000 C CNN
-F 1 "MX-NoLED" H 9674 4319 20  0000 C CNN
-F 2 "mini-MX-Tweaks:MXOnly-1U-NoLED_tweak" H 9075 4175 60  0001 C CNN
-F 3 "" H 9075 4175 60  0001 C CNN
-	1    9700 4200
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	10100 4100 10150 4100
-Wire Wire Line
-	10150 4100 10150 4150
-Wire Wire Line
-	10150 4150 9850 4150
-Wire Wire Line
-	9650 4350 9950 4350
-Wire Wire Line
-	9950 4350 9950 4300
-Wire Wire Line
-	9950 4300 9900 4300
-Connection ~ 9900 4300
-$Comp
-L MX_Alps_Hybrid:MX-NoLED MX_FN1
-U 1 1 60BE6E11
-P 10300 4200
-F 0 "MX_FN1" H 10272 4374 39  0000 C CNN
-F 1 "MX-NoLED" H 10274 4319 20  0000 C CNN
-F 2 "mini-MX-Tweaks:MXOnly-1U-NoLED_tweak" H 9675 4175 60  0001 C CNN
-F 3 "" H 9675 4175 60  0001 C CNN
-	1    10300 4200
-	1    0    0    -1  
-$EndComp
-$Comp
-L MX_Alps_Hybrid:MX-NoLED MX_R_CTRL1
-U 1 1 60C03EF3
-P 11150 4150
-F 0 "MX_R_CTRL1" H 11122 4324 39  0000 C CNN
-F 1 "MX-NoLED" H 11124 4269 20  0000 C CNN
-F 2 "mini-MX-Tweaks:MXOnly-1U-NoLED_tweak" H 10525 4125 60  0001 C CNN
-F 3 "" H 10525 4125 60  0001 C CNN
-	1    11150 4150
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	11100 4300 11000 4300
-Connection ~ 10400 4600
-Wire Wire Line
-	10400 4600 11000 4600
-Connection ~ 9800 4600
-Wire Wire Line
-	9800 4600 10400 4600
-$Comp
-L Diode:1N4148W D68
-U 1 1 60C7A699
-P 12800 4450
-F 0 "D68" H 12749 4578 50  0000 R CNN
-F 1 "1N4148W" H 12859 4527 28  0000 R CNN
-F 2 "mini-general-tweaks:D_SOD123_axial-dual" H 12800 4275 50  0001 C CNN
-F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 12800 4450 50  0001 C CNN
-	1    12800 4450
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	12500 2000 12500 3400
-Wire Wire Line
-	12050 2250 12350 2250
-Wire Wire Line
-	12350 2200 12350 2250
-Wire Wire Line
-	12300 2200 12350 2200
-$Comp
-L MX_Alps_Hybrid:MX-NoLED MX_ARR_U1
-U 1 1 5F4748D7
-P 12350 3450
-F 0 "MX_ARR_U1" H 12322 3624 39  0000 C CNN
-F 1 "MX-NoLED" H 12324 3569 20  0000 C CNN
-F 2 "mini-MX-Tweaks:MXOnly-1U-NoLED_tweak" H 11725 3425 60  0001 C CNN
-F 3 "" H 11725 3425 60  0001 C CNN
-	1    12350 3450
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	12300 3600 12200 3600
-$Comp
-L MX_Alps_Hybrid:MX-NoLED MX_ARR_R1
-U 1 1 5F48B682
-P 12950 4150
-F 0 "MX_ARR_R1" H 12922 4324 39  0000 C CNN
-F 1 "MX-NoLED" H 12924 4269 20  0000 C CNN
-F 2 "mini-MX-Tweaks:MXOnly-1U-NoLED_tweak" H 12325 4125 60  0001 C CNN
-F 3 "" H 12325 4125 60  0001 C CNN
-	1    12950 4150
-	1    0    0    -1  
-$EndComp
-Connection ~ 12300 2200
-Wire Wire Line
-	12550 2050 12250 2050
-Wire Wire Line
-	12550 2000 12550 2050
-Wire Wire Line
-	12500 2000 12550 2000
-$Comp
-L MX_Alps_Hybrid:MX-NoLED MX_ISO_ENTER1
-U 1 1 61322262
-P 12100 2100
-F 0 "MX_ISO_ENTER1" H 12072 2254 24  0000 C CNN
-F 1 "MX-NoLED" H 12074 2219 20  0000 C CNN
-F 2 "mini-MX-Tweaks:MXOnly-ISO-ROTATED-ReversedStabilizers-NoLED_tweak" H 11475 2075 60  0001 C CNN
-F 3 "" H 11475 2075 60  0001 C CNN
-	1    12100 2100
-	1    0    0    -1  
-$EndComp
-Connection ~ 12500 2000
-$Comp
-L Diode:1N4148W D67
-U 1 1 60BFDFAE
-P 12200 4450
-F 0 "D67" H 12149 4578 50  0000 R CNN
-F 1 "1N4148W" H 12259 4527 28  0000 R CNN
-F 2 "mini-general-tweaks:D_SOD123_axial-dual" H 12200 4275 50  0001 C CNN
-F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 12200 4450 50  0001 C CNN
-	1    12200 4450
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Diode:1N4148W D28
-U 1 1 60BC3768
-P 12200 2350
-F 0 "D28" H 12149 2478 50  0000 R CNN
-F 1 "1N4148W" H 12259 2427 28  0000 R CNN
-F 2 "mini-general-tweaks:D_SOD123_axial-dual" H 12200 2175 50  0001 C CNN
-F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 12200 2350 50  0001 C CNN
-	1    12200 2350
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Diode:1N4148W D29
-U 1 1 60BC3762
-P 12800 2350
-F 0 "D29" H 12749 2478 50  0000 R CNN
-F 1 "1N4148W" H 12859 2427 28  0000 R CNN
-F 2 "mini-general-tweaks:D_SOD123_axial-dual" H 12800 2175 50  0001 C CNN
-F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 12800 2350 50  0001 C CNN
-	1    12800 2350
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Diode:1N4148W D43
-U 1 1 60AD7299
-P 12800 3050
-F 0 "D43" H 12749 3178 50  0000 R CNN
-F 1 "1N4148W" H 12859 3127 28  0000 R CNN
-F 2 "mini-general-tweaks:D_SOD123_axial-dual" H 12800 2875 50  0001 C CNN
-F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 12800 3050 50  0001 C CNN
-	1    12800 3050
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Diode:1N4148W D14
-U 1 1 60AB73FF
-P 12800 1650
-F 0 "D14" H 12749 1778 50  0000 R CNN
-F 1 "1N4148W" H 12859 1727 28  0000 R CNN
-F 2 "mini-general-tweaks:D_SOD123_axial-dual" H 12800 1475 50  0001 C CNN
-F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 12800 1650 50  0001 C CNN
-	1    12800 1650
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Diode:1N4148W D13
-U 1 1 60AAD9BF
-P 12200 1650
-F 0 "D13" H 12149 1778 50  0000 R CNN
-F 1 "1N4148W" H 12259 1727 28  0000 R CNN
-F 2 "mini-general-tweaks:D_SOD123_axial-dual" H 12200 1475 50  0001 C CNN
-F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 12200 1650 50  0001 C CNN
-	1    12200 1650
-	0    -1   -1   0   
-$EndComp
-Text GLabel 13100 1100 1    50   Input ~ 0
-COL14
-Text GLabel 12500 1100 1    50   Input ~ 0
-COL13
-$Comp
-L MX_Alps_Hybrid:MX-NoLED MX_DEL1
-U 1 1 5F48B6C2
-P 12950 2050
-F 0 "MX_DEL1" H 12922 2224 39  0000 C CNN
-F 1 "MX-NoLED" H 12924 2169 20  0000 C CNN
-F 2 "mini-MX-Tweaks:MXOnly-1U-NoLED_tweak" H 12325 2025 60  0001 C CNN
-F 3 "" H 12325 2025 60  0001 C CNN
-	1    12950 2050
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	12900 2200 12800 2200
-Wire Wire Line
-	13100 1300 13100 1100
-$Comp
-L MX_Alps_Hybrid:MX-NoLED MX_PrtSc1
-U 1 1 5F48B6A3
-P 12950 1350
-F 0 "MX_PrtSc1" H 12922 1524 39  0000 C CNN
-F 1 "MX-NoLED" H 12924 1469 20  0000 C CNN
-F 2 "mini-MX-Tweaks:MXOnly-1U-NoLED_tweak" H 12325 1325 60  0001 C CNN
-F 3 "" H 12325 1325 60  0001 C CNN
-	1    12950 1350
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	12900 1500 12800 1500
-Wire Wire Line
-	12900 4300 12800 4300
-Wire Wire Line
-	12900 3600 12800 3600
-Wire Wire Line
-	12900 2900 12800 2900
-$Comp
-L MX_Alps_Hybrid:MX-NoLED MX_TEMP1
-U 1 1 5F48B651
-P 12950 3450
-F 0 "MX_TEMP1" H 12922 3624 39  0000 C CNN
-F 1 "MX-NoLED" H 12924 3569 20  0000 C CNN
-F 2 "mini-MX-Tweaks:MXOnly-1U-NoLED_tweak" H 12325 3425 60  0001 C CNN
-F 3 "" H 12325 3425 60  0001 C CNN
-	1    12950 3450
-	1    0    0    -1  
-$EndComp
-$Comp
-L MX_Alps_Hybrid:MX-NoLED MX_INS1
-U 1 1 5F48B64B
-P 12950 2750
-F 0 "MX_INS1" H 12922 2924 39  0000 C CNN
-F 1 "MX-NoLED" H 12924 2869 20  0000 C CNN
-F 2 "mini-MX-Tweaks:MXOnly-1U-NoLED_tweak" H 12325 2725 60  0001 C CNN
-F 3 "" H 12325 2725 60  0001 C CNN
-	1    12950 2750
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	13100 1300 13100 2000
-Connection ~ 13100 1300
-Wire Wire Line
-	13100 2000 13100 2700
-Connection ~ 13100 2000
-Wire Wire Line
-	13100 2700 13100 3400
-Connection ~ 13100 2700
-Wire Wire Line
-	13100 3400 13100 4100
-Connection ~ 13100 3400
-$Comp
-L MX_Alps_Hybrid:MX-NoLED MX_1.5U_\1
-U 1 1 5F474941
-P 12350 2050
-F 0 "MX_1.5U_\\1" H 12322 2224 39  0000 C CNN
-F 1 "MX-NoLED" H 12324 2169 20  0000 C CNN
-F 2 "mini-MX-Tweaks:MXOnly-1.5U-NoLED_tweak" H 11725 2025 60  0001 C CNN
-F 3 "" H 11725 2025 60  0001 C CNN
-	1    12350 2050
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	12300 2200 12200 2200
-Wire Wire Line
-	12500 1300 12500 1100
-$Comp
-L MX_Alps_Hybrid:MX-NoLED MX_2U_BACKSP1
-U 1 1 5F474922
-P 12350 1350
-F 0 "MX_2U_BACKSP1" H 12322 1524 39  0000 C CNN
-F 1 "MX-NoLED" H 12324 1469 20  0000 C CNN
-F 2 "mini-MX-Tweaks:MXOnly-2U-NoLED_tweak" H 11725 1325 60  0001 C CNN
-F 3 "" H 11725 1325 60  0001 C CNN
-	1    12350 1350
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	12300 1500 12200 1500
-$Comp
-L MX_Alps_Hybrid:MX-NoLED MX_ARR_D1
-U 1 1 5F474908
-P 12350 4150
-F 0 "MX_ARR_D1" H 12322 4324 39  0000 C CNN
-F 1 "MX-NoLED" H 12324 4269 20  0000 C CNN
-F 2 "mini-MX-Tweaks:MXOnly-1U-NoLED_tweak" H 11725 4125 60  0001 C CNN
-F 3 "" H 11725 4125 60  0001 C CNN
-	1    12350 4150
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	12300 4300 12200 4300
-Wire Wire Line
-	12500 1300 12500 2000
-Connection ~ 12500 1300
-Wire Wire Line
-	11000 4600 11600 4600
-Connection ~ 11000 4600
-Connection ~ 11600 4600
-Wire Wire Line
-	11600 4600 12200 4600
-Connection ~ 12200 4600
-Wire Wire Line
-	12200 4600 12800 4600
-Wire Wire Line
-	11000 3200 11600 3200
-Connection ~ 11000 3200
-Connection ~ 11600 3200
-Wire Wire Line
-	11600 3200 12800 3200
-Wire Wire Line
-	11000 2500 11600 2500
-Connection ~ 11000 2500
-Connection ~ 11600 2500
-Wire Wire Line
-	11600 2500 12200 2500
-Connection ~ 12200 2500
-Wire Wire Line
-	12200 2500 12800 2500
-Wire Wire Line
-	11000 1800 11600 1800
-Connection ~ 11000 1800
-Connection ~ 11600 1800
-Wire Wire Line
-	11600 1800 12200 1800
-Connection ~ 12200 1800
-Wire Wire Line
-	12200 1800 12800 1800
-Connection ~ 12200 3900
-Wire Wire Line
-	12200 3900 12800 3900
-Wire Wire Line
-	11600 3900 12200 3900
-Connection ~ 11600 3900
-Connection ~ 11000 3900
-Connection ~ 12500 3400
-Connection ~ 10100 3400
-Connection ~ 10700 3400
-Connection ~ 11300 3400
-Connection ~ 11900 3400
-Connection ~ 10100 4100
-Wire Wire Line
-	11000 3900 11600 3900
-Wire Wire Line
-	10400 3900 11000 3900
-Connection ~ 10700 4100
-Connection ~ 10400 3900
-Connection ~ 9800 3900
-Wire Wire Line
-	9800 3900 10400 3900
-Wire Wire Line
-	9200 3900 9800 3900
-Connection ~ 9200 3900
-Connection ~ 8600 3900
-Wire Wire Line
-	8600 3900 9200 3900
-Wire Wire Line
-	8000 3900 8600 3900
-Connection ~ 8000 3900
-Connection ~ 7400 3900
-Wire Wire Line
-	7400 3900 8000 3900
-Wire Wire Line
-	6800 3900 7400 3900
-Connection ~ 6800 3900
-Wire Wire Line
-	6200 3900 6800 3900
-Connection ~ 8300 3400
-Connection ~ 5900 3400
-Wire Wire Line
-	10750 4150 10450 4150
-$Comp
-L Diode:1N4148W D58
-U 1 1 60BAA5EE
-P 12800 3750
-F 0 "D58" H 12749 3878 50  0000 R CNN
-F 1 "1N4148W" H 12859 3827 28  0000 R CNN
-F 2 "mini-general-tweaks:D_SOD123_axial-dual" H 12800 3575 50  0001 C CNN
-F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 12800 3750 50  0001 C CNN
-	1    12800 3750
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Diode:1N4148W D57
-U 1 1 60BAA5F4
-P 12200 3750
-F 0 "D57" H 12149 3878 50  0000 R CNN
-F 1 "1N4148W" H 12259 3827 28  0000 R CNN
-F 2 "mini-general-tweaks:D_SOD123_axial-dual" H 12200 3575 50  0001 C CNN
-F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 12200 3750 50  0001 C CNN
-	1    12200 3750
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	12500 3400 12500 4100
-Wire Wire Line
-	11300 4100 11300 3400
-$Comp
-L Diode:1N4148W D56
-U 1 1 60BAA5FA
-P 11600 3750
-F 0 "D56" H 11549 3878 50  0000 R CNN
-F 1 "1N4148W" H 11659 3827 28  0000 R CNN
-F 2 "mini-general-tweaks:D_SOD123_axial-dual" H 11600 3575 50  0001 C CNN
-F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 11600 3750 50  0001 C CNN
-	1    11600 3750
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	11900 3400 11900 4100
-Wire Wire Line
-	10100 3400 10100 4100
-Wire Wire Line
-	10700 3400 10700 4100
-$Comp
-L Diode:1N4148W D52
-U 1 1 60BAA612
-P 9200 3750
-F 0 "D52" H 9149 3878 50  0000 R CNN
-F 1 "1N4148W" H 9259 3827 28  0000 R CNN
-F 2 "mini-general-tweaks:D_SOD123_axial-dual" H 9200 3575 50  0001 C CNN
-F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 9200 3750 50  0001 C CNN
-	1    9200 3750
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Diode:1N4148W D53
-U 1 1 60BAA60C
-P 9800 3750
-F 0 "D53" H 9749 3878 50  0000 R CNN
-F 1 "1N4148W" H 9859 3827 28  0000 R CNN
-F 2 "mini-general-tweaks:D_SOD123_axial-dual" H 9800 3575 50  0001 C CNN
-F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 9800 3750 50  0001 C CNN
-	1    9800 3750
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Diode:1N4148W D54
-U 1 1 60BAA606
-P 10400 3750
-F 0 "D54" H 10349 3878 50  0000 R CNN
-F 1 "1N4148W" H 10459 3827 28  0000 R CNN
-F 2 "mini-general-tweaks:D_SOD123_axial-dual" H 10400 3575 50  0001 C CNN
-F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 10400 3750 50  0001 C CNN
-	1    10400 3750
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Diode:1N4148W D55
-U 1 1 60BAA600
-P 11000 3750
-F 0 "D55" H 10949 3878 50  0000 R CNN
-F 1 "1N4148W" H 11059 3827 28  0000 R CNN
-F 2 "mini-general-tweaks:D_SOD123_axial-dual" H 11000 3575 50  0001 C CNN
-F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 11000 3750 50  0001 C CNN
-	1    11000 3750
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	8300 3400 8300 4100
-Wire Wire Line
-	5900 3400 5900 4100
-Text GLabel 1350 2700 3    50   Input ~ 0
-DN
-Text GLabel 1350 2600 1    50   Input ~ 0
-DP
-Connection ~ 5150 3400
-Connection ~ 6200 3900
-Connection ~ 8000 4600
-Wire Wire Line
-	5150 3400 5150 4100
-Wire Wire Line
-	4400 3400 4400 4100
-Wire Wire Line
-	3850 3900 4100 3900
-Wire Wire Line
-	4100 3900 4850 3900
-Wire Wire Line
-	5600 3900 6200 3900
-Connection ~ 4100 3900
-Wire Wire Line
-	2850 3700 3150 3700
-Connection ~ 4850 3900
-Wire Wire Line
-	4850 3900 5600 3900
-Connection ~ 4100 4600
-Wire Wire Line
-	4100 4600 4850 4600
-Connection ~ 4850 4600
-Wire Wire Line
-	4850 4600 5600 4600
-Wire Wire Line
-	3900 3650 4250 3650
-Wire Wire Line
-	4250 3600 4250 3650
-$Comp
-L MX_Alps_Hybrid:MX-NoLED MX_1.25U_L_SHIFT1
-U 1 1 611C4721
-P 3950 3500
-F 0 "MX_1.25U_L_SHIFT1" H 3922 3654 24  0000 C CNN
-F 1 "MX-NoLED" H 3924 3619 20  0000 C CNN
-F 2 "mini-MX-Tweaks:MXOnly-1.25U-NoLED_tweak" H 3325 3475 60  0001 C CNN
-F 3 "" H 3325 3475 60  0001 C CNN
-	1    3950 3500
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	5600 4600 8000 4600
-Connection ~ 5600 4600
-Wire Wire Line
-	3850 4600 4100 4600
-Connection ~ 5600 3900
-$Comp
-L MX_Alps_Hybrid:MX-NoLED MX_1.25U_L_CTRL1
-U 1 1 5F36EC3C
-P 4250 4150
-F 0 "MX_1.25U_L_CTRL1" H 4222 4324 39  0000 C CNN
-F 1 "MX-NoLED" H 4224 4269 20  0000 C CNN
-F 2 "mini-MX-Tweaks:MXOnly-1.25U-NoLED_tweak" H 3625 4125 60  0001 C CNN
-F 3 "" H 3625 4125 60  0001 C CNN
-	1    4250 4150
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4200 4300 4100 4300
-$Comp
-L MX_Alps_Hybrid:MX-NoLED MX_1.25U_L_ALT1
-U 1 1 5F3DCD14
-P 5750 4150
-F 0 "MX_1.25U_L_ALT1" H 5722 4324 39  0000 C CNN
-F 1 "MX-NoLED" H 5724 4269 20  0000 C CNN
-F 2 "mini-MX-Tweaks:MXOnly-1.25U-NoLED_tweak" H 5125 4125 60  0001 C CNN
-F 3 "" H 5125 4125 60  0001 C CNN
-	1    5750 4150
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	5700 4300 5600 4300
-Wire Wire Line
-	4950 4300 4850 4300
-$Comp
-L MX_Alps_Hybrid:MX-NoLED MX_1.25U_L_WIN1
-U 1 1 5F36EC43
-P 5000 4150
-F 0 "MX_1.25U_L_WIN1" H 4972 4324 39  0000 C CNN
-F 1 "MX-NoLED" H 4974 4269 20  0000 C CNN
-F 2 "mini-MX-Tweaks:MXOnly-1.25U-NoLED_tweak" H 4375 4125 60  0001 C CNN
-F 3 "" H 4375 4125 60  0001 C CNN
-	1    5000 4150
-	1    0    0    -1  
-$EndComp
-Text GLabel 3850 4600 0    50   Input ~ 0
-ROW4
-Text GLabel 3850 3900 0    50   Input ~ 0
-ROW3
+	2750 3700 3050 3700
 $Comp
 L Device:R_Small R4
 U 1 1 5F16CB52
-P 3250 3700
-F 0 "R4" V 3054 3700 50  0000 C CNN
-F 1 "10k" V 3145 3700 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" H 3250 3700 50  0001 C CNN
-F 3 "~" H 3250 3700 50  0001 C CNN
-	1    3250 3700
+P 3150 3700
+F 0 "R4" V 2954 3700 50  0000 C CNN
+F 1 "10k" V 3045 3700 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 3150 3700 50  0001 C CNN
+F 3 "~" H 3150 3700 50  0001 C CNN
+	1    3150 3700
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	3350 3700 3400 3700
+	3250 3700 3300 3700
 $Comp
 L power:GND #PWR0104
 U 1 1 5F16F0E0
-P 3400 3700
-F 0 "#PWR0104" H 3400 3450 50  0001 C CNN
-F 1 "GND" H 3405 3527 50  0000 C CNN
-F 2 "" H 3400 3700 50  0001 C CNN
-F 3 "" H 3400 3700 50  0001 C CNN
-	1    3400 3700
+P 3300 3700
+F 0 "#PWR0104" H 3300 3450 50  0001 C CNN
+F 1 "GND" H 3305 3527 50  0000 C CNN
+F 2 "" H 3300 3700 50  0001 C CNN
+F 3 "" H 3300 3700 50  0001 C CNN
+	1    3300 3700
 	1    0    0    -1  
 $EndComp
-Text GLabel 2850 2300 2    50   Input ~ 0
+Text GLabel 2750 2300 2    50   Input ~ 0
 COL5
-Text GLabel 2850 4000 2    50   Input ~ 0
+Text GLabel 2750 4000 2    50   Input ~ 0
 COL4
-Text GLabel 2850 4100 2    50   Input ~ 0
+Text GLabel 2750 4100 2    50   Input ~ 0
 COL3
-Text GLabel 2850 4400 2    50   Input ~ 0
+Text GLabel 2750 4400 2    50   Input ~ 0
 ROW3
-Text GLabel 2850 4300 2    50   Input ~ 0
+Text GLabel 2750 4300 2    50   Input ~ 0
 COL1
-Text GLabel 2850 4500 2    50   Input ~ 0
+Text GLabel 2750 4500 2    50   Input ~ 0
 COL0
-Text GLabel 2850 4200 2    50   Input ~ 0
+Text GLabel 2750 4200 2    50   Input ~ 0
 COL2
 Wire Wire Line
-	2250 1300 2150 1300
+	2150 1300 2050 1300
 Wire Wire Line
-	2350 1300 2250 1300
-Connection ~ 2250 1300
+	2250 1300 2150 1300
 Connection ~ 2150 1300
-Text GLabel 2850 2100 2    50   Input ~ 0
+Connection ~ 2050 1300
+Text GLabel 2750 2100 2    50   Input ~ 0
 ROW0
-Text GLabel 2850 2200 2    50   Input ~ 0
+Text GLabel 2750 2200 2    50   Input ~ 0
 ROW1
-Text GLabel 2850 3800 2    50   Input ~ 0
+Text GLabel 2750 3800 2    50   Input ~ 0
 ROW2
-Text GLabel 2850 2500 2    50   Input ~ 0
+Text GLabel 2750 2500 2    50   Input ~ 0
 COL14
-Text GLabel 2850 3500 2    50   Input ~ 0
+Text GLabel 2750 3500 2    50   Input ~ 0
 COL12
-Text GLabel 2850 3400 2    50   Input ~ 0
+Text GLabel 2750 3400 2    50   Input ~ 0
 COL11
-Text GLabel 2850 3200 2    50   Input ~ 0
+Text GLabel 2750 3200 2    50   Input ~ 0
 COL10
-Text GLabel 2850 3100 2    50   Input ~ 0
+Text GLabel 2750 3100 2    50   Input ~ 0
 COL9
-Text GLabel 2850 3000 2    50   Input ~ 0
+Text GLabel 2750 3000 2    50   Input ~ 0
 COL8
-Text GLabel 2850 2900 2    50   Input ~ 0
+Text GLabel 2750 2900 2    50   Input ~ 0
 COL7
-Text GLabel 2850 2800 2    50   Input ~ 0
+Text GLabel 2750 2800 2    50   Input ~ 0
 COL6
-Text GLabel 2850 2600 2    50   Input ~ 0
+Text GLabel 2750 2600 2    50   Input ~ 0
 ROW4
 $Comp
 L MCU_Microchip_ATmega:ATmega32U4-AU U1
 U 1 1 5F16167A
-P 2250 3100
-F 0 "U1" H 2250 1211 50  0000 C CNN
-F 1 "ATmega32U4-AU" H 2250 1120 50  0000 C CNN
-F 2 "mini-general-tweaks:TQFP-44_10x10mm_P0.8mm_ATmega32U4" H 2250 3100 50  0001 C CIN
-F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-7766-8-bit-AVR-ATmega16U4-32U4_Datasheet.pdf" H 2250 3100 50  0001 C CNN
-	1    2250 3100
+P 2150 3100
+F 0 "U1" H 2150 1211 50  0000 C CNN
+F 1 "ATmega32U4-AU" H 2150 1120 50  0000 C CNN
+F 2 "mini-general-tweaks:TQFP-44_10x10mm_P0.8mm_ATmega32U4" H 2150 3100 50  0001 C CIN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-7766-8-bit-AVR-ATmega16U4-32U4_Datasheet.pdf" H 2150 3100 50  0001 C CNN
+	1    2150 3100
 	1    0    0    -1  
 $EndComp
-Text GLabel 2850 2000 2    50   Input ~ 0
+Text GLabel 2750 2000 2    50   Input ~ 0
 COL13
-$Comp
-L Diode:1N4148W D1
-U 1 1 60A392AE
-P 4850 1650
-F 0 "D1" H 4799 1778 50  0000 R CNN
-F 1 "1N4148W" H 4909 1727 28  0000 R CNN
-F 2 "mini-general-tweaks:D_SOD123_axial-dual" H 4850 1475 50  0001 C CNN
-F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 4850 1650 50  0001 C CNN
-	1    4850 1650
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Diode:1N4148W D0
-U 1 1 60A2F34F
-P 4100 1650
-F 0 "D0" H 4049 1778 50  0000 R CNN
-F 1 "1N4148W" H 4159 1727 28  0000 R CNN
-F 2 "mini-general-tweaks:D_SOD123_axial-dual" H 4100 1475 50  0001 C CNN
-F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 4100 1650 50  0001 C CNN
-	1    4100 1650
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Diode:1N4148W D9
-U 1 1 60A86A5D
-P 9800 1650
-F 0 "D9" H 9795 1778 50  0000 R CNN
-F 1 "1N4148W" H 9859 1727 28  0000 R CNN
-F 2 "mini-general-tweaks:D_SOD123_axial-dual" H 9800 1475 50  0001 C CNN
-F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 9800 1650 50  0001 C CNN
-	1    9800 1650
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Diode:1N4148W D11
-U 1 1 60A9A295
-P 11000 1650
-F 0 "D11" H 10949 1778 50  0000 L CNN
-F 1 "1N4148W" H 11059 1727 28  0000 R CNN
-F 2 "mini-general-tweaks:D_SOD123_axial-dual" H 11000 1475 50  0001 C CNN
-F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 11000 1650 50  0001 C CNN
-	1    11000 1650
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Diode:1N4148W D51
-U 1 1 60BAA618
-P 8600 3750
-F 0 "D51" H 8549 3878 50  0000 R CNN
-F 1 "1N4148W" H 8659 3827 28  0000 R CNN
-F 2 "mini-general-tweaks:D_SOD123_axial-dual" H 8600 3575 50  0001 C CNN
-F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 8600 3750 50  0001 C CNN
-	1    8600 3750
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Diode:1N4148W D50
-U 1 1 60BAA61E
-P 8000 3750
-F 0 "D50" H 7949 3878 50  0000 R CNN
-F 1 "1N4148W" H 8059 3827 28  0000 R CNN
-F 2 "mini-general-tweaks:D_SOD123_axial-dual" H 8000 3575 50  0001 C CNN
-F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 8000 3750 50  0001 C CNN
-	1    8000 3750
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Diode:1N4148W D62
-U 1 1 60BCD64A
-P 8000 4450
-F 0 "D62" H 7949 4578 50  0000 R CNN
-F 1 "1N4148W" H 8059 4527 28  0000 R CNN
-F 2 "mini-general-tweaks:D_SOD123_axial-dual" H 8000 4275 50  0001 C CNN
-F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 8000 4450 50  0001 C CNN
-	1    8000 4450
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Diode:1N4148W D49
-U 1 1 60BAA624
-P 7400 3750
-F 0 "D49" H 7349 3878 50  0000 R CNN
-F 1 "1N4148W" H 7459 3827 28  0000 R CNN
-F 2 "mini-general-tweaks:D_SOD123_axial-dual" H 7400 3575 50  0001 C CNN
-F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 7400 3750 50  0001 C CNN
-	1    7400 3750
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Diode:1N4148W D48
-U 1 1 60BAA62A
-P 6800 3750
-F 0 "D48" H 6749 3878 50  0000 R CNN
-F 1 "1N4148W" H 6859 3827 28  0000 R CNN
-F 2 "mini-general-tweaks:D_SOD123_axial-dual" H 6800 3575 50  0001 C CNN
-F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 6800 3750 50  0001 C CNN
-	1    6800 3750
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Diode:1N4148W D47
-U 1 1 60BAA630
-P 6200 3750
-F 0 "D47" H 6149 3878 50  0000 R CNN
-F 1 "1N4148W" H 6259 3827 28  0000 R CNN
-F 2 "mini-general-tweaks:D_SOD123_axial-dual" H 6200 3575 50  0001 C CNN
-F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 6200 3750 50  0001 C CNN
-	1    6200 3750
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Diode:1N4148W D46
-U 1 1 60BAA636
-P 5600 3750
-F 0 "D46" H 5549 3878 50  0000 R CNN
-F 1 "1N4148W" H 5659 3827 28  0000 R CNN
-F 2 "mini-general-tweaks:D_SOD123_axial-dual" H 5600 3575 50  0001 C CNN
-F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 5600 3750 50  0001 C CNN
-	1    5600 3750
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Diode:1N4148W D61
-U 1 1 609F2922
-P 5600 4450
-F 0 "D61" H 5549 4578 50  0000 R CNN
-F 1 "1N4148W" H 5659 4527 28  0000 R CNN
-F 2 "mini-general-tweaks:D_SOD123_axial-dual" H 5600 4275 50  0001 C CNN
-F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 5600 4450 50  0001 C CNN
-	1    5600 4450
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Diode:1N4148W D60
-U 1 1 60A07B5C
-P 4850 4450
-F 0 "D60" H 4799 4578 50  0000 R CNN
-F 1 "1N4148W" H 4909 4527 28  0000 R CNN
-F 2 "mini-general-tweaks:D_SOD123_axial-dual" H 4850 4275 50  0001 C CNN
-F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 4850 4450 50  0001 C CNN
-	1    4850 4450
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Diode:1N4148W D45
-U 1 1 60BAA63C
-P 4850 3750
-F 0 "D45" H 4799 3878 50  0000 R CNN
-F 1 "1N4148W" H 4909 3827 28  0000 R CNN
-F 2 "mini-general-tweaks:D_SOD123_axial-dual" H 4850 3575 50  0001 C CNN
-F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 4850 3750 50  0001 C CNN
-	1    4850 3750
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Diode:1N4148W D44
-U 1 1 60A11924
-P 4100 3750
-F 0 "D44" H 4049 3878 50  0000 R CNN
-F 1 "1N4148W" H 4159 3827 28  0000 R CNN
-F 2 "mini-general-tweaks:D_SOD123_axial-dual" H 4100 3575 50  0001 C CNN
-F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 4100 3750 50  0001 C CNN
-	1    4100 3750
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Diode:1N4148W D10
-U 1 1 60A90422
-P 10400 1650
-F 0 "D10" H 10395 1778 50  0000 R CNN
-F 1 "1N4148W" H 10459 1727 28  0000 R CNN
-F 2 "mini-general-tweaks:D_SOD123_axial-dual" H 10400 1475 50  0001 C CNN
-F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 10400 1650 50  0001 C CNN
-	1    10400 1650
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Diode:1N4148W D59
-U 1 1 609FDC8A
-P 4100 4450
-F 0 "D59" H 4049 4578 50  0000 R CNN
-F 1 "1N4148W" H 4159 4527 28  0000 R CNN
-F 2 "mini-general-tweaks:D_SOD123_axial-dual" H 4100 4275 50  0001 C CNN
-F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 4100 4450 50  0001 C CNN
-	1    4100 4450
-	0    -1   -1   0   
-$EndComp
-Text GLabel 1650 1800 0    50   Input ~ 0
+Text GLabel 1550 1800 0    50   Input ~ 0
 XTAL1
-Text GLabel 1650 2000 0    50   Input ~ 0
+Text GLabel 1550 2000 0    50   Input ~ 0
 XTAL2
-Text Notes 3550 700  0    98   ~ 20
-Mechanical Keyswitch Matrix
-Wire Bus Line
-	3550 750  13200 750 
-Wire Bus Line
-	3550 500  13200 500 
 Text Notes 500  700  0    98   ~ 20
 Microcontroller (atmega32u4)
 Wire Wire Line
-	2150 4900 1800 4900
+	2050 4900 1700 4900
 Wire Wire Line
-	2250 4900 2150 4900
-Connection ~ 2150 4900
+	2150 4900 2050 4900
+Connection ~ 2050 4900
 $Comp
 L Device:C_Small C4
 U 1 1 5F17E05A
-P 700 6000
-F 0 "C4" H 792 6046 50  0000 L CNN
-F 1 "0.1uF" H 792 5955 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 700 6000 50  0001 C CNN
-F 3 "~" H 700 6000 50  0001 C CNN
-	1    700  6000
+P 3600 1250
+F 0 "C4" H 3692 1296 50  0000 L CNN
+F 1 "0.1uF" H 3692 1205 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 3600 1250 50  0001 C CNN
+F 3 "~" H 3600 1250 50  0001 C CNN
+	1    3600 1250
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	700  5900 1100 5900
-NoConn ~ 9700 5850
-NoConn ~ 10550 5550
-NoConn ~ 9700 5550
-NoConn ~ 9700 5250
-NoConn ~ 10550 5250
+	3600 1150 4000 1150
+NoConn ~ 6950 4050
+NoConn ~ 7800 3750
+NoConn ~ 6950 3750
+NoConn ~ 6950 3450
+NoConn ~ 7800 3450
 $Comp
 L Mechanical:MountingHole_Pad H5
 U 1 1 608E1DAA
-P 10550 5150
-F 0 "H5" H 10650 5199 50  0000 L CNN
-F 1 "MountingHole_Pad" H 10650 5108 50  0000 L CNN
-F 2 "mini-general-tweaks:MountingHole_2.2mm_M2_Pad_tweaked" H 10550 5150 50  0001 C CNN
-F 3 "~" H 10550 5150 50  0001 C CNN
-	1    10550 5150
+P 7800 3350
+F 0 "H5" H 7900 3399 50  0000 L CNN
+F 1 "MountingHole_Pad" H 7900 3308 50  0000 L CNN
+F 2 "mini-general-tweaks:MountingHole_2.2mm_M2_Pad_tweaked" H 7800 3350 50  0001 C CNN
+F 3 "~" H 7800 3350 50  0001 C CNN
+	1    7800 3350
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR0109
 U 1 1 5F16A4C1
-P 1800 4900
-F 0 "#PWR0109" H 1800 4650 50  0001 C CNN
-F 1 "GND" H 1805 4727 50  0000 C CNN
-F 2 "" H 1800 4900 50  0001 C CNN
-F 3 "" H 1800 4900 50  0001 C CNN
-	1    1800 4900
+P 1700 4900
+F 0 "#PWR0109" H 1700 4650 50  0001 C CNN
+F 1 "GND" H 1705 4727 50  0000 C CNN
+F 2 "" H 1700 4900 50  0001 C CNN
+F 3 "" H 1700 4900 50  0001 C CNN
+	1    1700 4900
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR0120
 U 1 1 60985804
-P 10550 5850
-F 0 "#PWR0120" H 10550 5600 50  0001 C CNN
-F 1 "GND" H 10555 5677 50  0000 C CNN
-F 2 "" H 10550 5850 50  0001 C CNN
-F 3 "" H 10550 5850 50  0001 C CNN
-	1    10550 5850
+P 7800 4050
+F 0 "#PWR0120" H 7800 3800 50  0001 C CNN
+F 1 "GND" H 7805 3877 50  0000 C CNN
+F 2 "" H 7800 4050 50  0001 C CNN
+F 3 "" H 7800 4050 50  0001 C CNN
+	1    7800 4050
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole_Pad H4
 U 1 1 608C6C75
-P 9700 5150
-F 0 "H4" H 9800 5199 50  0000 L CNN
-F 1 "MountingHole_Pad" H 9800 5108 50  0000 L CNN
-F 2 "mini-general-tweaks:MountingHole_2.2mm_M2_Pad_tweaked" H 9700 5150 50  0001 C CNN
-F 3 "~" H 9700 5150 50  0001 C CNN
-	1    9700 5150
+P 6950 3350
+F 0 "H4" H 7050 3399 50  0000 L CNN
+F 1 "MountingHole_Pad" H 7050 3308 50  0000 L CNN
+F 2 "mini-general-tweaks:MountingHole_2.2mm_M2_Pad_tweaked" H 6950 3350 50  0001 C CNN
+F 3 "~" H 6950 3350 50  0001 C CNN
+	1    6950 3350
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole_Pad H3
 U 1 1 608ABAB5
-P 9700 5450
-F 0 "H3" H 9800 5499 50  0000 L CNN
-F 1 "MountingHole_Pad" H 9800 5408 50  0000 L CNN
-F 2 "mini-general-tweaks:MountingHole_2.2mm_M2_Pad_tweaked" H 9700 5450 50  0001 C CNN
-F 3 "~" H 9700 5450 50  0001 C CNN
-	1    9700 5450
+P 6950 3650
+F 0 "H3" H 7050 3699 50  0000 L CNN
+F 1 "MountingHole_Pad" H 7050 3608 50  0000 L CNN
+F 2 "mini-general-tweaks:MountingHole_2.2mm_M2_Pad_tweaked" H 6950 3650 50  0001 C CNN
+F 3 "~" H 6950 3650 50  0001 C CNN
+	1    6950 3650
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole_Pad H1
 U 1 1 6087565E
-P 9700 5750
-F 0 "H1" H 9800 5799 50  0000 L CNN
-F 1 "MountingHole_Pad" H 9800 5708 50  0000 L CNN
-F 2 "mini-general-tweaks:MountingHole_2.2mm_M2_Pad_tweaked" H 9700 5750 50  0001 C CNN
-F 3 "~" H 9700 5750 50  0001 C CNN
-	1    9700 5750
+P 6950 3950
+F 0 "H1" H 7050 3999 50  0000 L CNN
+F 1 "MountingHole_Pad" H 7050 3908 50  0000 L CNN
+F 2 "mini-general-tweaks:MountingHole_2.2mm_M2_Pad_tweaked" H 6950 3950 50  0001 C CNN
+F 3 "~" H 6950 3950 50  0001 C CNN
+	1    6950 3950
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole_Pad H0
 U 1 1 6086D118
-P 10550 5750
-F 0 "H0" H 10650 5799 50  0000 L CNN
-F 1 "MountingHole_Pad" H 10650 5708 50  0000 L CNN
-F 2 "mini-general-tweaks:MountingHole_2.2mm_M2_Pad_tweaked" H 10550 5750 50  0001 C CNN
-F 3 "~" H 10550 5750 50  0001 C CNN
-	1    10550 5750
+P 7800 3950
+F 0 "H0" H 7900 3999 50  0000 L CNN
+F 1 "MountingHole_Pad" H 7900 3908 50  0000 L CNN
+F 2 "mini-general-tweaks:MountingHole_2.2mm_M2_Pad_tweaked" H 7800 3950 50  0001 C CNN
+F 3 "~" H 7800 3950 50  0001 C CNN
+	1    7800 3950
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1300 5900 1500 5900
-Connection ~ 1300 5900
+	4200 1150 4400 1150
+Connection ~ 4200 1150
 Wire Wire Line
-	1300 5900 1300 5800
+	4200 1150 4200 1050
 Wire Wire Line
-	1300 6100 1100 6100
-Connection ~ 1300 6100
+	4200 1350 4000 1350
+Connection ~ 4200 1350
 Wire Wire Line
-	1300 6100 1300 6200
+	4200 1350 4200 1450
 Wire Wire Line
-	1500 6100 1300 6100
-Connection ~ 1500 6100
+	4400 1350 4200 1350
+Connection ~ 4400 1350
 Wire Wire Line
-	1100 6100 700  6100
-Connection ~ 1100 6100
+	4000 1350 3600 1350
+Connection ~ 4000 1350
 Wire Wire Line
-	1900 6100 1500 6100
+	4800 1350 4400 1350
 Wire Wire Line
-	1500 5900 1900 5900
-Connection ~ 1500 5900
+	4400 1150 4800 1150
+Connection ~ 4400 1150
 Wire Wire Line
-	1100 5900 1300 5900
-Connection ~ 1100 5900
+	4000 1150 4200 1150
+Connection ~ 4000 1150
 $Comp
 L Device:C_Small C7
 U 1 1 5F17EE84
-P 1900 6000
-F 0 "C7" H 1992 6046 50  0000 L CNN
-F 1 "10uF" H 1992 5955 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 1900 6000 50  0001 C CNN
-F 3 "~" H 1900 6000 50  0001 C CNN
-	1    1900 6000
+P 4800 1250
+F 0 "C7" H 4892 1296 50  0000 L CNN
+F 1 "10uF" H 4892 1205 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 4800 1250 50  0001 C CNN
+F 3 "~" H 4800 1250 50  0001 C CNN
+	1    4800 1250
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:C_Small C6
 U 1 1 5F17D39B
-P 1500 6000
-F 0 "C6" H 1592 6046 50  0000 L CNN
-F 1 "0.1uF" H 1592 5955 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 1500 6000 50  0001 C CNN
-F 3 "~" H 1500 6000 50  0001 C CNN
-	1    1500 6000
+P 4400 1250
+F 0 "C6" H 4492 1296 50  0000 L CNN
+F 1 "0.1uF" H 4492 1205 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 4400 1250 50  0001 C CNN
+F 3 "~" H 4400 1250 50  0001 C CNN
+	1    4400 1250
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:C_Small C5
 U 1 1 5F17B5EB
-P 1100 6000
-F 0 "C5" H 1192 6046 50  0000 L CNN
-F 1 "0.1uF" H 1192 5955 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 1100 6000 50  0001 C CNN
-F 3 "~" H 1100 6000 50  0001 C CNN
-	1    1100 6000
+P 4000 1250
+F 0 "C5" H 4092 1296 50  0000 L CNN
+F 1 "0.1uF" H 4092 1205 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 4000 1250 50  0001 C CNN
+F 3 "~" H 4000 1250 50  0001 C CNN
+	1    4000 1250
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:+5V #PWR0112
 U 1 1 5F17A441
-P 1300 5800
-F 0 "#PWR0112" H 1300 5650 50  0001 C CNN
-F 1 "+5V" H 1315 5973 50  0000 C CNN
-F 2 "" H 1300 5800 50  0001 C CNN
-F 3 "" H 1300 5800 50  0001 C CNN
-	1    1300 5800
+P 4200 1050
+F 0 "#PWR0112" H 4200 900 50  0001 C CNN
+F 1 "+5V" H 4215 1223 50  0000 C CNN
+F 2 "" H 4200 1050 50  0001 C CNN
+F 3 "" H 4200 1050 50  0001 C CNN
+	1    4200 1050
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR0111
 U 1 1 5F179934
-P 1300 6200
-F 0 "#PWR0111" H 1300 5950 50  0001 C CNN
-F 1 "GND" H 1305 6027 50  0000 C CNN
-F 2 "" H 1300 6200 50  0001 C CNN
-F 3 "" H 1300 6200 50  0001 C CNN
-	1    1300 6200
+P 4200 1450
+F 0 "#PWR0111" H 4200 1200 50  0001 C CNN
+F 1 "GND" H 4205 1277 50  0000 C CNN
+F 2 "" H 4200 1450 50  0001 C CNN
+F 3 "" H 4200 1450 50  0001 C CNN
+	1    4200 1450
 	1    0    0    -1  
 $EndComp
-Wire Bus Line
-	13200 4700 3550 4700
 $Comp
 L Connector:AVR-ISP-6 J2
 U 1 1 5FE1BF7A
-P 1400 7550
-F 0 "J2" H 1121 7646 50  0000 R CNN
-F 1 "AVR-ISP-6" H 1121 7555 50  0000 R CNN
-F 2 "mini-general-tweaks:ICSP_2.54mm_LAYOUT" V 1150 7600 50  0001 C CNN
-F 3 " ~" H 125 7000 50  0001 C CNN
-	1    1400 7550
+P 4350 2800
+F 0 "J2" H 4071 2896 50  0000 R CNN
+F 1 "AVR-ISP-6" H 4071 2805 50  0000 R CNN
+F 2 "mini-general-tweaks:ICSP_2.54mm_LAYOUT" V 4100 2850 50  0001 C CNN
+F 3 " ~" H 3075 2250 50  0001 C CNN
+	1    4350 2800
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:+5V #PWR0114
 U 1 1 5FE1DFB7
-P 1300 7050
-F 0 "#PWR0114" H 1300 6900 50  0001 C CNN
-F 1 "+5V" H 1315 7223 50  0000 C CNN
-F 2 "" H 1300 7050 50  0001 C CNN
-F 3 "" H 1300 7050 50  0001 C CNN
-	1    1300 7050
+P 4250 2300
+F 0 "#PWR0114" H 4250 2150 50  0001 C CNN
+F 1 "+5V" H 4265 2473 50  0000 C CNN
+F 2 "" H 4250 2300 50  0001 C CNN
+F 3 "" H 4250 2300 50  0001 C CNN
+	1    4250 2300
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR0115
 U 1 1 5FE20ACB
-P 1300 7950
-F 0 "#PWR0115" H 1300 7700 50  0001 C CNN
-F 1 "GND" H 1305 7777 50  0000 C CNN
-F 2 "" H 1300 7950 50  0001 C CNN
-F 3 "" H 1300 7950 50  0001 C CNN
-	1    1300 7950
+P 4250 3200
+F 0 "#PWR0115" H 4250 2950 50  0001 C CNN
+F 1 "GND" H 4255 3027 50  0000 C CNN
+F 2 "" H 4250 3200 50  0001 C CNN
+F 3 "" H 4250 3200 50  0001 C CNN
+	1    4250 3200
 	1    0    0    -1  
 $EndComp
-Text GLabel 1800 7350 2    50   Input ~ 0
+Text GLabel 4750 2600 2    50   Input ~ 0
 MISO
-Text GLabel 1800 7450 2    50   Input ~ 0
+Text GLabel 4750 2700 2    50   Input ~ 0
 MOSI
-Text GLabel 1800 7550 2    50   Input ~ 0
+Text GLabel 4750 2800 2    50   Input ~ 0
 SCK
-Text GLabel 1800 7650 2    50   Input ~ 0
+Text GLabel 4750 2900 2    50   Input ~ 0
 RESET
-Text Notes 500  6750 0    98   ~ 20
+Text Notes 3450 2000 0    98   ~ 20
 ICSP Header
 Wire Bus Line
-	500  6550 2250 6550
+	3450 3450 5200 3450
 Wire Bus Line
-	500  8200 2250 8200
+	-4350 2400 -4350 3100
 Wire Bus Line
-	2250 6550 2250 6800
+	-4350 2400 -2700 2400
 Wire Bus Line
-	500  6550 500  6800
+	-4350 2150 -2700 2150
+Connection ~ -4350 2400
 Wire Bus Line
-	2250 6800 500  6800
-Connection ~ 2250 6800
-Connection ~ 500  6800
-Wire Bus Line
-	500  6800 500  8200
-Wire Bus Line
-	2250 6800 2250 8200
-Wire Bus Line
-	450  9100 450  9800
-Wire Bus Line
-	450  9100 2100 9100
-Wire Bus Line
-	450  8850 2100 8850
-Connection ~ 450  9100
-Wire Bus Line
-	450  8850 450  9100
-Text Notes 450  9050 0    98   ~ 20
+	-4350 2150 -4350 2400
+Text Notes -4350 2350 0    98   ~ 20
 USB Type C
-Text Notes 500  350  0    197  ~ 39
-mini eLiXiVy Schematic
-Text GLabel 3150 6080 2    50   Input ~ 0
-XTAL2
-Text GLabel 3150 5880 2    50   Input ~ 0
-XTAL1
-Wire Wire Line
-	2950 6180 2950 5980
-Connection ~ 2400 6280
-Wire Wire Line
-	2400 6280 2750 6280
-Wire Wire Line
-	2400 6130 2400 6280
-Connection ~ 2400 6130
-Wire Wire Line
-	2400 5780 2400 6130
-Connection ~ 2850 5880
-Wire Wire Line
-	2600 5880 2850 5880
-Wire Wire Line
-	2600 5780 2600 5880
-Connection ~ 2850 6080
-Wire Wire Line
-	2600 6080 2850 6080
-Wire Wire Line
-	2600 6130 2600 6080
-$Comp
-L power:GND #PWR0113
-U 1 1 5F19652E
-P 2400 6280
-F 0 "#PWR0113" H 2400 6030 50  0001 C CNN
-F 1 "GND" H 2405 6107 50  0000 C CNN
-F 2 "" H 2400 6280 50  0001 C CNN
-F 3 "" H 2400 6280 50  0001 C CNN
-	1    2400 6280
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C_Small C2
-U 1 1 5F194FE3
-P 2500 6130
-F 0 "C2" V 2271 6130 50  0000 C CNN
-F 1 "22pF" V 2362 6130 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 2500 6130 50  0001 C CNN
-F 3 "~" H 2500 6130 50  0001 C CNN
-	1    2500 6130
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:C_Small C1
-U 1 1 5F1942FA
-P 2500 5780
-F 0 "C1" V 2271 5780 50  0000 C CNN
-F 1 "22pF" V 2362 5780 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 2500 5780 50  0001 C CNN
-F 3 "~" H 2500 5780 50  0001 C CNN
-	1    2500 5780
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:Crystal_GND24_Small Y1
-U 1 1 5F18D205
-P 2850 5980
-F 0 "Y1" V 2800 6130 50  0000 L CNN
-F 1 "Crystal_GND24_Small" V 2994 5935 50  0001 L CNN
-F 2 "Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm" H 2850 5980 50  0001 C CNN
-F 3 "~" H 2850 5980 50  0001 C CNN
-	1    2850 5980
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	2750 5980 2750 6180
-Wire Wire Line
-	2950 6180 2750 6180
-Connection ~ 2750 6180
-Wire Wire Line
-	2750 6180 2750 6280
-Wire Wire Line
-	2850 6080 3150 6080
-Wire Wire Line
-	2850 5880 3150 5880
 Wire Bus Line
-	2300 5250 2300 5500
-Connection ~ 2300 5500
+	3450 500  3450 750 
+Connection ~ 3450 750 
 Wire Bus Line
-	2300 5500 2300 6500
-Connection ~ 3500 5500
+	5150 750  5150 1750
 Wire Bus Line
-	3500 5500 3500 5250
-Text Notes 2300 5450 0    98   ~ 20
-Crystal
+	3450 750  3450 1750
 Wire Bus Line
-	2300 6500 3500 6500
+	6850 3200 8600 3200
 Wire Bus Line
-	3500 5250 2300 5250
+	6850 3200 6850 4300
 Wire Bus Line
-	2300 5500 3500 5500
+	6850 4300 8600 4300
 Wire Bus Line
-	500  5250 500  5500
-Connection ~ 500  5500
+	8600 4300 8600 3200
+Connection ~ 6850 3200
+Connection ~ 8600 3200
 Wire Bus Line
-	500  5500 2250 5500
+	8700 2950 8700 3200
 Wire Bus Line
-	3500 6500 3500 5500
+	8700 2950 10450 2950
 Wire Bus Line
-	2250 5500 2250 6500
+	8700 3200 10450 3200
+Connection ~ 8700 3200
 Wire Bus Line
-	500  5500 500  6500
-Wire Bus Line
-	9600 5000 11350 5000
-Wire Bus Line
-	9600 5000 9600 6100
-Wire Bus Line
-	9600 6100 11350 6100
-Wire Bus Line
-	11350 6100 11350 5000
-Connection ~ 9600 5000
-Connection ~ 11350 5000
-Wire Bus Line
-	11450 4750 11450 5000
-Wire Bus Line
-	11450 4750 13200 4750
-Wire Bus Line
-	11450 5000 13200 5000
-Connection ~ 11450 5000
-Wire Bus Line
-	11450 5800 13200 5800
-$Comp
-L mini_random_library:TYPE-C-31-M12_13_EDITED J1
-U 1 1 60832B1A
-P 7850 6500
-F 0 "J1" H 7957 7917 50  0000 C CNN
-F 1 "TYPE-C-31-M12_13_EDITED" H 7957 7826 50  0000 C CNN
-F 2 "mini-general-tweaks:HRO-TYPE-C-31-M-12-HandSoldering_tweaked" V 7350 6550 50  0001 C CNN
-F 3 "" H 8050 6550 50  0001 C CNN
-	1    7850 6500
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR0117
-U 1 1 6077CEC0
-P 8700 6050
-F 0 "#PWR0117" H 8700 5800 50  0001 C CNN
-F 1 "GND" H 8705 5877 50  0000 C CNN
-F 2 "" H 8700 6050 50  0001 C CNN
-F 3 "" H 8700 6050 50  0001 C CNN
-	1    8700 6050
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	8700 6050 8650 6050
-$Comp
-L Device:R_Small R6
-U 1 1 6077EF8B
-P 8550 6050
-F 0 "R6" V 8413 6050 50  0000 C CNN
-F 1 "5.1k" V 8480 6050 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" H 8550 6050 50  0001 C CNN
-F 3 "~" H 8550 6050 50  0001 C CNN
-	1    8550 6050
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	8450 6800 8450 6900
-Wire Wire Line
-	8450 6500 8450 6600
-Wire Wire Line
-	8800 5850 8850 5850
-$Comp
-L power:GND #PWR0116
-U 1 1 6077B7AA
-P 8850 5850
-F 0 "#PWR0116" H 8850 5600 50  0001 C CNN
-F 1 "GND" H 8855 5677 50  0000 C CNN
-F 2 "" H 8850 5850 50  0001 C CNN
-F 3 "" H 8850 5850 50  0001 C CNN
-	1    8850 5850
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R_Small R5
-U 1 1 60779B82
-P 8700 5850
-F 0 "R5" V 8504 5850 50  0000 C CNN
-F 1 "5.1k" V 8595 5850 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" H 8700 5850 50  0001 C CNN
-F 3 "~" H 8700 5850 50  0001 C CNN
-	1    8700 5850
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	7850 7950 7950 7950
-Connection ~ 7850 7950
-Wire Wire Line
-	7750 7950 7850 7950
-Connection ~ 7750 7950
-Wire Wire Line
-	7550 7950 7750 7950
-$Comp
-L power:GND #PWR0101
-U 1 1 607575CF
-P 7950 7950
-F 0 "#PWR0101" H 7950 7700 50  0001 C CNN
-F 1 "GND" H 7955 7777 50  0000 C CNN
-F 2 "" H 7950 7950 50  0001 C CNN
-F 3 "" H 7950 7950 50  0001 C CNN
-	1    7950 7950
-	1    0    0    -1  
-$EndComp
-NoConn ~ 8450 7650
-NoConn ~ 8450 7550
-Wire Wire Line
-	8450 5350 8500 5350
-Wire Wire Line
-	8500 5450 8500 5350
-Wire Wire Line
-	8450 5450 8500 5450
-$Comp
-L power:VCC #PWR0103
-U 1 1 5F1CE53D
-P 8650 5350
-F 0 "#PWR0103" H 8650 5200 50  0001 C CNN
-F 1 "VCC" H 8667 5523 50  0000 C CNN
-F 2 "" H 8650 5350 50  0001 C CNN
-F 3 "" H 8650 5350 50  0001 C CNN
-	1    8650 5350
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	8500 5350 8650 5350
-Connection ~ 8500 5350
-Text GLabel 8500 6800 2    50   Input ~ 0
-USB_D+
-Text GLabel 8500 6600 2    50   Input ~ 0
-USB_D-
-Wire Wire Line
-	8500 6600 8450 6600
-Connection ~ 8450 6600
-Wire Wire Line
-	8500 6800 8450 6800
-Connection ~ 8450 6800
-Wire Wire Line
-	8450 5850 8600 5850
-Wire Bus Line
-	7400 8200 8950 8200
-Connection ~ 8950 5000
-Wire Bus Line
-	8950 5000 8950 8200
-Wire Bus Line
-	8950 4750 8950 5000
+	8700 4000 10450 4000
 Wire Notes Line
-	7350 7150 7350 5000
+	8950 2900 8950 750 
 Wire Notes Line
-	5250 7150 7350 7150
+	6850 2900 8950 2900
 Wire Notes Line
-	5250 5000 5250 7150
+	6850 750  6850 2900
 Wire Bus Line
-	5250 4750 7350 4750
+	6850 500  8950 500 
 Wire Bus Line
-	7350 4750 7350 5000
+	8950 500  8950 750 
 Wire Bus Line
-	5250 5000 7350 5000
-Text Notes 5250 4950 0    98   ~ 20
+	6850 750  8950 750 
+Text Notes 6850 700  0    98   ~ 20
 Electrical protection
 Wire Bus Line
-	5250 4750 5250 5000
+	6850 500  6850 750 
 $Comp
 L Device:Polyfuse_Small F1
 U 1 1 5F1C7377
-P 6300 6850
-F 0 "F1" V 6095 6850 50  0000 C CNN
-F 1 "500mA" V 6186 6850 50  0000 C CNN
-F 2 "Fuse:Fuse_1206_3216Metric" H 6350 6650 50  0001 L CNN
-F 3 "~" H 6300 6850 50  0001 C CNN
-	1    6300 6850
+P 7900 2600
+F 0 "F1" V 7695 2600 50  0000 C CNN
+F 1 "500mA" V 7786 2600 50  0000 C CNN
+F 2 "Fuse:Fuse_1206_3216Metric" H 7950 2400 50  0001 L CNN
+F 3 "~" H 7900 2600 50  0001 C CNN
+	1    7900 2600
 	0    1    1    0   
 $EndComp
 $Comp
 L power:+5V #PWR0102
 U 1 1 5F1CEBD1
-P 6600 6850
-F 0 "#PWR0102" H 6600 6700 50  0001 C CNN
-F 1 "+5V" H 6615 7023 50  0000 C CNN
-F 2 "" H 6600 6850 50  0001 C CNN
-F 3 "" H 6600 6850 50  0001 C CNN
-	1    6600 6850
+P 8200 2600
+F 0 "#PWR0102" H 8200 2450 50  0001 C CNN
+F 1 "+5V" H 8215 2773 50  0000 C CNN
+F 2 "" H 8200 2600 50  0001 C CNN
+F 3 "" H 8200 2600 50  0001 C CNN
+	1    8200 2600
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:VCC #PWR0118
 U 1 1 60DE2F1D
-P 5950 6850
-F 0 "#PWR0118" H 5950 6700 50  0001 C CNN
-F 1 "VCC" H 5967 7023 50  0000 C CNN
-F 2 "" H 5950 6850 50  0001 C CNN
-F 3 "" H 5950 6850 50  0001 C CNN
-	1    5950 6850
+P 7550 2600
+F 0 "#PWR0118" H 7550 2450 50  0001 C CNN
+F 1 "VCC" H 7567 2773 50  0000 C CNN
+F 2 "" H 7550 2600 50  0001 C CNN
+F 3 "" H 7550 2600 50  0001 C CNN
+	1    7550 2600
 	1    0    0    -1  
 $EndComp
-Text Notes 5650 6400 0    98   ~ 20
+Text Notes 7250 2150 0    98   ~ 20
 Polyfuse
 Wire Bus Line
-	5650 6200 5650 6450
+	7250 1950 7250 2200
 Wire Bus Line
-	6950 6200 6950 6450
-Connection ~ 5650 6450
+	8550 1950 8550 2200
+Connection ~ 7250 2200
 Wire Bus Line
-	5650 6200 6950 6200
+	7250 1950 8550 1950
 Wire Bus Line
-	5650 7100 6950 7100
+	7250 2850 8550 2850
 Wire Bus Line
-	5650 6450 6950 6450
-Connection ~ 6950 6450
+	7250 2200 8550 2200
+Connection ~ 8550 2200
 Wire Bus Line
-	6950 6450 6950 7100
+	8550 2200 8550 2850
 Wire Bus Line
-	5650 6450 5650 7100
+	7250 2200 7250 2850
 Wire Wire Line
-	6400 6850 6600 6850
+	8000 2600 8200 2600
 Wire Wire Line
-	5950 6850 6200 6850
+	7550 2600 7800 2600
 Wire Bus Line
-	7300 5300 7300 6150
-Connection ~ 7300 5300
+	8900 1050 8900 1900
+Connection ~ 8900 1050
 Wire Bus Line
-	5300 5300 7300 5300
+	6900 800  8900 800 
 Wire Bus Line
-	5300 5050 7300 5050
+	6900 1900 8900 1900
 Wire Bus Line
-	5300 6150 7300 6150
+	8900 800  8900 1050
 Wire Bus Line
-	7300 5050 7300 5300
+	6900 1050 6900 1900
+Connection ~ 6900 1050
 Wire Bus Line
-	7400 5000 8950 5000
-Wire Bus Line
-	7400 4750 8950 4750
-Text Notes 7400 4950 0    98   ~ 20
-USB Type C
-Wire Bus Line
-	7400 4750 7400 5000
-Connection ~ 7400 5000
-Wire Bus Line
-	5300 5300 5300 6150
-Connection ~ 5300 5300
-Wire Bus Line
-	5300 5050 5300 5300
-Text Notes 5300 5250 0    98   ~ 20
+	6900 800  6900 1050
+Text Notes 6900 1000 0    98   ~ 20
 ESD Protection TVS Diode
-Connection ~ 6950 5700
+Connection ~ 8550 1450
 Wire Wire Line
-	6950 5700 7150 5700
+	8550 1450 8750 1450
 $Comp
 L power:+5V #PWR0121
 U 1 1 60D5F5D4
-P 7150 5700
-F 0 "#PWR0121" H 7150 5550 50  0001 C CNN
-F 1 "+5V" H 7165 5873 50  0000 C CNN
-F 2 "" H 7150 5700 50  0001 C CNN
-F 3 "" H 7150 5700 50  0001 C CNN
-	1    7150 5700
+P 8750 1450
+F 0 "#PWR0121" H 8750 1300 50  0001 C CNN
+F 1 "+5V" H 8765 1623 50  0000 C CNN
+F 2 "" H 8750 1450 50  0001 C CNN
+F 3 "" H 8750 1450 50  0001 C CNN
+	1    8750 1450
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6950 5700 6500 5700
+	8550 1450 8100 1450
 Wire Wire Line
-	5900 5700 5450 5700
-Text GLabel 5900 5800 0    50   Input ~ 0
+	7500 1450 7050 1450
+Text GLabel 7500 1550 0    50   Input ~ 0
 USB_D+
 $Comp
 L Power_Protection:WE-TVS-82400102 U2
 U 1 1 60D419F0
-P 6200 5700
-F 0 "U2" H 6200 6025 50  0000 C CNN
-F 1 "WE-TVS-82400102" H 6200 5934 50  0000 C CNN
-F 2 "mini-general-tweaks:SOT-23-6_tweaked" H 6200 5500 50  0001 C CNN
-F 3 "https://katalog.we-online.de/pbs/datasheet/82400102.pdf" H 6200 5450 50  0001 C CNN
-	1    6200 5700
+P 7800 1450
+F 0 "U2" H 7800 1775 50  0000 C CNN
+F 1 "WE-TVS-82400102" H 7800 1684 50  0000 C CNN
+F 2 "mini-general-tweaks:SOT-23-6_tweaked" H 7800 1250 50  0001 C CNN
+F 3 "https://katalog.we-online.de/pbs/datasheet/82400102.pdf" H 7800 1200 50  0001 C CNN
+	1    7800 1450
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR0122
 U 1 1 60E0A898
-P 6950 5900
-F 0 "#PWR0122" H 6950 5650 50  0001 C CNN
-F 1 "GND" H 6955 5727 50  0000 C CNN
-F 2 "" H 6950 5900 50  0001 C CNN
-F 3 "" H 6950 5900 50  0001 C CNN
-	1    6950 5900
+P 8550 1650
+F 0 "#PWR0122" H 8550 1400 50  0001 C CNN
+F 1 "GND" H 8555 1477 50  0000 C CNN
+F 2 "" H 8550 1650 50  0001 C CNN
+F 3 "" H 8550 1650 50  0001 C CNN
+	1    8550 1650
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:C_Small C8
 U 1 1 60E08719
-P 6950 5800
-F 0 "C8" H 7042 5846 50  0000 L CNN
-F 1 "100nF" H 7042 5755 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 6950 5800 50  0001 C CNN
-F 3 "~" H 6950 5800 50  0001 C CNN
-	1    6950 5800
+P 8550 1550
+F 0 "C8" H 8642 1596 50  0000 L CNN
+F 1 "100nF" H 8642 1505 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 8550 1550 50  0001 C CNN
+F 3 "~" H 8550 1550 50  0001 C CNN
+	1    8550 1550
 	1    0    0    -1  
 $EndComp
-Text GLabel 5900 5600 0    50   Input ~ 0
+Text GLabel 7500 1350 0    50   Input ~ 0
 USB_D-
-Text GLabel 6500 5800 2    50   Input ~ 0
+Text GLabel 8100 1550 2    50   Input ~ 0
 MCU_D+
-Text GLabel 6500 5600 2    50   Input ~ 0
+Text GLabel 8100 1350 2    50   Input ~ 0
 MCU_D-
 $Comp
 L power:GND #PWR0119
 U 1 1 60A46743
-P 5450 5700
-F 0 "#PWR0119" H 5450 5450 50  0001 C CNN
-F 1 "GND" H 5455 5527 50  0000 C CNN
-F 2 "" H 5450 5700 50  0001 C CNN
-F 3 "" H 5450 5700 50  0001 C CNN
-	1    5450 5700
+P 7050 1450
+F 0 "#PWR0119" H 7050 1200 50  0001 C CNN
+F 1 "GND" H 7055 1277 50  0000 C CNN
+F 2 "" H 7050 1450 50  0001 C CNN
+F 3 "" H 7050 1450 50  0001 C CNN
+	1    7050 1450
 	1    0    0    -1  
 $EndComp
-Wire Bus Line
-	7400 5000 7400 8200
 $Comp
 L mini_random_library:Logo LO2
 U 1 1 638922C8
-P 11600 5400
-F 0 "LO2" H 11728 5196 50  0000 L CNN
-F 1 "OSHW-Logo" H 11728 5105 50  0000 L CNN
-F 2 "mini-Logos:OSHW-Logo" H 11600 5300 50  0001 C CNN
-F 3 "" H 11600 5300 50  0001 C CNN
-	1    11600 5400
+P 8850 3600
+F 0 "LO2" H 8978 3396 50  0000 L CNN
+F 1 "OSHW-Logo" H 8978 3305 50  0000 L CNN
+F 2 "mini-Logos:OSHW-Logo" H 8850 3500 50  0001 C CNN
+F 3 "" H 8850 3500 50  0001 C CNN
+	1    8850 3600
 	1    0    0    -1  
 $EndComp
 Wire Bus Line
-	11450 5000 11450 5800
+	8700 3200 8700 4000
 Wire Bus Line
-	13200 5000 13200 5800
+	10450 3200 10450 4000
 $Comp
 L mini_random_library:Logo LO0
 U 1 1 6390C410
-P 11600 4900
-F 0 "LO0" H 11728 4696 50  0000 L CNN
-F 1 "mini-eLiXiVy-SilkScreen" H 11728 4605 50  0000 L CNN
-F 2 "mini-Logos:eLiXiVy-SilkScreenv2" H 11600 4800 50  0001 C CNN
-F 3 "" H 11600 4800 50  0001 C CNN
-	1    11600 4900
+P 8850 3100
+F 0 "LO0" H 8978 2896 50  0000 L CNN
+F 1 "mini-eLiXiVy-SilkScreen" H 8978 2805 50  0000 L CNN
+F 2 "mini-Logos:eLiXiVy-SilkScreenv2" H 8850 3000 50  0001 C CNN
+F 3 "" H 8850 3000 50  0001 C CNN
+	1    8850 3100
 	1    0    0    -1  
 $EndComp
 $Comp
 L mini_random_library:Logo LO1
 U 1 1 6390E149
-P 11600 5150
-F 0 "LO1" H 11728 4946 50  0000 L CNN
-F 1 "mini-eLiXiVy-Mask" H 11728 4855 50  0000 L CNN
-F 2 "mini-Logos:eLiXiVy-Maskv2" H 11600 5050 50  0001 C CNN
-F 3 "" H 11600 5050 50  0001 C CNN
-	1    11600 5150
+P 8850 3350
+F 0 "LO1" H 8978 3146 50  0000 L CNN
+F 1 "mini-eLiXiVy-Mask" H 8978 3055 50  0000 L CNN
+F 2 "mini-Logos:eLiXiVy-Maskv2" H 8850 3250 50  0001 C CNN
+F 3 "" H 8850 3250 50  0001 C CNN
+	1    8850 3350
 	1    0    0    -1  
 $EndComp
+Wire Bus Line
+	6900 1050 8900 1050
+Wire Bus Line
+	5250 750  5250 3950
+Connection ~ 5250 750 
+Wire Bus Line
+	5250 500  5250 750 
+Text Notes 5250 700  0    98   ~ 20
+USB Type C
+Wire Bus Line
+	5250 500  6800 500 
+Wire Bus Line
+	5250 750  6800 750 
+Wire Bus Line
+	6800 500  6800 750 
+Wire Bus Line
+	6800 750  6800 3950
+Connection ~ 6800 750 
+Wire Bus Line
+	5250 3950 6800 3950
+Wire Wire Line
+	6300 1600 6450 1600
+Connection ~ 6300 2550
+Wire Wire Line
+	6350 2550 6300 2550
+Connection ~ 6300 2350
+Wire Wire Line
+	6350 2350 6300 2350
+Text GLabel 6350 2350 2    50   Input ~ 0
+USB_D-
+Text GLabel 6350 2550 2    50   Input ~ 0
+USB_D+
+Connection ~ 6350 1100
+Wire Wire Line
+	6350 1100 6500 1100
+$Comp
+L power:VCC #PWR0103
+U 1 1 5F1CE53D
+P 6500 1100
+F 0 "#PWR0103" H 6500 950 50  0001 C CNN
+F 1 "VCC" H 6517 1273 50  0000 C CNN
+F 2 "" H 6500 1100 50  0001 C CNN
+F 3 "" H 6500 1100 50  0001 C CNN
+	1    6500 1100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6300 1200 6350 1200
+Wire Wire Line
+	6350 1200 6350 1100
+Wire Wire Line
+	6300 1100 6350 1100
+NoConn ~ 6300 3300
+NoConn ~ 6300 3400
+$Comp
+L power:GND #PWR0101
+U 1 1 607575CF
+P 5800 3700
+F 0 "#PWR0101" H 5800 3450 50  0001 C CNN
+F 1 "GND" H 5805 3527 50  0000 C CNN
+F 2 "" H 5800 3700 50  0001 C CNN
+F 3 "" H 5800 3700 50  0001 C CNN
+	1    5800 3700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5400 3700 5600 3700
+Connection ~ 5600 3700
+Wire Wire Line
+	5600 3700 5700 3700
+Connection ~ 5700 3700
+Wire Wire Line
+	5700 3700 5800 3700
+$Comp
+L Device:R_Small R5
+U 1 1 60779B82
+P 6550 1600
+F 0 "R5" V 6354 1600 50  0000 C CNN
+F 1 "5.1k" V 6445 1600 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 6550 1600 50  0001 C CNN
+F 3 "~" H 6550 1600 50  0001 C CNN
+	1    6550 1600
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0116
+U 1 1 6077B7AA
+P 6700 1600
+F 0 "#PWR0116" H 6700 1350 50  0001 C CNN
+F 1 "GND" H 6705 1427 50  0000 C CNN
+F 2 "" H 6700 1600 50  0001 C CNN
+F 3 "" H 6700 1600 50  0001 C CNN
+	1    6700 1600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6650 1600 6700 1600
+Wire Wire Line
+	6300 2250 6300 2350
+Wire Wire Line
+	6300 2550 6300 2650
+$Comp
+L Device:R_Small R6
+U 1 1 6077EF8B
+P 6400 1800
+F 0 "R6" V 6263 1800 50  0000 C CNN
+F 1 "5.1k" V 6330 1800 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 6400 1800 50  0001 C CNN
+F 3 "~" H 6400 1800 50  0001 C CNN
+	1    6400 1800
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6550 1800 6500 1800
+$Comp
+L power:GND #PWR0117
+U 1 1 6077CEC0
+P 6550 1800
+F 0 "#PWR0117" H 6550 1550 50  0001 C CNN
+F 1 "GND" H 6555 1627 50  0000 C CNN
+F 2 "" H 6550 1800 50  0001 C CNN
+F 3 "" H 6550 1800 50  0001 C CNN
+	1    6550 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L mini_random_library:TYPE-C-31-M12_13_EDITED J1
+U 1 1 60832B1A
+P 5700 2250
+F 0 "J1" H 5807 3667 50  0000 C CNN
+F 1 "TYPE-C-31-M12_13_EDITED" H 5807 3576 50  0000 C CNN
+F 2 "mini-general-tweaks:HRO-TYPE-C-31-M-12-HandSoldering_tweaked" V 5200 2300 50  0001 C CNN
+F 3 "" H 5900 2300 50  0001 C CNN
+	1    5700 2250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1300 2600 1550 2600
+Wire Wire Line
+	1150 2700 1550 2700
+Connection ~ 3400 750 
+Connection ~ 5150 750 
+Wire Bus Line
+	3450 1750 5150 1750
+Wire Bus Line
+	3450 750  5150 750 
+Wire Bus Line
+	500  750  3400 750 
+Wire Bus Line
+	500  500  3400 500 
+Text Notes 400  350  0    197  ~ 39
+mini eLiXiVy Schematic
+Connection ~ 3450 2050
+Wire Bus Line
+	3450 2050 3450 3450
+Wire Bus Line
+	3450 1800 3450 2050
+Wire Bus Line
+	4600 3500 3450 3500
+Text Notes 3450 3700 0    98   ~ 20
+Crystal
+Wire Wire Line
+	4000 4130 4300 4130
+Wire Wire Line
+	4000 4330 4300 4330
+Wire Wire Line
+	3900 4430 3900 4530
+Connection ~ 3900 4430
+Wire Wire Line
+	4100 4430 3900 4430
+Wire Wire Line
+	3900 4230 3900 4430
+$Comp
+L Device:Crystal_GND24_Small Y1
+U 1 1 5F18D205
+P 4000 4230
+F 0 "Y1" V 3950 4380 50  0000 L CNN
+F 1 "Crystal_GND24_Small" V 4144 4185 50  0001 L CNN
+F 2 "Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm" H 4000 4230 50  0001 C CNN
+F 3 "~" H 4000 4230 50  0001 C CNN
+	1    4000 4230
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C_Small C1
+U 1 1 5F1942FA
+P 3650 4030
+F 0 "C1" V 3421 4030 50  0000 C CNN
+F 1 "22pF" V 3512 4030 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 3650 4030 50  0001 C CNN
+F 3 "~" H 3650 4030 50  0001 C CNN
+	1    3650 4030
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C_Small C2
+U 1 1 5F194FE3
+P 3650 4380
+F 0 "C2" V 3421 4380 50  0000 C CNN
+F 1 "22pF" V 3512 4380 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 3650 4380 50  0001 C CNN
+F 3 "~" H 3650 4380 50  0001 C CNN
+	1    3650 4380
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0113
+U 1 1 5F19652E
+P 3550 4530
+F 0 "#PWR0113" H 3550 4280 50  0001 C CNN
+F 1 "GND" H 3555 4357 50  0000 C CNN
+F 2 "" H 3550 4530 50  0001 C CNN
+F 3 "" H 3550 4530 50  0001 C CNN
+	1    3550 4530
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3750 4380 3750 4330
+Wire Wire Line
+	3750 4330 4000 4330
+Connection ~ 4000 4330
+Wire Wire Line
+	3750 4030 3750 4130
+Wire Wire Line
+	3750 4130 4000 4130
+Connection ~ 4000 4130
+Wire Wire Line
+	3550 4030 3550 4380
+Connection ~ 3550 4380
+Wire Wire Line
+	3550 4380 3550 4530
+Wire Wire Line
+	3550 4530 3900 4530
+Connection ~ 3550 4530
+Wire Wire Line
+	4100 4430 4100 4230
+Wire Bus Line
+	5200 2050 5200 3450
+Connection ~ 5200 2050
+Wire Bus Line
+	5200 2050 3450 2050
+Wire Bus Line
+	5200 1800 5200 2050
+Wire Bus Line
+	3450 1800 5200 1800
+Connection ~ 3450 3750
+Wire Bus Line
+	3450 3500 3450 3750
+Wire Bus Line
+	3450 3750 3450 4750
+Text GLabel 4300 4330 2    50   Input ~ 0
+XTAL2
+Text GLabel 4300 4130 2    50   Input ~ 0
+XTAL1
+Wire Bus Line
+	4600 3750 4600 3500
+Wire Bus Line
+	3450 4750 4600 4750
+Wire Bus Line
+	3450 3750 4600 3750
+Wire Bus Line
+	4600 4750 4600 3750
+Connection ~ 4600 3750
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX_U1
+U 1 1 5F4302CF
+P 16950 1950
+F 0 "MX_U1" H 16922 2124 39  0000 C CNN
+F 1 "MX-NoLED" H 16924 2069 20  0000 C CNN
+F 2 "mini-MX-Tweaks:MXOnly-1U-NoLED_tweak" H 16325 1925 60  0001 C CNN
+F 3 "" H 16325 1925 60  0001 C CNN
+	1    16950 1950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	17100 1900 17100 2600
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX_J1
+U 1 1 5F430257
+P 16950 2650
+F 0 "MX_J1" H 16922 2824 39  0000 C CNN
+F 1 "MX-NoLED" H 16924 2769 20  0000 C CNN
+F 2 "mini-MX-Tweaks:MXOnly-1U-NoLED_tweak" H 16325 2625 60  0001 C CNN
+F 3 "" H 16325 2625 60  0001 C CNN
+	1    16950 2650
+	1    0    0    -1  
+$EndComp
+Connection ~ 17100 2600
+Wire Wire Line
+	17100 2600 17100 3300
+$Comp
+L Diode:1N4148W D68
+U 1 1 6446C67A
+P 21000 4350
+F 0 "D68" H 20995 4478 50  0000 R CNN
+F 1 "1N4148W" H 21059 4427 28  0000 R CNN
+F 2 "mini-general-tweaks:D_SOD123_axial-dual" H 21000 4175 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 21000 4350 50  0001 C CNN
+	1    21000 4350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:1N4148W D67
+U 1 1 644594CD
+P 20400 4350
+F 0 "D67" H 20395 4478 50  0000 R CNN
+F 1 "1N4148W" H 20459 4427 28  0000 R CNN
+F 2 "mini-general-tweaks:D_SOD123_axial-dual" H 20400 4175 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 20400 4350 50  0001 C CNN
+	1    20400 4350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:1N4148W D66
+U 1 1 644461CB
+P 19800 4350
+F 0 "D66" H 19795 4478 50  0000 R CNN
+F 1 "1N4148W" H 19859 4427 28  0000 R CNN
+F 2 "mini-general-tweaks:D_SOD123_axial-dual" H 19800 4175 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 19800 4350 50  0001 C CNN
+	1    19800 4350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:1N4148W D65
+U 1 1 64432FF3
+P 19200 4350
+F 0 "D65" H 19195 4478 50  0000 R CNN
+F 1 "1N4148W" H 19259 4427 28  0000 R CNN
+F 2 "mini-general-tweaks:D_SOD123_axial-dual" H 19200 4175 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 19200 4350 50  0001 C CNN
+	1    19200 4350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:1N4148W D64
+U 1 1 6441FDAC
+P 18600 4350
+F 0 "D64" H 18595 4478 50  0000 R CNN
+F 1 "1N4148W" H 18659 4427 28  0000 R CNN
+F 2 "mini-general-tweaks:D_SOD123_axial-dual" H 18600 4175 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 18600 4350 50  0001 C CNN
+	1    18600 4350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:1N4148W D63
+U 1 1 6440CB2A
+P 18000 4350
+F 0 "D63" H 17995 4478 50  0000 R CNN
+F 1 "1N4148W" H 18059 4427 28  0000 R CNN
+F 2 "mini-general-tweaks:D_SOD123_axial-dual" H 18000 4175 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 18000 4350 50  0001 C CNN
+	1    18000 4350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:1N4148W D62
+U 1 1 643F965F
+P 16200 4350
+F 0 "D62" H 16195 4478 50  0000 R CNN
+F 1 "1N4148W" H 16259 4427 28  0000 R CNN
+F 2 "mini-general-tweaks:D_SOD123_axial-dual" H 16200 4175 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 16200 4350 50  0001 C CNN
+	1    16200 4350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:1N4148W D61
+U 1 1 643E65E9
+P 13800 4350
+F 0 "D61" H 13795 4478 50  0000 R CNN
+F 1 "1N4148W" H 13859 4427 28  0000 R CNN
+F 2 "mini-general-tweaks:D_SOD123_axial-dual" H 13800 4175 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 13800 4350 50  0001 C CNN
+	1    13800 4350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:1N4148W D60
+U 1 1 643BEF47
+P 13050 4350
+F 0 "D60" H 13045 4478 50  0000 R CNN
+F 1 "1N4148W" H 13109 4427 28  0000 R CNN
+F 2 "mini-general-tweaks:D_SOD123_axial-dual" H 13050 4175 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 13050 4350 50  0001 C CNN
+	1    13050 4350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:1N4148W D59
+U 1 1 643ABC17
+P 12300 4350
+F 0 "D59" H 12295 4478 50  0000 R CNN
+F 1 "1N4148W" H 12359 4427 28  0000 R CNN
+F 2 "mini-general-tweaks:D_SOD123_axial-dual" H 12300 4175 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 12300 4350 50  0001 C CNN
+	1    12300 4350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:1N4148W D58
+U 1 1 64398901
+P 21000 3650
+F 0 "D58" H 20995 3778 50  0000 R CNN
+F 1 "1N4148W" H 21059 3727 28  0000 R CNN
+F 2 "mini-general-tweaks:D_SOD123_axial-dual" H 21000 3475 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 21000 3650 50  0001 C CNN
+	1    21000 3650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:1N4148W D57
+U 1 1 6437139E
+P 20400 3650
+F 0 "D57" H 20395 3778 50  0000 R CNN
+F 1 "1N4148W" H 20459 3727 28  0000 R CNN
+F 2 "mini-general-tweaks:D_SOD123_axial-dual" H 20400 3475 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 20400 3650 50  0001 C CNN
+	1    20400 3650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:1N4148W D56
+U 1 1 6435E32B
+P 19800 3650
+F 0 "D56" H 19795 3778 50  0000 R CNN
+F 1 "1N4148W" H 19859 3727 28  0000 R CNN
+F 2 "mini-general-tweaks:D_SOD123_axial-dual" H 19800 3475 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 19800 3650 50  0001 C CNN
+	1    19800 3650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:1N4148W D55
+U 1 1 6434ADAA
+P 19200 3650
+F 0 "D55" H 19195 3778 50  0000 R CNN
+F 1 "1N4148W" H 19259 3727 28  0000 R CNN
+F 2 "mini-general-tweaks:D_SOD123_axial-dual" H 19200 3475 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 19200 3650 50  0001 C CNN
+	1    19200 3650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:1N4148W D54
+U 1 1 64337AED
+P 18600 3650
+F 0 "D54" H 18595 3778 50  0000 R CNN
+F 1 "1N4148W" H 18659 3727 28  0000 R CNN
+F 2 "mini-general-tweaks:D_SOD123_axial-dual" H 18600 3475 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 18600 3650 50  0001 C CNN
+	1    18600 3650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:1N4148W D53
+U 1 1 6432483F
+P 18000 3650
+F 0 "D53" H 17995 3778 50  0000 R CNN
+F 1 "1N4148W" H 18059 3727 28  0000 R CNN
+F 2 "mini-general-tweaks:D_SOD123_axial-dual" H 18000 3475 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 18000 3650 50  0001 C CNN
+	1    18000 3650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:1N4148W D52
+U 1 1 642FD61B
+P 17400 3650
+F 0 "D52" H 17395 3778 50  0000 R CNN
+F 1 "1N4148W" H 17459 3727 28  0000 R CNN
+F 2 "mini-general-tweaks:D_SOD123_axial-dual" H 17400 3475 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 17400 3650 50  0001 C CNN
+	1    17400 3650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:1N4148W D51
+U 1 1 642EA358
+P 16800 3650
+F 0 "D51" H 16795 3778 50  0000 R CNN
+F 1 "1N4148W" H 16859 3727 28  0000 R CNN
+F 2 "mini-general-tweaks:D_SOD123_axial-dual" H 16800 3475 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 16800 3650 50  0001 C CNN
+	1    16800 3650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:1N4148W D50
+U 1 1 642D6FB4
+P 16200 3650
+F 0 "D50" H 16195 3778 50  0000 R CNN
+F 1 "1N4148W" H 16259 3727 28  0000 R CNN
+F 2 "mini-general-tweaks:D_SOD123_axial-dual" H 16200 3475 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 16200 3650 50  0001 C CNN
+	1    16200 3650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:1N4148W D49
+U 1 1 642C3E60
+P 15600 3650
+F 0 "D49" H 15595 3778 50  0000 R CNN
+F 1 "1N4148W" H 15659 3727 28  0000 R CNN
+F 2 "mini-general-tweaks:D_SOD123_axial-dual" H 15600 3475 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 15600 3650 50  0001 C CNN
+	1    15600 3650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:1N4148W D48
+U 1 1 642B0C58
+P 15000 3650
+F 0 "D48" H 14995 3778 50  0000 R CNN
+F 1 "1N4148W" H 15059 3727 28  0000 R CNN
+F 2 "mini-general-tweaks:D_SOD123_axial-dual" H 15000 3475 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 15000 3650 50  0001 C CNN
+	1    15000 3650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:1N4148W D47
+U 1 1 6429DAE0
+P 14400 3650
+F 0 "D47" H 14395 3778 50  0000 R CNN
+F 1 "1N4148W" H 14459 3727 28  0000 R CNN
+F 2 "mini-general-tweaks:D_SOD123_axial-dual" H 14400 3475 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 14400 3650 50  0001 C CNN
+	1    14400 3650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:1N4148W D46
+U 1 1 6428A9AE
+P 13800 3650
+F 0 "D46" H 13795 3778 50  0000 R CNN
+F 1 "1N4148W" H 13859 3727 28  0000 R CNN
+F 2 "mini-general-tweaks:D_SOD123_axial-dual" H 13800 3475 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 13800 3650 50  0001 C CNN
+	1    13800 3650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:1N4148W D45
+U 1 1 64277596
+P 13050 3650
+F 0 "D45" H 13045 3778 50  0000 R CNN
+F 1 "1N4148W" H 13109 3727 28  0000 R CNN
+F 2 "mini-general-tweaks:D_SOD123_axial-dual" H 13050 3475 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 13050 3650 50  0001 C CNN
+	1    13050 3650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:1N4148W D44
+U 1 1 642642C8
+P 12300 3650
+F 0 "D44" H 12295 3778 50  0000 R CNN
+F 1 "1N4148W" H 12359 3727 28  0000 R CNN
+F 2 "mini-general-tweaks:D_SOD123_axial-dual" H 12300 3475 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 12300 3650 50  0001 C CNN
+	1    12300 3650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:1N4148W D43
+U 1 1 6425029F
+P 21000 2950
+F 0 "D43" H 20995 3078 50  0000 R CNN
+F 1 "1N4148W" H 21059 3027 28  0000 R CNN
+F 2 "mini-general-tweaks:D_SOD123_axial-dual" H 21000 2775 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 21000 2950 50  0001 C CNN
+	1    21000 2950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:1N4148W D42
+U 1 1 6423CFAC
+P 19800 2950
+F 0 "D42" H 19795 3078 50  0000 R CNN
+F 1 "1N4148W" H 19859 3027 28  0000 R CNN
+F 2 "mini-general-tweaks:D_SOD123_axial-dual" H 19800 2775 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 19800 2950 50  0001 C CNN
+	1    19800 2950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:1N4148W D41
+U 1 1 64229A5C
+P 19200 2950
+F 0 "D41" H 19195 3078 50  0000 R CNN
+F 1 "1N4148W" H 19259 3027 28  0000 R CNN
+F 2 "mini-general-tweaks:D_SOD123_axial-dual" H 19200 2775 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 19200 2950 50  0001 C CNN
+	1    19200 2950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:1N4148W D40
+U 1 1 642167C7
+P 18600 2950
+F 0 "D40" H 18595 3078 50  0000 R CNN
+F 1 "1N4148W" H 18659 3027 28  0000 R CNN
+F 2 "mini-general-tweaks:D_SOD123_axial-dual" H 18600 2775 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 18600 2950 50  0001 C CNN
+	1    18600 2950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:1N4148W D39
+U 1 1 6420364D
+P 18000 2950
+F 0 "D39" H 17995 3078 50  0000 R CNN
+F 1 "1N4148W" H 18059 3027 28  0000 R CNN
+F 2 "mini-general-tweaks:D_SOD123_axial-dual" H 18000 2775 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 18000 2950 50  0001 C CNN
+	1    18000 2950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:1N4148W D38
+U 1 1 641F0438
+P 17400 2950
+F 0 "D38" H 17395 3078 50  0000 R CNN
+F 1 "1N4148W" H 17459 3027 28  0000 R CNN
+F 2 "mini-general-tweaks:D_SOD123_axial-dual" H 17400 2775 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 17400 2950 50  0001 C CNN
+	1    17400 2950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:1N4148W D37
+U 1 1 641DD257
+P 16800 2950
+F 0 "D37" H 16795 3078 50  0000 R CNN
+F 1 "1N4148W" H 16859 3027 28  0000 R CNN
+F 2 "mini-general-tweaks:D_SOD123_axial-dual" H 16800 2775 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 16800 2950 50  0001 C CNN
+	1    16800 2950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:1N4148W D36
+U 1 1 641CA060
+P 16200 2950
+F 0 "D36" H 16195 3078 50  0000 R CNN
+F 1 "1N4148W" H 16259 3027 28  0000 R CNN
+F 2 "mini-general-tweaks:D_SOD123_axial-dual" H 16200 2775 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 16200 2950 50  0001 C CNN
+	1    16200 2950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:1N4148W D35
+U 1 1 641B6B73
+P 15600 2950
+F 0 "D35" H 15595 3078 50  0000 R CNN
+F 1 "1N4148W" H 15659 3027 28  0000 R CNN
+F 2 "mini-general-tweaks:D_SOD123_axial-dual" H 15600 2775 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 15600 2950 50  0001 C CNN
+	1    15600 2950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:1N4148W D34
+U 1 1 641A3A0A
+P 15000 2950
+F 0 "D34" H 14995 3078 50  0000 R CNN
+F 1 "1N4148W" H 15059 3027 28  0000 R CNN
+F 2 "mini-general-tweaks:D_SOD123_axial-dual" H 15000 2775 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 15000 2950 50  0001 C CNN
+	1    15000 2950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:1N4148W D33
+U 1 1 64190697
+P 14400 2950
+F 0 "D33" H 14395 3078 50  0000 R CNN
+F 1 "1N4148W" H 14459 3027 28  0000 R CNN
+F 2 "mini-general-tweaks:D_SOD123_axial-dual" H 14400 2775 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 14400 2950 50  0001 C CNN
+	1    14400 2950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:1N4148W D32
+U 1 1 6417D571
+P 13800 2950
+F 0 "D32" H 13795 3078 50  0000 R CNN
+F 1 "1N4148W" H 13859 3027 28  0000 R CNN
+F 2 "mini-general-tweaks:D_SOD123_axial-dual" H 13800 2775 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 13800 2950 50  0001 C CNN
+	1    13800 2950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:1N4148W D31
+U 1 1 6416A3EB
+P 13050 2950
+F 0 "D31" H 13045 3078 50  0000 R CNN
+F 1 "1N4148W" H 13109 3027 28  0000 R CNN
+F 2 "mini-general-tweaks:D_SOD123_axial-dual" H 13050 2775 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 13050 2950 50  0001 C CNN
+	1    13050 2950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:1N4148W D30
+U 1 1 641431F3
+P 12300 2950
+F 0 "D30" H 12295 3078 50  0000 R CNN
+F 1 "1N4148W" H 12359 3027 28  0000 R CNN
+F 2 "mini-general-tweaks:D_SOD123_axial-dual" H 12300 2775 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 12300 2950 50  0001 C CNN
+	1    12300 2950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:1N4148W D29
+U 1 1 6412ECEC
+P 21000 2250
+F 0 "D29" H 20995 2378 50  0000 R CNN
+F 1 "1N4148W" H 21059 2327 28  0000 R CNN
+F 2 "mini-general-tweaks:D_SOD123_axial-dual" H 21000 2075 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 21000 2250 50  0001 C CNN
+	1    21000 2250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:1N4148W D28
+U 1 1 6411B8CA
+P 20400 2250
+F 0 "D28" H 20395 2378 50  0000 R CNN
+F 1 "1N4148W" H 20459 2327 28  0000 R CNN
+F 2 "mini-general-tweaks:D_SOD123_axial-dual" H 20400 2075 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 20400 2250 50  0001 C CNN
+	1    20400 2250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:1N4148W D27
+U 1 1 64108577
+P 19800 2250
+F 0 "D27" H 19795 2378 50  0000 R CNN
+F 1 "1N4148W" H 19859 2327 28  0000 R CNN
+F 2 "mini-general-tweaks:D_SOD123_axial-dual" H 19800 2075 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 19800 2250 50  0001 C CNN
+	1    19800 2250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:1N4148W D26
+U 1 1 640F52DC
+P 19200 2250
+F 0 "D26" H 19195 2378 50  0000 R CNN
+F 1 "1N4148W" H 19259 2327 28  0000 R CNN
+F 2 "mini-general-tweaks:D_SOD123_axial-dual" H 19200 2075 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 19200 2250 50  0001 C CNN
+	1    19200 2250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:1N4148W D25
+U 1 1 640E225A
+P 18600 2250
+F 0 "D25" H 18595 2378 50  0000 R CNN
+F 1 "1N4148W" H 18659 2327 28  0000 R CNN
+F 2 "mini-general-tweaks:D_SOD123_axial-dual" H 18600 2075 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 18600 2250 50  0001 C CNN
+	1    18600 2250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:1N4148W D24
+U 1 1 640CEFB9
+P 18000 2250
+F 0 "D24" H 17995 2378 50  0000 R CNN
+F 1 "1N4148W" H 18059 2327 28  0000 R CNN
+F 2 "mini-general-tweaks:D_SOD123_axial-dual" H 18000 2075 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 18000 2250 50  0001 C CNN
+	1    18000 2250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:1N4148W D23
+U 1 1 640BBB64
+P 17400 2250
+F 0 "D23" H 17395 2378 50  0000 R CNN
+F 1 "1N4148W" H 17459 2327 28  0000 R CNN
+F 2 "mini-general-tweaks:D_SOD123_axial-dual" H 17400 2075 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 17400 2250 50  0001 C CNN
+	1    17400 2250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:1N4148W D22
+U 1 1 640A8909
+P 16800 2250
+F 0 "D22" H 16795 2378 50  0000 R CNN
+F 1 "1N4148W" H 16859 2327 28  0000 R CNN
+F 2 "mini-general-tweaks:D_SOD123_axial-dual" H 16800 2075 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 16800 2250 50  0001 C CNN
+	1    16800 2250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:1N4148W D21
+U 1 1 64095754
+P 16200 2250
+F 0 "D21" H 16195 2378 50  0000 R CNN
+F 1 "1N4148W" H 16259 2327 28  0000 R CNN
+F 2 "mini-general-tweaks:D_SOD123_axial-dual" H 16200 2075 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 16200 2250 50  0001 C CNN
+	1    16200 2250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:1N4148W D20
+U 1 1 640824F4
+P 15600 2250
+F 0 "D20" H 15595 2378 50  0000 R CNN
+F 1 "1N4148W" H 15659 2327 28  0000 R CNN
+F 2 "mini-general-tweaks:D_SOD123_axial-dual" H 15600 2075 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 15600 2250 50  0001 C CNN
+	1    15600 2250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:1N4148W D19
+U 1 1 6406F10A
+P 15000 2250
+F 0 "D19" H 14995 2378 50  0000 R CNN
+F 1 "1N4148W" H 15059 2327 28  0000 R CNN
+F 2 "mini-general-tweaks:D_SOD123_axial-dual" H 15000 2075 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 15000 2250 50  0001 C CNN
+	1    15000 2250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:1N4148W D18
+U 1 1 6405BE3E
+P 14400 2250
+F 0 "D18" H 14395 2378 50  0000 R CNN
+F 1 "1N4148W" H 14459 2327 28  0000 R CNN
+F 2 "mini-general-tweaks:D_SOD123_axial-dual" H 14400 2075 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 14400 2250 50  0001 C CNN
+	1    14400 2250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:1N4148W D17
+U 1 1 64048C25
+P 13800 2250
+F 0 "D17" H 13795 2378 50  0000 R CNN
+F 1 "1N4148W" H 13859 2327 28  0000 R CNN
+F 2 "mini-general-tweaks:D_SOD123_axial-dual" H 13800 2075 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 13800 2250 50  0001 C CNN
+	1    13800 2250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:1N4148W D16
+U 1 1 640359A1
+P 13050 2250
+F 0 "D16" H 13045 2378 50  0000 R CNN
+F 1 "1N4148W" H 13109 2327 28  0000 R CNN
+F 2 "mini-general-tweaks:D_SOD123_axial-dual" H 13050 2075 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 13050 2250 50  0001 C CNN
+	1    13050 2250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:1N4148W D15
+U 1 1 640226DD
+P 12300 2250
+F 0 "D15" H 12295 2378 50  0000 R CNN
+F 1 "1N4148W" H 12359 2327 28  0000 R CNN
+F 2 "mini-general-tweaks:D_SOD123_axial-dual" H 12300 2075 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 12300 2250 50  0001 C CNN
+	1    12300 2250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	12050 4500 12300 4500
+Wire Wire Line
+	12050 3800 12300 3800
+Wire Wire Line
+	12050 3100 12300 3100
+Wire Wire Line
+	17400 2800 17500 2800
+Wire Wire Line
+	16800 2800 16900 2800
+Wire Wire Line
+	12050 2400 12300 2400
+Wire Bus Line
+	11750 400  21400 400 
+Wire Bus Line
+	11750 650  21400 650 
+Text Notes 11750 600  0    98   ~ 20
+Mechanical Keyswitch Matrix
+Text GLabel 12050 3800 0    50   Input ~ 0
+ROW3
+Text GLabel 12050 4500 0    50   Input ~ 0
+ROW4
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX_1.25U_L_WIN1
+U 1 1 5F36EC43
+P 13200 4050
+F 0 "MX_1.25U_L_WIN1" H 13172 4224 39  0000 C CNN
+F 1 "MX-NoLED" H 13174 4169 20  0000 C CNN
+F 2 "mini-MX-Tweaks:MXOnly-1.25U-NoLED_tweak" H 12575 4025 60  0001 C CNN
+F 3 "" H 12575 4025 60  0001 C CNN
+	1    13200 4050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	13150 4200 13050 4200
+Wire Wire Line
+	13900 4200 13800 4200
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX_1.25U_L_ALT1
+U 1 1 5F3DCD14
+P 13950 4050
+F 0 "MX_1.25U_L_ALT1" H 13922 4224 39  0000 C CNN
+F 1 "MX-NoLED" H 13924 4169 20  0000 C CNN
+F 2 "mini-MX-Tweaks:MXOnly-1.25U-NoLED_tweak" H 13325 4025 60  0001 C CNN
+F 3 "" H 13325 4025 60  0001 C CNN
+	1    13950 4050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12400 4200 12300 4200
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX_1.25U_L_CTRL1
+U 1 1 5F36EC3C
+P 12450 4050
+F 0 "MX_1.25U_L_CTRL1" H 12422 4224 39  0000 C CNN
+F 1 "MX-NoLED" H 12424 4169 20  0000 C CNN
+F 2 "mini-MX-Tweaks:MXOnly-1.25U-NoLED_tweak" H 11825 4025 60  0001 C CNN
+F 3 "" H 11825 4025 60  0001 C CNN
+	1    12450 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX_1.25U_L_SHIFT1
+U 1 1 611C4721
+P 12150 3400
+F 0 "MX_1.25U_L_SHIFT1" H 12122 3554 24  0000 C CNN
+F 1 "MX-NoLED" H 12124 3519 20  0000 C CNN
+F 2 "mini-MX-Tweaks:MXOnly-1.25U-NoLED_tweak" H 11525 3375 60  0001 C CNN
+F 3 "" H 11525 3375 60  0001 C CNN
+	1    12150 3400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12450 3500 12450 3550
+Wire Wire Line
+	12100 3550 12450 3550
+Wire Wire Line
+	12600 3300 12600 4000
+Wire Wire Line
+	13350 3300 13350 4000
+Connection ~ 13350 3300
+Wire Wire Line
+	14100 3300 14100 4000
+Wire Wire Line
+	16500 3300 16500 4000
+Wire Wire Line
+	18900 3300 18900 4000
+Wire Wire Line
+	18300 3300 18300 4000
+Wire Wire Line
+	20100 3300 20100 4000
+Wire Wire Line
+	19500 4000 19500 3300
+Wire Wire Line
+	20700 3300 20700 4000
+Wire Wire Line
+	18950 4050 18650 4050
+Connection ~ 14100 3300
+Connection ~ 16500 3300
+Connection ~ 18900 4000
+Connection ~ 18300 4000
+Connection ~ 20100 3300
+Connection ~ 19500 3300
+Connection ~ 18900 3300
+Connection ~ 18300 3300
+Connection ~ 20700 3300
+Wire Wire Line
+	20500 4200 20400 4200
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX_ARR_D1
+U 1 1 5F474908
+P 20550 4050
+F 0 "MX_ARR_D1" H 20522 4224 39  0000 C CNN
+F 1 "MX-NoLED" H 20524 4169 20  0000 C CNN
+F 2 "mini-MX-Tweaks:MXOnly-1U-NoLED_tweak" H 19925 4025 60  0001 C CNN
+F 3 "" H 19925 4025 60  0001 C CNN
+	1    20550 4050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	20500 2100 20400 2100
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX_1.5U_\1
+U 1 1 5F474941
+P 20550 1950
+F 0 "MX_1.5U_\\1" H 20522 2124 39  0000 C CNN
+F 1 "MX-NoLED" H 20524 2069 20  0000 C CNN
+F 2 "mini-MX-Tweaks:MXOnly-1.5U-NoLED_tweak" H 19925 1925 60  0001 C CNN
+F 3 "" H 19925 1925 60  0001 C CNN
+	1    20550 1950
+	1    0    0    -1  
+$EndComp
+Connection ~ 21300 3300
+Wire Wire Line
+	21300 3300 21300 4000
+Connection ~ 21300 2600
+Wire Wire Line
+	21300 2600 21300 3300
+Wire Wire Line
+	21300 1900 21300 2600
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX_INS1
+U 1 1 5F48B64B
+P 21150 2650
+F 0 "MX_INS1" H 21122 2824 39  0000 C CNN
+F 1 "MX-NoLED" H 21124 2769 20  0000 C CNN
+F 2 "mini-MX-Tweaks:MXOnly-1U-NoLED_tweak" H 20525 2625 60  0001 C CNN
+F 3 "" H 20525 2625 60  0001 C CNN
+	1    21150 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX_TEMP1
+U 1 1 5F48B651
+P 21150 3350
+F 0 "MX_TEMP1" H 21122 3524 39  0000 C CNN
+F 1 "MX-NoLED" H 21124 3469 20  0000 C CNN
+F 2 "mini-MX-Tweaks:MXOnly-1U-NoLED_tweak" H 20525 3325 60  0001 C CNN
+F 3 "" H 20525 3325 60  0001 C CNN
+	1    21150 3350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	21100 2800 21000 2800
+Wire Wire Line
+	21100 3500 21000 3500
+Wire Wire Line
+	21100 4200 21000 4200
+Wire Wire Line
+	21100 2100 21000 2100
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX_DEL1
+U 1 1 5F48B6C2
+P 21150 1950
+F 0 "MX_DEL1" H 21122 2124 39  0000 C CNN
+F 1 "MX-NoLED" H 21124 2069 20  0000 C CNN
+F 2 "mini-MX-Tweaks:MXOnly-1U-NoLED_tweak" H 20525 1925 60  0001 C CNN
+F 3 "" H 20525 1925 60  0001 C CNN
+	1    21150 1950
+	1    0    0    -1  
+$EndComp
+Connection ~ 20700 1900
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX_ISO_ENTER1
+U 1 1 61322262
+P 20300 2000
+F 0 "MX_ISO_ENTER1" H 20272 2154 24  0000 C CNN
+F 1 "MX-NoLED" H 20274 2119 20  0000 C CNN
+F 2 "mini-MX-Tweaks:MXOnly-ISO-ROTATED-ReversedStabilizers-NoLED_tweak" H 19675 1975 60  0001 C CNN
+F 3 "" H 19675 1975 60  0001 C CNN
+	1    20300 2000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	20700 1900 20750 1900
+Wire Wire Line
+	20750 1900 20750 1950
+Wire Wire Line
+	20750 1950 20450 1950
+Connection ~ 20500 2100
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX_ARR_R1
+U 1 1 5F48B682
+P 21150 4050
+F 0 "MX_ARR_R1" H 21122 4224 39  0000 C CNN
+F 1 "MX-NoLED" H 21124 4169 20  0000 C CNN
+F 2 "mini-MX-Tweaks:MXOnly-1U-NoLED_tweak" H 20525 4025 60  0001 C CNN
+F 3 "" H 20525 4025 60  0001 C CNN
+	1    21150 4050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	20500 3500 20400 3500
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX_ARR_U1
+U 1 1 5F4748D7
+P 20550 3350
+F 0 "MX_ARR_U1" H 20522 3524 39  0000 C CNN
+F 1 "MX-NoLED" H 20524 3469 20  0000 C CNN
+F 2 "mini-MX-Tweaks:MXOnly-1U-NoLED_tweak" H 19925 3325 60  0001 C CNN
+F 3 "" H 19925 3325 60  0001 C CNN
+	1    20550 3350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	20500 2100 20550 2100
+Wire Wire Line
+	20550 2100 20550 2150
+Wire Wire Line
+	20250 2150 20550 2150
+Wire Wire Line
+	20700 1900 20700 3300
+Wire Wire Line
+	19300 4200 19200 4200
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX_R_CTRL1
+U 1 1 60C03EF3
+P 19350 4050
+F 0 "MX_R_CTRL1" H 19322 4224 39  0000 C CNN
+F 1 "MX-NoLED" H 19324 4169 20  0000 C CNN
+F 2 "mini-MX-Tweaks:MXOnly-1U-NoLED_tweak" H 18725 4025 60  0001 C CNN
+F 3 "" H 18725 4025 60  0001 C CNN
+	1    19350 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX_FN1
+U 1 1 60BE6E11
+P 18500 4100
+F 0 "MX_FN1" H 18472 4274 39  0000 C CNN
+F 1 "MX-NoLED" H 18474 4219 20  0000 C CNN
+F 2 "mini-MX-Tweaks:MXOnly-1U-NoLED_tweak" H 17875 4075 60  0001 C CNN
+F 3 "" H 17875 4075 60  0001 C CNN
+	1    18500 4100
+	1    0    0    -1  
+$EndComp
+Connection ~ 18100 4200
+Wire Wire Line
+	18150 4200 18100 4200
+Wire Wire Line
+	18150 4250 18150 4200
+Wire Wire Line
+	17850 4250 18150 4250
+Wire Wire Line
+	18350 4050 18050 4050
+Wire Wire Line
+	18350 4000 18350 4050
+Wire Wire Line
+	18300 4000 18350 4000
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX_L_ALT1
+U 1 1 60B90951
+P 17900 4100
+F 0 "MX_L_ALT1" H 17872 4274 39  0000 C CNN
+F 1 "MX-NoLED" H 17874 4219 20  0000 C CNN
+F 2 "mini-MX-Tweaks:MXOnly-1U-NoLED_tweak" H 17275 4075 60  0001 C CNN
+F 3 "" H 17275 4075 60  0001 C CNN
+	1    17900 4100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	19800 3500 19900 3500
+Wire Wire Line
+	12100 2850 12450 2850
+Wire Wire Line
+	19650 2850 19950 2850
+Wire Wire Line
+	19950 2800 19950 2850
+Wire Wire Line
+	19900 2800 19950 2800
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX_1.75U__RSHIFT1
+U 1 1 613FDD77
+P 19950 3350
+F 0 "MX_1.75U__RSHIFT1" H 19922 3504 24  0000 C CNN
+F 1 "MX-NoLED" H 19924 3469 20  0000 C CNN
+F 2 "mini-MX-Tweaks:MXOnly-1.75U-NoLED_tweak" H 19325 3325 60  0001 C CNN
+F 3 "" H 19325 3325 60  0001 C CNN
+	1    19950 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX_ISO_\1
+U 1 1 61369504
+P 19700 2700
+F 0 "MX_ISO_\\1" H 19672 2854 24  0000 C CNN
+F 1 "MX-NoLED" H 19674 2819 20  0000 C CNN
+F 2 "mini-MX-Tweaks:MXOnly-1U-NoLED_tweak" H 19075 2675 60  0001 C CNN
+F 3 "" H 19075 2675 60  0001 C CNN
+	1    19700 2700
+	1    0    0    -1  
+$EndComp
+Connection ~ 19900 2800
+Wire Wire Line
+	20150 2650 19850 2650
+Wire Wire Line
+	20150 2600 20150 2650
+Wire Wire Line
+	20100 2600 20150 2600
+Connection ~ 20100 2600
+Wire Wire Line
+	20100 1900 20100 2600
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX_2.25U_ENTER1
+U 1 1 5F4748D1
+P 19950 2650
+F 0 "MX_2.25U_ENTER1" H 19922 2824 39  0000 C CNN
+F 1 "MX-NoLED" H 19924 2769 20  0000 C CNN
+F 2 "mini-MX-Tweaks:MXOnly-2.25U-NoLED_tweak" H 19325 2625 60  0001 C CNN
+F 3 "" H 19325 2625 60  0001 C CNN
+	1    19950 2650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	19900 2800 19800 2800
+Wire Wire Line
+	20100 2600 20100 3300
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX_]1
+U 1 1 5F474948
+P 19950 1950
+F 0 "MX_]1" H 19922 2124 39  0000 C CNN
+F 1 "MX-NoLED" H 19924 2069 20  0000 C CNN
+F 2 "mini-MX-Tweaks:MXOnly-1U-NoLED_tweak" H 19325 1925 60  0001 C CNN
+F 3 "" H 19325 1925 60  0001 C CNN
+	1    19950 1950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	19900 2100 19800 2100
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX_ARR_L1
+U 1 1 5F45D4BC
+P 19950 4050
+F 0 "MX_ARR_L1" H 19922 4224 39  0000 C CNN
+F 1 "MX-NoLED" H 19924 4169 20  0000 C CNN
+F 2 "mini-MX-Tweaks:MXOnly-1U-NoLED_tweak" H 19325 4025 60  0001 C CNN
+F 3 "" H 19325 4025 60  0001 C CNN
+	1    19950 4050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	19900 4200 19800 4200
+Wire Wire Line
+	18950 4000 18950 4050
+Wire Wire Line
+	18900 4000 18950 4000
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX_1.75U_CAPSLOCK1
+U 1 1 5F1A606A
+P 12450 2650
+F 0 "MX_1.75U_CAPSLOCK1" H 12422 2824 39  0000 C CNN
+F 1 "MX-NoLED" H 12424 2769 20  0000 C CNN
+F 2 "mini-MX-Tweaks:MXOnly-1.75U-NoLED_tweak" H 11825 2625 60  0001 C CNN
+F 3 "" H 11825 2625 60  0001 C CNN
+	1    12450 2650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12450 2800 12450 2850
+Wire Wire Line
+	12400 2800 12450 2800
+Wire Wire Line
+	12400 3500 12450 3500
+Wire Wire Line
+	18450 4250 18750 4250
+Wire Wire Line
+	18750 4200 18750 4250
+Wire Wire Line
+	18700 4200 18750 4200
+Connection ~ 18700 4200
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX_STEP_CAPS1
+U 1 1 611DE4E1
+P 12150 2700
+F 0 "MX_STEP_CAPS1" H 12122 2854 24  0000 C CNN
+F 1 "MX-NoLED" H 12124 2819 20  0000 C CNN
+F 2 "mini-MX-Tweaks:MXOnly-1U-NoLED_tweak" H 11525 2675 60  0001 C CNN
+F 3 "" H 11525 2675 60  0001 C CNN
+	1    12150 2700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	13900 2100 13800 2100
+Connection ~ 13350 2600
+Wire Wire Line
+	12650 2650 12300 2650
+Wire Wire Line
+	12650 2600 12650 2650
+Wire Wire Line
+	12600 2600 12650 2600
+Wire Wire Line
+	12650 3300 12650 3350
+Wire Wire Line
+	12650 3350 12300 3350
+Wire Wire Line
+	12600 3300 12650 3300
+Wire Wire Line
+	13350 2600 13350 3300
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX_L_BSLASH1
+U 1 1 5FF7E764
+P 13200 3350
+F 0 "MX_L_BSLASH1" H 13172 3524 24  0000 C CNN
+F 1 "MX-NoLED" H 13174 3469 20  0000 C CNN
+F 2 "mini-MX-Tweaks:MXOnly-1U-NoLED_tweak" H 12575 3325 60  0001 C CNN
+F 3 "" H 12575 3325 60  0001 C CNN
+	1    13200 3350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	13150 3500 13050 3500
+Wire Wire Line
+	19300 3500 19200 3500
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX_/1
+U 1 1 5F45D492
+P 19350 3350
+F 0 "MX_/1" H 19322 3524 39  0000 C CNN
+F 1 "MX-NoLED" H 19324 3469 20  0000 C CNN
+F 2 "mini-MX-Tweaks:MXOnly-1U-NoLED_tweak" H 18725 3325 60  0001 C CNN
+F 3 "" H 18725 3325 60  0001 C CNN
+	1    19350 3350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	19500 2600 19500 3300
+Wire Wire Line
+	18100 3500 18000 3500
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX_,1
+U 1 1 5F444750
+P 18150 3350
+F 0 "MX_,1" H 18122 3524 39  0000 C CNN
+F 1 "MX-NoLED" H 18124 3469 20  0000 C CNN
+F 2 "mini-MX-Tweaks:MXOnly-1U-NoLED_tweak" H 17525 3325 60  0001 C CNN
+F 3 "" H 17525 3325 60  0001 C CNN
+	1    18150 3350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	18700 3500 18600 3500
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX_.1
+U 1 1 5F44473C
+P 18750 3350
+F 0 "MX_.1" H 18722 3524 39  0000 C CNN
+F 1 "MX-NoLED" H 18724 3469 20  0000 C CNN
+F 2 "mini-MX-Tweaks:MXOnly-1U-NoLED_tweak" H 18125 3325 60  0001 C CNN
+F 3 "" H 18125 3325 60  0001 C CNN
+	1    18750 3350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	18300 2600 18300 3300
+Wire Wire Line
+	18900 2600 18900 3300
+Wire Wire Line
+	16900 3500 16800 3500
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX_N1
+U 1 1 5F430265
+P 16950 3350
+F 0 "MX_N1" H 16922 3524 39  0000 C CNN
+F 1 "MX-NoLED" H 16924 3469 20  0000 C CNN
+F 2 "mini-MX-Tweaks:MXOnly-1U-NoLED_tweak" H 16325 3325 60  0001 C CNN
+F 3 "" H 16325 3325 60  0001 C CNN
+	1    16950 3350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	17500 3500 17400 3500
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX_M1
+U 1 1 5F430251
+P 17550 3350
+F 0 "MX_M1" H 17522 3524 39  0000 C CNN
+F 1 "MX-NoLED" H 17524 3469 20  0000 C CNN
+F 2 "mini-MX-Tweaks:MXOnly-1U-NoLED_tweak" H 16925 3325 60  0001 C CNN
+F 3 "" H 16925 3325 60  0001 C CNN
+	1    17550 3350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	17700 2600 17700 3300
+Connection ~ 16500 2600
+Connection ~ 18300 2600
+Connection ~ 17700 2600
+Connection ~ 19500 2600
+Connection ~ 18900 2600
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX_P1
+U 1 1 5F45D503
+P 18750 1950
+F 0 "MX_P1" H 18722 2124 39  0000 C CNN
+F 1 "MX-NoLED" H 18724 2069 20  0000 C CNN
+F 2 "mini-MX-Tweaks:MXOnly-1U-NoLED_tweak" H 18125 1925 60  0001 C CNN
+F 3 "" H 18125 1925 60  0001 C CNN
+	1    18750 1950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	18700 2100 18600 2100
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX_[1
+U 1 1 5F45D4FC
+P 19350 1950
+F 0 "MX_[1" H 19322 2124 39  0000 C CNN
+F 1 "MX-NoLED" H 19324 2069 20  0000 C CNN
+F 2 "mini-MX-Tweaks:MXOnly-1U-NoLED_tweak" H 18725 1925 60  0001 C CNN
+F 3 "" H 18725 1925 60  0001 C CNN
+	1    19350 1950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	19300 2100 19200 2100
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX_1.25U_FN1
+U 1 1 5F45D4C3
+P 18750 4050
+F 0 "MX_1.25U_FN1" H 18722 4224 39  0000 C CNN
+F 1 "MX-NoLED" H 18724 4169 20  0000 C CNN
+F 2 "mini-MX-Tweaks:MXOnly-1.25U-NoLED_tweak" H 18125 4025 60  0001 C CNN
+F 3 "" H 18125 4025 60  0001 C CNN
+	1    18750 4050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	18700 4200 18600 4200
+Wire Wire Line
+	18700 2800 18600 2800
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX_;1
+U 1 1 5F45D48C
+P 18750 2650
+F 0 "MX_;1" H 18722 2824 39  0000 C CNN
+F 1 "MX-NoLED" H 18724 2769 20  0000 C CNN
+F 2 "mini-MX-Tweaks:MXOnly-1U-NoLED_tweak" H 18125 2625 60  0001 C CNN
+F 3 "" H 18125 2625 60  0001 C CNN
+	1    18750 2650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	19300 2800 19200 2800
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX_'1
+U 1 1 5F45D484
+P 19350 2650
+F 0 "MX_'1" H 19322 2824 39  0000 C CNN
+F 1 "MX-NoLED" H 19324 2769 20  0000 C CNN
+F 2 "mini-MX-Tweaks:MXOnly-1U-NoLED_tweak" H 18725 2625 60  0001 C CNN
+F 3 "" H 18725 2625 60  0001 C CNN
+	1    19350 2650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	18900 1900 18900 2600
+Wire Wire Line
+	19500 1900 19500 2600
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX_I1
+U 1 1 5F4447C1
+P 17550 1950
+F 0 "MX_I1" H 17522 2124 39  0000 C CNN
+F 1 "MX-NoLED" H 17524 2069 20  0000 C CNN
+F 2 "mini-MX-Tweaks:MXOnly-1U-NoLED_tweak" H 16925 1925 60  0001 C CNN
+F 3 "" H 16925 1925 60  0001 C CNN
+	1    17550 1950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	17500 2100 17400 2100
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX_O1
+U 1 1 5F4447BA
+P 18150 1950
+F 0 "MX_O1" H 18122 2124 39  0000 C CNN
+F 1 "MX-NoLED" H 18124 2069 20  0000 C CNN
+F 2 "mini-MX-Tweaks:MXOnly-1U-NoLED_tweak" H 17525 1925 60  0001 C CNN
+F 3 "" H 17525 1925 60  0001 C CNN
+	1    18150 1950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	18100 2100 18000 2100
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX_1.25U_R_CTRL1
+U 1 1 5F44477A
+P 18150 4050
+F 0 "MX_1.25U_R_CTRL1" H 18122 4224 39  0000 C CNN
+F 1 "MX-NoLED" H 18124 4169 20  0000 C CNN
+F 2 "mini-MX-Tweaks:MXOnly-1.25U-NoLED_tweak" H 17525 4025 60  0001 C CNN
+F 3 "" H 17525 4025 60  0001 C CNN
+	1    18150 4050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	18100 4200 18000 4200
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX_K1
+U 1 1 5F44474A
+P 17550 2650
+F 0 "MX_K1" H 17522 2824 39  0000 C CNN
+F 1 "MX-NoLED" H 17524 2769 20  0000 C CNN
+F 2 "mini-MX-Tweaks:MXOnly-1U-NoLED_tweak" H 16925 2625 60  0001 C CNN
+F 3 "" H 16925 2625 60  0001 C CNN
+	1    17550 2650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	18100 2800 18000 2800
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX_L1
+U 1 1 5F444742
+P 18150 2650
+F 0 "MX_L1" H 18122 2824 39  0000 C CNN
+F 1 "MX-NoLED" H 18124 2769 20  0000 C CNN
+F 2 "mini-MX-Tweaks:MXOnly-1U-NoLED_tweak" H 17525 2625 60  0001 C CNN
+F 3 "" H 17525 2625 60  0001 C CNN
+	1    18150 2650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	17700 1900 17700 2600
+Wire Wire Line
+	18300 1900 18300 2600
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX_Y1
+U 1 1 5F4302D6
+P 16350 1950
+F 0 "MX_Y1" H 16322 2124 39  0000 C CNN
+F 1 "MX-NoLED" H 16324 2069 20  0000 C CNN
+F 2 "mini-MX-Tweaks:MXOnly-1U-NoLED_tweak" H 15725 1925 60  0001 C CNN
+F 3 "" H 15725 1925 60  0001 C CNN
+	1    16350 1950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	16300 2100 16200 2100
+Wire Wire Line
+	16900 2100 16800 2100
+Wire Wire Line
+	16300 2800 16200 2800
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX_H1
+U 1 1 5F43025F
+P 16350 2650
+F 0 "MX_H1" H 16322 2824 39  0000 C CNN
+F 1 "MX-NoLED" H 16324 2769 20  0000 C CNN
+F 2 "mini-MX-Tweaks:MXOnly-1U-NoLED_tweak" H 15725 2625 60  0001 C CNN
+F 3 "" H 15725 2625 60  0001 C CNN
+	1    16350 2650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	16500 1900 16500 2600
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX_R1
+U 1 1 5F41B528
+P 15150 1950
+F 0 "MX_R1" H 15122 2124 39  0000 C CNN
+F 1 "MX-NoLED" H 15124 2069 20  0000 C CNN
+F 2 "mini-MX-Tweaks:MXOnly-1U-NoLED_tweak" H 14525 1925 60  0001 C CNN
+F 3 "" H 14525 1925 60  0001 C CNN
+	1    15150 1950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	15100 2100 15000 2100
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX_T1
+U 1 1 5F41B521
+P 15750 1950
+F 0 "MX_T1" H 15722 2124 39  0000 C CNN
+F 1 "MX-NoLED" H 15724 2069 20  0000 C CNN
+F 2 "mini-MX-Tweaks:MXOnly-1U-NoLED_tweak" H 15125 1925 60  0001 C CNN
+F 3 "" H 15125 1925 60  0001 C CNN
+	1    15750 1950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	15700 2100 15600 2100
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX_6.25U_SPACE1
+U 1 1 5F41B4E1
+P 16350 4050
+F 0 "MX_6.25U_SPACE1" H 16322 4224 39  0000 C CNN
+F 1 "MX-NoLED" H 16324 4169 20  0000 C CNN
+F 2 "mini-MX-Tweaks:MXOnly-6.25U-ReversedStabilizers-NoLED_tweak" H 15725 4025 60  0001 C CNN
+F 3 "" H 15725 4025 60  0001 C CNN
+	1    16350 4050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	16300 4200 16200 4200
+Wire Wire Line
+	15700 3500 15600 3500
+Wire Wire Line
+	15100 2800 15000 2800
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX_V1
+U 1 1 5F41B4B7
+P 15750 3350
+F 0 "MX_V1" H 15722 3524 39  0000 C CNN
+F 1 "MX-NoLED" H 15724 3469 20  0000 C CNN
+F 2 "mini-MX-Tweaks:MXOnly-1U-NoLED_tweak" H 15125 3325 60  0001 C CNN
+F 3 "" H 15125 3325 60  0001 C CNN
+	1    15750 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX_F1
+U 1 1 5F41B4B1
+P 15150 2650
+F 0 "MX_F1" H 15122 2824 39  0000 C CNN
+F 1 "MX-NoLED" H 15124 2769 20  0000 C CNN
+F 2 "mini-MX-Tweaks:MXOnly-1U-NoLED_tweak" H 14525 2625 60  0001 C CNN
+F 3 "" H 14525 2625 60  0001 C CNN
+	1    15150 2650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	15700 2800 15600 2800
+Wire Wire Line
+	16300 3500 16200 3500
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX_G1
+U 1 1 5F41B4A9
+P 15750 2650
+F 0 "MX_G1" H 15722 2824 39  0000 C CNN
+F 1 "MX-NoLED" H 15724 2769 20  0000 C CNN
+F 2 "mini-MX-Tweaks:MXOnly-1U-NoLED_tweak" H 15125 2625 60  0001 C CNN
+F 3 "" H 15125 2625 60  0001 C CNN
+	1    15750 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX_B1
+U 1 1 5F41B4A3
+P 16350 3350
+F 0 "MX_B1" H 16322 3524 39  0000 C CNN
+F 1 "MX-NoLED" H 16324 3469 20  0000 C CNN
+F 2 "mini-MX-Tweaks:MXOnly-1U-NoLED_tweak" H 15725 3325 60  0001 C CNN
+F 3 "" H 15725 3325 60  0001 C CNN
+	1    16350 3350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	15300 1900 15300 2600
+Wire Wire Line
+	15900 2600 15900 3300
+Connection ~ 15300 2600
+Wire Wire Line
+	15900 1900 15900 2600
+Wire Wire Line
+	16500 2600 16500 3300
+Connection ~ 15900 2600
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX_W1
+U 1 1 5F3DCCD4
+P 13950 1950
+F 0 "MX_W1" H 13922 2124 39  0000 C CNN
+F 1 "MX-NoLED" H 13924 2069 20  0000 C CNN
+F 2 "mini-MX-Tweaks:MXOnly-1U-NoLED_tweak" H 13325 1925 60  0001 C CNN
+F 3 "" H 13325 1925 60  0001 C CNN
+	1    13950 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX_E1
+U 1 1 5F3DCCDB
+P 14550 1950
+F 0 "MX_E1" H 14522 2124 39  0000 C CNN
+F 1 "MX-NoLED" H 14524 2069 20  0000 C CNN
+F 2 "mini-MX-Tweaks:MXOnly-1U-NoLED_tweak" H 13925 1925 60  0001 C CNN
+F 3 "" H 13925 1925 60  0001 C CNN
+	1    14550 1950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	14500 2100 14400 2100
+Wire Wire Line
+	14500 3500 14400 3500
+Wire Wire Line
+	13900 2800 13800 2800
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX_X1
+U 1 1 5F3DCD45
+P 14550 3350
+F 0 "MX_X1" H 14522 3524 39  0000 C CNN
+F 1 "MX-NoLED" H 14524 3469 20  0000 C CNN
+F 2 "mini-MX-Tweaks:MXOnly-1U-NoLED_tweak" H 13925 3325 60  0001 C CNN
+F 3 "" H 13925 3325 60  0001 C CNN
+	1    14550 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX_S1
+U 1 1 5F3DCD4B
+P 13950 2650
+F 0 "MX_S1" H 13922 2824 39  0000 C CNN
+F 1 "MX-NoLED" H 13924 2769 20  0000 C CNN
+F 2 "mini-MX-Tweaks:MXOnly-1U-NoLED_tweak" H 13325 2625 60  0001 C CNN
+F 3 "" H 13325 2625 60  0001 C CNN
+	1    13950 2650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	14500 2800 14400 2800
+Wire Wire Line
+	15100 3500 15000 3500
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX_D1
+U 1 1 5F3DCD53
+P 14550 2650
+F 0 "MX_D1" H 14522 2824 39  0000 C CNN
+F 1 "MX-NoLED" H 14524 2769 20  0000 C CNN
+F 2 "mini-MX-Tweaks:MXOnly-1U-NoLED_tweak" H 13925 2625 60  0001 C CNN
+F 3 "" H 13925 2625 60  0001 C CNN
+	1    14550 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX_C1
+U 1 1 5F3DCD59
+P 15150 3350
+F 0 "MX_C1" H 15122 3524 39  0000 C CNN
+F 1 "MX-NoLED" H 15124 3469 20  0000 C CNN
+F 2 "mini-MX-Tweaks:MXOnly-1U-NoLED_tweak" H 14525 3325 60  0001 C CNN
+F 3 "" H 14525 3325 60  0001 C CNN
+	1    15150 3350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	14100 1900 14100 2600
+Wire Wire Line
+	14700 2600 14700 3300
+Connection ~ 14100 2600
+Wire Wire Line
+	14700 1900 14700 2600
+Wire Wire Line
+	15300 2600 15300 3300
+Connection ~ 14700 2600
+Wire Wire Line
+	14100 2600 14100 3300
+Wire Wire Line
+	13350 1900 13350 2600
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX_Z1
+U 1 1 5F1B0514
+P 13950 3350
+F 0 "MX_Z1" H 13922 3524 39  0000 C CNN
+F 1 "MX-NoLED" H 13924 3469 20  0000 C CNN
+F 2 "mini-MX-Tweaks:MXOnly-1U-NoLED_tweak" H 13325 3325 60  0001 C CNN
+F 3 "" H 13325 3325 60  0001 C CNN
+	1    13950 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX_A1
+U 1 1 5F1A6063
+P 13200 2650
+F 0 "MX_A1" H 13172 2824 39  0000 C CNN
+F 1 "MX-NoLED" H 13174 2769 20  0000 C CNN
+F 2 "mini-MX-Tweaks:MXOnly-1U-NoLED_tweak" H 12575 2625 60  0001 C CNN
+F 3 "" H 12575 2625 60  0001 C CNN
+	1    13200 2650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	13900 3500 13800 3500
+Wire Wire Line
+	13150 2800 13050 2800
+Wire Wire Line
+	13150 2100 13050 2100
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX_Q1
+U 1 1 5F19F24F
+P 13200 1950
+F 0 "MX_Q1" H 13172 2124 39  0000 C CNN
+F 1 "MX-NoLED" H 13174 2069 20  0000 C CNN
+F 2 "mini-MX-Tweaks:MXOnly-1U-NoLED_tweak" H 12575 1925 60  0001 C CNN
+F 3 "" H 12575 1925 60  0001 C CNN
+	1    13200 1950
+	1    0    0    -1  
+$EndComp
+Connection ~ 12400 3500
+Connection ~ 12400 2800
+Connection ~ 12600 3300
+Connection ~ 12600 2600
+Wire Wire Line
+	12600 2600 12600 3300
+Wire Wire Line
+	12600 1900 12600 2600
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX_2.25U_LSHIFT1
+U 1 1 5F1B051B
+P 12450 3350
+F 0 "MX_2.25U_LSHIFT1" H 12422 3524 39  0000 C CNN
+F 1 "MX-NoLED" H 12424 3469 20  0000 C CNN
+F 2 "mini-MX-Tweaks:MXOnly-2.25U-NoLED_tweak" H 11825 3325 60  0001 C CNN
+F 3 "" H 11825 3325 60  0001 C CNN
+	1    12450 3350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12400 2800 12300 2800
+Wire Wire Line
+	12400 3500 12300 3500
+Text GLabel 12050 3100 0    50   Input ~ 0
+ROW2
+Text GLabel 12050 2400 0    50   Input ~ 0
+ROW1
+Wire Wire Line
+	12400 2100 12300 2100
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX_1.5U_TAB1
+U 1 1 5F19F256
+P 12450 1950
+F 0 "MX_1.5U_TAB1" H 12422 2124 39  0000 C CNN
+F 1 "MX-NoLED" H 12424 2069 20  0000 C CNN
+F 2 "mini-MX-Tweaks:MXOnly-1.5U-NoLED_tweak" H 11825 1925 60  0001 C CNN
+F 3 "" H 11825 1925 60  0001 C CNN
+	1    12450 1950
+	1    0    0    -1  
+$EndComp
+Wire Bus Line
+	11750 400  11750 650 
+Wire Bus Line
+	21400 400  21400 650 
+Connection ~ 12300 2400
+Wire Wire Line
+	12300 2400 13050 2400
+Connection ~ 12300 3100
+Wire Wire Line
+	12300 3100 13050 3100
+Connection ~ 12300 3800
+Wire Wire Line
+	12300 3800 13050 3800
+Connection ~ 12300 4500
+Wire Wire Line
+	12300 4500 13050 4500
+Connection ~ 13050 2400
+Wire Wire Line
+	13050 2400 13800 2400
+Connection ~ 13050 3100
+Wire Wire Line
+	13050 3100 13800 3100
+Connection ~ 13050 3800
+Wire Wire Line
+	13050 3800 13800 3800
+Connection ~ 13050 4500
+Wire Wire Line
+	13050 4500 13800 4500
+Connection ~ 13800 2400
+Wire Wire Line
+	13800 2400 14400 2400
+Connection ~ 13800 3100
+Wire Wire Line
+	13800 3100 14400 3100
+Connection ~ 13800 3800
+Wire Wire Line
+	13800 3800 14400 3800
+Connection ~ 13800 4500
+Wire Wire Line
+	13800 4500 16200 4500
+Connection ~ 14400 2400
+Wire Wire Line
+	14400 2400 15000 2400
+Connection ~ 14400 3100
+Wire Wire Line
+	14400 3100 15000 3100
+Connection ~ 14400 3800
+Wire Wire Line
+	14400 3800 15000 3800
+Connection ~ 15000 2400
+Wire Wire Line
+	15000 2400 15600 2400
+Connection ~ 15000 3100
+Wire Wire Line
+	15000 3100 15600 3100
+Connection ~ 15000 3800
+Wire Wire Line
+	15000 3800 15600 3800
+Connection ~ 15600 2400
+Wire Wire Line
+	15600 2400 16200 2400
+Connection ~ 15600 3100
+Wire Wire Line
+	15600 3100 16200 3100
+Connection ~ 15600 3800
+Wire Wire Line
+	15600 3800 16200 3800
+Connection ~ 16200 2400
+Wire Wire Line
+	16200 2400 16800 2400
+Connection ~ 16200 3100
+Wire Wire Line
+	16200 3100 16800 3100
+Connection ~ 16200 3800
+Wire Wire Line
+	16200 3800 16800 3800
+Connection ~ 16200 4500
+Wire Wire Line
+	16200 4500 18000 4500
+Connection ~ 16800 2400
+Wire Wire Line
+	16800 2400 17400 2400
+Connection ~ 16800 3100
+Wire Wire Line
+	16800 3100 17400 3100
+Connection ~ 16800 3800
+Wire Wire Line
+	16800 3800 17400 3800
+Connection ~ 17400 2400
+Wire Wire Line
+	17400 2400 18000 2400
+Connection ~ 17400 3100
+Wire Wire Line
+	17400 3100 18000 3100
+Connection ~ 17400 3800
+Wire Wire Line
+	17400 3800 18000 3800
+Connection ~ 18000 2400
+Wire Wire Line
+	18000 2400 18600 2400
+Connection ~ 18000 3100
+Wire Wire Line
+	18000 3100 18600 3100
+Connection ~ 18000 3800
+Wire Wire Line
+	18000 3800 18600 3800
+Connection ~ 18000 4500
+Wire Wire Line
+	18000 4500 18600 4500
+Connection ~ 18600 2400
+Wire Wire Line
+	18600 2400 19200 2400
+Connection ~ 18600 3100
+Wire Wire Line
+	18600 3100 19200 3100
+Connection ~ 18600 3800
+Wire Wire Line
+	18600 3800 19200 3800
+Connection ~ 18600 4500
+Wire Wire Line
+	18600 4500 19200 4500
+Connection ~ 19200 2400
+Wire Wire Line
+	19200 2400 19800 2400
+Connection ~ 19200 3100
+Wire Wire Line
+	19200 3100 19800 3100
+Connection ~ 19200 3800
+Wire Wire Line
+	19200 3800 19800 3800
+Connection ~ 19200 4500
+Wire Wire Line
+	19200 4500 19800 4500
+Connection ~ 19800 2400
+Wire Wire Line
+	19800 2400 20400 2400
+Connection ~ 19800 3100
+Wire Wire Line
+	19800 3100 21000 3100
+Connection ~ 19800 3800
+Wire Wire Line
+	19800 3800 20400 3800
+Connection ~ 19800 4500
+Wire Wire Line
+	19800 4500 20400 4500
+Connection ~ 20400 2400
+Wire Wire Line
+	20400 2400 21000 2400
+Connection ~ 20400 3800
+Wire Wire Line
+	20400 3800 21000 3800
+Connection ~ 20400 4500
+Wire Wire Line
+	20400 4500 21000 4500
+Wire Wire Line
+	20400 1700 21000 1700
+Connection ~ 20400 1700
+Wire Wire Line
+	19800 1700 20400 1700
+Connection ~ 19800 1700
+Wire Wire Line
+	19200 1700 19800 1700
+Connection ~ 19200 1700
+Wire Wire Line
+	18000 1700 18600 1700
+Connection ~ 18000 1700
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX_ESC1
+U 1 1 5F1D4CF0
+P 12450 1250
+F 0 "MX_ESC1" H 12422 1424 39  0000 C CNN
+F 1 "MX-NoLED" H 12424 1369 20  0000 C CNN
+F 2 "mini-MX-Tweaks:MXOnly-1U-NoLED_tweak" H 11825 1225 60  0001 C CNN
+F 3 "" H 11825 1225 60  0001 C CNN
+	1    12450 1250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12400 1400 12300 1400
+Text GLabel 12050 1700 0    50   Input ~ 0
+ROW0
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX_1
+U 1 1 5F1E7BDC
+P 13200 1250
+F 0 "MX_1" H 13172 1424 39  0000 C CNN
+F 1 "MX-NoLED" H 13174 1369 20  0000 C CNN
+F 2 "mini-MX-Tweaks:MXOnly-1U-NoLED_tweak" H 12575 1225 60  0001 C CNN
+F 3 "" H 12575 1225 60  0001 C CNN
+	1    13200 1250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	13150 1400 13050 1400
+Wire Wire Line
+	14500 1400 14400 1400
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX_3
+U 1 1 5F3DCCFA
+P 14550 1250
+F 0 "MX_3" H 14522 1424 39  0000 C CNN
+F 1 "MX-NoLED" H 14524 1369 20  0000 C CNN
+F 2 "mini-MX-Tweaks:MXOnly-1U-NoLED_tweak" H 13925 1225 60  0001 C CNN
+F 3 "" H 13925 1225 60  0001 C CNN
+	1    14550 1250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	13900 1400 13800 1400
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX_2
+U 1 1 5F3DCCF3
+P 13950 1250
+F 0 "MX_2" H 13922 1424 39  0000 C CNN
+F 1 "MX-NoLED" H 13924 1369 20  0000 C CNN
+F 2 "mini-MX-Tweaks:MXOnly-1U-NoLED_tweak" H 13325 1225 60  0001 C CNN
+F 3 "" H 13325 1225 60  0001 C CNN
+	1    13950 1250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	15700 1400 15600 1400
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX_5
+U 1 1 5F41B502
+P 15750 1250
+F 0 "MX_5" H 15722 1424 39  0000 C CNN
+F 1 "MX-NoLED" H 15724 1369 20  0000 C CNN
+F 2 "mini-MX-Tweaks:MXOnly-1U-NoLED_tweak" H 15125 1225 60  0001 C CNN
+F 3 "" H 15125 1225 60  0001 C CNN
+	1    15750 1250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	15100 1400 15000 1400
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX_4
+U 1 1 5F41B509
+P 15150 1250
+F 0 "MX_4" H 15122 1424 39  0000 C CNN
+F 1 "MX-NoLED" H 15124 1369 20  0000 C CNN
+F 2 "mini-MX-Tweaks:MXOnly-1U-NoLED_tweak" H 14525 1225 60  0001 C CNN
+F 3 "" H 14525 1225 60  0001 C CNN
+	1    15150 1250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	16900 1400 16800 1400
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX_7
+U 1 1 5F4302B0
+P 16950 1250
+F 0 "MX_7" H 16922 1424 39  0000 C CNN
+F 1 "MX-NoLED" H 16924 1369 20  0000 C CNN
+F 2 "mini-MX-Tweaks:MXOnly-1U-NoLED_tweak" H 16325 1225 60  0001 C CNN
+F 3 "" H 16325 1225 60  0001 C CNN
+	1    16950 1250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	16300 1400 16200 1400
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX_6
+U 1 1 5F4302B7
+P 16350 1250
+F 0 "MX_6" H 16322 1424 39  0000 C CNN
+F 1 "MX-NoLED" H 16324 1369 20  0000 C CNN
+F 2 "mini-MX-Tweaks:MXOnly-1U-NoLED_tweak" H 15725 1225 60  0001 C CNN
+F 3 "" H 15725 1225 60  0001 C CNN
+	1    16350 1250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	18100 1400 18000 1400
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX_9
+U 1 1 5F44479B
+P 18150 1250
+F 0 "MX_9" H 18122 1424 39  0000 C CNN
+F 1 "MX-NoLED" H 18124 1369 20  0000 C CNN
+F 2 "mini-MX-Tweaks:MXOnly-1U-NoLED_tweak" H 17525 1225 60  0001 C CNN
+F 3 "" H 17525 1225 60  0001 C CNN
+	1    18150 1250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	17500 1400 17400 1400
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX_8
+U 1 1 5F4447A2
+P 17550 1250
+F 0 "MX_8" H 17522 1424 39  0000 C CNN
+F 1 "MX-NoLED" H 17524 1369 20  0000 C CNN
+F 2 "mini-MX-Tweaks:MXOnly-1U-NoLED_tweak" H 16925 1225 60  0001 C CNN
+F 3 "" H 16925 1225 60  0001 C CNN
+	1    17550 1250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	19300 1400 19200 1400
+Wire Wire Line
+	18700 1400 18600 1400
+$Comp
+L Diode:1N4148W D2
+U 1 1 60A42E9C
+P 13800 1550
+F 0 "D2" H 13749 1678 50  0000 R CNN
+F 1 "1N4148W" H 13859 1627 28  0000 R CNN
+F 2 "mini-general-tweaks:D_SOD123_axial-dual" H 13800 1375 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 13800 1550 50  0001 C CNN
+	1    13800 1550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:1N4148W D3
+U 1 1 60A4CB49
+P 14400 1550
+F 0 "D3" H 14349 1678 50  0000 R CNN
+F 1 "1N4148W" H 14459 1627 28  0000 R CNN
+F 2 "mini-general-tweaks:D_SOD123_axial-dual" H 14400 1375 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 14400 1550 50  0001 C CNN
+	1    14400 1550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:1N4148W D4
+U 1 1 60A566E7
+P 15000 1550
+F 0 "D4" H 14949 1678 50  0000 R CNN
+F 1 "1N4148W" H 15059 1627 28  0000 R CNN
+F 2 "mini-general-tweaks:D_SOD123_axial-dual" H 15000 1375 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 15000 1550 50  0001 C CNN
+	1    15000 1550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:1N4148W D5
+U 1 1 60A600EA
+P 15600 1550
+F 0 "D5" H 15549 1678 50  0000 R CNN
+F 1 "1N4148W" H 15659 1627 28  0000 R CNN
+F 2 "mini-general-tweaks:D_SOD123_axial-dual" H 15600 1375 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 15600 1550 50  0001 C CNN
+	1    15600 1550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:1N4148W D6
+U 1 1 60A69C92
+P 16200 1550
+F 0 "D6" H 16149 1678 50  0000 R CNN
+F 1 "1N4148W" H 16259 1627 28  0000 R CNN
+F 2 "mini-general-tweaks:D_SOD123_axial-dual" H 16200 1375 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 16200 1550 50  0001 C CNN
+	1    16200 1550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:1N4148W D7
+U 1 1 60A73976
+P 16800 1550
+F 0 "D7" H 16749 1678 50  0000 R CNN
+F 1 "1N4148W" H 16859 1627 28  0000 R CNN
+F 2 "mini-general-tweaks:D_SOD123_axial-dual" H 16800 1375 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 16800 1550 50  0001 C CNN
+	1    16800 1550
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	12050 1700 12300 1700
+Connection ~ 13800 1700
+Wire Wire Line
+	13800 1700 14400 1700
+Connection ~ 14400 1700
+Wire Wire Line
+	14400 1700 15000 1700
+Connection ~ 15000 1700
+Wire Wire Line
+	15000 1700 15600 1700
+Connection ~ 15600 1700
+Wire Wire Line
+	15600 1700 16200 1700
+Connection ~ 16200 1700
+Wire Wire Line
+	16200 1700 16800 1700
+Wire Wire Line
+	12300 1700 13050 1700
+Connection ~ 12300 1700
+Wire Wire Line
+	13050 1700 13800 1700
+Connection ~ 13050 1700
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX_DASH1
+U 1 1 5F45D4DD
+P 19350 1250
+F 0 "MX_DASH1" H 19322 1424 39  0000 C CNN
+F 1 "MX-NoLED" H 19324 1369 20  0000 C CNN
+F 2 "mini-MX-Tweaks:MXOnly-1U-NoLED_tweak" H 18725 1225 60  0001 C CNN
+F 3 "" H 18725 1225 60  0001 C CNN
+	1    19350 1250
+	1    0    0    -1  
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX_0
+U 1 1 5F45D4E4
+P 18750 1250
+F 0 "MX_0" H 18722 1424 39  0000 C CNN
+F 1 "MX-NoLED" H 18724 1369 20  0000 C CNN
+F 2 "mini-MX-Tweaks:MXOnly-1U-NoLED_tweak" H 18125 1225 60  0001 C CNN
+F 3 "" H 18125 1225 60  0001 C CNN
+	1    18750 1250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	19900 1400 19800 1400
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX_EQUALS1
+U 1 1 5F474929
+P 19950 1250
+F 0 "MX_EQUALS1" H 19922 1424 39  0000 C CNN
+F 1 "MX-NoLED" H 19924 1369 20  0000 C CNN
+F 2 "mini-MX-Tweaks:MXOnly-1U-NoLED_tweak" H 19325 1225 60  0001 C CNN
+F 3 "" H 19325 1225 60  0001 C CNN
+	1    19950 1250
+	1    0    0    -1  
+$EndComp
+Connection ~ 18600 1700
+Connection ~ 16800 1700
+$Comp
+L Diode:1N4148W D8
+U 1 1 60A7D26D
+P 17400 1550
+F 0 "D8" H 17349 1678 50  0000 R CNN
+F 1 "1N4148W" H 17459 1627 28  0000 R CNN
+F 2 "mini-general-tweaks:D_SOD123_axial-dual" H 17400 1375 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 17400 1550 50  0001 C CNN
+	1    17400 1550
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	16800 1700 17400 1700
+Connection ~ 17400 1700
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX_PrtSc1
+U 1 1 5F48B6A3
+P 21150 1250
+F 0 "MX_PrtSc1" H 21122 1424 39  0000 C CNN
+F 1 "MX-NoLED" H 21124 1369 20  0000 C CNN
+F 2 "mini-MX-Tweaks:MXOnly-1U-NoLED_tweak" H 20525 1225 60  0001 C CNN
+F 3 "" H 20525 1225 60  0001 C CNN
+	1    21150 1250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	21100 1400 21000 1400
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX_2U_BACKSP1
+U 1 1 5F474922
+P 20550 1250
+F 0 "MX_2U_BACKSP1" H 20522 1424 39  0000 C CNN
+F 1 "MX-NoLED" H 20524 1369 20  0000 C CNN
+F 2 "mini-MX-Tweaks:MXOnly-2U-NoLED_tweak" H 19925 1225 60  0001 C CNN
+F 3 "" H 19925 1225 60  0001 C CNN
+	1    20550 1250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	20500 1400 20400 1400
+$Comp
+L Diode:1N4148W D1
+U 1 1 60A392AE
+P 13050 1550
+F 0 "D1" H 12999 1678 50  0000 R CNN
+F 1 "1N4148W" H 13109 1627 28  0000 R CNN
+F 2 "mini-general-tweaks:D_SOD123_axial-dual" H 13050 1375 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 13050 1550 50  0001 C CNN
+	1    13050 1550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:1N4148W D0
+U 1 1 60A2F34F
+P 12300 1550
+F 0 "D0" H 12249 1678 50  0000 R CNN
+F 1 "1N4148W" H 12359 1627 28  0000 R CNN
+F 2 "mini-general-tweaks:D_SOD123_axial-dual" H 12300 1375 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 12300 1550 50  0001 C CNN
+	1    12300 1550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:1N4148W D10
+U 1 1 60A90422
+P 18600 1550
+F 0 "D10" H 18595 1678 50  0000 R CNN
+F 1 "1N4148W" H 18659 1627 28  0000 R CNN
+F 2 "mini-general-tweaks:D_SOD123_axial-dual" H 18600 1375 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 18600 1550 50  0001 C CNN
+	1    18600 1550
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	17400 1700 18000 1700
+Wire Wire Line
+	18600 1700 19200 1700
+$Comp
+L Diode:1N4148W D9
+U 1 1 63FC1152
+P 18000 1550
+F 0 "D9" H 17949 1678 50  0000 R CNN
+F 1 "1N4148W" H 18059 1627 28  0000 R CNN
+F 2 "mini-general-tweaks:D_SOD123_axial-dual" H 18000 1375 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 18000 1550 50  0001 C CNN
+	1    18000 1550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:1N4148W D11
+U 1 1 63FD429E
+P 19200 1550
+F 0 "D11" H 19195 1678 50  0000 R CNN
+F 1 "1N4148W" H 19259 1627 28  0000 R CNN
+F 2 "mini-general-tweaks:D_SOD123_axial-dual" H 19200 1375 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 19200 1550 50  0001 C CNN
+	1    19200 1550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:1N4148W D12
+U 1 1 63FE7418
+P 19800 1550
+F 0 "D12" H 19795 1678 50  0000 R CNN
+F 1 "1N4148W" H 19859 1627 28  0000 R CNN
+F 2 "mini-general-tweaks:D_SOD123_axial-dual" H 19800 1375 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 19800 1550 50  0001 C CNN
+	1    19800 1550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:1N4148W D13
+U 1 1 63FFA786
+P 20400 1550
+F 0 "D13" H 20395 1678 50  0000 R CNN
+F 1 "1N4148W" H 20459 1627 28  0000 R CNN
+F 2 "mini-general-tweaks:D_SOD123_axial-dual" H 20400 1375 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 20400 1550 50  0001 C CNN
+	1    20400 1550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:1N4148W D14
+U 1 1 6400DCE6
+P 21000 1550
+F 0 "D14" H 20995 1678 50  0000 R CNN
+F 1 "1N4148W" H 21059 1627 28  0000 R CNN
+F 2 "mini-general-tweaks:D_SOD123_axial-dual" H 21000 1375 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 21000 1550 50  0001 C CNN
+	1    21000 1550
+	0    -1   -1   0   
+$EndComp
+Connection ~ 17100 1900
+Wire Wire Line
+	17100 1200 17100 1900
+Connection ~ 12600 1900
+Wire Wire Line
+	12600 1200 12600 1900
+Connection ~ 13350 1900
+Wire Wire Line
+	13350 1200 13350 1900
+Connection ~ 14700 1900
+Wire Wire Line
+	14700 1200 14700 1900
+Connection ~ 14100 1900
+Wire Wire Line
+	14100 1200 14100 1900
+Connection ~ 15900 1900
+Wire Wire Line
+	15900 1200 15900 1900
+Connection ~ 15300 1900
+Wire Wire Line
+	15300 1200 15300 1900
+Connection ~ 16500 1900
+Wire Wire Line
+	16500 1200 16500 1900
+Connection ~ 18300 1900
+Wire Wire Line
+	18300 1200 18300 1900
+Connection ~ 17700 1900
+Wire Wire Line
+	17700 1200 17700 1900
+Connection ~ 18900 1900
+Wire Wire Line
+	18900 1200 18900 1900
+Connection ~ 21300 1900
+Wire Wire Line
+	21300 1200 21300 1900
+Wire Wire Line
+	20700 1200 20700 1900
+Connection ~ 20100 1900
+Wire Wire Line
+	20100 1200 20100 1900
+Connection ~ 19500 1900
+Wire Wire Line
+	19500 1200 19500 1900
+Text GLabel 12600 1000 1    50   Input ~ 0
+COL0
+Text GLabel 13350 1000 1    50   Input ~ 0
+COL1
+Text GLabel 14100 1000 1    50   Input ~ 0
+COL2
+Text GLabel 14700 1000 1    50   Input ~ 0
+COL3
+Text GLabel 15300 1000 1    50   Input ~ 0
+COL4
+Text GLabel 15900 1000 1    50   Input ~ 0
+COL5
+Text GLabel 16500 1000 1    50   Input ~ 0
+COL6
+Text GLabel 17100 1000 1    50   Input ~ 0
+COL7
+Text GLabel 17700 1000 1    50   Input ~ 0
+COL8
+Text GLabel 18300 1000 1    50   Input ~ 0
+COL9
+Text GLabel 18900 1000 1    50   Input ~ 0
+COL10
+Text GLabel 19500 1000 1    50   Input ~ 0
+COL11
+Text GLabel 20100 1000 1    50   Input ~ 0
+COL12
+Text GLabel 21300 1000 1    50   Input ~ 0
+COL14
+Text GLabel 20700 1000 1    50   Input ~ 0
+COL13
+Connection ~ 12600 1200
+Wire Wire Line
+	12600 1200 12600 1000
+Connection ~ 13350 1200
+Wire Wire Line
+	13350 1200 13350 1000
+Connection ~ 14100 1200
+Wire Wire Line
+	14100 1200 14100 1000
+Connection ~ 14700 1200
+Wire Wire Line
+	14700 1200 14700 1000
+Connection ~ 15300 1200
+Wire Wire Line
+	15300 1200 15300 1000
+Connection ~ 15900 1200
+Wire Wire Line
+	15900 1200 15900 1000
+Connection ~ 16500 1200
+Wire Wire Line
+	16500 1200 16500 1000
+Connection ~ 17100 1200
+Wire Wire Line
+	17100 1200 17100 1000
+Connection ~ 17700 1200
+Wire Wire Line
+	17700 1200 17700 1000
+Connection ~ 18300 1200
+Wire Wire Line
+	18300 1200 18300 1000
+Connection ~ 18900 1200
+Wire Wire Line
+	18900 1200 18900 1000
+Connection ~ 19500 1200
+Wire Wire Line
+	19500 1200 19500 1000
+Connection ~ 20100 1200
+Wire Wire Line
+	20100 1200 20100 1000
+Connection ~ 21300 1200
+Wire Wire Line
+	21300 1200 21300 1000
+Connection ~ 20700 1200
+Wire Wire Line
+	20700 1200 20700 1000
+Connection ~ 21400 650 
+Wire Bus Line
+	21400 650  21400 4600
+Wire Bus Line
+	21400 4600 11750 4600
+Connection ~ 11750 650 
+Wire Bus Line
+	11750 4600 11750 650 
 $EndSCHEMATC
