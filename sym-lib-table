@@ -5,4 +5,7 @@
   (lib (name keyboard_parts)(type Legacy)(uri ${KIPRJMOD}/KiCad_Libs/canadian_schematics/keyboard_parts.lib)(options "")(descr ""))
   (lib (name Valve)(type Legacy)(uri ${KIPRJMOD}/kicad-symbols/Valve.lib)(options "")(descr ""))
   (lib (name Type-C)(type Legacy)(uri ${KIPRJMOD}/Type-C.pretty/Type-C.lib)(options "")(descr ""))
+  (lib (name acheronSymbols)(type Legacy)(uri ${KIPRJMOD}/acheronSymbols.lib)(options "")(descr ""))
+  (lib (name mini_random_library)(type Legacy)(uri ${KIPRJMOD}/mini_random_library.lib)(options "")(descr ""))
+  (lib (name Power_Protection)(type Legacy)(uri ${KIPRJMOD}/Power_Protection_ESD/Power_Protection.lib)(options "")(descr ""))
 )
