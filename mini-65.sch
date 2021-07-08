@@ -6,13 +6,13 @@ $Descr A4 8268 11693 portrait
 encoding utf-8
 Sheet 1 1
 Title "eLiXiVy"
-Date "2021-07-05"
+Date "2021-07-08"
 Rev "1a"
-Comp "designed by mini. Inspired by many."
+Comp "Full License: https://github.com/minibois/eLiXiVy/blob/master/LICENSE.txt"
 Comment1 "of CERN_OHL-S v2 (https://ohwr.org/cern_ohl_s_v2.txt)"
 Comment2 "You may redistribute and modify this source and make products using it under the terms"
 Comment3 "This schematic describes Open Hardware and is licensed under the CERN-OHL-S v2."
-Comment4 "Copyright minibois 2021."
+Comment4 "Copyright minibois 2021. "
 $EndDescr
 Text Notes 1800 10000 0    91   ~ 18
 Decoupling Capacitors
@@ -2346,8 +2346,6 @@ Wire Wire Line
 Connection ~ 7575 1600
 Wire Wire Line
 	7575 1600 7575 1400
-Text Notes 2950 750  0    157  ~ 31
-mini eLiXiVy Schematic
 Wire Notes Line
 	600  5050 600  9750
 $Comp
@@ -3248,10 +3246,10 @@ github.com/minibois/eLiXiVy
 Text Notes 6550 9810 0    37   ~ 0
 rev.1a
 $Comp
-L Graphic:Logo_Open_Hardware_Small #LOGO?
+L Graphic:Logo_Open_Hardware_Small #LOGO0
 U 1 1 6320E8FC
 P 6775 9100
-F 0 "#LOGO?" H 6775 9375 50  0001 C CNN
+F 0 "#LOGO0" H 6775 9375 50  0001 C CNN
 F 1 "Logo_Open_Hardware_Small" H 6775 8875 50  0001 C CNN
 F 2 "" H 6775 9100 50  0001 C CNN
 F 3 "~" H 6775 9100 50  0001 C CNN
@@ -3259,10 +3257,10 @@ F 3 "~" H 6775 9100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L mini_random_library:eLiXiVy-eeschema-logo #G?
+L mini_random_library:eLiXiVy-eeschema-logo #G1
 U 1 1 63849D31
 P 7125 9575
-F 0 "#G?" H 7125 9347 60  0001 C CNN
+F 0 "#G1" H 7125 9347 60  0001 C CNN
 F 1 "eLiXiVy-eeschema-logo" H 7125 9803 60  0001 C CNN
 F 2 "" H 7125 9575 50  0001 C CNN
 F 3 "" H 7125 9575 50  0001 C CNN
@@ -3270,10 +3268,10 @@ F 3 "" H 7125 9575 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L mini_random_library:OSHW-Text-Logo #G?
+L mini_random_library:OSHW-Text-Logo #G0
 U 1 1 6396CC4A
 P 7350 9075
-F 0 "#G?" H 7350 9012 60  0001 C CNN
+F 0 "#G0" H 7350 9012 60  0001 C CNN
 F 1 "OSHW-Text-Logo" H 7350 9138 60  0001 C CNN
 F 2 "" H 7350 9075 39  0001 C CNN
 F 3 "" H 7350 9075 39  0001 C CNN
@@ -3284,4 +3282,10 @@ Wire Notes Line
 	7200 6950 7200 8050
 Wire Notes Line
 	7250 8800 7250 6750
+Text Notes 2950 750  0    157  ~ 31
+mini eLiXiVy Schematic
+Text GLabel 1450 7150 1    50   Input ~ 0
+DP
+Text GLabel 1450 7250 3    50   Input ~ 0
+DN
 $EndSCHEMATC
