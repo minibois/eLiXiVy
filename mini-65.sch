@@ -2952,8 +2952,6 @@ $EndComp
 Text GLabel 6400 7700 2    50   Input ~ 0
 MCU_D+
 Wire Notes Line
-	7200 6950 7200 8050
-Wire Notes Line
 	5200 6750 7250 6750
 Wire Notes Line
 	5200 6900 7250 6900
@@ -3016,8 +3014,6 @@ Wire Notes Line
 	5250 8100 5250 8750
 Wire Notes Line
 	5200 8800 7250 8800
-Wire Notes Line
-	7250 8800 7250 6750
 Text Notes 6250 5250 0    98   ~ 20
 Rotary Encoder
 Text GLabel 6675 6100 0    50   Input ~ 0
@@ -3284,4 +3280,8 @@ F 3 "" H 7350 9075 39  0001 C CNN
 	1    7350 9075
 	1    0    0    -1  
 $EndComp
+Wire Notes Line
+	7200 6950 7200 8050
+Wire Notes Line
+	7250 8800 7250 6750
 $EndSCHEMATC

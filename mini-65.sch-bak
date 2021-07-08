@@ -2952,8 +2952,6 @@ $EndComp
 Text GLabel 6400 7700 2    50   Input ~ 0
 MCU_D+
 Wire Notes Line
-	7200 6950 7200 8050
-Wire Notes Line
 	5200 6750 7250 6750
 Wire Notes Line
 	5200 6900 7250 6900
@@ -3016,8 +3014,6 @@ Wire Notes Line
 	5250 8100 5250 8750
 Wire Notes Line
 	5200 8800 7250 8800
-Wire Notes Line
-	7250 8800 7250 6750
 Text Notes 6250 5250 0    98   ~ 20
 Rotary Encoder
 Text GLabel 6675 6100 0    50   Input ~ 0
@@ -3245,17 +3241,6 @@ Text Notes 5200 9050 0    98   ~ 20
 Logos
 Wire Notes Line
 	5250 8350 6100 8350
-$Comp
-L Graphic:Logo_Open_Hardware_Large #LOGO?
-U 1 1 6320CD53
-P 10800 9575
-F 0 "#LOGO?" H 10800 10075 50  0001 C CNN
-F 1 "Logo_Open_Hardware_Large" H 10800 9175 50  0001 C CNN
-F 2 "" H 10800 9575 50  0001 C CNN
-F 3 "~" H 10800 9575 50  0001 C CNN
-	1    10800 9575
-	1    0    0    -1  
-$EndComp
 Text Notes 6550 9870 0    45   ~ 9
 2021
 Text Notes 6800 9872 0    43   ~ 0
@@ -3285,14 +3270,18 @@ F 3 "" H 7125 9575 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L mini_random_library:LOGO #G?
-U 1 1 638CC7B7
-P 7350 9100
-F 0 "#G?" H 7350 9037 60  0001 C CNN
-F 1 "LOGO" H 7350 9163 60  0001 C CNN
-F 2 "" H 7350 9100 39  0001 C CNN
-F 3 "" H 7350 9100 39  0001 C CNN
-	1    7350 9100
+L mini_random_library:OSHW-Text-Logo #G?
+U 1 1 6396CC4A
+P 7350 9075
+F 0 "#G?" H 7350 9012 60  0001 C CNN
+F 1 "OSHW-Text-Logo" H 7350 9138 60  0001 C CNN
+F 2 "" H 7350 9075 39  0001 C CNN
+F 3 "" H 7350 9075 39  0001 C CNN
+	1    7350 9075
 	1    0    0    -1  
 $EndComp
+Wire Notes Line
+	7200 6950 7200 8050
+Wire Notes Line
+	7250 8800 7250 6750
 $EndSCHEMATC
