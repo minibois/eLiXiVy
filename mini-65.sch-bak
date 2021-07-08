@@ -9,8 +9,8 @@ Title "eLiXiVy"
 Date "2021-07-05"
 Rev "1a"
 Comp "designed by mini. Inspired by many."
-Comment1 "https://github.com/minibois/eLiXiVy"
-Comment2 "Compatible with KBDFans' 65% case and plate"
+Comment1 "of CERN_OHL-S v2 (https://ohwr.org/cern_ohl_s_v2.txt)"
+Comment2 "You may redistribute and modify this source and make products using it under the terms"
 Comment3 "This schematic describes Open Hardware and is licensed under the CERN-OHL-S v2."
 Comment4 "Copyright minibois 2021."
 $EndDescr
@@ -3284,4 +3284,6 @@ Wire Notes Line
 	7200 6950 7200 8050
 Wire Notes Line
 	7250 8800 7250 6750
+Text Notes 3500 12600 0    39   ~ 0
+Copyright minibois 2021.\nThis source describes Open Hardware and is licensed under the CERNOHL-S v2.\nYou may redistribute and modify this source and make products using it under the terms of the CERN-OHL-S v2 (https://ohwr.org/cern ohl s v2.txt ).\nThis source is distributed WITHOUT ANY EXPRESS OR IMPLIED WARRANTY, INCLUDING OF MERCHANTABILITY, SATISFACTORY QUALITY AND FITNESS FOR A PARTICULAR PURPOSE. \nPlease see the CERN-OHL-S v2 for applicable conditions.\n\nAs per CERN-OHL-S v2 section 4, should you produce hardware based on this source, you must where practicable maintain the Source Location visible on the external case of the Gizmo or other products you make using this source.\nSource location: https://github.com/minibois/eLiXiVy/
 $EndSCHEMATC
