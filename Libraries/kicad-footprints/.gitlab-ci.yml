@@ -1,0 +1,19 @@
+image: python:latest
+  
+before_script:
+  - python -V
+  - git clone --depth 1 https://gitlab.com/kicad/libraries/kicad-library-utils $CI_BUILDS_DIR/kicad-library-utils
+
+footprints:
+  only:
+    refs:
+      - merge_requests
+    changes:
+      - "**/*.kicad_mod"
+      - "fp-lib-table"
+  script:
+    - $CI_BUILDS_DIR/kicad-library-utils/pcb/gitlabci/check_all.sh $CI_PROJECT_DIR -v
+    - python $CI_BUILDS_DIR/kicad-library-utils/check_lib_table.py $CI_PROJECT_DIR/*.pretty --table $CI_PROJECT_DIR/fp-lib-table
+  artifacts:
+    reports:
+      metrics: metrics.txt
