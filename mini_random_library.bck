@@ -1,9 +1,3 @@
 EESchema-DOCLIB  Version 2.0
 #
-$CMP D_Small_EDIT
-D Diode, small symbol
-K diode
-F ~
-$ENDCMP
-#
 #End Doc Library
