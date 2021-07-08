@@ -6,13 +6,13 @@ $Descr A4 8268 11693 portrait
 encoding utf-8
 Sheet 1 1
 Title "eLiXiVy"
-Date "2021-07-05"
+Date "2021-07-08"
 Rev "1a"
-Comp "designed by mini. Inspired by many."
+Comp "Full License: https://github.com/minibois/eLiXiVy/blob/master/LICENSE.txt"
 Comment1 "of CERN_OHL-S v2 (https://ohwr.org/cern_ohl_s_v2.txt)"
 Comment2 "You may redistribute and modify this source and make products using it under the terms"
 Comment3 "This schematic describes Open Hardware and is licensed under the CERN-OHL-S v2."
-Comment4 "Copyright minibois 2021."
+Comment4 "Copyright minibois 2021. "
 $EndDescr
 Text Notes 1800 10000 0    91   ~ 18
 Decoupling Capacitors
@@ -2258,7 +2258,7 @@ U 1 1 5F48B6A3
 P 7425 1650
 F 0 "MX_PrtSc1" H 7421 1824 24  0000 C CNN
 F 1 "MX-NoLED" H 7399 1769 20  0000 C CNN
-F 2 "mini-MX-Tweaks:MXOnly-1U-NoLED_tweak" H 6800 1625 60  0001 C CNN
+F 2 "mini-MX-Tweaks:MXOnly-1U-NoLED-3Pin_tweak" H 6800 1625 60  0001 C CNN
 F 3 "" H 6800 1625 60  0001 C CNN
 	1    7425 1650
 	1    0    0    -1  
@@ -2346,8 +2346,6 @@ Wire Wire Line
 Connection ~ 7575 1600
 Wire Wire Line
 	7575 1600 7575 1400
-Text Notes 2950 750  0    157  ~ 31
-mini eLiXiVy Schematic
 Wire Notes Line
 	600  5050 600  9750
 $Comp
@@ -2739,549 +2737,555 @@ Wire Notes Line
 Wire Notes Line
 	600  9800 1750 9800
 Wire Notes Line
-	3450 5050 5150 5050
+	3450 5050 5000 5050
 Wire Notes Line
-	3450 5300 5150 5300
+	3450 5300 5000 5300
 Wire Notes Line
 	3450 5050 3450 8500
 Text Notes 3450 5250 0    98   ~ 20
 USB Type C
 Wire Wire Line
-	4550 6150 4700 6150
-Connection ~ 4550 7100
+	4500 6150 4650 6150
+Connection ~ 4500 7100
 Wire Wire Line
-	4600 7100 4550 7100
-Connection ~ 4550 6900
+	4550 7100 4500 7100
+Connection ~ 4500 6900
 Wire Wire Line
-	4600 6900 4550 6900
-Text GLabel 4600 6900 2    50   Input ~ 0
+	4550 6900 4500 6900
+Text GLabel 4550 6900 2    50   Input ~ 0
 USB_D-
-Text GLabel 4600 7100 2    50   Input ~ 0
+Text GLabel 4550 7100 2    50   Input ~ 0
 USB_D+
-Connection ~ 4600 5650
+Connection ~ 4550 5650
 Wire Wire Line
-	4600 5650 4750 5650
+	4550 5650 4700 5650
 $Comp
 L power:VCC #PWR0103
 U 1 1 5F1CE53D
-P 4750 5650
-F 0 "#PWR0103" H 4750 5500 50  0001 C CNN
-F 1 "VCC" H 4767 5823 50  0000 C CNN
-F 2 "" H 4750 5650 50  0001 C CNN
-F 3 "" H 4750 5650 50  0001 C CNN
-	1    4750 5650
+P 4700 5650
+F 0 "#PWR0103" H 4700 5500 50  0001 C CNN
+F 1 "VCC" H 4717 5823 50  0000 C CNN
+F 2 "" H 4700 5650 50  0001 C CNN
+F 3 "" H 4700 5650 50  0001 C CNN
+	1    4700 5650
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4550 5750 4600 5750
+	4500 5750 4550 5750
 Wire Wire Line
-	4600 5750 4600 5650
+	4550 5750 4550 5650
 Wire Wire Line
-	4550 5650 4600 5650
-NoConn ~ 4550 7850
-NoConn ~ 4550 7950
+	4500 5650 4550 5650
+NoConn ~ 4500 7850
+NoConn ~ 4500 7950
 $Comp
 L power:GND #PWR0101
 U 1 1 607575CF
-P 4050 8250
-F 0 "#PWR0101" H 4050 8000 50  0001 C CNN
-F 1 "GND" H 4055 8077 50  0000 C CNN
-F 2 "" H 4050 8250 50  0001 C CNN
-F 3 "" H 4050 8250 50  0001 C CNN
-	1    4050 8250
+P 4000 8250
+F 0 "#PWR0101" H 4000 8000 50  0001 C CNN
+F 1 "GND" H 4005 8077 50  0000 C CNN
+F 2 "" H 4000 8250 50  0001 C CNN
+F 3 "" H 4000 8250 50  0001 C CNN
+	1    4000 8250
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3650 8250 3850 8250
-Connection ~ 3850 8250
+	3600 8250 3800 8250
+Connection ~ 3800 8250
 Wire Wire Line
-	3850 8250 3950 8250
-Connection ~ 3950 8250
+	3800 8250 3900 8250
+Connection ~ 3900 8250
 Wire Wire Line
-	3950 8250 4050 8250
+	3900 8250 4000 8250
 $Comp
 L Device:R_Small R5
 U 1 1 60779B82
-P 4800 6150
-F 0 "R5" V 4604 6150 50  0000 C CNN
-F 1 "5.1k" V 4695 6150 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" H 4800 6150 50  0001 C CNN
-F 3 "~" H 4800 6150 50  0001 C CNN
-	1    4800 6150
+P 4750 6150
+F 0 "R5" V 4554 6150 50  0000 C CNN
+F 1 "5.1k" V 4645 6150 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 4750 6150 50  0001 C CNN
+F 3 "~" H 4750 6150 50  0001 C CNN
+	1    4750 6150
 	0    1    1    0   
 $EndComp
 $Comp
 L power:GND #PWR0116
 U 1 1 6077B7AA
-P 4950 6150
-F 0 "#PWR0116" H 4950 5900 50  0001 C CNN
-F 1 "GND" H 4955 5977 50  0000 C CNN
-F 2 "" H 4950 6150 50  0001 C CNN
-F 3 "" H 4950 6150 50  0001 C CNN
-	1    4950 6150
+P 4900 6150
+F 0 "#PWR0116" H 4900 5900 50  0001 C CNN
+F 1 "GND" H 4905 5977 50  0000 C CNN
+F 2 "" H 4900 6150 50  0001 C CNN
+F 3 "" H 4900 6150 50  0001 C CNN
+	1    4900 6150
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4900 6150 4950 6150
+	4850 6150 4900 6150
 Wire Wire Line
-	4550 6800 4550 6900
+	4500 6800 4500 6900
 Wire Wire Line
-	4550 7100 4550 7200
+	4500 7100 4500 7200
 $Comp
 L Device:R_Small R6
 U 1 1 6077EF8B
-P 4650 6350
-F 0 "R6" V 4513 6350 50  0000 C CNN
-F 1 "5.1k" V 4580 6350 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" H 4650 6350 50  0001 C CNN
-F 3 "~" H 4650 6350 50  0001 C CNN
-	1    4650 6350
+P 4600 6350
+F 0 "R6" V 4463 6350 50  0000 C CNN
+F 1 "5.1k" V 4530 6350 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 4600 6350 50  0001 C CNN
+F 3 "~" H 4600 6350 50  0001 C CNN
+	1    4600 6350
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	4800 6350 4750 6350
+	4750 6350 4700 6350
 $Comp
 L power:GND #PWR0117
 U 1 1 6077CEC0
-P 4800 6350
-F 0 "#PWR0117" H 4800 6100 50  0001 C CNN
-F 1 "GND" H 4805 6177 50  0000 C CNN
-F 2 "" H 4800 6350 50  0001 C CNN
-F 3 "" H 4800 6350 50  0001 C CNN
-	1    4800 6350
+P 4750 6350
+F 0 "#PWR0117" H 4750 6100 50  0001 C CNN
+F 1 "GND" H 4755 6177 50  0000 C CNN
+F 2 "" H 4750 6350 50  0001 C CNN
+F 3 "" H 4750 6350 50  0001 C CNN
+	1    4750 6350
 	1    0    0    -1  
 $EndComp
 $Comp
 L mini_random_library:TYPE-C-31-M12_13_EDITED J1
 U 1 1 60832B1A
-P 3950 6800
-F 0 "J1" H 4057 8217 50  0000 C CNN
-F 1 "TYPE-C-31-M12_13_EDITED" H 4057 8126 50  0000 C CNN
-F 2 "mini-general-tweaks:HRO-TYPE-C-31-M-12-HandSoldering_tweaked" V 3450 6850 50  0001 C CNN
-F 3 "" H 4150 6850 50  0001 C CNN
-	1    3950 6800
+P 3900 6800
+F 0 "J1" H 4007 8217 50  0000 C CNN
+F 1 "TYPE-C-31-M12_13_EDITED" H 4007 8126 50  0000 C CNN
+F 2 "mini-general-tweaks:HRO-TYPE-C-31-M-12-HandSoldering_tweaked" V 3400 6850 50  0001 C CNN
+F 3 "" H 4100 6850 50  0001 C CNN
+	1    3900 6800
 	1    0    0    -1  
 $EndComp
 Wire Notes Line
-	5150 5050 5150 8500
+	5000 5050 5000 8500
 Wire Notes Line
-	5150 8500 3450 8500
+	5000 8500 3450 8500
 Wire Notes Line
-	3450 8800 5150 8800
+	3450 8800 5000 8800
 Text Notes 3450 8750 0    98   ~ 20
 Mounting Holes
-NoConn ~ 3600 9650
-NoConn ~ 3600 9350
-NoConn ~ 3600 9050
+NoConn ~ 3550 9650
+NoConn ~ 3550 9350
+NoConn ~ 3550 9050
 Wire Notes Line
 	3450 8550 3450 9900
 Wire Notes Line
-	3450 8550 5150 8550
+	3450 8550 5000 8550
 Wire Notes Line
-	5200 6750 5200 8800
+	5050 6750 5050 8800
 Wire Notes Line
-	6100 8100 6100 8750
+	6550 8100 6550 8750
 Wire Notes Line
-	5250 8750 6100 8750
+	5600 8750 6550 8750
 Wire Notes Line
-	6100 8100 5250 8100
+	6550 8100 5600 8100
 $Comp
 L power:+5V #PWR0102
 U 1 1 5F1CEBD1
-P 6000 8650
-F 0 "#PWR0102" H 6000 8500 50  0001 C CNN
-F 1 "+5V" H 6015 8823 50  0000 C CNN
-F 2 "" H 6000 8650 50  0001 C CNN
-F 3 "" H 6000 8650 50  0001 C CNN
-	1    6000 8650
+P 6400 8650
+F 0 "#PWR0102" H 6400 8500 50  0001 C CNN
+F 1 "+5V" H 6415 8823 50  0000 C CNN
+F 2 "" H 6400 8650 50  0001 C CNN
+F 3 "" H 6400 8650 50  0001 C CNN
+	1    6400 8650
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5800 8650 6000 8650
-Text GLabel 6400 7500 2    50   Input ~ 0
+	6200 8650 6400 8650
+Text GLabel 6250 7500 2    50   Input ~ 0
 MCU_D-
 $Comp
 L Power_Protection:WE-TVS-82400102 U2
 U 1 1 60D419F0
-P 6100 7600
-F 0 "U2" H 6100 7925 50  0000 C CNN
-F 1 "WE-TVS-82400102" H 6100 7834 50  0000 C CNN
-F 2 "mini-general-tweaks:SOT-23-6_tweaked" H 6100 7400 50  0001 C CNN
-F 3 "https://katalog.we-online.de/pbs/datasheet/82400102.pdf" H 6100 7350 50  0001 C CNN
-	1    6100 7600
+P 5950 7600
+F 0 "U2" H 5950 7925 50  0000 C CNN
+F 1 "WE-TVS-82400102" H 5950 7834 50  0000 C CNN
+F 2 "mini-general-tweaks:SOT-23-6_tweaked" H 5950 7400 50  0001 C CNN
+F 3 "https://katalog.we-online.de/pbs/datasheet/82400102.pdf" H 5950 7350 50  0001 C CNN
+	1    5950 7600
 	1    0    0    -1  
 $EndComp
-Connection ~ 6850 7600
+Connection ~ 6700 7600
 Wire Wire Line
-	6850 7600 7050 7600
+	6700 7600 6900 7600
 $Comp
 L power:+5V #PWR0121
 U 1 1 60D5F5D4
-P 7050 7600
-F 0 "#PWR0121" H 7050 7450 50  0001 C CNN
-F 1 "+5V" H 7065 7773 50  0000 C CNN
-F 2 "" H 7050 7600 50  0001 C CNN
-F 3 "" H 7050 7600 50  0001 C CNN
-	1    7050 7600
+P 6900 7600
+F 0 "#PWR0121" H 6900 7450 50  0001 C CNN
+F 1 "+5V" H 6915 7773 50  0000 C CNN
+F 2 "" H 6900 7600 50  0001 C CNN
+F 3 "" H 6900 7600 50  0001 C CNN
+	1    6900 7600
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6850 7600 6400 7600
+	6700 7600 6250 7600
 $Comp
 L power:GND #PWR0122
 U 1 1 60E0A898
-P 6850 7800
-F 0 "#PWR0122" H 6850 7550 50  0001 C CNN
-F 1 "GND" H 6855 7627 50  0000 C CNN
-F 2 "" H 6850 7800 50  0001 C CNN
-F 3 "" H 6850 7800 50  0001 C CNN
-	1    6850 7800
+P 6700 7800
+F 0 "#PWR0122" H 6700 7550 50  0001 C CNN
+F 1 "GND" H 6705 7627 50  0000 C CNN
+F 2 "" H 6700 7800 50  0001 C CNN
+F 3 "" H 6700 7800 50  0001 C CNN
+	1    6700 7800
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:C_Small C8
 U 1 1 60E08719
-P 6850 7700
-F 0 "C8" H 6942 7746 50  0000 L CNN
-F 1 "100nF" H 6942 7655 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 6850 7700 50  0001 C CNN
-F 3 "~" H 6850 7700 50  0001 C CNN
-	1    6850 7700
+P 6700 7700
+F 0 "C8" H 6792 7746 50  0000 L CNN
+F 1 "100nF" H 6792 7655 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 6700 7700 50  0001 C CNN
+F 3 "~" H 6700 7700 50  0001 C CNN
+	1    6700 7700
 	1    0    0    -1  
 $EndComp
-Text GLabel 6400 7700 2    50   Input ~ 0
+Text GLabel 6250 7700 2    50   Input ~ 0
 MCU_D+
 Wire Notes Line
-	5200 6750 7250 6750
+	5050 6750 7100 6750
 Wire Notes Line
-	5200 6900 7250 6900
-Text Notes 5250 6900 0    98   ~ 20
+	5050 6900 7100 6900
+Text Notes 5100 6900 0    98   ~ 20
 Electrical Protection
-Text Notes 5250 7150 0    98   ~ 20
+Text Notes 5100 7150 0    98   ~ 20
 ESD TVS Diode
 Wire Wire Line
-	5800 7600 5350 7600
-Text GLabel 5800 7700 0    50   Input ~ 0
+	5650 7600 5200 7600
+Text GLabel 5650 7700 0    50   Input ~ 0
 USB_D+
-Text GLabel 5800 7500 0    50   Input ~ 0
+Text GLabel 5650 7500 0    50   Input ~ 0
 USB_D-
 $Comp
 L power:GND #PWR0119
 U 1 1 60A46743
-P 5350 7600
-F 0 "#PWR0119" H 5350 7350 50  0001 C CNN
-F 1 "GND" H 5355 7427 50  0000 C CNN
-F 2 "" H 5350 7600 50  0001 C CNN
-F 3 "" H 5350 7600 50  0001 C CNN
-	1    5350 7600
+P 5200 7600
+F 0 "#PWR0119" H 5200 7350 50  0001 C CNN
+F 1 "GND" H 5205 7427 50  0000 C CNN
+F 2 "" H 5200 7600 50  0001 C CNN
+F 3 "" H 5200 7600 50  0001 C CNN
+	1    5200 7600
 	1    0    0    -1  
 $EndComp
 Wire Notes Line
-	7200 6950 5250 6950
+	7050 6950 5100 6950
 Wire Notes Line
-	7200 7200 5250 7200
+	7050 7200 5100 7200
 Wire Notes Line
-	5250 6950 5250 8050
+	5100 6950 5100 8050
 Wire Wire Line
-	5350 8650 5600 8650
-Text Notes 5250 8300 0    98   ~ 20
+	5750 8650 6000 8650
+Text Notes 5600 8300 0    98   ~ 20
 Polyfuse
 $Comp
 L power:VCC #PWR0118
 U 1 1 60DE2F1D
-P 5350 8650
-F 0 "#PWR0118" H 5350 8500 50  0001 C CNN
-F 1 "VCC" H 5367 8823 50  0000 C CNN
-F 2 "" H 5350 8650 50  0001 C CNN
-F 3 "" H 5350 8650 50  0001 C CNN
-	1    5350 8650
+P 5750 8650
+F 0 "#PWR0118" H 5750 8500 50  0001 C CNN
+F 1 "VCC" H 5767 8823 50  0000 C CNN
+F 2 "" H 5750 8650 50  0001 C CNN
+F 3 "" H 5750 8650 50  0001 C CNN
+	1    5750 8650
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:Polyfuse_Small F1
 U 1 1 5F1C7377
-P 5700 8650
-F 0 "F1" V 5495 8650 50  0000 C CNN
-F 1 "500mA" V 5586 8650 50  0000 C CNN
-F 2 "Fuse:Fuse_1206_3216Metric" H 5750 8450 50  0001 L CNN
-F 3 "~" H 5700 8650 50  0001 C CNN
-	1    5700 8650
+P 6100 8650
+F 0 "F1" V 5895 8650 50  0000 C CNN
+F 1 "500mA" V 5986 8650 50  0000 C CNN
+F 2 "Fuse:Fuse_1206_3216Metric" H 6150 8450 50  0001 L CNN
+F 3 "~" H 6100 8650 50  0001 C CNN
+	1    6100 8650
 	0    1    1    0   
 $EndComp
 Wire Notes Line
-	7200 8050 5250 8050
+	7050 8050 5100 8050
 Wire Notes Line
-	5250 8100 5250 8750
-Wire Notes Line
-	5200 8800 7250 8800
-Text Notes 6250 5250 0    98   ~ 20
+	5600 8100 5600 8750
+Text Notes 6100 5250 0    98   ~ 20
 Rotary Encoder
-Text GLabel 6675 6100 0    50   Input ~ 0
+Text GLabel 6525 6100 0    50   Input ~ 0
 REA-
-Text GLabel 6675 5900 0    50   Input ~ 0
+Text GLabel 6525 5900 0    50   Input ~ 0
 REA+
 $Comp
 L Device:Rotary_Encoder_Switch RE0
 U 1 1 64FB0777
-P 6975 6000
-F 0 "RE0" H 6975 6367 50  0000 C CNN
-F 1 "Rotary_Encoder_Switch" H 6975 6276 50  0000 C CNN
-F 2 "mini-general-tweaks:RotaryEncoder_Alps_EC11E-Switch-Vertical-EDIT" H 6825 6160 50  0001 C CNN
-F 3 "~" H 6975 6260 50  0001 C CNN
-	1    6975 6000
+P 6825 6000
+F 0 "RE0" H 6825 6367 50  0000 C CNN
+F 1 "Rotary_Encoder_Switch" H 6825 6276 50  0000 C CNN
+F 2 "mini-general-tweaks:RotaryEncoder_Alps_EC11E-Switch-Vertical-EDIT" H 6675 6160 50  0001 C CNN
+F 3 "~" H 6825 6260 50  0001 C CNN
+	1    6825 6000
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR0123
 U 1 1 64F8DD45
-P 6350 6000
-F 0 "#PWR0123" H 6350 5750 50  0001 C CNN
-F 1 "GND" H 6355 5827 50  0000 C CNN
-F 2 "" H 6350 6000 50  0001 C CNN
-F 3 "" H 6350 6000 50  0001 C CNN
-	1    6350 6000
+P 6200 6000
+F 0 "#PWR0123" H 6200 5750 50  0001 C CNN
+F 1 "GND" H 6205 5827 50  0000 C CNN
+F 2 "" H 6200 6000 50  0001 C CNN
+F 3 "" H 6200 6000 50  0001 C CNN
+	1    6200 6000
 	1    0    0    -1  
 $EndComp
-Text GLabel 7275 6100 2    50   Input ~ 0
+Text GLabel 7125 6100 2    50   Input ~ 0
 COL14
-Text GLabel 7275 5900 2    50   Input ~ 0
+Text GLabel 7125 5900 2    50   Input ~ 0
 ROW0_RE
 Wire Wire Line
-	6350 6000 6675 6000
+	6200 6000 6525 6000
 Wire Notes Line
-	6250 5050 6250 6700
+	6100 5050 6100 6700
 Wire Notes Line
-	6250 5050 7700 5050
+	6100 5050 7550 5050
 Wire Notes Line
-	6250 6700 7700 6700
+	6100 6700 7550 6700
 Wire Notes Line
-	6250 5300 7700 5300
+	6100 5300 7550 5300
 Wire Notes Line
-	7700 5050 7700 6700
+	7550 5050 7550 6700
 Wire Notes Line
-	5150 9900 3450 9900
-Text Notes 5200 5250 0    98   ~ 20
+	5000 9900 3450 9900
+Text Notes 5050 5250 0    98   ~ 20
 ICSP Header
 Wire Notes Line
-	5200 6700 5200 5050
+	5050 6700 5050 5050
 Wire Notes Line
-	6200 5050 6200 6700
+	6050 5050 6050 6700
 $Comp
 L power:GND #PWR0115
 U 1 1 5FE20ACB
-P 5400 6450
-F 0 "#PWR0115" H 5400 6200 50  0001 C CNN
-F 1 "GND" H 5405 6277 50  0000 C CNN
-F 2 "" H 5400 6450 50  0001 C CNN
-F 3 "" H 5400 6450 50  0001 C CNN
-	1    5400 6450
+P 5250 6450
+F 0 "#PWR0115" H 5250 6200 50  0001 C CNN
+F 1 "GND" H 5255 6277 50  0000 C CNN
+F 2 "" H 5250 6450 50  0001 C CNN
+F 3 "" H 5250 6450 50  0001 C CNN
+	1    5250 6450
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:+5V #PWR0114
 U 1 1 5FE1DFB7
-P 5400 5550
-F 0 "#PWR0114" H 5400 5400 50  0001 C CNN
-F 1 "+5V" H 5415 5723 50  0000 C CNN
-F 2 "" H 5400 5550 50  0001 C CNN
-F 3 "" H 5400 5550 50  0001 C CNN
-	1    5400 5550
+P 5250 5550
+F 0 "#PWR0114" H 5250 5400 50  0001 C CNN
+F 1 "+5V" H 5265 5723 50  0000 C CNN
+F 2 "" H 5250 5550 50  0001 C CNN
+F 3 "" H 5250 5550 50  0001 C CNN
+	1    5250 5550
 	1    0    0    -1  
 $EndComp
-Text GLabel 5900 5850 2    50   Input ~ 0
+Text GLabel 5750 5850 2    50   Input ~ 0
 MISO
-Text GLabel 5900 5950 2    50   Input ~ 0
+Text GLabel 5750 5950 2    50   Input ~ 0
 MOSI
-Text GLabel 5900 6050 2    50   Input ~ 0
+Text GLabel 5750 6050 2    50   Input ~ 0
 SCK
-Text GLabel 5900 6150 2    50   Input ~ 0
+Text GLabel 5750 6150 2    50   Input ~ 0
 RESET
 Wire Notes Line
-	5150 8550 5150 9900
+	5000 8550 5000 9900
 $Comp
 L Connector:AVR-ISP-6 J2
 U 1 1 5FE1BF7A
-P 5500 6050
-F 0 "J2" H 6027 6601 50  0000 R CNN
-F 1 "AVR-ISP-6" H 6027 6522 50  0000 R CNN
-F 2 "mini-general-tweaks:ICSP_2.54mm_LAYOUT" V 5250 6100 50  0001 C CNN
-F 3 " ~" H 4225 5500 50  0001 C CNN
-	1    5500 6050
+P 5350 6050
+F 0 "J2" H 5877 6601 50  0000 R CNN
+F 1 "AVR-ISP-6" H 5877 6522 50  0000 R CNN
+F 2 "mini-general-tweaks:ICSP_2.54mm_LAYOUT" V 5100 6100 50  0001 C CNN
+F 3 " ~" H 4075 5500 50  0001 C CNN
+	1    5350 6050
 	1    0    0    -1  
 $EndComp
 Wire Notes Line
-	5200 5050 6200 5050
+	5050 5050 6050 5050
 Wire Notes Line
-	5200 5300 6200 5300
+	5050 5300 6050 5300
 Wire Notes Line
-	5200 6700 6200 6700
+	5050 6700 6050 6700
 $Comp
 L Mechanical:MountingHole_Pad H0
 U 1 1 6086D118
-P 4400 9550
-F 0 "H0" H 4500 9599 50  0000 L CNN
-F 1 "Mounting Hole" H 4500 9508 50  0000 L CNN
-F 2 "mini-general-tweaks:MountingHole_2.2mm_M2_Pad_tweaked" H 4400 9550 50  0001 C CNN
-F 3 "~" H 4400 9550 50  0001 C CNN
-	1    4400 9550
+P 4300 9550
+F 0 "H0" H 4400 9599 50  0000 L CNN
+F 1 "Mounting Hole" H 4400 9508 50  0000 L CNN
+F 2 "mini-general-tweaks:MountingHole_2.2mm_M2_Pad_tweaked" H 4300 9550 50  0001 C CNN
+F 3 "~" H 4300 9550 50  0001 C CNN
+	1    4300 9550
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole_Pad H1
 U 1 1 6087565E
-P 3600 9550
-F 0 "H1" H 3700 9599 50  0000 L CNN
-F 1 "Mounting Hole" H 3700 9508 50  0000 L CNN
-F 2 "mini-general-tweaks:MountingHole_2.2mm_M2_Pad_tweaked" H 3600 9550 50  0001 C CNN
-F 3 "~" H 3600 9550 50  0001 C CNN
-	1    3600 9550
+P 3550 9550
+F 0 "H1" H 3650 9599 50  0000 L CNN
+F 1 "Mounting Hole" H 3650 9508 50  0000 L CNN
+F 2 "mini-general-tweaks:MountingHole_2.2mm_M2_Pad_tweaked" H 3550 9550 50  0001 C CNN
+F 3 "~" H 3550 9550 50  0001 C CNN
+	1    3550 9550
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole_Pad H3
 U 1 1 608ABAB5
-P 3600 9250
-F 0 "H3" H 3700 9299 50  0000 L CNN
-F 1 "Mounting Hole" H 3700 9208 50  0000 L CNN
-F 2 "mini-general-tweaks:MountingHole_2.2mm_M2_Pad_tweaked" H 3600 9250 50  0001 C CNN
-F 3 "~" H 3600 9250 50  0001 C CNN
-	1    3600 9250
+P 3550 9250
+F 0 "H3" H 3650 9299 50  0000 L CNN
+F 1 "Mounting Hole" H 3650 9208 50  0000 L CNN
+F 2 "mini-general-tweaks:MountingHole_2.2mm_M2_Pad_tweaked" H 3550 9250 50  0001 C CNN
+F 3 "~" H 3550 9250 50  0001 C CNN
+	1    3550 9250
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole_Pad H4
 U 1 1 608C6C75
-P 3600 8950
-F 0 "H4" H 3700 8999 50  0000 L CNN
-F 1 "Mounting Hole" H 3700 8908 50  0000 L CNN
-F 2 "mini-general-tweaks:MountingHole_2.2mm_M2_Pad_tweaked" H 3600 8950 50  0001 C CNN
-F 3 "~" H 3600 8950 50  0001 C CNN
-	1    3600 8950
+P 3550 8950
+F 0 "H4" H 3650 8999 50  0000 L CNN
+F 1 "Mounting Hole" H 3650 8908 50  0000 L CNN
+F 2 "mini-general-tweaks:MountingHole_2.2mm_M2_Pad_tweaked" H 3550 8950 50  0001 C CNN
+F 3 "~" H 3550 8950 50  0001 C CNN
+	1    3550 8950
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR0120
 U 1 1 60985804
-P 4400 9650
-F 0 "#PWR0120" H 4400 9400 50  0001 C CNN
-F 1 "GND" H 4405 9477 50  0000 C CNN
-F 2 "" H 4400 9650 50  0001 C CNN
-F 3 "" H 4400 9650 50  0001 C CNN
-	1    4400 9650
+P 4300 9650
+F 0 "#PWR0120" H 4300 9400 50  0001 C CNN
+F 1 "GND" H 4305 9477 50  0000 C CNN
+F 2 "" H 4300 9650 50  0001 C CNN
+F 3 "" H 4300 9650 50  0001 C CNN
+	1    4300 9650
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole_Pad H5
 U 1 1 608E1DAA
-P 4400 8950
-F 0 "H5" H 4500 8999 50  0000 L CNN
-F 1 "Mounting Hole" H 4500 8908 50  0000 L CNN
-F 2 "mini-general-tweaks:MountingHole_2.2mm_M2_Pad_tweaked" H 4400 8950 50  0001 C CNN
-F 3 "~" H 4400 8950 50  0001 C CNN
-	1    4400 8950
+P 4300 8950
+F 0 "H5" H 4400 8999 50  0000 L CNN
+F 1 "Mounting Hole" H 4400 8908 50  0000 L CNN
+F 2 "mini-general-tweaks:MountingHole_2.2mm_M2_Pad_tweaked" H 4300 8950 50  0001 C CNN
+F 3 "~" H 4300 8950 50  0001 C CNN
+	1    4300 8950
 	1    0    0    -1  
 $EndComp
-NoConn ~ 4400 9050
-NoConn ~ 4400 9350
+NoConn ~ 4300 9050
+NoConn ~ 4300 9350
 $Comp
 L Mechanical:MountingHole_Pad H2
 U 1 1 6089094F
-P 4400 9250
-F 0 "H2" H 4500 9299 50  0000 L CNN
-F 1 "Mounting Hole" H 4500 9208 50  0000 L CNN
-F 2 "mini-general-tweaks:MountingHole_2.2mm_M2_Pad_tweaked" H 4400 9250 50  0001 C CNN
-F 3 "~" H 4400 9250 50  0001 C CNN
-	1    4400 9250
+P 4300 9250
+F 0 "H2" H 4400 9299 50  0000 L CNN
+F 1 "Mounting Hole" H 4400 9208 50  0000 L CNN
+F 2 "mini-general-tweaks:MountingHole_2.2mm_M2_Pad_tweaked" H 4300 9250 50  0001 C CNN
+F 3 "~" H 4300 9250 50  0001 C CNN
+	1    4300 9250
 	1    0    0    -1  
 $EndComp
 $Comp
 L mini_random_library:Logo LO2
 U 1 1 638922C8
-P 5350 9500
-F 0 "LO2" H 5478 9296 50  0000 L CNN
-F 1 "OSHW-Logo" H 5478 9205 50  0000 L CNN
-F 2 "mini-Logos:OSHW-Logo" H 5350 9400 50  0001 C CNN
-F 3 "" H 5350 9400 50  0001 C CNN
-	1    5350 9500
+P 5200 9500
+F 0 "LO2" H 5328 9296 50  0000 L CNN
+F 1 "OSHW-Logo" H 5328 9205 50  0000 L CNN
+F 2 "mini-Logos:OSHW-Logo" H 5200 9400 50  0001 C CNN
+F 3 "" H 5200 9400 50  0001 C CNN
+	1    5200 9500
 	1    0    0    -1  
 $EndComp
 $Comp
 L mini_random_library:Logo LO0
 U 1 1 6390C410
-P 5350 9000
-F 0 "LO0" H 5478 8796 50  0000 L CNN
-F 1 "mini-eLiXiVy-SilkScreen" H 5478 8705 50  0000 L CNN
-F 2 "mini-Logos:eLiXiVy-SilkScreenv2" H 5350 8900 50  0001 C CNN
-F 3 "" H 5350 8900 50  0001 C CNN
-	1    5350 9000
+P 5200 9000
+F 0 "LO0" H 5328 8796 50  0000 L CNN
+F 1 "mini-eLiXiVy-SilkScreen" H 5328 8705 50  0000 L CNN
+F 2 "mini-Logos:eLiXiVy-SilkScreenv2" H 5200 8900 50  0001 C CNN
+F 3 "" H 5200 8900 50  0001 C CNN
+	1    5200 9000
 	1    0    0    -1  
 $EndComp
 $Comp
 L mini_random_library:Logo LO1
 U 1 1 6390E149
-P 5350 9250
-F 0 "LO1" H 5478 9046 50  0000 L CNN
-F 1 "mini-eLiXiVy-Mask" H 5478 8955 50  0000 L CNN
-F 2 "mini-Logos:eLiXiVy-Maskv2" H 5350 9150 50  0001 C CNN
-F 3 "" H 5350 9150 50  0001 C CNN
-	1    5350 9250
+P 5200 9250
+F 0 "LO1" H 5328 9046 50  0000 L CNN
+F 1 "mini-eLiXiVy-Mask" H 5328 8955 50  0000 L CNN
+F 2 "mini-Logos:eLiXiVy-Maskv2" H 5200 9150 50  0001 C CNN
+F 3 "" H 5200 9150 50  0001 C CNN
+	1    5200 9250
 	1    0    0    -1  
 $EndComp
 Wire Notes Line
-	5200 8850 6450 8850
+	5050 8850 6300 8850
 Wire Notes Line
-	6450 9900 5200 9900
+	6300 9900 5050 9900
 Wire Notes Line
-	6450 8850 6450 9900
+	6300 8850 6300 9900
 Wire Notes Line
-	5200 8850 5200 9900
+	5050 8850 5050 9900
 Wire Notes Line
-	5200 9100 6450 9100
-Text Notes 5200 9050 0    98   ~ 20
+	5050 9100 6300 9100
+Text Notes 5050 9050 0    98   ~ 20
 Logos
 Wire Notes Line
-	5250 8350 6100 8350
-Text Notes 6550 9870 0    45   ~ 9
-2021
-Text Notes 6800 9872 0    43   ~ 0
+	5600 8350 6550 8350
+$Comp
+L mini_random_library:OSHW-Text-Logo #G0
+U 1 1 6396CC4A
+P 7330 9040
+F 0 "#G0" H 7330 8977 60  0001 C CNN
+F 1 "OSHW-Text-Logo" H 7330 9103 60  0001 C CNN
+F 2 "" H 7330 9040 39  0001 C CNN
+F 3 "" H 7330 9040 39  0001 C CNN
+	1    7330 9040
+	1    0    0    -1  
+$EndComp
+Wire Notes Line
+	7050 6950 7050 8050
+Text Notes 2950 750  0    157  ~ 31
+mini eLiXiVy Schematic
+Text GLabel 1450 7150 1    50   Input ~ 0
+DP
+Text GLabel 1450 7250 3    50   Input ~ 0
+DN
+Text Notes 6670 9892 0    51   ~ 0
 github.com/minibois/eLiXiVy
-Text Notes 6550 9810 0    37   ~ 0
+$Comp
+L mini_random_library:mini-eLiXiVy-Logo #G?
+U 1 1 6111971C
+P 7050 9535
+F 0 "#G?" H 7050 9259 60  0001 C CNN
+F 1 "mini-eLiXiVy-Logo" H 7050 9811 60  0001 C CNN
+F 2 "" H 7050 9535 50  0001 C CNN
+F 3 "" H 7050 9535 50  0001 C CNN
+	1    7050 9535
+	1    0    0    -1  
+$EndComp
+Text Notes 6340 9815 0    49   ~ 0
 rev.1a
+Text Notes 6340 9890 0    57   ~ 11
+2021
 $Comp
 L Graphic:Logo_Open_Hardware_Small #LOGO?
-U 1 1 6320E8FC
-P 6775 9100
-F 0 "#LOGO?" H 6775 9375 50  0001 C CNN
-F 1 "Logo_Open_Hardware_Small" H 6775 8875 50  0001 C CNN
-F 2 "" H 6775 9100 50  0001 C CNN
-F 3 "~" H 6775 9100 50  0001 C CNN
-	1    6775 9100
-	1    0    0    -1  
-$EndComp
-$Comp
-L mini_random_library:eLiXiVy-eeschema-logo #G?
-U 1 1 63849D31
-P 7125 9575
-F 0 "#G?" H 7125 9347 60  0001 C CNN
-F 1 "eLiXiVy-eeschema-logo" H 7125 9803 60  0001 C CNN
-F 2 "" H 7125 9575 50  0001 C CNN
-F 3 "" H 7125 9575 50  0001 C CNN
-	1    7125 9575
-	1    0    0    -1  
-$EndComp
-$Comp
-L mini_random_library:OSHW-Text-Logo #G?
-U 1 1 6396CC4A
-P 7350 9075
-F 0 "#G?" H 7350 9012 60  0001 C CNN
-F 1 "OSHW-Text-Logo" H 7350 9138 60  0001 C CNN
-F 2 "" H 7350 9075 39  0001 C CNN
-F 3 "" H 7350 9075 39  0001 C CNN
-	1    7350 9075
+U 1 1 61493E93
+P 6740 9040
+F 0 "#LOGO?" H 6740 9315 50  0001 C CNN
+F 1 "Logo_Open_Hardware_Small" H 6740 8815 50  0001 C CNN
+F 2 "" H 6740 9040 50  0001 C CNN
+F 3 "~" H 6740 9040 50  0001 C CNN
+	1    6740 9040
 	1    0    0    -1  
 $EndComp
 Wire Notes Line
-	7200 6950 7200 8050
+	5050 8800 7100 8800
 Wire Notes Line
-	7250 8800 7250 6750
+	7100 6750 7100 8800
 $EndSCHEMATC
