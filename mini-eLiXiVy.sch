@@ -3022,8 +3022,6 @@ F 3 "~" H 6740 9040 50  0001 C CNN
 $EndComp
 Wire Notes Line
 	5050 8800 7100 8800
-Wire Wire Line
-	6875 2500 7025 2500
 Wire Notes Line
 	7100 6750 7100 8800
 Wire Wire Line
@@ -3284,4 +3282,9 @@ F 3 "" H 6200 6000 50  0001 C CNN
 	1    6200 6000
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	6875 2500 6975 2500
+Connection ~ 6975 2500
+Wire Wire Line
+	6975 2500 7025 2500
 $EndSCHEMATC
