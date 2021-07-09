@@ -267,20 +267,13 @@ Wire Wire Line
 Wire Wire Line
 	6275 3500 7275 3500
 Wire Wire Line
-	6275 2800 6875 2800
-Wire Wire Line
 	6275 2100 6875 2100
-Wire Wire Line
-	6700 2550 7025 2550
 Wire Wire Line
 	6900 2350 7200 2350
 Wire Wire Line
 	1550 3500 1975 3500
 Connection ~ 1550 3500
 Connection ~ 1975 3500
-Connection ~ 1100 3500
-Wire Wire Line
-	1100 3500 1550 3500
 Wire Wire Line
 	1550 4200 1975 4200
 Connection ~ 1550 4200
@@ -357,11 +350,6 @@ Connection ~ 2375 3500
 Wire Wire Line
 	1975 3500 2375 3500
 Wire Wire Line
-	900  3500 1100 3500
-Wire Wire Line
-	6875 2800 7275 2800
-Connection ~ 6875 2800
-Wire Wire Line
 	5325 2800 5725 2800
 Wire Wire Line
 	4350 2800 4750 2800
@@ -404,12 +392,10 @@ Wire Wire Line
 	1975 2100 2375 2100
 Wire Wire Line
 	900  2100 1100 2100
-Connection ~ 7175 2300
 Wire Wire Line
 	7200 2300 7200 2350
 Wire Wire Line
 	7175 2300 7200 2300
-Connection ~ 6575 3000
 Wire Wire Line
 	6600 3000 6600 3050
 Wire Wire Line
@@ -838,17 +824,6 @@ F 1 "1N4148W" H 1609 3208 28  0000 R CNN
 F 2 "mini-general-tweaks:D_SOD123_axial-dual" H 1550 3175 50  0001 C CNN
 F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 1550 3350 50  0001 C CNN
 	1    1550 3350
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Diode:1N4148W D30
-U 1 1 622FC3F7
-P 1100 3350
-F 0 "D30" H 1095 3263 50  0000 R CNN
-F 1 "1N4148W" H 1159 3208 28  0000 R CNN
-F 2 "mini-general-tweaks:D_SOD123_axial-dual" H 1100 3175 50  0001 C CNN
-F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 1100 3350 50  0001 C CNN
-	1    1100 3350
 	0    -1   -1   0   
 $EndComp
 $Comp
@@ -1328,8 +1303,6 @@ F 3 "" H 6400 3725 60  0001 C CNN
 	1    7025 3750
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	7025 2500 7025 2550
 Wire Wire Line
 	5825 4600 5725 4600
 $Comp
@@ -2138,13 +2111,8 @@ Text GLabel 7175 1400 1    50   Input ~ 0
 COL13
 Text Notes 2950 750  0    157  ~ 31
 mini eLiXiVy Schematic
-Connection ~ 5050 1600
-Wire Wire Line
-	5050 1600 5050 1400
-Connection ~ 5625 1600
 Wire Wire Line
 	5625 1600 5625 1400
-Connection ~ 7575 1600
 Wire Wire Line
 	7575 1600 7575 1400
 Wire Notes Line
@@ -2532,7 +2500,6 @@ Wire Notes Line
 	3450 5050 3450 8500
 Text Notes 3450 5250 0    98   ~ 20
 USB Type C
-Connection ~ 4500 7100
 Connection ~ 4500 6900
 Wire Wire Line
 	4550 6900 4500 6900
@@ -2565,22 +2532,14 @@ NoConn ~ 4500 7950
 $Comp
 L power:GND #PWR0101
 U 1 1 607575CF
-P 4050 8250
-F 0 "#PWR0101" H 4050 8000 50  0001 C CNN
-F 1 "GND" H 4055 8077 50  0000 C CNN
-F 2 "" H 4050 8250 50  0001 C CNN
-F 3 "" H 4050 8250 50  0001 C CNN
-	1    4050 8250
+P 4000 8250
+F 0 "#PWR0101" H 4000 8000 50  0001 C CNN
+F 1 "GND" H 4005 8077 50  0000 C CNN
+F 2 "" H 4000 8250 50  0001 C CNN
+F 3 "" H 4000 8250 50  0001 C CNN
+	1    4000 8250
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	3600 8250 3800 8250
-Connection ~ 3800 8250
-Wire Wire Line
-	3800 8250 3900 8250
-Connection ~ 3900 8250
-Wire Wire Line
-	3900 8250 4000 8250
 $Comp
 L Device:R_Small R5
 U 1 1 60779B82
@@ -3036,10 +2995,6 @@ Wire Notes Line
 	7050 6950 7050 8050
 Text Notes 2950 750  0    157  ~ 31
 mini eLiXiVy Schematic
-Text GLabel 1450 7000 1    50   Input ~ 0
-DP
-Text GLabel 1450 7100 3    50   Input ~ 0
-DN
 Text Notes 6670 9892 0    51   ~ 0
 github.com/minibois/eLiXiVy
 $Comp
@@ -3071,57 +3026,7 @@ $EndComp
 Wire Notes Line
 	5050 8800 7100 8800
 Wire Wire Line
-	7175 2300 7175 4400
-Wire Wire Line
-	7175 1400 7175 2300
-Wire Wire Line
-	6575 3000 6575 4400
-Wire Wire Line
-	6875 2500 7025 2500
-Wire Wire Line
-	4750 4600 4900 4600
-Wire Wire Line
-	6275 3200 6425 3200
-Wire Wire Line
-	1100 3200 1250 3200
-Wire Wire Line
-	1100 3900 1250 3900
-Wire Wire Line
-	5325 4600 5475 4600
-Wire Wire Line
-	3650 8250 3800 8250
-Wire Wire Line
-	5050 1600 5050 4400
-Wire Wire Line
-	5625 1600 5625 4400
-Wire Wire Line
-	7575 1600 7575 4400
-Wire Wire Line
-	3900 8250 4050 8250
-Wire Wire Line
-	1400 1400 1400 3000
-Wire Wire Line
-	1850 1400 1850 4400
-Wire Wire Line
-	2275 1400 2275 4400
-Wire Wire Line
-	2675 1400 2675 3700
-Wire Wire Line
-	3050 1400 3050 3700
-Wire Wire Line
-	3450 1400 3450 3700
-Wire Wire Line
-	3850 1400 3850 4400
-Wire Wire Line
-	4250 1400 4250 3700
-Wire Wire Line
-	4650 1400 4650 3700
-Wire Wire Line
-	6025 1400 6025 4400
-Wire Wire Line
-	6575 1400 6575 3000
-Wire Wire Line
-	4500 7100 4600 7100
+	6875 2500 6975 2500
 Wire Notes Line
 	7100 6750 7100 8800
 Wire Wire Line
@@ -3131,4 +3036,254 @@ Wire Wire Line
 Connection ~ 1400 5850
 Wire Wire Line
 	1400 5850 1450 5850
+Wire Wire Line
+	1100 3900 1200 3900
+Connection ~ 1200 3900
+Wire Wire Line
+	1200 3900 1250 3900
+Wire Wire Line
+	1850 4400 1850 3700
+Connection ~ 1850 1600
+Wire Wire Line
+	1850 1600 1850 1400
+Connection ~ 1850 2300
+Wire Wire Line
+	1850 2300 1850 1600
+Connection ~ 1850 3000
+Wire Wire Line
+	1850 3000 1850 2300
+Connection ~ 1850 3700
+Wire Wire Line
+	1850 3700 1850 3000
+Wire Wire Line
+	1400 1400 1400 1600
+Connection ~ 1400 1600
+Wire Wire Line
+	1400 1600 1400 2300
+Connection ~ 1400 2300
+Wire Wire Line
+	1400 2300 1400 3000
+Wire Wire Line
+	2275 1400 2275 1600
+Connection ~ 2275 1600
+Wire Wire Line
+	2275 1600 2275 2300
+Connection ~ 2275 2300
+Wire Wire Line
+	2275 2300 2275 3000
+Connection ~ 2275 3000
+Wire Wire Line
+	2275 3000 2275 3700
+Connection ~ 2275 3700
+Wire Wire Line
+	2275 3700 2275 4400
+Wire Wire Line
+	2675 1400 2675 1600
+Connection ~ 2675 1600
+Wire Wire Line
+	2675 1600 2675 2300
+Connection ~ 2675 2300
+Wire Wire Line
+	2675 2300 2675 3000
+Wire Wire Line
+	3050 1400 3050 1600
+Connection ~ 3050 1600
+Wire Wire Line
+	3050 1600 3050 2300
+Connection ~ 3050 2300
+Wire Wire Line
+	3050 2300 3050 3000
+Wire Wire Line
+	3450 1400 3450 1600
+Connection ~ 3450 1600
+Wire Wire Line
+	3450 1600 3450 2300
+Connection ~ 3450 2300
+Wire Wire Line
+	3450 2300 3450 3000
+Wire Wire Line
+	2675 3000 2675 3700
+Connection ~ 2675 3000
+Wire Wire Line
+	3050 3700 3050 3000
+Connection ~ 3050 3000
+Wire Wire Line
+	3450 3000 3450 3700
+Connection ~ 3450 3000
+Wire Wire Line
+	3850 3700 3850 3000
+Connection ~ 3850 1600
+Wire Wire Line
+	3850 1600 3850 1400
+Connection ~ 3850 2300
+Wire Wire Line
+	3850 2300 3850 1600
+Connection ~ 3850 3000
+Wire Wire Line
+	3850 3000 3850 2300
+Wire Wire Line
+	4250 1400 4250 1600
+Connection ~ 4250 1600
+Wire Wire Line
+	4250 1600 4250 2300
+Connection ~ 4250 2300
+Wire Wire Line
+	4250 2300 4250 3000
+Connection ~ 4250 3000
+Wire Wire Line
+	4250 3000 4250 3700
+Wire Wire Line
+	3850 4400 3850 3700
+Connection ~ 3850 3700
+Wire Wire Line
+	5050 4400 5050 3700
+Connection ~ 5050 4400
+Connection ~ 5050 1600
+Wire Wire Line
+	5050 1600 5050 1400
+Connection ~ 5050 2300
+Wire Wire Line
+	5050 2300 5050 1600
+Connection ~ 5050 3000
+Wire Wire Line
+	5050 3000 5050 2300
+Connection ~ 5050 3700
+Wire Wire Line
+	5050 3700 5050 3000
+Wire Wire Line
+	4650 1400 4650 1600
+Connection ~ 4650 1600
+Wire Wire Line
+	4650 1600 4650 2300
+Connection ~ 4650 2300
+Wire Wire Line
+	4650 2300 4650 3000
+Connection ~ 4650 3000
+Wire Wire Line
+	4650 3000 4650 3700
+Wire Wire Line
+	6025 4400 6025 3700
+Connection ~ 6025 1600
+Wire Wire Line
+	6025 1600 6025 1400
+Connection ~ 6025 2300
+Wire Wire Line
+	6025 2300 6025 1600
+Connection ~ 6025 3000
+Wire Wire Line
+	6025 3000 6025 2300
+Connection ~ 6025 3700
+Wire Wire Line
+	6025 3700 6025 3000
+Wire Wire Line
+	6575 1400 6575 1600
+Connection ~ 6575 1600
+Wire Wire Line
+	6575 1600 6575 2300
+Connection ~ 6575 2300
+Wire Wire Line
+	6575 2300 6575 3000
+Connection ~ 6575 3000
+Wire Wire Line
+	6575 3000 6575 3700
+Connection ~ 6575 3700
+Wire Wire Line
+	6575 3700 6575 4400
+Wire Wire Line
+	7175 4400 7175 3700
+Connection ~ 7175 1600
+Wire Wire Line
+	7175 1600 7175 1400
+Connection ~ 7175 2300
+Wire Wire Line
+	7175 2300 7175 1600
+Connection ~ 7175 3700
+Wire Wire Line
+	7175 3700 7175 2300
+Wire Wire Line
+	7575 1600 7575 2300
+Connection ~ 7575 1600
+Connection ~ 7575 2300
+Wire Wire Line
+	7575 2300 7575 3000
+Connection ~ 7575 3000
+Wire Wire Line
+	7575 3000 7575 3700
+Connection ~ 7575 3700
+Wire Wire Line
+	7575 3700 7575 4400
+Wire Wire Line
+	1100 3200 1200 3200
+Connection ~ 1200 3200
+Wire Wire Line
+	1200 3200 1250 3200
+Wire Wire Line
+	6275 2800 6875 2800
+Connection ~ 6875 2800
+Wire Wire Line
+	6875 2800 7275 2800
+Connection ~ 6975 2500
+Wire Wire Line
+	6975 2500 7025 2500
+Wire Wire Line
+	6700 2550 7025 2550
+Wire Wire Line
+	7025 2550 7025 2500
+Wire Wire Line
+	6275 3200 6375 3200
+Connection ~ 6375 3200
+Wire Wire Line
+	6375 3200 6425 3200
+Wire Wire Line
+	5625 4400 5625 3700
+Connection ~ 5625 4400
+Connection ~ 5625 1600
+Connection ~ 5625 2300
+Wire Wire Line
+	5625 2300 5625 1600
+Connection ~ 5625 3000
+Wire Wire Line
+	5625 3000 5625 2300
+Connection ~ 5625 3700
+Wire Wire Line
+	5625 3700 5625 3000
+Wire Wire Line
+	1100 3500 1550 3500
+Connection ~ 1100 3500
+Wire Wire Line
+	900  3500 1100 3500
+$Comp
+L Diode:1N4148W D30
+U 1 1 622FC3F7
+P 1100 3350
+F 0 "D30" H 1095 3263 50  0000 R CNN
+F 1 "1N4148W" H 1159 3208 28  0000 R CNN
+F 2 "mini-general-tweaks:D_SOD123_axial-dual" H 1100 3175 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 1100 3350 50  0001 C CNN
+	1    1100 3350
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4500 7100 4550 7100
+Connection ~ 4500 7100
+Wire Wire Line
+	4500 6150 4650 6150
+Wire Wire Line
+	3600 8250 3800 8250
+Connection ~ 3800 8250
+Wire Wire Line
+	3800 8250 3900 8250
+Connection ~ 3900 8250
+Wire Wire Line
+	3900 8250 4000 8250
+Wire Wire Line
+	4750 4600 4850 4600
+Connection ~ 4850 4600
+Wire Wire Line
+	4850 4600 4900 4600
+Wire Wire Line
+	5325 4600 5425 4600
+Connection ~ 5425 4600
+Wire Wire Line
+	5425 4600 5475 4600
 $EndSCHEMATC
