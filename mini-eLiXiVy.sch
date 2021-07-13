@@ -2135,8 +2135,8 @@ Text GLabel 7575 1400 1    50   Input ~ 0
 COL14
 Text GLabel 7175 1400 1    50   Input ~ 0
 COL13
-Text Notes 2950 750  0    157  ~ 31
-mini eLiXiVy Schematic
+Text Notes 2400 750  0    157  ~ 31
+mini eLiXiVy Schematic, Rev 1a
 $Comp
 L power:GND #PWR0109
 U 1 1 5F16A4C1
@@ -2990,8 +2990,6 @@ F 3 "" H 7330 9040 39  0001 C CNN
 $EndComp
 Wire Notes Line
 	7050 6950 7050 8050
-Text Notes 2950 750  0    157  ~ 31
-mini eLiXiVy Schematic
 Text Notes 6670 9892 0    51   ~ 0
 github.com/minibois/eLiXiVy
 $Comp
