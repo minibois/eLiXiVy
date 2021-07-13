@@ -14,7 +14,11 @@
  The bill of materials lists the tested compatible components. Substitutes may be available, should these materials be difficult or otherwise not possible to obtain (i.e. while a capacitor from one manufacturer may be specifically listed, an equal sized and value capacitor may be a suitable alternative. Although I can only vouch compatibility for the listed components).
 
  Used libraries (symbols/footprints have been edited for the use in this project):
+ 
  That-Canadian's KiCad_labs (for the D-SOD123_axial-dual): https://github.com/That-Canadian/KiCad_Libs
+
  Type-C.Pretty: https://github.com/ai03-2725/Type-C.pretty
+ 
  MX_Alps_Hybrid: https://github.com/ai03-2725/MX_Alps_Hybrid
+ 
  random-keyboard-parts (for a reset switch): https://github.com/ai03-2725/random-keyboard-parts.pretty
