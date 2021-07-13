@@ -1,17 +1,17 @@
 # mini-eLiXiVy
- Repository of my project mini-eLiXiVy, which previously had the working title of 'mini-65'. 
- This is a 65% mechanical keyboard PCB with a rotary encoder option, compatible with the KBDFans 65% plate and low profile case.
+#### Repository of my project mini-eLiXiVy (previously had the working title of 'mini-65'), which is a 65% mechanical keyboard PCB, compatible with ANSI and ISO headers and with the possibility to use a tactile rotary encoder.
+ This PCB is compatible with KBDFans' 65% low profile case/plate and Cherry MX(-like) keyswitches.
+
+![mini-eLiXiVy-Render](/Documents/Images/PCBPicture.png)
 
  The PCB and schematic are licensed under CERN-OHL-S v2, the full license of this project can be found here: https://github.com/minibois/eLiXiVy/blob/master/Documents/LICENSE.txt
 
- This PCB supports a couple different 65% layouts, including a regular or stepped caps lock, ISO Enter (and 1.75u left Shift + 1u \ keys or a 2.75u left Shift), three 1u or two 1.25u modifiers between the spacebar and arrow key. See the below image for all officially supported layouts:
-
+### The compatible layouts for this PCB are as follows:
+![mini-eLiXiVy-Render](/Documents/Images/Layouts/layouts.png)
  In the top right of the keyboard you can either use an MX-like keyswitch or rotary encoder with switch (see the BOM for a verified compatible option).
- 
- Bill of materials:
- https://octopart.com/bom-tool/allQRgda
+ Bill of materials: https://octopart.com/bom-tool/allQRgda (see ../Documents for a .txt and .xlsx version of the BOM).
 
- The bill of materials lists the tested compatible components. Substitutes may be available, should these materials be difficult or otherwise not possible to obtain (i.e. while a capacitor from one manufacturer may be specifically listed, an equal sized and value capacitor may be a suitable alternative. Although I can only vouch compatibility for the listed components).
+ While the the bill of materials mentioned tested compatible components, substitutes may be available, should these components become difficult to obtain. I can only vouch for the compability of the listed components.
 
  Used libraries (symbols/footprints have been edited for the use in this project):
  
@@ -22,3 +22,5 @@
  MX_Alps_Hybrid: https://github.com/ai03-2725/MX_Alps_Hybrid
  
  random-keyboard-parts (for a reset switch): https://github.com/ai03-2725/random-keyboard-parts.pretty
+
+### This PCB and schematic is provided - as per CERN-OHL-S v2 section 6 - _without any warranty_ (implied or otherwise).
