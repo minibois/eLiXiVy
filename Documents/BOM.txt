@@ -1,16 +1,26 @@
-Qty		Product					Description			Schematic 		Notes
+Qty		Product					Description			Schematic 	Notes
+1		mini-eLiXiVy PCB		PCB					N/A								
 1		ATMEGA32U4-AU			Microcontroller		U1
-2  		CL21C220JB61PNC 		0805 22p Capacitor	C1, C2
+2  		CL21C220JB61PNC 		0805 22p Capacitor	C1,C2
 1		CL21B105KAFNNNE			0805 1u Capacitor	C3
-4		CL21B104MBCNNNC			0805 0.1u Capacitor	C4, C5, C6, C8
+4		CL21B104MBCNNNC			0805 0.1u Capacitor	C4,C5,C6,C8
 1		CL21A106KOQNNNG			0805 10u Capacitor	C7
-69		1N4148					THT Diode			D0 - D68		Either this or 1N4148W
-69		1N4148W					SMD Diode			D0 - D68		Either this or 1N4148
+66-69	1N4148					THT Diode			D0-D68		Either this or 1N4148W
+66-69	1N4148W					SMD Diode			D0-D68		Either this or 1N4148
 1		1206L050/15YR			1206 500mA Fuse		F1
-2		ERA-6AEB103V			0805 10K Resistor	R1, R4
-2		ERJ-6GEYJ220V			0805 22 Resistor	R2, R3
-2		ERJ-6RBD5101V			0805 5.1K Resistor	R5, R6
-1		RS187R05A2DSMTRT		Tactile Switch		SW1				Optional, refer to assembly guide
+2		ERA-6AEB103V			0805 10K Resistor	R1,R4
+2		ERJ-6GEYJ220V			0805 22 Resistor	R2,R3
+2		ERJ-6RBD5101V			0805 5.1K Resistor	R5,R6
+1		RS187R05A2DSMTRT		Tactile Switch		SW1			Optional, refer to assembly guide
 1		TYPE-C-31-M-12			USB Type C			J1
 1		82400102				TVS Diode			U2
 1		ECS-160-8-33B-CTN-TR	16MHz Crystal		Y1
+66-69	MX-Like switches		Switches			MX			Refer to assembly guide and Documents/layouts.png
+1		ALP-ENC-IND-000			Rotary Encoder		RE1			Optional, refer to Documents/layouts.png
+1		case0026				KBDFans' 65% case	N/A			Confirmed to work, others may apply.
+1		PJ0138					KBDFans' 65% plate	N/A			Confirmed to work, others may apply.
+1		Stabilizers				6.25u and 2/3x 2u	N/A			2x 2u stabs for ISO, 3x 2u for ANSI. Refer to Assembly Guide
+1		Stabilizer Lubricant						N/A 		It's recommended to apply lube to stabs. Refer to Assembly Guide
+1		Keycaps					65% Set 			N/A 		Set for your desired layout. Refer to Documents/layouts.png
+1 		USB Type C cable							N/A 		Cable to connect the keyboard
+N/A    	TOOLS										N/A 		For a list of recommended tools, refer to the Assembly Guide.
