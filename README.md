@@ -2,12 +2,12 @@
 #### Repository of my project mini-eLiXiVy (previously had the working title of 'mini-65'), which is a 65% mechanical keyboard PCB, compatible with ANSI and ISO headers and with the possibility to use a tactile rotary encoder.
  This PCB is compatible with KBDFans' 65% low profile case/plate and Cherry MX(-like) keyswitches.
 
-![mini-eLiXiVy-Render](/Documents/Images/PCBPicture.png)
+![mini-eLiXiVy-PCB-Render](/Documents/Images/PCBPicture.png)
 
  The PCB and schematic are licensed under CERN-OHL-S v2, the full license of this project can be found here: https://github.com/minibois/eLiXiVy/blob/master/Documents/LICENSE.txt
 
 ### The compatible layouts for this PCB are as follows:
-![mini-eLiXiVy-Render](/Documents/Images/Layouts/layouts.png)
+![mini-eLiXiVy-Layouts-Supported](/Documents/Layouts/layouts.png)
  In the top right of the keyboard you can either use an MX-like keyswitch or rotary encoder with switch (see the BOM for a verified compatible option).
  Bill of materials: https://octopart.com/bom-tool/allQRgda (see ../Documents for a .txt and .xlsx version of the BOM).
 
