@@ -4,11 +4,13 @@
 ![mini-eLiXiVy-PCB-Render](/Documents/Images/PCBPicture.png)
  _Render of the front and back of the PCB respectively_
 
+ << License || Assembly Guide || BOM (Octoparts) / (.txt) / (.xlsx) || Supported layouts || Schematic (.pdf) / (.sch) || PCB (.pdf) / (.kicad_pcb) >>
+
  The PCB and schematic are licensed under CERN-OHL-S v2, full license details can be found here: https://github.com/minibois/eLiXiVy/blob/master/Documents/LICENSE.txt
 
 ### The compatible layouts for this PCB are as follows:
 ![mini-eLiXiVy-Layouts-Supported](/Documents/Layouts/layouts.png)
- _The mini-eLiXiVy supports between 66 and 69 switches, depending on the layout chosen_
+ _The mini-eLiXiVy supports between 66 and 69 switches, depending on the layout chosen._
  In the top right of the keyboard you can either use an MX-like keyswitch or a rotary encoder with switch (see the BOM for a verified compatible option).
  
  Bill of materials: https://octopart.com/bom-tool/allQRgda (see ../Documents for a .txt and .xlsx version of the BOM).
