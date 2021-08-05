@@ -1,4 +1,12 @@
 [
+  {
+    "name": "mini_eLiXiVy",
+    "author": "minibois, 2021",
+    "notes": "Keyboard source: https://github.com/minibois/eLiXiVy",
+    "switchMount": "cherry",
+    "pcb": true,
+    "plate": true
+  },
   [
     "~\nEsc\n`",
     "!\n1\nF1",
