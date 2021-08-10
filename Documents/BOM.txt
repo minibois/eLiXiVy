@@ -23,4 +23,4 @@ Qty		Product				Description			Schematic	Notes
 1		Stabilizer Lubricant						N/A 		It's recommended to apply lube to stabs. Refer to Assembly Guide
 1		Keycaps				65% Set 			N/A 		Set for your desired layout. Refer to Documents/layouts.png
 1 		USB Type C cable						N/A 		Cable to connect the keyboard
-N/A    		TOOLS								N/A 		For a list of recommended tools, refer to the Assembly Guide.
+N/A    		TOOLS/Supplies							N/A 		For a list of recommended tools/supplies, refer to the Assembly Guide.

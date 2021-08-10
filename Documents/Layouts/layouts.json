@@ -1,6 +1,13 @@
 [
+  {
+    "name": "mini_elixivy",
+    "author": "minibois, 2021",
+    "notes": "Keyboard source: https://github.com/minibois/eLiXiVy",
+    "switchMount": "cherry",
+    "pcb": true
+  },
   [
-    "~\nEsc\n`",
+    "\nEsc",
     "!\n1\nF1",
     "@\n2\nF2",
     "#\n3\nF3",
@@ -18,13 +25,15 @@
     },
     "Backspace",
     {
-      "c": "#d15252"
+      "c": "#d15252",
+      "a": 5
     },
-    "PrtSc"
+    "Rotary Encod."
   ],
   [
     {
       "c": "#cccccc",
+      "a": 4,
       "w": 1.5
     },
     "Tab",
@@ -48,7 +57,7 @@
     {
       "c": "#cccccc"
     },
-    "Delete"
+    "PrtSc\n\n\nPgUp"
   ],
   [
     {
@@ -78,7 +87,7 @@
     {
       "c": "#cccccc"
     },
-    "Insert"
+    "Delete\n\n\nPgDn"
   ],
   [
     {
@@ -104,7 +113,7 @@
     },
     "Shift",
     "↑",
-    "F5"
+    "~\n`\n\nIns"
   ],
   [
     {
@@ -172,7 +181,7 @@
       "c": "#d15252",
       "a": 5
     },
-    "Rotary\n\n\n\n\n\nEncod."
+    "MX Switch"
   ],
   [
     {

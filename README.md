@@ -22,4 +22,5 @@
  * MX_Alps_Hybrid: https://github.com/ai03-2725/MX_Alps_Hybrid
  * random-keyboard-parts (for a reset switch): https://github.com/ai03-2725/random-keyboard-parts.pretty
 
-### This PCB file and schematic is provided - as per CERN-OHL-S v2 section 6 - _without any warranty_ (implied or otherwise).
+### This PCB file and schematic is provided - as per CERN-OHL-S v2 section 6 - _without any warranty_ (implied or otherwise). https://ohwr.org/cern_ohl_s_v2.pdf
+### The assembly guide is provided under the CC BY-SA 4.0, without any warranty (implied or otherwise): https://creativecommons.org/licenses/by-sa/4.0/legalcode
