@@ -6,8 +6,8 @@ $Descr A4 8268 11693 portrait
 encoding utf-8
 Sheet 1 1
 Title "eLiXiVy"
-Date "2021-07-09"
-Rev "1a"
+Date "2021-08-05"
+Rev "1"
 Comp "Full License: https://github.com/minibois/eLiXiVy/blob/master/LICENSE.txt"
 Comment1 "of CERN_OHL-S v2 (https://ohwr.org/cern_ohl_s_v2.txt)"
 Comment2 "You may redistribute and modify this source and make products using it under the terms"
@@ -2085,7 +2085,7 @@ U 1 1 5F48B6A3
 P 7425 1650
 F 0 "MX_PrtSc1" H 7421 1824 24  0000 C CNN
 F 1 "MX-NoLED" H 7399 1769 20  0000 C CNN
-F 2 "mini-MX-Tweaks:MXOnly-1U-NoLED-3Pin_tweak" H 6800 1625 60  0001 C CNN
+F 2 "mini-MX-Tweaks:MXOnly-1U-NoLED_tweak" H 6800 1625 60  0001 C CNN
 F 3 "" H 6800 1625 60  0001 C CNN
 	1    7425 1650
 	1    0    0    -1  
@@ -2136,7 +2136,7 @@ COL14
 Text GLabel 7175 1400 1    50   Input ~ 0
 COL13
 Text Notes 2400 750  0    157  ~ 31
-mini eLiXiVy Schematic, Rev 1a
+mini eLiXiVy Schematic, Rev 1
 $Comp
 L power:GND #PWR0109
 U 1 1 5F16A4C1
@@ -3004,7 +3004,7 @@ F 3 "" H 7050 9535 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text Notes 6340 9815 0    49   ~ 0
-rev.1a
+rev.1
 Text Notes 6340 9890 0    57   ~ 11
 2021
 $Comp
