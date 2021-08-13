@@ -6,17 +6,16 @@
 
  << [License](https://github.com/minibois/eLiXiVy/blob/master/LICENSE/LICENSE.txt) || Assembly Guide || BOM ([Octoparts](https://octopart.com/bom-tool/allQRgda)) / ([.txt](https://github.com/minibois/eLiXiVy/blob/master/Documents/BOM.txt)) / ([.xlsx](https://github.com/minibois/eLiXiVy/blob/master/Documents/BOM.xlsx)) || [Supported layouts](https://raw.githubusercontent.com/minibois/eLiXiVy/master/Documents/Layouts/layouts.png) || Schematic ([.pdf](https://github.com/minibois/eLiXiVy/blob/master/Documents/Schematic.pdf)) / ([.sch](https://github.com/minibois/eLiXiVy/blob/master/mini-eLiXiVy.sch)) || PCB ([.pdf](https://github.com/minibois/eLiXiVy/blob/master/Documents/PCB.pdf)) / ([.kicad_pcb](https://github.com/minibois/eLiXiVy/blob/master/mini-eLiXiVy.kicad_pcb)) >>
 
- The PCB and schematic are licensed under CERN-OHL-S v2, full license details can be found here: https://github.com/minibois/eLiXiVy/blob/master/Documents/LICENSE.txt
+ The PCB and schematic are licensed under CERN-OHL-S v2, full license details can be found here: https://github.com/minibois/eLiXiVy/blob/master/Documents/LICENSE.txt.
 
 ### The compatible layouts for this PCB are as follows:
 ![mini-eLiXiVy-Layouts-Supported](/Documents/Layouts/layouts.png)
  _The mini-eLiXiVy supports between 66 and 69 switches, depending on the layout chosen._
  In the top right of the keyboard you can either use an MX-like keyswitch or a rotary encoder with switch (see the BOM for a verified compatible option).
  
- Bill of materials: https://octopart.com/bom-tool/allQRgda (see ../Documents for a .txt and .xlsx version of the BOM).
  While the the bill of materials mentions tested compatible components, substitutes may be available, should these components become difficult to obtain. Should you choose alternatives, you do so at your own risk. I can only vouch for the compability of the listed components.
 
- Used libraries (symbols/footprints have been edited for the use in this project):
+## Libraries used in this project (most of them adapted to this project):
  * That-Canadian's KiCad_labs (for the D-SOD123_axial-dual): https://github.com/That-Canadian/KiCad_Libs
  * Type-C.Pretty: https://github.com/ai03-2725/Type-C.pretty
  * MX_Alps_Hybrid: https://github.com/ai03-2725/MX_Alps_Hybrid
