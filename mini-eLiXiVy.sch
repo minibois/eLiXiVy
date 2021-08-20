@@ -3285,4 +3285,8 @@ Wire Wire Line
 	6975 2500 7025 2500
 Wire Wire Line
 	4500 6150 4650 6150
+Text GLabel 1500 7000 1    50   Input ~ 0
+D+
+Text GLabel 1500 7100 3    50   Input ~ 0
+D-
 $EndSCHEMATC

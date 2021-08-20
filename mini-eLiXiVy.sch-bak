@@ -2947,7 +2947,7 @@ U 1 1 6390C410
 P 5200 9000
 F 0 "LO0" H 5328 8796 50  0000 L CNN
 F 1 "mini-eLiXiVy-SilkScreen" H 5328 8705 50  0000 L CNN
-F 2 "mini-Logos:eLiXiVy-SilkScreen-rev1" H 5200 8900 50  0001 C CNN
+F 2 "mini-Logos:eLiXiVy-SilkScreenv2" H 5200 8900 50  0001 C CNN
 F 3 "" H 5200 8900 50  0001 C CNN
 	1    5200 9000
 	1    0    0    -1  
