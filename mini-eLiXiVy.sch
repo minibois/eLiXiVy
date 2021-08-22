@@ -2148,28 +2148,12 @@ F 3 "" H 1700 9300 50  0001 C CNN
 	1    1700 9300
 	1    0    0    -1  
 $EndComp
-Connection ~ 2050 9300
-Wire Wire Line
-	2150 9300 2050 9300
-Wire Wire Line
-	2050 9300 1700 9300
 Text GLabel 1550 6400 0    50   Input ~ 0
 XTAL2
 Text GLabel 1550 6200 0    50   Input ~ 0
 XTAL1
 Text GLabel 2750 6400 2    50   Input ~ 0
 COL13
-$Comp
-L MCU_Microchip_ATmega:ATmega32U4-AU U1
-U 1 1 5F16167A
-P 2150 7500
-F 0 "U1" H 2150 5611 50  0000 C CNN
-F 1 "ATmega32U4-AU" H 2150 5520 50  0000 C CNN
-F 2 "mini-general-tweaks:TQFP-44_10x10mm_P0.8mm_ATmega32U4" H 2150 7500 50  0001 C CIN
-F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-7766-8-bit-AVR-ATmega16U4-32U4_Datasheet.pdf" H 2150 7500 50  0001 C CNN
-	1    2150 7500
-	1    0    0    -1  
-$EndComp
 Text GLabel 2750 7000 2    50   Input ~ 0
 ROW4
 Text GLabel 2750 7200 2    50   Input ~ 0
@@ -2194,12 +2178,6 @@ Text GLabel 2750 6600 2    50   Input ~ 0
 ROW1
 Text GLabel 2750 6500 2    50   Input ~ 0
 ROW0
-Connection ~ 2050 5700
-Connection ~ 2150 5700
-Wire Wire Line
-	2250 5700 2150 5700
-Wire Wire Line
-	2150 5700 2050 5700
 Text GLabel 2750 8600 2    50   Input ~ 0
 COL2
 Text GLabel 2750 8900 2    50   Input ~ 0
@@ -2785,8 +2763,6 @@ ROW0_RE
 Wire Wire Line
 	6200 6000 6525 6000
 Wire Notes Line
-	6100 5050 6100 6700
-Wire Notes Line
 	6100 5050 7550 5050
 Wire Notes Line
 	6100 6700 7550 6700
@@ -3289,4 +3265,36 @@ Text GLabel 1500 7000 1    50   Input ~ 0
 D+
 Text GLabel 1500 7100 3    50   Input ~ 0
 D-
+Text GLabel 6550 6100 3    50   Input ~ 0
+RE-
+Text GLabel 6550 5900 1    50   Input ~ 0
+RE+
+Text GLabel 2750 7700 1    50   Input ~ 0
+RE+
+Wire Notes Line
+	6100 5050 6100 6700
+Wire Wire Line
+	2150 5700 2050 5700
+Wire Wire Line
+	2250 5700 2150 5700
+Connection ~ 2150 5700
+Connection ~ 2050 5700
+Wire Wire Line
+	2050 9300 1700 9300
+Wire Wire Line
+	2150 9300 2050 9300
+Connection ~ 2050 9300
+Text GLabel 2750 6000 1    50   Input ~ 0
+RE-
+$Comp
+L MCU_Microchip_ATmega:ATmega32U4-AU U1
+U 1 1 5F16167A
+P 2150 7500
+F 0 "U1" H 2150 5611 50  0000 C CNN
+F 1 "ATmega32U4-AU" H 2150 5520 50  0000 C CNN
+F 2 "mini-general-tweaks:TQFP-44_10x10mm_P0.8mm_ATmega32U4" H 2150 7500 50  0001 C CIN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-7766-8-bit-AVR-ATmega16U4-32U4_Datasheet.pdf" H 2150 7500 50  0001 C CNN
+	1    2150 7500
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
