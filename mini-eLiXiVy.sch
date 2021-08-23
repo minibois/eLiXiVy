@@ -6,8 +6,8 @@ $Descr A4 8268 11693 portrait
 encoding utf-8
 Sheet 1 1
 Title "eLiXiVy"
-Date "2021-08-05"
-Rev "1"
+Date "2021-08-23"
+Rev "1.1"
 Comp "Full License: https://github.com/minibois/eLiXiVy/blob/master/LICENSE.txt"
 Comment1 "of CERN_OHL-S v2 (https://ohwr.org/cern_ohl_s_v2.txt)"
 Comment2 "You may redistribute and modify this source and make products using it under the terms"
@@ -2136,7 +2136,7 @@ COL14
 Text GLabel 7175 1400 1    50   Input ~ 0
 COL13
 Text Notes 2400 750  0    157  ~ 31
-mini eLiXiVy Schematic, Rev 1
+mini eLiXiVy Schematic, Rev 1.1
 $Comp
 L power:GND #PWR0109
 U 1 1 5F16A4C1
@@ -2923,7 +2923,7 @@ U 1 1 6390C410
 P 5200 9000
 F 0 "LO0" H 5328 8796 50  0000 L CNN
 F 1 "mini-eLiXiVy-SilkScreen" H 5328 8705 50  0000 L CNN
-F 2 "mini-Logos:eLiXiVy-SilkScreenv2" H 5200 8900 50  0001 C CNN
+F 2 "mini-Logos:eLiXiVy-rev1.1-SilkScreen" H 5200 8900 50  0001 C CNN
 F 3 "" H 5200 8900 50  0001 C CNN
 	1    5200 9000
 	1    0    0    -1  
@@ -2934,7 +2934,7 @@ U 1 1 6390E149
 P 5200 9250
 F 0 "LO1" H 5328 9046 50  0000 L CNN
 F 1 "mini-eLiXiVy-Mask" H 5328 8955 50  0000 L CNN
-F 2 "mini-Logos:eLiXiVy-Maskv2" H 5200 9150 50  0001 C CNN
+F 2 "mini-Logos:eLiXiVy-rev1.1-Mask" H 5200 9150 50  0001 C CNN
 F 3 "" H 5200 9150 50  0001 C CNN
 	1    5200 9250
 	1    0    0    -1  
@@ -2979,8 +2979,8 @@ F 3 "" H 7050 9535 50  0001 C CNN
 	1    7050 9535
 	1    0    0    -1  
 $EndComp
-Text Notes 6340 9815 0    49   ~ 0
-rev.1
+Text Notes 6340 9815 0    43   ~ 0
+rev.1.1
 Text Notes 6340 9890 0    57   ~ 11
 2021
 $Comp
