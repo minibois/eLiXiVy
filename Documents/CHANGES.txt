@@ -1,3 +1,6 @@
 2021-07-13: CHANGES.txt made.
 This file can be used to document any change(s) made to this open source project, as per 3.1.2 of the CERN-OHL-S v2 User Guide.
 Please use the YYYY-MM-DD date format (ISO 8601) and list the modification(s) made.
+
+2021-10-17: Release of rev.1.1
+Upon reflecting on the build process and releasing the build log online, rev.1.1 was released.

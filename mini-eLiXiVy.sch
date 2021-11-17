@@ -2953,17 +2953,6 @@ Text Notes 5050 9050 0    98   ~ 20
 Logos
 Wire Notes Line
 	5650 8350 6550 8350
-$Comp
-L mini_random_library:OSHW-Text-Logo #G0
-U 1 1 6396CC4A
-P 7330 9040
-F 0 "#G0" H 7330 8977 60  0001 C CNN
-F 1 "OSHW-Text-Logo" H 7330 9103 60  0001 C CNN
-F 2 "" H 7330 9040 39  0001 C CNN
-F 3 "" H 7330 9040 39  0001 C CNN
-	1    7330 9040
-	1    0    0    -1  
-$EndComp
 Wire Notes Line
 	7050 6950 7050 8050
 Text Notes 6670 9892 0    51   ~ 0
@@ -3295,6 +3284,17 @@ F 1 "ATmega32U4-AU" H 2150 5520 50  0000 C CNN
 F 2 "mini-general-tweaks:TQFP-44_10x10mm_P0.8mm_ATmega32U4" H 2150 7500 50  0001 C CIN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-7766-8-bit-AVR-ATmega16U4-32U4_Datasheet.pdf" H 2150 7500 50  0001 C CNN
 	1    2150 7500
+	1    0    0    -1  
+$EndComp
+$Comp
+L mini_random_library:OSHW-Text-Logo #G0
+U 1 1 6396CC4A
+P 7330 9040
+F 0 "#G0" H 7330 8977 60  0001 C CNN
+F 1 "OSHW-Text-Logo" H 7330 9103 60  0001 C CNN
+F 2 "" H 7330 9040 39  0001 C CNN
+F 3 "" H 7330 9040 39  0001 C CNN
+	1    7330 9040
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
