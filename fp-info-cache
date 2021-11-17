@@ -1,4 +1,4 @@
-17422290596491034
+16961582874569393
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -12903,7 +12903,7 @@ connector JST SUR top entry
 Connector_JST
 JST_VH_B2P-VH-B_1x02_P3.96mm_Vertical
 JST VH PBT series connector, B2P-VH-B (http://www.jst-mfg.com/product/pdf/eng/eVH.pdf), generated with kicad-footprint-generator
-connector JST VH vertical
+connector JST VH side entry
 0
 2
 2
@@ -12917,7 +12917,7 @@ connector JST VH side entry
 Connector_JST
 JST_VH_B2P-VH_1x02_P3.96mm_Vertical
 JST VH series connector, B2P-VH (http://www.jst-mfg.com/product/pdf/eng/eVH.pdf), generated with kicad-footprint-generator
-connector JST VH vertical
+connector JST VH side entry
 0
 2
 2
@@ -12938,7 +12938,7 @@ connector JST VH top entry
 Connector_JST
 JST_VH_B3P-VH-B_1x03_P3.96mm_Vertical
 JST VH PBT series connector, B3P-VH-B (http://www.jst-mfg.com/product/pdf/eng/eVH.pdf), generated with kicad-footprint-generator
-connector JST VH vertical
+connector JST VH side entry
 0
 3
 3
@@ -12952,7 +12952,7 @@ connector JST VH side entry
 Connector_JST
 JST_VH_B3P-VH_1x03_P3.96mm_Vertical
 JST VH series connector, B3P-VH (http://www.jst-mfg.com/product/pdf/eng/eVH.pdf), generated with kicad-footprint-generator
-connector JST VH vertical
+connector JST VH side entry
 0
 3
 3
@@ -12966,7 +12966,7 @@ connector JST VH top entry
 Connector_JST
 JST_VH_B4P-VH-B_1x04_P3.96mm_Vertical
 JST VH PBT series connector, B4P-VH-B (http://www.jst-mfg.com/product/pdf/eng/eVH.pdf), generated with kicad-footprint-generator
-connector JST VH vertical
+connector JST VH side entry
 0
 4
 4
@@ -12980,7 +12980,7 @@ connector JST VH side entry
 Connector_JST
 JST_VH_B4P-VH_1x04_P3.96mm_Vertical
 JST VH series connector, B4P-VH (http://www.jst-mfg.com/product/pdf/eng/eVH.pdf), generated with kicad-footprint-generator
-connector JST VH vertical
+connector JST VH side entry
 0
 4
 4
@@ -12994,7 +12994,7 @@ connector JST VH top entry
 Connector_JST
 JST_VH_B5P-VH-B_1x05_P3.96mm_Vertical
 JST VH PBT series connector, B5P-VH-B (http://www.jst-mfg.com/product/pdf/eng/eVH.pdf), generated with kicad-footprint-generator
-connector JST VH vertical
+connector JST VH side entry
 0
 5
 5
@@ -13008,7 +13008,7 @@ connector JST VH side entry
 Connector_JST
 JST_VH_B5P-VH_1x05_P3.96mm_Vertical
 JST VH series connector, B5P-VH (http://www.jst-mfg.com/product/pdf/eng/eVH.pdf), generated with kicad-footprint-generator
-connector JST VH vertical
+connector JST VH side entry
 0
 5
 5
@@ -13022,7 +13022,7 @@ connector JST VH top entry
 Connector_JST
 JST_VH_B6P-VH-B_1x06_P3.96mm_Vertical
 JST VH PBT series connector, B6P-VH-B (http://www.jst-mfg.com/product/pdf/eng/eVH.pdf), generated with kicad-footprint-generator
-connector JST VH vertical
+connector JST VH side entry
 0
 6
 6
@@ -13036,7 +13036,7 @@ connector JST VH side entry
 Connector_JST
 JST_VH_B6P-VH_1x06_P3.96mm_Vertical
 JST VH series connector, B6P-VH (http://www.jst-mfg.com/product/pdf/eng/eVH.pdf), generated with kicad-footprint-generator
-connector JST VH vertical
+connector JST VH side entry
 0
 6
 6
@@ -13050,7 +13050,7 @@ connector JST VH top entry
 Connector_JST
 JST_VH_B7P-VH-B_1x07_P3.96mm_Vertical
 JST VH PBT series connector, B7P-VH-B (http://www.jst-mfg.com/product/pdf/eng/eVH.pdf), generated with kicad-footprint-generator
-connector JST VH vertical
+connector JST VH side entry
 0
 7
 7
@@ -13064,7 +13064,7 @@ connector JST VH side entry
 Connector_JST
 JST_VH_B7P-VH_1x07_P3.96mm_Vertical
 JST VH series connector, B7P-VH (http://www.jst-mfg.com/product/pdf/eng/eVH.pdf), generated with kicad-footprint-generator
-connector JST VH vertical
+connector JST VH side entry
 0
 7
 7
@@ -13078,7 +13078,7 @@ connector JST VH top entry
 Connector_JST
 JST_VH_B8P-VH-B_1x08_P3.96mm_Vertical
 JST VH PBT series connector, B8P-VH-B (http://www.jst-mfg.com/product/pdf/eng/eVH.pdf), generated with kicad-footprint-generator
-connector JST VH vertical
+connector JST VH side entry
 0
 8
 8
@@ -13092,7 +13092,7 @@ connector JST VH side entry
 Connector_JST
 JST_VH_B8P-VH_1x08_P3.96mm_Vertical
 JST VH series connector, B8P-VH (http://www.jst-mfg.com/product/pdf/eng/eVH.pdf), generated with kicad-footprint-generator
-connector JST VH vertical
+connector JST VH side entry
 0
 8
 8
@@ -13106,7 +13106,7 @@ connector JST VH top entry
 Connector_JST
 JST_VH_B9P-VH-B_1x09_P3.96mm_Vertical
 JST VH PBT series connector, B9P-VH-B (http://www.jst-mfg.com/product/pdf/eng/eVH.pdf), generated with kicad-footprint-generator
-connector JST VH vertical
+connector JST VH side entry
 0
 9
 9
@@ -13120,7 +13120,7 @@ connector JST VH side entry
 Connector_JST
 JST_VH_B9P-VH_1x09_P3.96mm_Vertical
 JST VH series connector, B9P-VH (http://www.jst-mfg.com/product/pdf/eng/eVH.pdf), generated with kicad-footprint-generator
-connector JST VH vertical
+connector JST VH side entry
 0
 9
 9
@@ -13134,7 +13134,7 @@ connector JST VH top entry
 Connector_JST
 JST_VH_B10P-VH-B_1x10_P3.96mm_Vertical
 JST VH PBT series connector, B10P-VH-B (http://www.jst-mfg.com/product/pdf/eng/eVH.pdf), generated with kicad-footprint-generator
-connector JST VH vertical
+connector JST VH side entry
 0
 10
 10
@@ -13148,7 +13148,7 @@ connector JST VH side entry
 Connector_JST
 JST_VH_B10P-VH_1x10_P3.96mm_Vertical
 JST VH series connector, B10P-VH (http://www.jst-mfg.com/product/pdf/eng/eVH.pdf), generated with kicad-footprint-generator
-connector JST VH vertical
+connector JST VH side entry
 0
 10
 10
@@ -13162,7 +13162,7 @@ connector JST VH top entry
 Connector_JST
 JST_VH_B11P-VH-B_1x11_P3.96mm_Vertical
 JST VH PBT series connector, B11P-VH-B (http://www.jst-mfg.com/product/pdf/eng/eVH.pdf), generated with kicad-footprint-generator
-connector JST VH vertical
+connector JST VH side entry
 0
 11
 11
@@ -13215,405 +13215,6 @@ connector JST XAG top entry
 0
 7
 6
-Connector_JST
-JST_XA_B02B-XASK-1-A_1x02_P2.50mm_Vertical
-JST XA series connector, B02B-XASK-1-A (http://www.jst-mfg.com/product/pdf/eng/eXA1.pdf), generated with kicad-footprint-generator
-connector JST XA vertical boss
-0
-2
-2
-Connector_JST
-JST_XA_B02B-XASK-1_1x02_P2.50mm_Vertical
-JST XA series connector, B02B-XASK-1 (http://www.jst-mfg.com/product/pdf/eng/eXA1.pdf), generated with kicad-footprint-generator
-connector JST XA vertical
-0
-2
-2
-Connector_JST
-JST_XA_B03B-XASK-1-A_1x03_P2.50mm_Vertical
-JST XA series connector, B03B-XASK-1-A (http://www.jst-mfg.com/product/pdf/eng/eXA1.pdf), generated with kicad-footprint-generator
-connector JST XA vertical boss
-0
-3
-3
-Connector_JST
-JST_XA_B03B-XASK-1_1x03_P2.50mm_Vertical
-JST XA series connector, B03B-XASK-1 (http://www.jst-mfg.com/product/pdf/eng/eXA1.pdf), generated with kicad-footprint-generator
-connector JST XA vertical
-0
-3
-3
-Connector_JST
-JST_XA_B04B-XASK-1-A_1x04_P2.50mm_Vertical
-JST XA series connector, B04B-XASK-1-A (http://www.jst-mfg.com/product/pdf/eng/eXA1.pdf), generated with kicad-footprint-generator
-connector JST XA vertical boss
-0
-4
-4
-Connector_JST
-JST_XA_B04B-XASK-1_1x04_P2.50mm_Vertical
-JST XA series connector, B04B-XASK-1 (http://www.jst-mfg.com/product/pdf/eng/eXA1.pdf), generated with kicad-footprint-generator
-connector JST XA vertical
-0
-4
-4
-Connector_JST
-JST_XA_B05B-XASK-1-A_1x05_P2.50mm_Vertical
-JST XA series connector, B05B-XASK-1-A (http://www.jst-mfg.com/product/pdf/eng/eXA1.pdf), generated with kicad-footprint-generator
-connector JST XA vertical boss
-0
-5
-5
-Connector_JST
-JST_XA_B05B-XASK-1_1x05_P2.50mm_Vertical
-JST XA series connector, B05B-XASK-1 (http://www.jst-mfg.com/product/pdf/eng/eXA1.pdf), generated with kicad-footprint-generator
-connector JST XA vertical
-0
-5
-5
-Connector_JST
-JST_XA_B06B-XASK-1-A_1x06_P2.50mm_Vertical
-JST XA series connector, B06B-XASK-1-A (http://www.jst-mfg.com/product/pdf/eng/eXA1.pdf), generated with kicad-footprint-generator
-connector JST XA vertical boss
-0
-6
-6
-Connector_JST
-JST_XA_B06B-XASK-1_1x06_P2.50mm_Vertical
-JST XA series connector, B06B-XASK-1 (http://www.jst-mfg.com/product/pdf/eng/eXA1.pdf), generated with kicad-footprint-generator
-connector JST XA vertical
-0
-6
-6
-Connector_JST
-JST_XA_B07B-XASK-1-A_1x07_P2.50mm_Vertical
-JST XA series connector, B07B-XASK-1-A (http://www.jst-mfg.com/product/pdf/eng/eXA1.pdf), generated with kicad-footprint-generator
-connector JST XA vertical boss
-0
-7
-7
-Connector_JST
-JST_XA_B07B-XASK-1_1x07_P2.50mm_Vertical
-JST XA series connector, B07B-XASK-1 (http://www.jst-mfg.com/product/pdf/eng/eXA1.pdf), generated with kicad-footprint-generator
-connector JST XA vertical
-0
-7
-7
-Connector_JST
-JST_XA_B08B-XASK-1-A_1x08_P2.50mm_Vertical
-JST XA series connector, B08B-XASK-1-A (http://www.jst-mfg.com/product/pdf/eng/eXA1.pdf), generated with kicad-footprint-generator
-connector JST XA vertical boss
-0
-8
-8
-Connector_JST
-JST_XA_B08B-XASK-1_1x08_P2.50mm_Vertical
-JST XA series connector, B08B-XASK-1 (http://www.jst-mfg.com/product/pdf/eng/eXA1.pdf), generated with kicad-footprint-generator
-connector JST XA vertical
-0
-8
-8
-Connector_JST
-JST_XA_B09B-XASK-1-A_1x09_P2.50mm_Vertical
-JST XA series connector, B09B-XASK-1-A (http://www.jst-mfg.com/product/pdf/eng/eXA1.pdf), generated with kicad-footprint-generator
-connector JST XA vertical boss
-0
-9
-9
-Connector_JST
-JST_XA_B09B-XASK-1_1x09_P2.50mm_Vertical
-JST XA series connector, B09B-XASK-1 (http://www.jst-mfg.com/product/pdf/eng/eXA1.pdf), generated with kicad-footprint-generator
-connector JST XA vertical
-0
-9
-9
-Connector_JST
-JST_XA_B10B-XASK-1-A_1x10_P2.50mm_Vertical
-JST XA series connector, B10B-XASK-1-A (http://www.jst-mfg.com/product/pdf/eng/eXA1.pdf), generated with kicad-footprint-generator
-connector JST XA vertical boss
-0
-10
-10
-Connector_JST
-JST_XA_B10B-XASK-1_1x10_P2.50mm_Vertical
-JST XA series connector, B10B-XASK-1 (http://www.jst-mfg.com/product/pdf/eng/eXA1.pdf), generated with kicad-footprint-generator
-connector JST XA vertical
-0
-10
-10
-Connector_JST
-JST_XA_B11B-XASK-1-A_1x11_P2.50mm_Vertical
-JST XA series connector, B11B-XASK-1-A (http://www.jst-mfg.com/product/pdf/eng/eXA1.pdf), generated with kicad-footprint-generator
-connector JST XA vertical boss
-0
-11
-11
-Connector_JST
-JST_XA_B11B-XASK-1_1x11_P2.50mm_Vertical
-JST XA series connector, B11B-XASK-1 (http://www.jst-mfg.com/product/pdf/eng/eXA1.pdf), generated with kicad-footprint-generator
-connector JST XA vertical
-0
-11
-11
-Connector_JST
-JST_XA_B12B-XASK-1-A_1x12_P2.50mm_Vertical
-JST XA series connector, B12B-XASK-1-A (http://www.jst-mfg.com/product/pdf/eng/eXA1.pdf), generated with kicad-footprint-generator
-connector JST XA vertical boss
-0
-12
-12
-Connector_JST
-JST_XA_B12B-XASK-1_1x12_P2.50mm_Vertical
-JST XA series connector, B12B-XASK-1 (http://www.jst-mfg.com/product/pdf/eng/eXA1.pdf), generated with kicad-footprint-generator
-connector JST XA vertical
-0
-12
-12
-Connector_JST
-JST_XA_B13B-XASK-1-A_1x13_P2.50mm_Vertical
-JST XA series connector, B13B-XASK-1-A (http://www.jst-mfg.com/product/pdf/eng/eXA1.pdf), generated with kicad-footprint-generator
-connector JST XA vertical boss
-0
-13
-13
-Connector_JST
-JST_XA_B13B-XASK-1_1x13_P2.50mm_Vertical
-JST XA series connector, B13B-XASK-1 (http://www.jst-mfg.com/product/pdf/eng/eXA1.pdf), generated with kicad-footprint-generator
-connector JST XA vertical
-0
-13
-13
-Connector_JST
-JST_XA_B14B-XASK-1-A_1x14_P2.50mm_Vertical
-JST XA series connector, B14B-XASK-1-A (http://www.jst-mfg.com/product/pdf/eng/eXA1.pdf), generated with kicad-footprint-generator
-connector JST XA vertical boss
-0
-14
-14
-Connector_JST
-JST_XA_B14B-XASK-1_1x14_P2.50mm_Vertical
-JST XA series connector, B14B-XASK-1 (http://www.jst-mfg.com/product/pdf/eng/eXA1.pdf), generated with kicad-footprint-generator
-connector JST XA vertical
-0
-14
-14
-Connector_JST
-JST_XA_B15B-XASK-1-A_1x15_P2.50mm_Vertical
-JST XA series connector, B15B-XASK-1-A (http://www.jst-mfg.com/product/pdf/eng/eXA1.pdf), generated with kicad-footprint-generator
-connector JST XA vertical boss
-0
-15
-15
-Connector_JST
-JST_XA_B15B-XASK-1_1x15_P2.50mm_Vertical
-JST XA series connector, B15B-XASK-1 (http://www.jst-mfg.com/product/pdf/eng/eXA1.pdf), generated with kicad-footprint-generator
-connector JST XA vertical
-0
-15
-15
-Connector_JST
-JST_XA_B18B-XASK-1_1x18_P2.50mm_Vertical
-JST XA series connector, B18B-XASK-1 (http://www.jst-mfg.com/product/pdf/eng/eXA1.pdf), generated with kicad-footprint-generator
-connector JST XA vertical
-0
-18
-18
-Connector_JST
-JST_XA_B20B-XASK-1-A_1x20_P2.50mm_Vertical
-JST XA series connector, B20B-XASK-1-A (http://www.jst-mfg.com/product/pdf/eng/eXA1.pdf), generated with kicad-footprint-generator
-connector JST XA vertical boss
-0
-20
-20
-Connector_JST
-JST_XA_B20B-XASK-1_1x20_P2.50mm_Vertical
-JST XA series connector, B20B-XASK-1 (http://www.jst-mfg.com/product/pdf/eng/eXA1.pdf), generated with kicad-footprint-generator
-connector JST XA vertical
-0
-20
-20
-Connector_JST
-JST_XA_S02B-XASK-1N-BN_1x02_P2.50mm_Horizontal
-JST XA series connector, S02B-XASK-1N-BN (http://www.jst-mfg.com/product/pdf/eng/eXA1.pdf), generated with kicad-footprint-generator
-connector JST XA horizontal
-0
-2
-2
-Connector_JST
-JST_XA_S02B-XASK-1_1x02_P2.50mm_Horizontal
-JST XA series connector, S02B-XASK-1 (http://www.jst-mfg.com/product/pdf/eng/eXA1.pdf), generated with kicad-footprint-generator
-connector JST XA horizontal hook
-0
-2
-2
-Connector_JST
-JST_XA_S03B-XASK-1N-BN_1x03_P2.50mm_Horizontal
-JST XA series connector, S03B-XASK-1N-BN (http://www.jst-mfg.com/product/pdf/eng/eXA1.pdf), generated with kicad-footprint-generator
-connector JST XA horizontal
-0
-3
-3
-Connector_JST
-JST_XA_S03B-XASK-1_1x03_P2.50mm_Horizontal
-JST XA series connector, S03B-XASK-1 (http://www.jst-mfg.com/product/pdf/eng/eXA1.pdf), generated with kicad-footprint-generator
-connector JST XA horizontal hook
-0
-3
-3
-Connector_JST
-JST_XA_S04B-XASK-1N-BN_1x04_P2.50mm_Horizontal
-JST XA series connector, S04B-XASK-1N-BN (http://www.jst-mfg.com/product/pdf/eng/eXA1.pdf), generated with kicad-footprint-generator
-connector JST XA horizontal
-0
-4
-4
-Connector_JST
-JST_XA_S04B-XASK-1_1x04_P2.50mm_Horizontal
-JST XA series connector, S04B-XASK-1 (http://www.jst-mfg.com/product/pdf/eng/eXA1.pdf), generated with kicad-footprint-generator
-connector JST XA horizontal hook
-0
-4
-4
-Connector_JST
-JST_XA_S05B-XASK-1N-BN_1x05_P2.50mm_Horizontal
-JST XA series connector, S05B-XASK-1N-BN (http://www.jst-mfg.com/product/pdf/eng/eXA1.pdf), generated with kicad-footprint-generator
-connector JST XA horizontal
-0
-5
-5
-Connector_JST
-JST_XA_S05B-XASK-1_1x05_P2.50mm_Horizontal
-JST XA series connector, S05B-XASK-1 (http://www.jst-mfg.com/product/pdf/eng/eXA1.pdf), generated with kicad-footprint-generator
-connector JST XA horizontal hook
-0
-5
-5
-Connector_JST
-JST_XA_S06B-XASK-1N-BN_1x06_P2.50mm_Horizontal
-JST XA series connector, S06B-XASK-1N-BN (http://www.jst-mfg.com/product/pdf/eng/eXA1.pdf), generated with kicad-footprint-generator
-connector JST XA horizontal
-0
-6
-6
-Connector_JST
-JST_XA_S06B-XASK-1_1x06_P2.50mm_Horizontal
-JST XA series connector, S06B-XASK-1 (http://www.jst-mfg.com/product/pdf/eng/eXA1.pdf), generated with kicad-footprint-generator
-connector JST XA horizontal hook
-0
-6
-6
-Connector_JST
-JST_XA_S07B-XASK-1N-BN_1x07_P2.50mm_Horizontal
-JST XA series connector, S07B-XASK-1N-BN (http://www.jst-mfg.com/product/pdf/eng/eXA1.pdf), generated with kicad-footprint-generator
-connector JST XA horizontal
-0
-7
-7
-Connector_JST
-JST_XA_S07B-XASK-1_1x07_P2.50mm_Horizontal
-JST XA series connector, S07B-XASK-1 (http://www.jst-mfg.com/product/pdf/eng/eXA1.pdf), generated with kicad-footprint-generator
-connector JST XA horizontal hook
-0
-7
-7
-Connector_JST
-JST_XA_S08B-XASK-1N-BN_1x08_P2.50mm_Horizontal
-JST XA series connector, S08B-XASK-1N-BN (http://www.jst-mfg.com/product/pdf/eng/eXA1.pdf), generated with kicad-footprint-generator
-connector JST XA horizontal
-0
-8
-8
-Connector_JST
-JST_XA_S08B-XASK-1_1x08_P2.50mm_Horizontal
-JST XA series connector, S08B-XASK-1 (http://www.jst-mfg.com/product/pdf/eng/eXA1.pdf), generated with kicad-footprint-generator
-connector JST XA horizontal hook
-0
-8
-8
-Connector_JST
-JST_XA_S09B-XASK-1N-BN_1x09_P2.50mm_Horizontal
-JST XA series connector, S09B-XASK-1N-BN (http://www.jst-mfg.com/product/pdf/eng/eXA1.pdf), generated with kicad-footprint-generator
-connector JST XA horizontal
-0
-9
-9
-Connector_JST
-JST_XA_S09B-XASK-1_1x09_P2.50mm_Horizontal
-JST XA series connector, S09B-XASK-1 (http://www.jst-mfg.com/product/pdf/eng/eXA1.pdf), generated with kicad-footprint-generator
-connector JST XA horizontal hook
-0
-9
-9
-Connector_JST
-JST_XA_S10B-XASK-1N-BN_1x10_P2.50mm_Horizontal
-JST XA series connector, S10B-XASK-1N-BN (http://www.jst-mfg.com/product/pdf/eng/eXA1.pdf), generated with kicad-footprint-generator
-connector JST XA horizontal
-0
-10
-10
-Connector_JST
-JST_XA_S10B-XASK-1_1x10_P2.50mm_Horizontal
-JST XA series connector, S10B-XASK-1 (http://www.jst-mfg.com/product/pdf/eng/eXA1.pdf), generated with kicad-footprint-generator
-connector JST XA horizontal hook
-0
-10
-10
-Connector_JST
-JST_XA_S11B-XASK-1N-BN_1x11_P2.50mm_Horizontal
-JST XA series connector, S11B-XASK-1N-BN (http://www.jst-mfg.com/product/pdf/eng/eXA1.pdf), generated with kicad-footprint-generator
-connector JST XA horizontal
-0
-11
-11
-Connector_JST
-JST_XA_S11B-XASK-1_1x11_P2.50mm_Horizontal
-JST XA series connector, S11B-XASK-1 (http://www.jst-mfg.com/product/pdf/eng/eXA1.pdf), generated with kicad-footprint-generator
-connector JST XA horizontal hook
-0
-11
-11
-Connector_JST
-JST_XA_S12B-XASK-1N-BN_1x12_P2.50mm_Horizontal
-JST XA series connector, S12B-XASK-1N-BN (http://www.jst-mfg.com/product/pdf/eng/eXA1.pdf), generated with kicad-footprint-generator
-connector JST XA horizontal
-0
-12
-12
-Connector_JST
-JST_XA_S12B-XASK-1_1x12_P2.50mm_Horizontal
-JST XA series connector, S12B-XASK-1 (http://www.jst-mfg.com/product/pdf/eng/eXA1.pdf), generated with kicad-footprint-generator
-connector JST XA horizontal hook
-0
-12
-12
-Connector_JST
-JST_XA_S13B-XASK-1N-BN_1x13_P2.50mm_Horizontal
-JST XA series connector, S13B-XASK-1N-BN (http://www.jst-mfg.com/product/pdf/eng/eXA1.pdf), generated with kicad-footprint-generator
-connector JST XA horizontal
-0
-13
-13
-Connector_JST
-JST_XA_S13B-XASK-1_1x13_P2.50mm_Horizontal
-JST XA series connector, S13B-XASK-1 (http://www.jst-mfg.com/product/pdf/eng/eXA1.pdf), generated with kicad-footprint-generator
-connector JST XA horizontal hook
-0
-13
-13
-Connector_JST
-JST_XA_S14B-XASK-1N-BN_1x14_P2.50mm_Horizontal
-JST XA series connector, S14B-XASK-1N-BN (http://www.jst-mfg.com/product/pdf/eng/eXA1.pdf), generated with kicad-footprint-generator
-connector JST XA horizontal
-0
-14
-14
-Connector_JST
-JST_XA_S14B-XASK-1_1x14_P2.50mm_Horizontal
-JST XA series connector, S14B-XASK-1 (http://www.jst-mfg.com/product/pdf/eng/eXA1.pdf), generated with kicad-footprint-generator
-connector JST XA horizontal hook
-0
-14
-14
 Connector_JST
 JST_XH_B1B-XH-AM_1x01_P2.50mm_Vertical
 JST XH series connector, B1B-XH-AM, with boss (http://www.jst-mfg.com/product/pdf/eng/eXH.pdf), generated with kicad-footprint-generator
@@ -51820,1280 +51421,6 @@ logoFirstTry2700DPI
 0
 0
 0
-MX_Alps_Hybrid
-MX-1.5U
-
-
-0
-6
-4
-MX_Alps_Hybrid
-MX-1.5U-FLIPPED
-
-
-0
-6
-4
-MX_Alps_Hybrid
-MX-1.5U-NoLED
-
-
-0
-4
-2
-MX_Alps_Hybrid
-MX-1.5U-Vertical
-
-
-0
-6
-4
-MX_Alps_Hybrid
-MX-1.25U
-
-
-0
-6
-4
-MX_Alps_Hybrid
-MX-1.25U-FLIPPED
-
-
-0
-6
-4
-MX_Alps_Hybrid
-MX-1.25U-NoLED
-
-
-0
-4
-2
-MX_Alps_Hybrid
-MX-1.75U
-
-
-0
-6
-4
-MX_Alps_Hybrid
-MX-1.75U-FLIPPED
-
-
-0
-6
-4
-MX_Alps_Hybrid
-MX-1.75U-NoLED
-
-
-0
-4
-2
-MX_Alps_Hybrid
-MX-1U
-
-
-0
-6
-4
-MX_Alps_Hybrid
-MX-1U-FLIPPED
-
-
-0
-6
-4
-MX_Alps_Hybrid
-MX-1U-NoLED
-
-
-0
-4
-2
-MX_Alps_Hybrid
-MX-2.5U
-
-
-0
-6
-4
-MX_Alps_Hybrid
-MX-2.5U-FLIPPED
-
-
-0
-6
-4
-MX_Alps_Hybrid
-MX-2.5U-FLIPPED-ReversedStabilizers
-
-
-0
-6
-4
-MX_Alps_Hybrid
-MX-2.5U-NoLED
-
-
-0
-4
-2
-MX_Alps_Hybrid
-MX-2.5U-ReversedStabilizers
-
-
-0
-6
-4
-MX_Alps_Hybrid
-MX-2.5U-ReversedStabilizers-NoLED
-
-
-0
-4
-2
-MX_Alps_Hybrid
-MX-2.25U
-
-
-0
-6
-4
-MX_Alps_Hybrid
-MX-2.25U-FLIPPED
-
-
-0
-6
-4
-MX_Alps_Hybrid
-MX-2.25U-FLIPPED-ReversedStabilizers
-
-
-0
-6
-4
-MX_Alps_Hybrid
-MX-2.25U-NoLED
-
-
-0
-4
-2
-MX_Alps_Hybrid
-MX-2.25U-ReversedStabilizers
-
-
-0
-6
-4
-MX_Alps_Hybrid
-MX-2.25U-ReversedStabilizers-NoLED
-
-
-0
-4
-2
-MX_Alps_Hybrid
-MX-2.75U
-
-
-0
-6
-4
-MX_Alps_Hybrid
-MX-2.75U-FLIPPED
-
-
-0
-6
-4
-MX_Alps_Hybrid
-MX-2.75U-FLIPPED-ReversedStabilizers
-
-
-0
-6
-4
-MX_Alps_Hybrid
-MX-2.75U-NoLED
-
-
-0
-4
-2
-MX_Alps_Hybrid
-MX-2.75U-ReversedStabilizers
-
-
-0
-6
-4
-MX_Alps_Hybrid
-MX-2.75U-ReversedStabilizers-NoLED
-
-
-0
-4
-2
-MX_Alps_Hybrid
-MX-2U
-
-
-0
-6
-4
-MX_Alps_Hybrid
-MX-2U-FLIPPED
-
-
-0
-6
-4
-MX_Alps_Hybrid
-MX-2U-FLIPPED-ReversedStabilizers
-
-
-0
-6
-4
-MX_Alps_Hybrid
-MX-2U-NoLED
-
-
-0
-4
-2
-MX_Alps_Hybrid
-MX-2U-ReversedStabilizers
-
-
-0
-6
-4
-MX_Alps_Hybrid
-MX-2U-ReversedStabilizers-NoLED
-
-
-0
-4
-2
-MX_Alps_Hybrid
-MX-3U
-
-
-0
-6
-4
-MX_Alps_Hybrid
-MX-3U-FLIPPED
-
-
-0
-6
-4
-MX_Alps_Hybrid
-MX-3U-FLIPPED-ReversedStabilizers
-
-
-0
-6
-4
-MX_Alps_Hybrid
-MX-3U-NoLED
-
-
-0
-4
-2
-MX_Alps_Hybrid
-MX-3U-ReversedStabilizers
-
-
-0
-6
-4
-MX_Alps_Hybrid
-MX-3U-ReversedStabilizers-NoLED
-
-
-0
-4
-2
-MX_Alps_Hybrid
-MX-6.5U
-
-
-0
-6
-4
-MX_Alps_Hybrid
-MX-6.5U-FLIPPED
-
-
-0
-6
-4
-MX_Alps_Hybrid
-MX-6.5U-FLIPPED-NoStabilizers
-
-
-0
-6
-4
-MX_Alps_Hybrid
-MX-6.5U-FLIPPED-ReversedStabilizers
-
-
-0
-6
-4
-MX_Alps_Hybrid
-MX-6.5U-NoLED
-
-
-0
-4
-2
-MX_Alps_Hybrid
-MX-6.5U-ReversedStabilizers
-
-
-0
-6
-4
-MX_Alps_Hybrid
-MX-6.5U-ReversedStabilizers-NoLED
-
-
-0
-4
-2
-MX_Alps_Hybrid
-MX-6.25U
-
-
-0
-6
-4
-MX_Alps_Hybrid
-MX-6.25U-FLIPPED
-
-
-0
-6
-4
-MX_Alps_Hybrid
-MX-6.25U-FLIPPED-ReversedStabilizers
-
-
-0
-6
-4
-MX_Alps_Hybrid
-MX-6.25U-NoLED
-
-
-0
-4
-2
-MX_Alps_Hybrid
-MX-6.25U-ReversedStabilizers
-
-
-0
-6
-4
-MX_Alps_Hybrid
-MX-6.25U-ReversedStabilizers-NoLED
-
-
-0
-4
-2
-MX_Alps_Hybrid
-MX-6U
-
-
-0
-6
-4
-MX_Alps_Hybrid
-MX-6U-7UOverlay
-
-
-0
-0
-0
-MX_Alps_Hybrid
-MX-6U-7UOverlay-ReversedStabilizers
-
-
-0
-0
-0
-MX_Alps_Hybrid
-MX-6U-Centered
-
-
-0
-6
-4
-MX_Alps_Hybrid
-MX-6U-Centered-FLIPPED
-
-
-0
-6
-4
-MX_Alps_Hybrid
-MX-6U-Centered-FLIPPED-ReversedStabilizers
-
-
-0
-6
-4
-MX_Alps_Hybrid
-MX-6U-Centered-NoLED
-
-
-0
-4
-2
-MX_Alps_Hybrid
-MX-6U-Centered-ReversedStabilizers
-
-
-0
-6
-4
-MX_Alps_Hybrid
-MX-6U-Centered-ReversedStabilizers-NoLED
-
-
-0
-4
-2
-MX_Alps_Hybrid
-MX-6U-FLIPPED
-
-
-0
-6
-4
-MX_Alps_Hybrid
-MX-6U-FLIPPED-ReversedStabilizers
-
-
-0
-6
-4
-MX_Alps_Hybrid
-MX-6U-NoLED
-
-
-0
-4
-2
-MX_Alps_Hybrid
-MX-6U-ReversedStabilizers
-
-
-0
-6
-4
-MX_Alps_Hybrid
-MX-6U-ReversedStabilizers-NoLED
-
-
-0
-4
-2
-MX_Alps_Hybrid
-MX-7U
-
-
-0
-6
-4
-MX_Alps_Hybrid
-MX-7U-FLIPPED
-
-
-0
-6
-4
-MX_Alps_Hybrid
-MX-7U-FLIPPED-ReversedStabilizers
-
-
-0
-6
-4
-MX_Alps_Hybrid
-MX-7U-NoLED
-
-
-0
-4
-2
-MX_Alps_Hybrid
-MX-7U-ReversedStabilizers
-
-
-0
-6
-4
-MX_Alps_Hybrid
-MX-7U-ReversedStabilizers-NoLED
-
-
-0
-4
-2
-MX_Alps_Hybrid
-MX-8U
-
-
-0
-6
-4
-MX_Alps_Hybrid
-MX-8U-FLIPPED
-
-
-0
-6
-4
-MX_Alps_Hybrid
-MX-8U-FLIPPED-ReversedStabilizers
-
-
-0
-6
-4
-MX_Alps_Hybrid
-MX-8U-NoLED
-
-
-0
-4
-2
-MX_Alps_Hybrid
-MX-8U-ReversedStabilizers
-
-
-0
-6
-4
-MX_Alps_Hybrid
-MX-8U-ReversedStabilizers-NoLED
-
-
-0
-4
-2
-MX_Alps_Hybrid
-MX-9U
-
-
-0
-6
-4
-MX_Alps_Hybrid
-MX-9U-FLIPPED
-
-
-0
-6
-4
-MX_Alps_Hybrid
-MX-9U-FLIPPED-ReversedStabilizers
-
-
-0
-6
-4
-MX_Alps_Hybrid
-MX-9U-NoLED
-
-
-0
-4
-2
-MX_Alps_Hybrid
-MX-9U-ReversedStabilizers
-
-
-0
-6
-4
-MX_Alps_Hybrid
-MX-9U-ReversedStabilizers-NoLED
-
-
-0
-4
-2
-MX_Alps_Hybrid
-MX-10U
-
-
-0
-6
-4
-MX_Alps_Hybrid
-MX-10U-FLIPPED
-
-
-0
-6
-4
-MX_Alps_Hybrid
-MX-10U-FLIPPED-ReversedStabilizers
-
-
-0
-6
-4
-MX_Alps_Hybrid
-MX-10U-NoLED
-
-
-0
-4
-2
-MX_Alps_Hybrid
-MX-10U-ReversedStabilizers
-
-
-0
-6
-4
-MX_Alps_Hybrid
-MX-10U-ReversedStabilizers-NoLED
-
-
-0
-4
-2
-MX_Alps_Hybrid
-MX-ISO
-
-
-0
-8
-4
-MX_Alps_Hybrid
-MX-ISO-FLIPPED
-
-
-0
-8
-4
-MX_Alps_Hybrid
-MX-ISO-FLIPPED-ReversedStabilizers
-
-
-0
-8
-4
-MX_Alps_Hybrid
-MX-ISO-ReversedStabilizers
-
-
-0
-8
-4
-MX_Alps_Hybrid
-MX-LEDONLY
-
-
-0
-2
-2
-MX_Alps_Hybrid
-MX-LEDONLY-FLIPPED
-
-
-0
-2
-2
-MX_Only
-MXOnly-1.5U
-
-
-0
-4
-4
-MX_Only
-MXOnly-1.5U-FLIPPED
-
-
-0
-4
-4
-MX_Only
-MXOnly-1.5U-Hotswap
-
-
-0
-2
-2
-MX_Only
-MXOnly-1.5U-NoLED
-
-
-0
-2
-2
-MX_Only
-MXOnly-1.5U-Vertical
-
-
-0
-4
-4
-MX_Only
-MXOnly-1.5U-Vertical-NoLED
-
-
-0
-2
-2
-MX_Only
-MXOnly-1.25U
-
-
-0
-4
-4
-MX_Only
-MXOnly-1.25U-FLIPPED
-
-
-0
-4
-4
-MX_Only
-MXOnly-1.25U-Hotswap
-
-
-0
-2
-2
-MX_Only
-MXOnly-1.25U-NoLED
-
-
-0
-2
-2
-MX_Only
-MXOnly-1.75U
-
-
-0
-4
-4
-MX_Only
-MXOnly-1.75U-FLIPPED
-
-
-0
-4
-4
-MX_Only
-MXOnly-1.75U-Hotswap
-
-
-0
-2
-2
-MX_Only
-MXOnly-1.75U-NoLED
-
-
-0
-2
-2
-MX_Only
-MXOnly-1U
-
-
-0
-4
-4
-MX_Only
-MXOnly-1U-FLIPPED
-
-
-0
-4
-4
-MX_Only
-MXOnly-1U-Hotswap
-
-
-0
-2
-2
-MX_Only
-MXOnly-1U-Hotswap-Antishear
-
-
-0
-10
-2
-MX_Only
-MXOnly-1U-NoLED
-
-
-0
-2
-2
-MX_Only
-MXOnly-2.25U
-
-
-0
-4
-4
-MX_Only
-MXOnly-2.25U-FLIPPED
-
-
-0
-4
-4
-MX_Only
-MXOnly-2.25U-FLIPPED-ReversedStabilizers
-
-
-0
-4
-4
-MX_Only
-MXOnly-2.25U-Hotswap
-
-
-0
-2
-2
-MX_Only
-MXOnly-2.25U-Hotswap-ReversedStabilizers
-
-
-0
-2
-2
-MX_Only
-MXOnly-2.25U-NoLED
-
-
-0
-2
-2
-MX_Only
-MXOnly-2.25U-ReversedStabilizers
-
-
-0
-4
-4
-MX_Only
-MXOnly-2.25U-ReversedStabilizers-NoLED
-
-
-0
-2
-2
-MX_Only
-MXOnly-2.75U
-
-
-0
-4
-4
-MX_Only
-MXOnly-2.75U-FLIPPED
-
-
-0
-4
-4
-MX_Only
-MXOnly-2.75U-FLIPPED-ReversedStabilizers
-
-
-0
-4
-4
-MX_Only
-MXOnly-2.75U-Hotswap
-
-
-0
-2
-2
-MX_Only
-MXOnly-2.75U-Hotswap-ReversedStabilizers
-
-
-0
-2
-2
-MX_Only
-MXOnly-2.75U-NoLED
-
-
-0
-2
-2
-MX_Only
-MXOnly-2.75U-ReversedStabilizers
-
-
-0
-4
-4
-MX_Only
-MXOnly-2.75U-ReversedStabilizers-NoLED
-
-
-0
-2
-2
-MX_Only
-MXOnly-2U
-
-
-0
-4
-4
-MX_Only
-MXOnly-2U-FLIPPED
-
-
-0
-4
-4
-MX_Only
-MXOnly-2U-FLIPPED-ReversedStabilizers
-
-
-0
-4
-4
-MX_Only
-MXOnly-2U-Hotswap
-
-
-0
-2
-2
-MX_Only
-MXOnly-2U-Hotswap-ReversedStabilizers
-
-
-0
-2
-2
-MX_Only
-MXOnly-2U-NoLED
-
-
-0
-2
-2
-MX_Only
-MXOnly-2U-ReversedStabilizers
-
-
-0
-4
-4
-MX_Only
-MXOnly-2U-ReversedStabilizers-NoLED
-
-
-0
-2
-2
-MX_Only
-MXOnly-3U
-
-
-0
-4
-4
-MX_Only
-MXOnly-3U-FLIPPED
-
-
-0
-4
-4
-MX_Only
-MXOnly-3U-FLIPPED-ReversedStabilizers
-
-
-0
-4
-4
-MX_Only
-MXOnly-3U-NoLED
-
-
-0
-2
-2
-MX_Only
-MXOnly-3U-ReversedStabilizers
-
-
-0
-4
-4
-MX_Only
-MXOnly-3U-ReversedStabilizers-NoLED
-
-
-0
-2
-2
-MX_Only
-MXOnly-6.25U
-
-
-0
-4
-4
-MX_Only
-MXOnly-6.25U-FLIPPED
-
-
-0
-4
-4
-MX_Only
-MXOnly-6.25U-FLIPPED-ReversedStabilizers
-
-
-0
-4
-4
-MX_Only
-MXOnly-6.25U-Hotswap
-
-
-0
-2
-2
-MX_Only
-MXOnly-6.25U-Hotswap-ReversedStabilizers
-
-
-0
-2
-2
-MX_Only
-MXOnly-6.25U-NoLED
-
-
-0
-2
-2
-MX_Only
-MXOnly-6.25U-ReversedStabilizers
-
-
-0
-4
-4
-MX_Only
-MXOnly-6.25U-ReversedStabilizers-NoLED
-
-
-0
-2
-2
-MX_Only
-MXOnly-6U
-
-
-0
-4
-4
-MX_Only
-MXOnly-6U-Centered
-
-
-0
-4
-4
-MX_Only
-MXOnly-6U-Centered-FLIPPED
-
-
-0
-4
-4
-MX_Only
-MXOnly-6U-Centered-FLIPPED-ReversedStabilizers
-
-
-0
-4
-4
-MX_Only
-MXOnly-6U-Centered-NoLED
-
-
-0
-2
-2
-MX_Only
-MXOnly-6U-Centered-ReversedStabilizers
-
-
-0
-4
-4
-MX_Only
-MXOnly-6U-Centered-ReversedStabilizers-NoLED
-
-
-0
-2
-2
-MX_Only
-MXOnly-6U-NoLED
-
-
-0
-2
-2
-MX_Only
-MXOnly-6U-ReversedStabilizers
-
-
-0
-4
-4
-MX_Only
-MXOnly-6U-ReversedStabilizers-NoLED
-
-
-0
-2
-2
-MX_Only
-MXOnly-7U
-
-
-0
-4
-4
-MX_Only
-MXOnly-7U-FLIPPED
-
-
-0
-4
-4
-MX_Only
-MXOnly-7U-FLIPPED-ReversedStabilizers
-
-
-0
-4
-4
-MX_Only
-MXOnly-7U-Hotswap
-
-
-0
-2
-2
-MX_Only
-MXOnly-7U-Hotswap-ReversedStabilizers
-
-
-0
-2
-2
-MX_Only
-MXOnly-7U-NoLED
-
-
-0
-2
-2
-MX_Only
-MXOnly-7U-ReversedStabilizers
-
-
-0
-4
-4
-MX_Only
-MXOnly-7U-ReversedStabilizers-NoLED
-
-
-0
-2
-2
-MX_Only
-MXOnly-ISO
-
-
-0
-4
-4
-MX_Only
-MXOnly-ISO-ROTATED
-
-
-0
-4
-4
-MX_Only
-MXOnly-ISO-ROTATED-ReversedStabilizers
-
-
-0
-4
-4
-MX_Only
-MXOnly-ISO-ROTATED-ReversedStabilizers-NoLED
-
-
-0
-2
-2
-MX_Only
-MXOnly-ISO-ReversedStabilizers
-
-
-0
-4
-4
-MX_Only
-MXOnly-LEDONLY
-
-
-0
-2
-2
-MX_Only
-MXOnly-LEDONLY-FLIPPED
-
-
-0
-2
-2
 Module
 A20_OLINUXINO_LIME2
 A20 Olinuxino LIME2, 1.2GHz, 512-1024MB RAM, Micro-SD, NAND or eMMC, 1000Mbit Ethernet
@@ -76320,69 +74647,6 @@ transformer flyback
 0
 10
 10
-Type-C
-12401598E4#2A
-
-
-0
-28
-28
-Type-C
-HRO-TYPE-C-31-M-12
-
-
-0
-16
-13
-Type-C
-HRO-TYPE-C-31-M-12-Assembly
-
-
-0
-16
-13
-Type-C
-HRO-TYPE-C-31-M-12-HandSoldering
-
-
-0
-16
-13
-Type-C
-HRO-TYPE-C-31-M-13
-
-
-0
-16
-13
-Type-C
-USB_C_GCT_USB4085
-
-
-0
-20
-17
-Type-C
-Wurth-632723300011
-
-
-0
-32
-27
-Type-C
-Wurth-632723300011-HandSoldering
-
-
-0
-30
-26
-Type-C
-Wurth-632723300011-MaximumExtensionMount
-
-
-0
-32
-27
 Valve
 Valve_ECC-83-1
 Valve ECC-83-1 round pins
@@ -77153,211 +75417,15 @@ varistor SIOV
 0
 2
 2
-canadian_footprints
-4pin35mmAudio
-
-
-0
-4
-4
-canadian_footprints
-4pin35mmAudio-dualsided
-
-
-0
-6
-4
-canadian_footprints
-D_SOD123_ThroughHole
-
-
-0
-2
-2
-canadian_footprints
-D_SOD123_axial
-
-
-0
-6
-2
-canadian_footprints
-D_SOD123_axial-dual
-
-
-0
-10
-2
-canadian_footprints
-Mx_Alps_100
-MXALPS
-MXALPS
-0
-2
-2
-canadian_footprints
-Mx_Alps_100-dualside
-MXALPS
-MXALPS
-0
-4
-2
-canadian_footprints
-Mx_Alps_125
-MXALPS
-MXALPS
-0
-2
-2
-canadian_footprints
-Mx_Alps_150
-MXALPS
-MXALPS
-0
-2
-2
-canadian_footprints
-Mx_Alps_150-dualsided
-MXALPS
-MXALPS
-0
-4
-2
-canadian_footprints
-Mx_Alps_175
-MXALPS
-MXALPS
-0
-2
-2
-canadian_footprints
-Mx_Alps_175-dualside
-MXALPS
-MXALPS
-0
-4
-2
-canadian_footprints
-Mx_Alps_200
-MXALPS
-MXALPS
-0
-2
-2
-canadian_footprints
-Mx_Alps_200-dualside
-MXALPS
-MXALPS
-0
-4
-2
-canadian_footprints
-Mx_Alps_225
-MXALPS
-MXALPS
-0
-2
-2
-canadian_footprints
-Mx_Alps_275
-MXALPS
-MXALPS
-0
-2
-2
-canadian_footprints
-Mx_Alps_625
-MXALPS
-MXALPS
-0
-2
-2
-canadian_footprints
-Pro_Micro
-
-
-0
-24
-24
-canadian_footprints
-SIngle_Pad
-
-
-0
-1
-1
-canadian_footprints
-SO-8_IR_IRF7413TR
-8-Lead Plastic Small Outline (SN) - Narrow, 3.90 mm Body [SOIC] (see Microchip Packaging Specification 00000049BS.pdf)
-SOIC 1.27
-0
-8
-8
-canadian_footprints
-SOLDER_JUMPER_3
-
-solder jumper bridge configuration
-0
-3
-3
-canadian_footprints
-SW_TACT_ALPS_SKQGABE010
-Low-profile SMD Tactile Switch, https://www.e-switch.com/system/asset/product_line/data_sheet/165/TL3342.pdf
-SPST Tactile Switch
-0
-4
-2
-canadian_footprints
-SW_TACT_ALPS_SKRPABE010
-C&K Components, PTS 810 Series, Microminiature SMT Top Actuated, http://www.ckswitches.com/media/1476/pts810.pdf
-SPST Button Switch
-0
-4
-2
-canadian_footprints
-SolderWirePad_single_0-8mmDrill
-
-
-0
-1
-1
-canadian_footprints
-Teensy_20
-
-
-0
-31
-31
-canadian_footprints
-maple-4mm
-
-
-0
-0
-0
-canadian_footprints
-maple-5mm
-
-
-0
-0
-0
-canadian_footprints
-maple-8mm
-
-
-0
-0
-0
-canadian_footprints
-maple-inv
+mini-Logos
+OSHW-Logo
 
 
 0
 0
 0
 mini-Logos
-OSHW-Logo
+OSHW-Text
 
 
 0
@@ -77385,7 +75453,42 @@ eLiXiVy-SilkScreen
 0
 0
 mini-Logos
+eLiXiVy-SilkScreen-rev1
+
+
+0
+0
+0
+mini-Logos
 eLiXiVy-SilkScreenv2
+
+
+0
+0
+0
+mini-Logos
+eLiXiVy-rev1.1-Mask
+
+
+0
+0
+0
+mini-Logos
+eLiXiVy-rev1.1-SilkScreen
+
+
+0
+0
+0
+mini-Logos
+mini-TKP-BMask
+
+
+0
+0
+0
+mini-Logos
+mini-TKP-BSilk
 
 
 0
@@ -77428,6 +75531,13 @@ MXOnly-1U-NoLED_tweak
 2
 mini-MX-Tweaks
 MXOnly-2.25U-NoLED_tweak
+
+
+0
+2
+2
+mini-MX-Tweaks
+MXOnly-2U-NoLED_FLIPPED_tweak
 
 
 0
@@ -77510,6 +75620,27 @@ QFP 0.8
 0
 44
 44
+promicro
+ProMicro
+Pro Micro footprint
+promicro ProMicro
+0
+24
+24
+promicro
+ProMicro-EnforcedTop
+Pro Micro footprint
+promicro ProMicro
+0
+24
+24
+promicro
+ProMicro-NoSilk
+Pro Micro footprint
+promicro ProMicro
+0
+24
+24
 random-keyboard-parts
 D_SOD-123-Pretty
 SOD-123

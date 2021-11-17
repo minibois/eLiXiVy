@@ -6,8 +6,8 @@ $Descr A4 8268 11693 portrait
 encoding utf-8
 Sheet 1 1
 Title "eLiXiVy"
-Date "2021-08-05"
-Rev "1"
+Date "2021-08-23"
+Rev "1.1"
 Comp "Full License: https://github.com/minibois/eLiXiVy/blob/master/LICENSE.txt"
 Comment1 "of CERN_OHL-S v2 (https://ohwr.org/cern_ohl_s_v2.txt)"
 Comment2 "You may redistribute and modify this source and make products using it under the terms"
@@ -2136,7 +2136,7 @@ COL14
 Text GLabel 7175 1400 1    50   Input ~ 0
 COL13
 Text Notes 2400 750  0    157  ~ 31
-mini eLiXiVy Schematic, Rev 1
+mini eLiXiVy Schematic, Rev 1.1
 $Comp
 L power:GND #PWR0109
 U 1 1 5F16A4C1
@@ -2148,28 +2148,12 @@ F 3 "" H 1700 9300 50  0001 C CNN
 	1    1700 9300
 	1    0    0    -1  
 $EndComp
-Connection ~ 2050 9300
-Wire Wire Line
-	2150 9300 2050 9300
-Wire Wire Line
-	2050 9300 1700 9300
 Text GLabel 1550 6400 0    50   Input ~ 0
 XTAL2
 Text GLabel 1550 6200 0    50   Input ~ 0
 XTAL1
 Text GLabel 2750 6400 2    50   Input ~ 0
 COL13
-$Comp
-L MCU_Microchip_ATmega:ATmega32U4-AU U1
-U 1 1 5F16167A
-P 2150 7500
-F 0 "U1" H 2150 5611 50  0000 C CNN
-F 1 "ATmega32U4-AU" H 2150 5520 50  0000 C CNN
-F 2 "mini-general-tweaks:TQFP-44_10x10mm_P0.8mm_ATmega32U4" H 2150 7500 50  0001 C CIN
-F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-7766-8-bit-AVR-ATmega16U4-32U4_Datasheet.pdf" H 2150 7500 50  0001 C CNN
-	1    2150 7500
-	1    0    0    -1  
-$EndComp
 Text GLabel 2750 7000 2    50   Input ~ 0
 ROW4
 Text GLabel 2750 7200 2    50   Input ~ 0
@@ -2194,12 +2178,6 @@ Text GLabel 2750 6600 2    50   Input ~ 0
 ROW1
 Text GLabel 2750 6500 2    50   Input ~ 0
 ROW0
-Connection ~ 2050 5700
-Connection ~ 2150 5700
-Wire Wire Line
-	2250 5700 2150 5700
-Wire Wire Line
-	2150 5700 2050 5700
 Text GLabel 2750 8600 2    50   Input ~ 0
 COL2
 Text GLabel 2750 8900 2    50   Input ~ 0
@@ -2785,8 +2763,6 @@ ROW0_RE
 Wire Wire Line
 	6200 6000 6525 6000
 Wire Notes Line
-	6100 5050 6100 6700
-Wire Notes Line
 	6100 5050 7550 5050
 Wire Notes Line
 	6100 6700 7550 6700
@@ -2947,7 +2923,7 @@ U 1 1 6390C410
 P 5200 9000
 F 0 "LO0" H 5328 8796 50  0000 L CNN
 F 1 "mini-eLiXiVy-SilkScreen" H 5328 8705 50  0000 L CNN
-F 2 "mini-Logos:eLiXiVy-SilkScreenv2" H 5200 8900 50  0001 C CNN
+F 2 "mini-Logos:eLiXiVy-rev1.1-SilkScreen" H 5200 8900 50  0001 C CNN
 F 3 "" H 5200 8900 50  0001 C CNN
 	1    5200 9000
 	1    0    0    -1  
@@ -2958,7 +2934,7 @@ U 1 1 6390E149
 P 5200 9250
 F 0 "LO1" H 5328 9046 50  0000 L CNN
 F 1 "mini-eLiXiVy-Mask" H 5328 8955 50  0000 L CNN
-F 2 "mini-Logos:eLiXiVy-Maskv2" H 5200 9150 50  0001 C CNN
+F 2 "mini-Logos:eLiXiVy-rev1.1-Mask" H 5200 9150 50  0001 C CNN
 F 3 "" H 5200 9150 50  0001 C CNN
 	1    5200 9250
 	1    0    0    -1  
@@ -2977,17 +2953,6 @@ Text Notes 5050 9050 0    98   ~ 20
 Logos
 Wire Notes Line
 	5650 8350 6550 8350
-$Comp
-L mini_random_library:OSHW-Text-Logo #G0
-U 1 1 6396CC4A
-P 7330 9040
-F 0 "#G0" H 7330 8977 60  0001 C CNN
-F 1 "OSHW-Text-Logo" H 7330 9103 60  0001 C CNN
-F 2 "" H 7330 9040 39  0001 C CNN
-F 3 "" H 7330 9040 39  0001 C CNN
-	1    7330 9040
-	1    0    0    -1  
-$EndComp
 Wire Notes Line
 	7050 6950 7050 8050
 Text Notes 6670 9892 0    51   ~ 0
@@ -3003,8 +2968,8 @@ F 3 "" H 7050 9535 50  0001 C CNN
 	1    7050 9535
 	1    0    0    -1  
 $EndComp
-Text Notes 6340 9815 0    49   ~ 0
-rev.1
+Text Notes 6340 9815 0    43   ~ 0
+rev.1.1
 Text Notes 6340 9890 0    57   ~ 11
 2021
 $Comp
@@ -3285,4 +3250,51 @@ Wire Wire Line
 	6975 2500 7025 2500
 Wire Wire Line
 	4500 6150 4650 6150
+Text GLabel 1500 7000 1    50   Input ~ 0
+D+
+Text GLabel 1500 7100 3    50   Input ~ 0
+D-
+Text GLabel 6550 6100 3    50   Input ~ 0
+RE-
+Text GLabel 6550 5900 1    50   Input ~ 0
+RE+
+Text GLabel 2750 7700 1    50   Input ~ 0
+RE+
+Wire Notes Line
+	6100 5050 6100 6700
+Wire Wire Line
+	2150 5700 2050 5700
+Wire Wire Line
+	2250 5700 2150 5700
+Connection ~ 2150 5700
+Connection ~ 2050 5700
+Wire Wire Line
+	2050 9300 1700 9300
+Wire Wire Line
+	2150 9300 2050 9300
+Connection ~ 2050 9300
+Text GLabel 2750 6000 1    50   Input ~ 0
+RE-
+$Comp
+L MCU_Microchip_ATmega:ATmega32U4-AU U1
+U 1 1 5F16167A
+P 2150 7500
+F 0 "U1" H 2150 5611 50  0000 C CNN
+F 1 "ATmega32U4-AU" H 2150 5520 50  0000 C CNN
+F 2 "mini-general-tweaks:TQFP-44_10x10mm_P0.8mm_ATmega32U4" H 2150 7500 50  0001 C CIN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-7766-8-bit-AVR-ATmega16U4-32U4_Datasheet.pdf" H 2150 7500 50  0001 C CNN
+	1    2150 7500
+	1    0    0    -1  
+$EndComp
+$Comp
+L mini_random_library:OSHW-Text-Logo #G0
+U 1 1 6396CC4A
+P 7330 9040
+F 0 "#G0" H 7330 8977 60  0001 C CNN
+F 1 "OSHW-Text-Logo" H 7330 9103 60  0001 C CNN
+F 2 "" H 7330 9040 39  0001 C CNN
+F 3 "" H 7330 9040 39  0001 C CNN
+	1    7330 9040
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
